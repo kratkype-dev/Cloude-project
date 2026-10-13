@@ -1,0 +1,39 @@
+name: Scrape Coca-Cola & PepsiCo prices
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily ~07:17 Prague time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-prices
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tests
+        run: python -m unittest discover -s tests -t .
+      - name: Scrape
+        id: scrape
+        continue-on-error: true   # keep data from the shop that succeeded
+        run: python -m price_tracker scrape
+      - name: Commit data
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: prices $(TZ=Europe/Prague date +%F)"
+          git push
+      - name: Fail if a shop failed
+        if: steps.scrape.outcome == 'failure'
+        run: exit 1
