@@ -25,6 +25,9 @@ EXCLUDE_CATEGORY = re.compile(
     r"alkohol|pivo|piva|víno|vína|lihovin|destilát|káva|kávy|sekt|šampaň",
     re.IGNORECASE,
 )
+# Sale types in /products/prices. "premium" (Xtra members only) and
+# "expiration" (damaged / near expiry) are not a public price cut.
+PUBLIC_SALES = {"sale": "sale", "longtermAction": "longterm"}
 PAGE_SIZE = 50
 CARD_BATCH = 30
 
@@ -104,8 +107,7 @@ class Rohlik:
                 log.warning("Rohlik: prices endpoint failed: %s", e)
                 continue
             for item in data:
-                if item.get("sales"):
-                    out[item.get("productId")] = item["sales"]
+                out[item.get("productId")] = item.get("sales") or []
         return out
 
     def scrape(self, date, scraped_at):
@@ -125,11 +127,36 @@ class Rohlik:
                 for c, hit in matched]
 
 
+def _amount(v):
+    return (v or {}).get("amount") if isinstance(v, dict) else v
+
+
 def parse_card(card, hit, sales, date, scraped_at):
     prices = card.get("prices") or {}
     original = prices.get("originalPrice")
-    sale = prices.get("salePrice")
-    price = sale if sale is not None else original
+    price = original
+    promo_type, valid_till, multibuy = "", "", None
+    if sales is None:  # prices endpoint unavailable -> fall back to the card
+        if prices.get("salePrice") is not None:
+            price, promo_type = prices["salePrice"], "sale"
+            valid_till = prices.get("saleValidTill") or ""
+    else:
+        for s in sales:
+            if s.get("active") is False:
+                continue
+            kind = s.get("type")
+            amount = _amount(s.get("price"))
+            if kind in PUBLIC_SALES and (s.get("triggerAmount") or 1) == 1 and amount is not None:
+                if amount < (price or float("inf")):
+                    price, promo_type = amount, PUBLIC_SALES[kind]
+                    valid_till = s.get("validTill") or ""
+            elif kind == "multipack" and amount is not None:
+                multibuy = (s.get("triggerAmount"), amount)
+    # The card's unitPrice belongs to the price the card shows (sale or regular);
+    # rescale it to the price we record.
+    shown, unit_price = prices.get("salePrice") or original, prices.get("unitPrice")
+    if unit_price and shown and price:
+        unit_price = round(unit_price * price / shown, 2)
     stock = (card.get("stock") or {}).get("availabilityStatus", "AVAILABLE")
     pid = card.get("productId")
     slug = card.get("slug") or ""
@@ -144,10 +171,13 @@ def parse_card(card, hit, sales, date, scraped_at):
         amount=card.get("textualAmount") or "",
         price=price,
         original_price=original,
-        on_sale=sale is not None,
+        on_sale=bool(promo_type),
         discount_pct=discount_pct(price, original),
-        sale_valid_till=prices.get("saleValidTill") or "",
-        unit_price=prices.get("unitPrice"),
+        sale_valid_till=valid_till,
+        promo_type=promo_type,
+        multibuy_qty=multibuy[0] if multibuy else None,
+        multibuy_price=multibuy[1] if multibuy else None,
+        unit_price=unit_price,
         unit=card.get("unit") or "",
         currency=prices.get("currency") or "CZK",
         in_stock=stock == "AVAILABLE",

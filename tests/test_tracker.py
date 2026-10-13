@@ -53,7 +53,13 @@ def rohlik_fake():
         "/api/v1/categories": names,
         "/api/v1/categories/normal/30/products": {"productIds": [1, 2, 3]},
         "/api/v1/products/card": cards,
-        "/api/v1/products/prices": [{"productId": 1, "sales": [{"type": "sale", "price": {"amount": 32.9}}]}],
+        "/api/v1/products/prices": [
+            {"productId": 1, "sales": [
+                {"type": "sale", "triggerAmount": 1, "price": {"amount": 32.9}, "active": True,
+                 "validTill": "2026-10-19T23:59:00+02:00"}]},
+            {"productId": 2, "sales": [
+                {"type": "premium", "triggerAmount": 1, "price": {"amount": 89.9}, "active": True},
+                {"type": "multipack", "triggerAmount": 2, "price": {"amount": 84.9}, "active": True}]}],
     })
 
 
@@ -65,20 +71,24 @@ KOSIK_MENU = {"categories": [
 
 
 def kosik_fake():
-    page1 = {"products": {"items": [
+    page1 = {"products": {"totalCount": 3, "cursor": "abc", "items": [
         {"id": 501, "name": "Fanta Pomeranč 1,5 l", "url": "/p501-fanta", "price": 29.9,
-         "recommendedPrice": 39.9, "percentageDiscount": 25,
-         "productQuantity": {"value": 1.5, "unit": "l"}, "pricePerUnit": {"price": 19.93, "unit": "l"}}]},
-        "more": "/api/front/page/products?slug=c2-limonady&limit=30&offset=30"}
-    page2 = {"products": {"items": [
-        {"id": 502, "name": "7UP 0,33 l plech", "url": "/p502-7up", "price": 17.9,
-         "recommendedPrice": 17.9, "percentageDiscount": 0},
-        {"id": 503, "name": "Mattoni Grep", "url": "/p503", "price": 19.9}]}}
-    return FakeHttp({
+         "recommendedPrice": 39.9, "percentageDiscount": 25, "actionLabel": "Akce platí do 27. 10.",
+         "brand": {"id": 1, "name": "Fanta"}, "cumulativePrices": [],
+         "productQuantity": {"prefix": "", "value": 1.5, "unit": "l"},
+         "pricePerUnit": {"price": 19.93, "unit": "l"}}]}}
+    page2 = {"cursor": None, "products": [
+        {"id": 502, "name": "Coca-Cola", "url": "/p502-coca-cola", "price": 44.9,
+         "recommendedPrice": 44.9, "percentageDiscount": 0, "brand": None,
+         "cumulativePrices": [{"quantity": 2, "price": 36.9, "percentageDiscount": 17}]},
+        {"id": 503, "name": "Mattoni Grep", "url": "/p503", "price": 19.9,
+         "brand": {"name": "Mattoni"}}]}
+    http = FakeHttp({
         "/api/front/menu/main": KOSIK_MENU,
         "/api/front/page/products": page1,
-        "/api/front/page/products?slug=c2-limonady&limit=30&offset=30": page2,
     })
+    http.post_json = lambda path, body: (http.calls.append((path, body)), page2)[1]
+    return http
 
 
 class PortfolioTest(unittest.TestCase):
@@ -91,6 +101,8 @@ class PortfolioTest(unittest.TestCase):
         self.assertIsNone(classify("Lipton Yellow Label čaj"))
         self.assertIsNone(classify("Natural džus"))
         self.assertIsNone(classify("Kofola Original"))
+        self.assertIsNone(classify("Sodastream příchuť Pepsi"))
+        self.assertIsNone(classify("Capri-Sun Monster Alarm"))
 
 
 class RohlikTest(unittest.TestCase):
@@ -106,7 +118,9 @@ class RohlikTest(unittest.TestCase):
         pepsi = obs["2"]
         self.assertFalse(pepsi.on_sale)
         self.assertFalse(pepsi.in_stock)
-        self.assertEqual(pepsi.price, 99.9)
+        self.assertEqual(pepsi.price, 99.9)  # Xtra-only "premium" price is ignored
+        self.assertEqual((pepsi.multibuy_qty, pepsi.multibuy_price), (2, 84.9))
+        self.assertEqual(coke.sale_valid_till, "2026-10-19T23:59:00+02:00")
         self.assertNotIn("/api/v1/categories/normal/21/subcategories", [c[0] for c in http.calls])
 
 
@@ -121,7 +135,11 @@ class KosikTest(unittest.TestCase):
         self.assertEqual((fanta.price, fanta.original_price, fanta.discount_pct), (29.9, 39.9, 25))
         self.assertEqual(fanta.amount, "1,5 l")
         self.assertEqual(fanta.url, "https://www.kosik.cz/p501-fanta")
-        self.assertFalse(obs["502"].on_sale)
+        self.assertEqual(fanta.sale_valid_till, "2026-10-27")
+        self.assertIn(("/api/front/products/more", {"cursor": "abc", "limit": 30}), http.calls)
+        coke = obs["502"]
+        self.assertFalse(coke.on_sale)
+        self.assertEqual((coke.price, coke.multibuy_qty, coke.multibuy_price), (44.9, 2, 36.9))
 
 
 class StorageReportTest(unittest.TestCase):

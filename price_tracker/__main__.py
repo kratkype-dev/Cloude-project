@@ -31,6 +31,8 @@ def run_scrape(shops):
 def print_sample(observations):
     for o in sorted(observations, key=lambda o: (o.shop, o.owner, o.brand, o.name)):
         sale = f"  SLEVA -{o.discount_pct}% (běžně {o.original_price})" if o.on_sale else ""
+        if o.multibuy_qty:
+            sale += f"  od {o.multibuy_qty} ks {o.multibuy_price}/ks"
         print(f"{o.shop:7} {o.owner:10} {o.brand:14} {o.name[:45]:45} {o.amount:>12} "
               f"{o.price!s:>8} Kč{sale}")
 

@@ -46,8 +46,9 @@ def load(history_dir=HISTORY_DIR):
     for path in sorted(Path(history_dir).glob("*.csv")):
         rows.extend(_read(path))
     for r in rows:
-        for k in ("price", "original_price", "discount_pct", "unit_price"):
+        for k in ("price", "original_price", "discount_pct", "unit_price", "multibuy_price"):
             r[k] = float(r[k]) if r.get(k) not in ("", None) else None
+        r["multibuy_qty"] = int(r["multibuy_qty"]) if r.get("multibuy_qty") else None
         for k in ("on_sale", "in_stock"):
             r[k] = r.get(k) == "1"
     return rows

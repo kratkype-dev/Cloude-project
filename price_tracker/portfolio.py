@@ -36,6 +36,9 @@ PORTFOLIO = {
     },
 }
 
+# Licensed / non-comparable products that mention a portfolio brand.
+EXCLUDE = re.compile(r"sodastream|capri[\s-]?sun", re.IGNORECASE)
+
 _COMPILED = [
     (owner, brand, re.compile(pattern, re.IGNORECASE))
     for owner, brands in PORTFOLIO.items()
@@ -46,6 +49,8 @@ _COMPILED = [
 def classify(name, brand=None):
     """Return (owner, brand) for a portfolio product, or None."""
     text = f"{brand or ''} {name or ''}"
+    if EXCLUDE.search(text):
+        return None
     for owner, brand_name, rx in _COMPILED:
         if rx.search(text):
             return owner, brand_name

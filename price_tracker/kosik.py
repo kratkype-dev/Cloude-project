@@ -2,10 +2,12 @@
 
 Flow: GET /api/front/menu/main (category tree) -> find "Nápoje" -> walk the
 subtree -> GET /api/front/page/products?slug=<category>&limit=30 for each leaf,
-following the `more` link for pagination -> keep Coca-Cola / PepsiCo portfolio.
+then POST /api/front/products/more {cursor, limit} for the next pages -> keep
+Coca-Cola / PepsiCo portfolio.
 
 Discount fields: `price` (current), `recommendedPrice` (regular),
-`percentageDiscount`.
+`percentageDiscount`, `actionLabel` ("Akce platí do 27. 10."),
+`cumulativePrices` (Multikup: lower price per piece from N pieces).
 """
 
 import json
@@ -26,8 +28,9 @@ EXCLUDE_CATEGORY = re.compile(
     re.IGNORECASE,
 )
 PAGE_LIMIT = 30
-PROMO_KEYS = ("labels", "badges", "flags", "actions", "action", "discount",
-              "multipack", "quantityDiscount")
+PROMO_KEYS = ("actionLabel", "labels", "priceLabels", "cumulativePrices",
+              "loyaltyClubBenefitsPrice")
+VALID_TILL = re.compile(r"do\s+(\d{1,2})\.\s*(\d{1,2})\.(?:\s*(\d{4}))?")
 
 
 def _children(node):
@@ -70,11 +73,17 @@ class Kosik:
         return leaves
 
     def items(self, slug):
-        path, params = "/api/front/page/products", {"slug": slug, "limit": PAGE_LIMIT}
-        while path:
-            data = self.http.get_json(path, params)
-            yield from (data.get("products") or {}).get("items", [])
-            path, params = data.get("more"), None
+        data = self.http.get_json("/api/front/page/products", {"slug": slug, "limit": PAGE_LIMIT})
+        products = data.get("products") or {}
+        yield from products.get("items", [])
+        cursor = products.get("cursor")
+        while cursor:
+            page = self.http.post_json("/api/front/products/more",
+                                       {"cursor": cursor, "limit": PAGE_LIMIT})
+            if not page.get("products"):
+                return
+            yield from page["products"]
+            cursor = page.get("cursor")
 
     def scrape(self, date, scraped_at):
         seen = {}
@@ -84,10 +93,22 @@ class Kosik:
         log.info("Kosik: %d drinks found", len(seen))
         out = []
         for item in seen.values():
-            hit = classify(item.get("name"), item.get("brand"))
+            brand = item.get("brand")
+            hit = classify(item.get("name"), brand.get("name") if isinstance(brand, dict) else brand)
             if hit:
                 out.append(parse_item(item, hit, date, scraped_at))
         return out
+
+
+def _valid_till(label, date):
+    """'Akce platí do 27. 10.' -> '2026-10-27' (year inferred from scrape date)."""
+    m = VALID_TILL.search(label or "")
+    if not m:
+        return ""
+    day, month, year = int(m[1]), int(m[2]), int(m[3] or date[:4])
+    if not m[3] and month < int(date[5:7]):  # e.g. scraped in December, valid till January
+        year += 1
+    return f"{year:04d}-{month:02d}-{day:02d}"
 
 
 def parse_item(item, hit, date, scraped_at):
@@ -99,6 +120,8 @@ def parse_item(item, hit, date, scraped_at):
     amount = " ".join(str(x).replace(".", ",") for x in (qty.get("prefix"), qty.get("value"), qty.get("unit")) if x)
     per_unit = item.get("pricePerUnit") or {}
     promo = {k: item[k] for k in PROMO_KEYS if item.get(k)}
+    multi = min(item.get("cumulativePrices") or [], key=lambda c: c.get("quantity") or 0, default=None)
+    on_sale = bool(pct) and pct > 0
     return Observation(
         date=date,
         scraped_at=scraped_at,
@@ -110,8 +133,12 @@ def parse_item(item, hit, date, scraped_at):
         amount=amount,
         price=price,
         original_price=original,
-        on_sale=bool(pct) and pct > 0,
+        on_sale=on_sale,
         discount_pct=pct or None,
+        sale_valid_till=_valid_till(item.get("actionLabel"), date) if on_sale else "",
+        promo_type="sale" if on_sale else "",
+        multibuy_qty=multi.get("quantity") if multi else None,
+        multibuy_price=multi.get("price") if multi else None,
         unit_price=per_unit.get("price"),
         unit=per_unit.get("unit") or "",
         in_stock=not item.get("firstOrderDay"),

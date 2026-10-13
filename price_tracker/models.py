@@ -18,6 +18,9 @@ class Observation:
     on_sale: bool = False
     discount_pct: float | None = None
     sale_valid_till: str = ""
+    promo_type: str = ""    # sale | longterm (price cut for everyone), "" = none
+    multibuy_qty: int | None = None      # "buy N" offer: from N pieces ...
+    multibuy_price: float | None = None  # ... each piece costs this
     unit_price: float | None = None      # current price per l / kg
     unit: str = ""
     currency: str = "CZK"

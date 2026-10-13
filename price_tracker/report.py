@@ -93,6 +93,17 @@ def markdown(rows):
             f"| {_fmt(r['price'])} | {_fmt(r['original_price'])} | {_fmt(r['discount_pct'], ' %')} "
             f"| {r['sale_valid_till'][:10]} |")
 
+    multi = sorted((r for r in today if r.get("multibuy_qty")),
+                   key=lambda r: (r["shop"], r["owner"], r["brand"], r["name"]))
+    lines += ["", f"## Multikup / multipack — sleva při koupi více kusů ({len(multi)})", "",
+              "| Obchod | Značka | Produkt | Balení | Cena za 1 ks | Od ks | Cena za ks | Sleva |",
+              "|---|---|---|---|---:|---:|---:|---:|"]
+    for r in multi:
+        pct = (1 - r["multibuy_price"] / r["original_price"]) * 100 if r["original_price"] else None
+        lines.append(
+            f"| {SHOP_NAMES.get(r['shop'], r['shop'])} | {r['brand']} | [{r['name']}]({r['url']}) | {r['amount']} "
+            f"| {_fmt(r['price'])} | {r['multibuy_qty']} | {_fmt(r['multibuy_price'])} | {_fmt(pct, ' %')} |")
+
     changes = price_changes(rows, last_date)
     lines += ["", f"## Změny cen oproti předchozímu měření ({len(changes)})", "",
               "| Obchod | Produkt | Předtím | Nyní | Běžná předtím | Běžná nyní |",
