@@ -31,7 +31,7 @@ ROHLIK_CARDS = {
     2: {"productId": 2, "name": "Pepsi Max", "brand": None, "textualAmount": "6 x 330 ml", "unit": "l",
         "prices": {"originalPrice": 99.9, "salePrice": None, "unitPrice": 50.45, "currency": "CZK"},
         "stock": {"availabilityStatus": "SOLD_OUT"}},
-    3: {"productId": 3, "name": "Kofola Original", "brand": "Kofola", "textualAmount": "2 l",
+    3: {"productId": 3, "name": "Relax Pomeranč", "brand": "Relax", "textualAmount": "2 l",
         "prices": {"originalPrice": 39.9, "salePrice": None}},
 }
 
@@ -81,8 +81,8 @@ def kosik_fake():
         {"id": 502, "name": "Coca-Cola", "url": "/p502-coca-cola", "price": 44.9,
          "recommendedPrice": 44.9, "percentageDiscount": 0, "brand": None,
          "cumulativePrices": [{"quantity": 2, "price": 36.9, "percentageDiscount": 17}]},
-        {"id": 503, "name": "Mattoni Grep", "url": "/p503", "price": 19.9,
-         "brand": {"name": "Mattoni"}}]}
+        {"id": 503, "name": "Vitar Grep", "url": "/p503", "price": 19.9,
+         "brand": {"name": "Vitar"}}]}
     http = FakeHttp({
         "/api/front/menu/main": KOSIK_MENU,
         "/api/front/page/products": page1,
@@ -100,7 +100,11 @@ class PortfolioTest(unittest.TestCase):
         self.assertEqual(classify("Natura jemně perlivá"), ("Coca-Cola", "Natura"))
         self.assertIsNone(classify("Lipton Yellow Label čaj"))
         self.assertIsNone(classify("Natural džus"))
-        self.assertIsNone(classify("Kofola Original"))
+        self.assertEqual(classify("Kofola Original"), ("Kofola", "Kofola"))
+        self.assertEqual(classify("Jupík Aqua Sport"), ("Kofola", "Jupík"))
+        self.assertEqual(classify("Schweppes Indian Tonic"), ("Mattoni", "Schweppes"))
+        self.assertEqual(classify("Red Bull Energy Drink"), ("Red Bull", "Red Bull"))
+        self.assertIsNone(classify("Relax Pomeranč"))
         self.assertIsNone(classify("Sodastream příchuť Pepsi"))
         self.assertIsNone(classify("Capri-Sun Monster Alarm"))
 

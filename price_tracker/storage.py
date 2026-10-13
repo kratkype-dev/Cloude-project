@@ -25,7 +25,7 @@ def save(observations, history_dir=HISTORY_DIR):
         replaced = {(o.date, o.shop) for o in obs}
         rows = [r for r in _read(path) if (r["date"], r["shop"]) not in replaced]
         rows += [o.as_row() for o in obs]
-        rows.sort(key=lambda r: (r["date"], r["shop"], r["owner"], r["brand"], r["name"]))
+        rows.sort(key=lambda r: (r["date"], r["shop"], r.get("store", ""), r["owner"], r["brand"], r["name"]))
         with path.open("w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=cols)
             w.writeheader()
@@ -46,9 +46,37 @@ def load(history_dir=HISTORY_DIR):
     for path in sorted(Path(history_dir).glob("*.csv")):
         rows.extend(_read(path))
     for r in rows:
-        for k in ("price", "original_price", "discount_pct", "unit_price", "multibuy_price"):
+        for k in ("price", "original_price", "discount_pct", "unit_price", "multibuy_price",
+                  "lowest_30d", "liters", "price_per_l"):
             r[k] = float(r[k]) if r.get(k) not in ("", None) else None
         r["multibuy_qty"] = int(r["multibuy_qty"]) if r.get("multibuy_qty") else None
-        for k in ("on_sale", "in_stock"):
+        for k in ("on_sale", "in_stock", "sponsored"):
             r[k] = r.get(k) == "1"
+    return rows
+
+
+BANNER_DIR = DATA_DIR / "banners"
+BANNER_COLUMNS = ["date", "platform", "placement", "position", "title", "owner", "brand", "link", "image"]
+
+
+def save_banners(rows, banner_dir=BANNER_DIR):
+    banner_dir = Path(banner_dir)
+    banner_dir.mkdir(parents=True, exist_ok=True)
+    by_month = {}
+    for r in rows:
+        by_month.setdefault(r["date"][:7], []).append(r)
+    for month, new in by_month.items():
+        path = banner_dir / f"{month}.csv"
+        replaced = {(r["date"], r["platform"]) for r in new}
+        old = [r for r in _read(path) if (r["date"], r["platform"]) not in replaced]
+        with path.open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=BANNER_COLUMNS)
+            w.writeheader()
+            w.writerows(old + new)
+
+
+def load_banners(banner_dir=BANNER_DIR):
+    rows = []
+    for path in sorted(Path(banner_dir).glob("*.csv")):
+        rows.extend(_read(path))
     return rows

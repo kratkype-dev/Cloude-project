@@ -1,30 +1,32 @@
-# Cloude-project — sledování cen Coca-Cola a PepsiCo
+# Nápojový radar — ceny, slevy a kampaně nápojů
 
 Každý den stahuje ceny nápojů z portfolia **The Coca-Cola Company** a **PepsiCo**
 z **rohlik.cz** a **kosik.cz**. Ukládá běžnou cenu, aktuální cenu, **slevy**
 (procento a platnost) a cenu za litr. Z historie se pak dá sledovat, jak se ceny
 mění v čase a jak často jsou produkty v akci.
 
-## Jak to funguje
+## Co sleduje
 
-Neparsuje se HTML. Oba e-shopy mají interní JSON API, ze kterého se vykresluje
-jejich web, a scraper ho volá přímo. Je to stabilnější a rychlejší než
-parsovat HTML a nepotřebuje se přihlašovat.
+**Firmy a značky** (`price_tracker/portfolio.py`):
 
-| | Rohlík | Košík |
+- **Coca-Cola:** Coca-Cola, Fanta, Sprite, Kinley, Fuze Tea, Cappy, Natura, Römerquelle, Powerade, Monster, Burn, Costa Coffee, Smartwater, BonAqua
+- **PepsiCo:** Pepsi, 7UP, Mirinda, Mountain Dew, Lipton Ice Tea, Rockstar, Gatorade (v ČR je plní a distribuuje Mattoni 1873)
+- **Kofola:** Kofola, Citro Cola, Rajec, Korunní, Ondrášovka, Kláštorná, Šaratica, Vinea, Top Topic, Jupí, Jupík, Semtex, UGO
+- **Mattoni:** Mattoni, Magnesia, Aquila, Poděbradka, Dobrá voda, Hanácká kyselka, Schweppes
+- **Red Bull:** Red Bull
+
+**Kanály** (Praha, anonymní zákazník, doručení na náměstí Míru):
+
+| Kanál | Zdroj dat | Bannery a reklama |
 |---|---|---|
-| Strom kategorií | `/api/v1/categories/normal/{id}/subcategories` | `/api/front/menu/main` |
-| Výpis produktů | `/api/v1/categories/normal/{id}/products?page=&size=50` | `/api/front/page/products?slug=…&limit=30` (+ odkaz `more`) |
-| Ceny | `/api/v1/products/card` → `originalPrice`, `salePrice`, `saleValidTill`, `unitPrice` | `price`, `recommendedPrice`, `percentageDiscount`, `pricePerUnit` |
-| Typ akce | `/api/v1/products/prices` → `sales[].type` (sleva, multipack…) | uloží se, pokud jsou v položce štítky nebo akce |
+| Rohlík | interní API, kategorie Nápoje | sponzorované produkty v kategoriích |
+| Košík | interní API, kategorie Nápoje | bannery v kategoriích Nápoje |
+| Wolt | assortment API prodejen Tesco Národní, Albert Vinohradská, PENNY Vyšehrad, Žabka Římská | hlavní karusel úvodní stránky, sponzorované produkty |
+| Bolt Food | veřejné API, vyhledávání značek v Tesco Národní a Žabka Legerova | jen pro přihlášené, neměří se |
+| foodora | chráněno proti automatickému sběru (PerimeterX), neměří se | – |
 
-Postup: najde se kategorie **Nápoje**, projdou se všechny její podkategorie
-(alkohol, pivo, víno a káva se přeskakují), stáhnou se všechny produkty a ponechají
-se jen ty, které patří do portfolia. Seznam značek je v
-[`price_tracker/portfolio.py`](price_tracker/portfolio.py):
-
-- **Coca-Cola:** Coca-Cola, Fanta, Sprite, Kinley, Schweppes, Fuze Tea, Cappy, Natura, Römerquelle, Powerade, Monster, Burn, Costa Coffee, Smartwater, BonAqua
-- **PepsiCo:** Pepsi, 7UP, Mirinda, Mountain Dew, Lipton Ice Tea, Rockstar, Gatorade
+U každého produktu se ukládá běžná cena, aktuální cena, typ akce (sleva, dlouhodobá, množstevní), platnost akce,
+cena za litr, EAN (Wolt), nejnižší cena za 30 dní (Wolt), sponzorované umístění a dostupnost.
 
 ## Použití
 
@@ -47,8 +49,9 @@ python -m unittest discover -s tests -t .      # offline testy
 - `data/report.md`: přehled posledního měření, aktuální slevy, změny cen proti
   předchozímu dni, průměrná cena za litr podle značky a obchodu a historie každého
   produktu (min, max, kolik dní byl ve slevě).
-- `data/dashboard.html`: interaktivní graf vývoje ceny a běžné ceny pro každý produkt
-  (body ve slevě jsou červeně) a filtry podle obchodu, vlastníka, značky a slev.
+- `data/banners/YYYY-MM.csv`: bannery a placená umístění.
+- `data/dashboard.html`: **Nápojový radar**, nástroj pro key account tým. Souhrn v běžné řeči, slevy a akce,
+  srovnání cen napříč kanály, vývoj v čase, kampaně a vyhledávání s detailem produktu.
 
 ## Pravidelné spouštění
 

@@ -17,7 +17,7 @@ import urllib.parse
 
 from .http import Http
 from .models import Observation, discount_pct
-from .portfolio import classify
+from .portfolio import classify, classify_full
 
 log = logging.getLogger(__name__)
 
@@ -47,6 +47,36 @@ class Kosik:
     def __init__(self, http=None, slugs=None):
         self.http = http or Http(BASE)
         self.slugs = slugs
+
+    def banners(self, date):
+        """Category banners in the drinks section (main + 1st level)."""
+        menu = self.http.get_json("/api/front/menu/main")
+        stack, roots = list(menu.get("categories", [])), []
+        while stack:
+            node = stack.pop()
+            if ROOT_CATEGORY.search(node.get("name", "")):
+                roots.append(node)
+            stack.extend(_children(node))
+        if not roots:
+            return []
+        node = max(roots, key=lambda n: len(_children(n)))  # the main drinks section, not a nested "Nápoje"
+        slugs = [(node["name"], _slug(node["url"]))] + [
+            (c["name"], _slug(c["url"])) for c in _children(node)
+            if not EXCLUDE_CATEGORY.search(c.get("name", ""))]
+        rows = []
+        for name, slug in slugs:
+            data = self.http.get_json("/api/front/page/products", {"slug": slug, "limit": 1})
+            for i, b in enumerate(data.get("banners") or []):
+                text = f"{b.get('name', '')} {b.get('caption', '')} {b.get('link', '')}".replace("-", " ")
+                hit = classify(text)
+                rows.append({
+                    "date": date, "platform": "kosik", "placement": f"Banner v kategorii {name}",
+                    "position": i + 1, "title": b.get("caption") or _banner_title(b.get("name")),
+                    "owner": hit[0] if hit else "", "brand": hit[1] if hit else "",
+                    "link": b.get("link") or "",
+                    "image": ((b.get("images") or {}).get("main") or "").replace("WIDTHxHEIGHTx1", "1530x388x1"),
+                })
+        return rows
 
     def leaf_slugs(self):
         if self.slugs:
@@ -94,10 +124,19 @@ class Kosik:
         out = []
         for item in seen.values():
             brand = item.get("brand")
-            hit = classify(item.get("name"), brand.get("name") if isinstance(brand, dict) else brand)
+            hit = classify_full(item.get("name"), brand.get("name") if isinstance(brand, dict) else brand)
             if hit:
                 out.append(parse_item(item, hit, date, scraped_at))
         return out
+
+
+def _banner_title(name):
+    """'cat_kozel-W41' -> 'Kozel (kampaň, týden 41)'."""
+    m = re.match(r"(?:cat_)?(.+?)(?:-W(\d+))?$", name or "")
+    if not m:
+        return name or ""
+    title = m[1].replace("-", " ").replace("_", " ").strip().capitalize()
+    return f"{title} (týden {m[2]})" if m[2] else title
 
 
 def _valid_till(label, date):
@@ -130,6 +169,7 @@ def parse_item(item, hit, date, scraped_at):
         name=item.get("name") or "",
         owner=hit[0],
         brand=hit[1],
+        category=hit[2],
         amount=amount,
         price=price,
         original_price=original,

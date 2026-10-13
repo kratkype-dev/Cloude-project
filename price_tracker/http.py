@@ -1,5 +1,6 @@
 """Tiny polite JSON HTTP client (stdlib only)."""
 
+import http.client
 import json
 import logging
 import time
@@ -55,7 +56,7 @@ class Http:
                 if e.code < 500 and e.code != 429:
                     raise
                 err = e
-            except (urllib.error.URLError, TimeoutError) as e:
+            except (urllib.error.URLError, TimeoutError, http.client.HTTPException, ConnectionError) as e:
                 err = e
             if attempt < self.retries:
                 backoff = 2 ** (attempt + 1)

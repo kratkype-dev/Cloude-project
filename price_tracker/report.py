@@ -5,7 +5,7 @@ from collections import defaultdict
 from pathlib import Path
 from statistics import mean
 
-SHOP_NAMES = {"rohlik": "Rohlík", "kosik": "Košík"}
+SHOP_NAMES = {"rohlik": "Rohlík", "kosik": "Košík", "wolt": "Wolt", "bolt": "Bolt Food"}
 
 
 def _fmt(v, suffix=""):
@@ -126,17 +126,43 @@ def markdown(rows):
     return "\n".join(lines) + "\n"
 
 
-def dashboard(rows):
-    data = []
-    for (shop, pid), obs in series(rows).items():
+def dashboard_data(rows, banners=()):
+    """Compact JSON for the dashboard: one record per product, history as points."""
+    dates = sorted({r["date"] for r in rows})
+    di = {d: i for i, d in enumerate(dates)}
+    groups = defaultdict(list)
+    for r in rows:
+        groups[(r["shop"], r.get("store", ""), r["product_id"])].append(r)
+    products = []
+    for (shop, store, pid), obs in groups.items():
+        obs.sort(key=lambda r: r["date"])
         last = obs[-1]
-        data.append({
-            "key": f"{shop}:{pid}", "shop": SHOP_NAMES.get(shop, shop), "name": last["name"],
-            "owner": last["owner"], "brand": last["brand"], "amount": last["amount"],
-            "url": last["url"],
-            "points": [[o["date"], o["price"], o["original_price"], o["on_sale"]] for o in obs],
+        products.append({
+            "s": shop, "st": store, "n": last["name"], "o": last["owner"], "b": last["brand"],
+            "c": last.get("category", ""), "a": last["amount"], "l": last.get("liters"),
+            "u": last["url"], "e": last.get("ean", ""),
+            "h": [[di[o["date"]], o["price"], o["original_price"], int(o["on_sale"]),
+                   o.get("multibuy_qty"), o.get("multibuy_price"), (o.get("sale_valid_till") or "")[:10],
+                   int(bool(o.get("sponsored"))), int(o["in_stock"]), o.get("promo_type", "")]
+                  for o in obs],
         })
-    data.sort(key=lambda d: (d["owner"], d["brand"], d["name"], d["shop"]))
+    products.sort(key=lambda p: (p["o"], p["b"], p["n"], p["s"], p["st"]))
+    return {
+        "generated": max((r["scraped_at"] for r in rows), default=""),
+        "dates": dates,
+        "shops": SHOP_NAMES,
+        "products": products,
+        "banners": [{k: b.get(k, "") for k in ("date", "platform", "placement", "position", "title",
+                                               "owner", "brand", "link", "image")} for b in banners],
+    }
+
+
+def dashboard(rows, banners=(), standalone=True):
+    """HTML dashboard. standalone=False leaves out the document shell (for hosting that adds its own)."""
     template = (Path(__file__).parent / "dashboard_template.html").read_text(encoding="utf-8")
-    payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
-    return template.replace("/*DATA*/[]", payload)
+    payload = json.dumps(dashboard_data(rows, banners), ensure_ascii=False, separators=(",", ":"))
+    html = template.replace("/*DATA*/{}", payload.replace("</", "<\\/"))
+    if standalone:
+        html = ('<!doctype html>\n<html lang="cs">\n<meta charset="utf-8">\n'
+                '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n' + html)
+    return html

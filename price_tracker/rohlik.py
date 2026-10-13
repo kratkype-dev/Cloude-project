@@ -15,14 +15,14 @@ import re
 
 from .http import Http
 from .models import Observation, discount_pct
-from .portfolio import classify
+from .portfolio import classify_full
 
 log = logging.getLogger(__name__)
 
 BASE = "https://www.rohlik.cz"
 ROOT_CATEGORY = re.compile(r"^nápoje$", re.IGNORECASE)
 EXCLUDE_CATEGORY = re.compile(
-    r"alkohol|pivo|piva|víno|vína|lihovin|destilát|káva|kávy|sekt|šampaň",
+    r"alkohol|pivo|piva|víno|vína|lihovin|destilát|káva|kávy|sekt|šampaň|horké",
     re.IGNORECASE,
 )
 # Sale types in /products/prices. "premium" (Xtra members only) and
@@ -38,6 +38,8 @@ class Rohlik:
     def __init__(self, http=None, category_ids=None):
         self.http = http or Http(BASE)
         self.category_ids = category_ids
+        self.category_names = {}
+        self.sponsored = {}  # productId -> category name where it is a paid placement
 
     # --- categories -------------------------------------------------------
     def _subcategories(self, category_id=None):
@@ -64,6 +66,7 @@ class Rohlik:
         while stack:
             cid = stack.pop()
             children = self._names(self._subcategories(cid))
+            self.category_names.update(children)
             kept = [c for c, n in children.items() if not EXCLUDE_CATEGORY.search(n)]
             if not children:
                 leaves.append(cid)
@@ -81,6 +84,8 @@ class Rohlik:
                  "filter": "", "excludeProductIds": ""},
             )
             ids = data.get("productIds", [])
+            for imp in data.get("impressions") or []:
+                self.sponsored.setdefault(imp.get("productId"), self.category_names.get(category_id, str(category_id)))
             yield from ids
             if len(ids) < PAGE_SIZE:
                 return
@@ -119,12 +124,24 @@ class Rohlik:
 
         matched = []
         for card in self.cards(seen):
-            hit = classify(card.get("name"), card.get("brand"))
+            hit = classify_full(card.get("name"), card.get("brand"))
             if hit:
                 matched.append((card, hit))
         promos = self.promos([c["productId"] for c, _ in matched])
-        return [parse_card(c, hit, promos.get(c["productId"]), date, scraped_at)
-                for c, hit in matched]
+        out = [parse_card(c, hit, promos.get(c["productId"]), date, scraped_at)
+               for c, hit in matched]
+        for o in out:
+            o.sponsored = int(o.product_id) in self.sponsored
+        self.banner_rows = [
+            {"date": date, "platform": "rohlik", "placement": f"Sponzorovaný produkt – {self.sponsored[int(o.product_id)]}",
+             "position": 1, "title": o.name, "owner": o.owner, "brand": o.brand, "link": o.url, "image": ""}
+            for o in out if o.sponsored
+        ]
+        return out
+
+    def banners(self, date):
+        """Sponsored products of tracked brands (collected during scrape)."""
+        return getattr(self, "banner_rows", [])
 
 
 def _amount(v):
@@ -149,6 +166,7 @@ def parse_card(card, hit, sales, date, scraped_at):
             if kind in PUBLIC_SALES and (s.get("triggerAmount") or 1) == 1 and amount is not None:
                 if amount < (price or float("inf")):
                     price, promo_type = amount, PUBLIC_SALES[kind]
+                    original = original or _amount(s.get("originalPrice"))
                     valid_till = s.get("validTill") or ""
             elif kind == "multipack" and amount is not None:
                 multibuy = (s.get("triggerAmount"), amount)
@@ -168,6 +186,7 @@ def parse_card(card, hit, sales, date, scraped_at):
         name=card.get("name") or "",
         owner=hit[0],
         brand=hit[1],
+        category=hit[2],
         amount=card.get("textualAmount") or "",
         price=price,
         original_price=original,
