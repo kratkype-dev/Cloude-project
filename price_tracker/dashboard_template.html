@@ -446,24 +446,44 @@ function packOf(p) {
 }
 const ptAt = (p, d) => p.pts.find(x => x.d === d) || null;
 
+/* Duel rules. Default: identical pack and variant. Exceptions:
+   - 2 l PET and 2,25 l PET count as the same pack (compared per litre);
+   - pairs marked "litre" ignore the pack and compare the base variant per litre (Red Bull as a drink type). */
+const LITRE_PAIRS = new Set(["Monster|Red Bull"]);
+const EQUIV_PACKS = {"1|2000|PET": ["1|2250|PET"], "1|2250|PET": ["1|2000|PET"]};
 function duelsAt(d) {
-  const idx = {};
+  const idx = {}, loose = {};
   for (const p of data().products) {
     const x = ptAt(p, d); if (!x) continue;
-    const pk = p._pack === undefined ? (p._pack = packOf(p)) : p._pack; if (!pk) continue;
+    const pk = p._pack === undefined ? (p._pack = packOf(p)) : p._pack;
     const v = p._var || (p._var = variantOf(p));
-    const k = `${p.channel}|${p.brand}|${v.key}|${pk.key}`;
-    if (!idx[k] || x.price < idx[k].x.price) idx[k] = {p, x, ppl: x.price / p.liters, v, pk};
+    const e = {p, x, ppl: p.liters ? x.price / p.liters : null, v, pk};
+    if (pk) { const k = `${p.channel}|${p.brand}|${v.key}|${pk.key}`; if (!idx[k] || x.price < idx[k].x.price) idx[k] = e; }
+    const [head, fl, rest] = v.key.split("|");
+    if (e.ppl && !fl && !rest) { const k = `${p.channel}|${p.brand}|${head}`; if (!loose[k] || e.ppl < loose[k].ppl) loose[k] = e; }
   }
-  const out = [];
-  const byBrand = {}; for (const [k, e] of Object.entries(idx)) { const [ch, brand] = k.split("|"); (byBrand[`${ch}|${brand}`] ||= []).push(e); }
-  for (const [home, rival] of PAIRS) for (const key of Object.keys(byBrand)) {
-    const [ch, brand] = key.split("|"); if (brand !== home) continue;
-    for (const h of byBrand[key]) {
-      const r = idx[`${ch}|${rival}|${h.v.key}|${h.pk.key}`]; if (!r) continue;
-      const diff = (r.x.price - h.x.price) / h.x.price * 100; // negative = rival cheaper
-      out.push({key: `${home}|${rival}|${h.v.key}|${h.pk.key}|${ch}`, home, rival, band: `${h.pk.label} · ${h.v.label}`, pack: h.pk.label, variant: h.v.label,
-                ch, shop: h.p.shop, h, r, diff, winner: diff < -2 ? "rival" : diff > 2 ? "home" : "tie"});
+  const out = [], chans = [...new Set(data().products.map(p => p.channel))];
+  const push = (home, rival, ch, h, r, label, perLitre) => {
+    const a = perLitre ? h.ppl : h.x.price, b = perLitre ? r.ppl : r.x.price, diff = (b - a) / a * 100; // negative = rival cheaper
+    out.push({key: `${home}|${rival}|${label}|${ch}`, home, rival, band: label, ch, shop: h.p.shop, h, r, diff, perLitre,
+              winner: diff < -2 ? "rival" : diff > 2 ? "home" : "tie"});
+  };
+  for (const [home, rival] of PAIRS) for (const ch of chans) {
+    if (LITRE_PAIRS.has(`${home}|${rival}`)) {
+      for (const head of ["reg", "zero"]) {
+        const h = loose[`${ch}|${home}|${head}`], r = loose[`${ch}|${rival}|${head}`];
+        if (h && r) push(home, rival, ch, h, r, `cena za litr, libovolné balení · ${head === "zero" ? "Zero / bez cukru" : "klasická"}`, true);
+      }
+      continue;
+    }
+    for (const [k, h] of Object.entries(idx)) {
+      if (!k.startsWith(`${ch}|${home}|`)) continue;
+      const exact = idx[`${ch}|${rival}|${h.v.key}|${h.pk.key}`];
+      if (exact) { push(home, rival, ch, h, exact, `${h.pk.label} · ${h.v.label}`, false); continue; }
+      for (const alt of EQUIV_PACKS[h.pk.key] || []) {
+        const r = idx[`${ch}|${rival}|${h.v.key}|${alt}`];
+        if (r) push(home, rival, ch, h, r, `${h.pk.label} vs ${r.pk.label} (cena za litr) · ${h.v.label}`, true);
+      }
     }
   }
   return out;
@@ -475,7 +495,8 @@ function duelsNow() {
 }
 const duelLine = x => {
   const cheap = x.winner === "rival" ? x.r : x.h, dear = x.winner === "rival" ? x.h : x.r;
-  return `${cheap.p.brand} za ${kc(cheap.x.price)}${cheap.x.sale ? ` (akce −${Math.round((1 - cheap.x.price / cheap.x.orig) * 100)} %)` : ""} vs ${dear.p.brand} ${kc(dear.x.price)}`;
+  const v = e => x.perLitre ? `${n1(e.ppl)} Kč/l (${e.p.amount || packLabel(e.p.liters)})` : kc(e.x.price);
+  return `${cheap.p.brand} za ${v(cheap)}${cheap.x.sale && cheap.x.orig ? ` (akce −${Math.round((1 - cheap.x.price / cheap.x.orig) * 100)} %)` : ""} vs ${dear.p.brand} ${v(dear)}`;
 };
 
 /* Changes since the previous measurement, per platform. */
@@ -582,7 +603,7 @@ function viewSouboje() {
   const rk = Object.keys(rows).sort((a, b) => { const [ha, ra, ba] = a.split("|"), [hb, rb, bb] = b.split("|");
     return PAIRS.findIndex(p => p[0] === ha && p[1] === ra) - PAIRS.findIndex(p => p[0] === hb && p[1] === rb) || ba.localeCompare(bb, "cs"); });
   const plats = PLATFORMS.filter(([s]) => chs.some(c => current().find(p => p.channel === c && p.shop === s)));
-  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně, ve stejném balení (objem, plech / PET / sklo, počet kusů) a ve stejné variantě (Zero proti Zero, stejná příchuť). Buňka ukazuje, kdo je levnější a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
+  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně, ve stejném balení (objem, plech / PET / sklo, počet kusů) a ve stejné variantě (Zero proti Zero, stejná příchuť). Výjimky: lahve 2 l a 2,25 l se srovnávají cenou za litr a Red Bull se srovnává s Monsterem jako druh nápoje cenou za litr bez ohledu na balení. Buňka ukazuje, kdo je levnější a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
   <div class="glass panel">
     <div class="filters">
       <select id="d-shop" aria-label="Platforma"><option value="">Všechny platformy</option>${PLATFORMS.map(([s, n]) => `<option value="${s}"${f.shop === s ? " selected" : ""}>${n}</option>`).join("")}</select>
@@ -594,8 +615,8 @@ function viewSouboje() {
       return `<tr><td><div class="name">${esc(h)} vs ${esc(r)}</div><div class="meta">${esc(b)}</div></td>${chs.map(c => { const x = rows[k][c]; if (!x) return `<td class="cell muted">–</td>`;
         const cls = x.winner === "rival" ? "alert" : x.winner === "home" ? "good" : "";
         return `<td class="cell" data-open="${(x.winner === "rival" ? x.r : x.h).p.id}" style="cursor:pointer" title="${esc(x.h.p.name)}: ${kc(x.h.x.price)} · ${esc(x.r.p.name)}: ${kc(x.r.x.price)}">
-          <span class="chip ${cls}">${x.winner === "tie" ? "≈" : (x.winner === "rival" ? esc(r) : esc(h)) + " −" + Math.round(Math.abs(x.winner === "rival" ? x.diff : (x.h.x.price - x.r.x.price) / x.r.x.price * 100)) + " %"}</span>${x.flip ? `<span class="pp">nově</span>` : ""}
-          <span class="pp">${kc(x.h.x.price)} vs ${kc(x.r.x.price)}</span></td>`; }).join("")}</tr>`; }).join("")}
+          <span class="chip ${cls}">${x.winner === "tie" ? "≈" : (x.winner === "rival" ? esc(r) : esc(h)) + " −" + Math.round(Math.abs(x.winner === "rival" ? x.diff : (x.perLitre ? (x.h.ppl - x.r.ppl) / x.r.ppl : (x.h.x.price - x.r.x.price) / x.r.x.price) * 100)) + " %"}</span>${x.flip ? `<span class="pp">nově</span>` : ""}
+          <span class="pp">${x.perLitre ? `${n1(x.h.ppl)} vs ${n1(x.r.ppl)} Kč/l` : `${kc(x.h.x.price)} vs ${kc(x.r.x.price)}`}</span></td>`; }).join("")}</tr>`; }).join("")}
     </tbody></table></div>` : `<div class="empty"><h3>Žádné souboje</h3><p>Pro tento výběr nejsou obě značky ve stejné prodejně.</p></div>`}
   </div>`;
 }
