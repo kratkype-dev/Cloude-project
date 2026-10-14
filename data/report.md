@@ -30,7 +30,7 @@
 | Vlastník | Značka | Rohlík | Košík | Wolt | Bolt Food |
 |---|---|---:|---:|---:|---:|
 | Coca-Cola | Cappy | 64,23 | 69,30 | 62,70 | – |
-| Coca-Cola | Coca-Cola | 63,19 | 44,72 | 50,35 | – |
+| Coca-Cola | Coca-Cola | 62,83 | 44,72 | 50,35 | – |
 | Coca-Cola | Fanta | 58,40 | 49,63 | 53,33 | – |
 | Coca-Cola | Fuze Tea | 27,93 | 53,00 | 55,20 | – |
 | Coca-Cola | Kinley | 33,93 | 61,96 | 48,37 | – |
@@ -194,6 +194,8 @@
 | Rohlík | Aquila | [Aquila Černý čaj s citronem](https://www.rohlik.cz/1442934-aquila-cerny-caj-s-citronem) | 1,5 l | 29,90 | 36,90 | 19,00 % | 2026-10-19 |
 | Wolt | Kofola | [Kofola Nulka 2l](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 2 l | 21,90 | 26,90 | 18,60 % |  |
 | Wolt | Kofola | [Kofola Original](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 2 l | 21,90 | 26,90 | 18,60 % |  |
+| Rohlík | Coca-Cola | [Coca-Cola Zero plech (24×0,33 l)](https://www.rohlik.cz/1463407-coca-cola-zero-plech-24-0-33-l) | 7,92 l | 449,90 | 549,90 | 18,20 % | 2026-12-31 |
+| Rohlík | Coca-Cola | [Coca-Cola plech (24×0,33 l)](https://www.rohlik.cz/1463408-coca-cola-plech-24-0-33-l) | 7,92 l | 449,90 | 549,90 | 18,20 % | 2026-12-31 |
 | Rohlík | Cappy | [Cappy Jablko 100%](https://www.rohlik.cz/1372133-cappy-jablko-100) | 1 l | 54,90 | 66,90 | 17,90 % | 2026-12-31 |
 | Rohlík | Cappy | [Cappy Pomeranč](https://www.rohlik.cz/1473328-cappy-pomeranc) | 1 l | 54,90 | 66,90 | 17,90 % | 2026-12-31 |
 | Wolt | Rajec | [Rajec minerální voda neperlivá](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 1,5 l | 14,90 | 17,90 | 16,80 % |  |
@@ -217,8 +219,6 @@
 | Wolt | Monster | [Monster Juiced Mango Loco 500ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 500 ml | 39,90 | 46,90 | 14,90 % |  |
 | Wolt | Monster | [Monster Juiced Monarch 500ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 500 ml | 39,90 | 46,90 | 14,90 % |  |
 | Wolt | Monster | [Monster Juiced Viking Berry 500ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 500 ml | 39,90 | 46,90 | 14,90 % |  |
-| Rohlík | Coca-Cola | [Coca-Cola Zero plech (24×0,33 l)](https://www.rohlik.cz/1463407-coca-cola-zero-plech-24-0-33-l) | 7,92 l | 469,90 | 549,90 | 14,50 % | 2026-12-31 |
-| Rohlík | Coca-Cola | [Coca-Cola plech (24×0,33 l)](https://www.rohlik.cz/1463408-coca-cola-plech-24-0-33-l) | 7,92 l | 469,90 | 549,90 | 14,50 % | 2026-12-31 |
 | Wolt | Ondrášovka | [Ondrášovka minerální voda citron](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 1,5 l | 11,90 | 13,90 | 14,40 % |  |
 | Wolt | Ondrášovka | [Ondrášovka minerální voda lesní plody](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 1,5 l | 11,90 | 13,90 | 14,40 % |  |
 | Wolt | Kláštorná | [KLÁŠTORNÁ KALCIA JEMNĚ PERLIVÁ 1,5 l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 17,90 | 20,90 | 14,40 % |  |
@@ -457,9 +457,9 @@
 | Košík | Mountain Dew | [Mountain Dew ](https://www.kosik.cz/p207302-mountain-dew-mountain-dew) | 2,25 l | 47,90 | 2 | 42,90 | 10,44 % |
 | Košík | Mountain Dew | [Mountain Dew plech](https://www.kosik.cz/p722582-mountain-dew-plech) | 330,0 ml | 22,90 | 4 | 19,90 | 13,10 % |
 | Košík | Pepsi | [Pepsi ](https://www.kosik.cz/p47937-pepsi-pepsi) | 1,5 l | 38,90 | 6 | 31,90 | 17,99 % |
+| Košík | Pepsi | [Pepsi Cherry Zero Sugar](https://www.kosik.cz/p797666-pepsi-cherry-zero-sugar) | 330,0 ml | 22,90 | 4 | 19,90 | 13,10 % |
 | Košík | Pepsi | [Pepsi Cherry Zero Sugar](https://www.kosik.cz/p797670-pepsi-cherry-zero-sugar) | 1,5 l | 38,90 | 6 | 31,90 | 17,99 % |
 | Košík | Pepsi | [Pepsi Cherry Zero Sugar](https://www.kosik.cz/p797676-pepsi-cherry-zero-sugar) | 2,25 l | 47,90 | 2 | 42,90 | 10,44 % |
-| Košík | Pepsi | [Pepsi Cherry Zero Sugar](https://www.kosik.cz/p797666-pepsi-cherry-zero-sugar) | 330,0 ml | 22,90 | 4 | 19,90 | 13,10 % |
 | Košík | Pepsi | [Pepsi Cola](https://www.kosik.cz/p48137-pepsi-cola) | 2,25 l | 47,90 | 2 | 42,90 | 10,44 % |
 | Košík | Pepsi | [Pepsi Lemon Zero Sugar](https://www.kosik.cz/p797674-pepsi-lemon-zero-sugar) | 2,25 l | 47,90 | 2 | 42,90 | 10,44 % |
 | Košík | Pepsi | [Pepsi Lemon Zero Sugar](https://www.kosik.cz/p797664-pepsi-lemon-zero-sugar) | 330,0 ml | 22,90 | 4 | 19,90 | 13,10 % |
@@ -486,7 +486,7 @@
 | Rohlík | Magnesia | [Magnesia Extra minerální voda](https://www.rohlik.cz/1331891-magnesia-extra-mineralni-voda) | 0,7 l | 39,90 | 3 | 35,90 | 10,03 % |
 | Rohlík | Magnesia | [Magnesia GO](https://www.rohlik.cz/1358901-magnesia-go) | 0,75 l | 19,90 | 3 | 17,90 | 10,05 % |
 
-## Změny cen oproti předchozímu měření (113)
+## Změny cen oproti předchozímu měření (115)
 
 | Obchod | Produkt | Předtím | Nyní | Běžná předtím | Běžná nyní |
 |---|---|---:|---:|---:|---:|
@@ -532,6 +532,8 @@
 | Košík | Pepsi Cream Soda Zero (250,0 ml) | 22,90 | 19,90 | 22,90 | 19,90 |
 | Košík | Pepsi Cream Strawberry Zero (250,0 ml) | 22,90 | 19,90 | 22,90 | 19,90 |
 | Košík | Red Bull Energy drink 4x250ml (4,0 ks) | 169,90 | 174,90 | 169,90 | 174,90 |
+| Rohlík | Coca-Cola Zero plech (24×0,33 l) (7,92 l) | 469,90 | 449,90 | 549,90 | 549,90 |
+| Rohlík | Coca-Cola plech (24×0,33 l) (7,92 l) | 469,90 | 449,90 | 549,90 | 549,90 |
 | Wolt | Coca-Cola (2 l) | 49,90 | 38,90 | 49,90 | 39,90 |
 | Wolt | Coca-Cola 4 x 330ml (1,32 l) | 79,90 | 69,90 | 79,90 | 69,90 |
 | Wolt | Coca-Cola Zero (2 l) | 49,90 | 38,90 | 49,90 | 39,90 |
@@ -784,10 +786,10 @@
 | Wolt | Coca-Cola | Coca-Cola Zero Zero 330ml | 330 ml | 2 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
 | Wolt | Coca-Cola | Coca-Cola Zero Zero 500ml | 500 ml | 2 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
 | Rohlík | Coca-Cola | Coca-Cola Zero multipack (4×1,5 l) | 6 l | 2 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero plech (24×0,33 l) | 7,92 l | 2 | 2 (100 %) | 469,90 | 469,90 | 469,90 | 549,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero plech (24×0,33 l) | 7,92 l | 2 | 2 (100 %) | 449,90 | 469,90 | 459,90 | 549,90 |
 | Rohlík | Coca-Cola | Coca-Cola mexická sklo | 355 ml | 2 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
 | Rohlík | Coca-Cola | Coca-Cola multipack (4×1,5 l) | 6 l | 2 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Rohlík | Coca-Cola | Coca-Cola plech (24×0,33 l) | 7,92 l | 2 | 2 (100 %) | 469,90 | 469,90 | 469,90 | 549,90 |
+| Rohlík | Coca-Cola | Coca-Cola plech (24×0,33 l) | 7,92 l | 2 | 2 (100 %) | 449,90 | 469,90 | 459,90 | 549,90 |
 | Košík | Coca-Cola | Coca-Cola zero | 500,0 ml | 2 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
 | Košík | Coca-Cola | Coca-Cola zero | 1,0 l | 2 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
 | Košík | Coca-Cola | Coca-Cola zero multipack, plech 4x330ml | 1,32 l | 2 | 1 (50 %) | 54,90 | 84,90 | 69,90 | 84,90 |
