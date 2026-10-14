@@ -53,18 +53,14 @@ python -m unittest discover -s tests -t .      # offline testy
 - `data/dashboard.html`: **Nápojový radar**, nástroj pro key account tým. Souhrn v běžné řeči, slevy a akce,
   srovnání cen napříč kanály, vývoj v čase, kampaně a vyhledávání s detailem produktu.
 
-## Pravidelné spouštění
+## Pravidelné spouštění a veřejná stránka
 
-Workflow [`.github/workflows/scrape-prices.yml`](.github/workflows/scrape-prices.yml)
-se spouští každý den v 07:17 pražského času (ručně jde spustit přes *Run workflow*).
-Data commitne zpátky do repozitáře, takže historie je v gitu.
+Workflow [`.github/workflows/scrape-prices.yml`](.github/workflows/scrape-prices.yml) běží každé pondělí
+v 7:17 (ručně přes **Actions → Nápojový radar – týdenní měření → Run workflow**). Stáhne data, uloží je do
+repozitáře a zveřejní dashboard na GitHub Pages: `https://kratkype-dev.github.io/Cloude-project/`.
 
-Pokud GitHub runnery e-shopy blokují (běží na IP adresách v USA), stačí spouštět
-scrape z vlastního stroje přes cron:
-
-```cron
-17 7 * * * cd /cesta/Cloude-project && python3 -m price_tracker scrape && git add data && git commit -qm "data: prices" && git push -q
-```
+Jednorázové nastavení: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+Workflow se spouští jen z hlavní větve (`main`).
 
 ## Na co dát pozor
 
