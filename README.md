@@ -60,7 +60,7 @@ v 7:17 (ručně přes **Actions → Nápojový radar – týdenní měření →
 repozitáře a zveřejní dashboard na GitHub Pages: `https://kratkype-dev.github.io/Cloude-project/`.
 
 Jednorázové nastavení: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-Workflow se spouští jen z hlavní větve (`main`).
+Workflow se spouští jen z hlavní větve (`main`). Po sloučení změny v `price_tracker/` (vzhled nebo logika dashboardu) se stránka sama znovu zveřejní ze stávajících dat, bez nového měření.
 
 ## Na co dát pozor
 
