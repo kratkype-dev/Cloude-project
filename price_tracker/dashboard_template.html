@@ -21,6 +21,7 @@
   --sale: #b8325a; --sale-bg: rgba(184, 50, 90, .10);
   --up: #a4551a; --down: #187348; --info: #36598f;
   --warn-bg: #fff1c7; --warn-fg: #6b4a00;
+  --alert: #b3261e; --alert-bg: rgba(179, 38, 30, .09); --good-bg: rgba(24, 115, 72, .10);
   --o-coca: #e34948; --o-pepsi: #2a78d6; --o-mattoni: #1baf7a; --o-kofola: #eda100; --o-redbull: #6250d6;
   --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --font-body: "Onest", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -40,6 +41,7 @@
     --sale: #ff8fb0; --sale-bg: rgba(255, 143, 176, .12);
     --up: #f0a868; --down: #6fd3a0; --info: #93b4ea;
     --warn-bg: #3d3110; --warn-fg: #ffd982;
+    --alert: #ff8a80; --alert-bg: rgba(255, 138, 128, .12); --good-bg: rgba(111, 211, 160, .12);
     --o-coca: #e66767; --o-pepsi: #3987e5; --o-mattoni: #199e70; --o-kofola: #c98500; --o-redbull: #9085e9;
     color-scheme: dark;
   }
@@ -56,6 +58,7 @@
   --sale: #ff8fb0; --sale-bg: rgba(255, 143, 176, .12);
   --up: #f0a868; --down: #6fd3a0; --info: #93b4ea;
   --warn-bg: #3d3110; --warn-fg: #ffd982;
+  --alert: #ff8a80; --alert-bg: rgba(255, 138, 128, .12); --good-bg: rgba(111, 211, 160, .12);
   --o-coca: #e66767; --o-pepsi: #3987e5; --o-mattoni: #199e70; --o-kofola: #c98500; --o-redbull: #9085e9;
   color-scheme: dark;
 }
@@ -218,6 +221,25 @@ td .meta { font-size: 12.5px; color: var(--muted); }
 .hbar .track { height: 12px; border-radius: 6px; background: var(--chip); overflow: hidden; }
 .hbar .fill { height: 100%; border-radius: 6px; }
 
+h2.sec { font: 650 21px/1.2 var(--font-display); letter-spacing: -.01em; margin: 30px 4px 6px; display: flex; gap: 10px; align-items: center; }
+.sec-sub { margin: 0 4px 12px; color: var(--fg-2); font-size: 14px; max-width: 80ch; }
+h2.sec + .grid { margin-top: 12px; }
+.platforms { grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); align-items: start; }
+.plat header { display: flex; flex-direction: column; gap: 2px; margin-bottom: 10px; }
+.plat header h3 { font: 650 18px/1.2 var(--font-display); margin: 0; }
+.plat header .muted { font-size: 13px; }
+.feed { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 2px; }
+.feed li { padding: 9px 10px; border-radius: 12px; cursor: pointer; display: grid; gap: 3px; }
+.feed li:hover { background: var(--chip); }
+.feed li .h { font-weight: 600; font-size: 14.5px; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.feed li .t { font-size: 13px; color: var(--fg-2); }
+.feed li .chip { justify-self: start; }
+.feed li.flip-bad { background: var(--alert-bg); }
+.feed li.flip-good { background: var(--good-bg); }
+.chip.alert { background: var(--alert-bg); color: var(--alert); }
+.chip.good { background: var(--good-bg); color: var(--down); }
+.chip.warn { background: var(--warn-bg); color: var(--warn-fg); font-family: var(--font-body); }
+.neg { color: var(--alert); }
 .empty { padding: 30px 20px; text-align: center; color: var(--fg-2); }
 .empty h3 { font: 600 18px var(--font-display); margin: 0 0 6px; color: var(--fg); }
 
@@ -357,8 +379,8 @@ const cats = () => [...new Set(current().map(p => p.cat))].sort((a, b) => a.loca
 
 /* ---------- tabs ---------- */
 const TABS = [
-  ["prehled", "Přehled"], ["slevy", "Slevy a akce"], ["srovnani", "Srovnání cen"],
-  ["vyvoj", "Vývoj v čase"], ["kampane", "Kampaně"], ["produkty", "Produkty"],
+  ["prehled", "Přehled"], ["souboje", "Souboje značek"], ["slevy", "Slevy a akce"], ["srovnani", "Srovnání cen"],
+  ["vyvoj", "Vývoj v čase"], ["kampane", "Marketing"], ["produkty", "Produkty"],
 ];
 function renderTabs() {
   const counts = {slevy: current().filter(p => p.cur.sale || p.cur.mq).length, kampane: todaysBanners().length};
@@ -372,23 +394,65 @@ function go(tab, opts = {}) {
   render(); window.scrollTo({top: 0, behavior: "smooth"});
 }
 
-/* ---------- insights ---------- */
-const promoPrice = p => p.cur.sale ? p.cur.price : (p.cur.mp ?? p.cur.price);
+/* ---------- core metrics ---------- */
 const promoDisc = p => p.cur.sale ? (p.cur.orig ? (1 - p.cur.price / p.cur.orig) * 100 : 0) : (p.cur.mq && p.cur.mp ? (1 - p.cur.mp / (p.cur.orig || p.cur.price)) * 100 : 0);
-function ownerShares(list) {
-  return OWNERS.map(o => {
-    const mine = list.filter(p => p.owner === o);
-    const promo = mine.filter(p => p.cur.sale);
-    return {o, n: mine.length, promo: promo.length, share: mine.length ? promo.length / mine.length * 100 : 0,
-            avg: promo.length ? promo.reduce((s, p) => s + promoDisc(p), 0) / promo.length : 0};
-  }).filter(x => x.n);
+const daysTo = iso => Math.round((new Date(iso) - new Date(data().dates[data().last])) / 864e5);
+const PLATFORMS = [["rohlik", "Rohlík"], ["kosik", "Košík"], ["wolt", "Wolt"], ["bolt", "Bolt Food"]];
+const storeOf = p => p.store || data().shops[p.shop];
+
+/* Head-to-head brand duels: our brand vs a competitor, same store, comparable pack, price per litre incl. promotions. */
+const PAIRS = [
+  ["Coca-Cola", "Pepsi"], ["Coca-Cola", "Kofola"], ["Fanta", "Mirinda"], ["Sprite", "7UP"],
+  ["Monster", "Red Bull"], ["Monster", "Semtex"], ["Monster", "Rockstar"], ["Kinley", "Schweppes"],
+  ["Fuze Tea", "Lipton Ice Tea"], ["Powerade", "Gatorade"], ["Natura", "Aquila"], ["Natura", "Rajec"],
+];
+const BANDS = [["malé balení do 0,6 l", .15, .6], ["lahev 1–1,5 l", .9, 1.6], ["lahev 2–2,5 l", 1.9, 2.6], ["multipack plechovek", 0, 0], ["multipack lahví", 0, 0]];
+const MULTI = /(\d+)\s*[x×]\s*(\d+(?:[.,]\d+)?)\s*(ml|l)\b/i;
+const bandOf = p => {
+  if (!p.liters) return null;
+  const m = MULTI.exec(p.name + " " + (p.amount || ""));
+  if (m && +m[1] > 1) { const unit = parseFloat(m[2].replace(",", ".")) / (m[3].toLowerCase() === "ml" ? 1000 : 1); return unit <= .6 ? BANDS[3][0] : BANDS[4][0]; }
+  if (p.liters > 2.6) return null;  // pack size unknown, do not guess
+  const b = BANDS.slice(0, 3).find(([, lo, hi]) => p.liters >= lo && p.liters <= hi); return b ? b[0] : null;
+};
+const ptAt = (p, d) => p.pts.find(x => x.d === d) || null;
+
+function duelsAt(d) {
+  const idx = {};
+  for (const p of data().products) {
+    const x = ptAt(p, d); if (!x) continue;
+    const band = bandOf(p); if (!band) continue;
+    const k = `${p.channel}|${p.brand}|${band}`, ppl = x.price / p.liters;
+    if (!idx[k] || ppl < idx[k].ppl) idx[k] = {p, x, ppl};
+  }
+  const out = [];
+  const chans = [...new Set(data().products.map(p => p.channel))];
+  for (const [home, rival] of PAIRS) for (const [band] of BANDS) for (const ch of chans) {
+    const h = idx[`${ch}|${home}|${band}`], r = idx[`${ch}|${rival}|${band}`];
+    if (!h || !r) continue;
+    const diff = (r.ppl - h.ppl) / h.ppl * 100; // negative = rival cheaper
+    out.push({key: `${home}|${rival}|${band}|${ch}`, home, rival, band, ch, shop: h.p.shop, h, r, diff,
+              winner: diff < -2 ? "rival" : diff > 2 ? "home" : "tie"});
+  }
+  return out;
 }
+function duelsNow() {
+  const D = data(), now = duelsAt(D.last), prev = D.last > 0 ? new Map(duelsAt(D.last - 1).map(x => [x.key, x])) : null;
+  for (const x of now) { const y = prev && prev.get(x.key); x.prev = y || null; x.flip = !!(y && y.winner !== x.winner && x.winner !== "tie"); }
+  return now;
+}
+const duelLine = x => {
+  const cheap = x.winner === "rival" ? x.r : x.h, dear = x.winner === "rival" ? x.h : x.r;
+  return `${cheap.p.brand} za ${kc(cheap.x.price)}${cheap.x.sale ? ` (akce −${Math.round((1 - cheap.x.price / cheap.x.orig) * 100)} %)` : ""} vs ${dear.p.brand} ${kc(dear.x.price)}`;
+};
+
+/* Changes since the previous measurement, per platform. */
 function changes() {
   const D = data(); if (D.dates.length < 2) return null;
   const out = [];
   for (const p of D.products) {
     const c = p.cur, v = p.prev;
-    if (c && !v && p.pts.length === 1) { out.push({p, type: "new", label: "Nový produkt"}); continue; }
+    if (c && !v && p.pts.length === 1) { out.push({p, type: "new", label: "Nový produkt", to: c}); continue; }
     if (!c && v) { out.push({p, type: "gone", label: "Zmizel z nabídky", from: v}); continue; }
     if (!c || !v) continue;
     if (c.sale && !v.sale) out.push({p, type: "promo", label: "Nová akce", from: v, to: c});
@@ -397,110 +461,122 @@ function changes() {
   }
   return out;
 }
-function brandWidePromos(list) {
-  const g = {};
-  for (const p of list.filter(p => p.cur.sale && p.owner !== HOME)) {
-    const k = `${p.brand}|${p.channel}|${Math.round(promoDisc(p))}`;
-    (g[k] ||= []).push(p);
-  }
-  return Object.values(g).filter(a => a.length >= 3).sort((a, b) => b.length - a.length);
-}
-function sameStoreGap(list) {
-  // Same physical store on two platforms (Tesco Národní on Wolt and Bolt)
-  const key = p => `${p.brand}|${p.liters}|${norm(p.name).replace(/[^a-z ]/g, " ").split(/\s+/).filter(w => w.length > 2 && !/^(plech|pet|lahev|sklo|ml|limonada|napoj)$/.test(w)).sort().join(" ")}`;
-  const w = new Map(), out = [];
-  list.filter(p => p.shop === "wolt" && /Tesco/.test(p.store)).forEach(p => w.set(key(p), p));
-  list.filter(p => p.shop === "bolt" && /Tesco/.test(p.store)).forEach(b => { const a = w.get(key(b)); if (a && a.cur.price && b.cur.price) out.push({w: a, b, diff: (b.cur.price - a.cur.price) / a.cur.price * 100}); });
-  return out;
-}
-function colaLeaders(list) {
-  const bands = [["Plechovka 0,25–0,5 l", .2, .55], ["Lahev 1–1,5 l", .9, 1.6], ["Velká lahev 2–2,5 l", 1.9, 2.6]];
-  return bands.map(([label, lo, hi]) => {
-    const rows = ["Coca-Cola", "Pepsi", "Kofola"].map(b => {
-      const xs = list.filter(p => p.cat === "Cola" && p.brand === b && p.liters >= lo && p.liters <= hi && p.ppl);
-      if (!xs.length) return null;
-      const best = xs.reduce((a, c) => c.ppl < a.ppl ? c : a);
-      const med = xs.map(x => x.ppl).sort((a, c) => a - c)[Math.floor(xs.length / 2)];
-      return {b, best, med, n: xs.length};
-    }).filter(Boolean);
-    return {label, rows};
-  }).filter(x => x.rows.length > 1);
+function bannerChanges() {
+  if (state.demo) return [{platform: "wolt", type: "new", title: "Kofola – nová příchuť", owner: "Kofola", brand: "Kofola", placement: "Úvodní stránka – hlavní karusel", example: true},
+                          {platform: "kosik", type: "gone", title: "Pepsi – podzimní akce", owner: "PepsiCo", brand: "Pepsi", placement: "Banner v kategorii Nápoje", example: true}];
+  const dates = [...new Set(REAL.banners.map(b => b.date))].sort(); if (dates.length < 2) return [];
+  const [prevD, lastD] = dates.slice(-2), k = b => `${b.platform}|${b.placement.replace(/ – .*$/, "")}|${b.title}`;
+  const prev = REAL.banners.filter(b => b.date === prevD), last = REAL.banners.filter(b => b.date === lastD);
+  const prevPlat = new Set(prev.map(b => b.platform)), lastPlat = new Set(last.map(b => b.platform));
+  const pk = new Set(prev.map(k)), lk = new Set(last.map(k));
+  return [...last.filter(b => prevPlat.has(b.platform) && !pk.has(k(b))).map(b => ({...b, type: "new"})),
+          ...prev.filter(b => lastPlat.has(b.platform) && !lk.has(k(b))).map(b => ({...b, type: "gone"}))];
 }
 
 function viewPrehled() {
   const D = data(), list = current();
-  const promo = list.filter(p => p.cur.sale);
-  const multi = list.filter(p => !p.cur.sale && p.cur.mq);
-  const banners = todaysBanners();
-  const shares = ownerShares(list);
-  const home = shares.find(s => s.o === HOME) || {share: 0};
-  const rivals = shares.filter(s => s.o !== HOME).sort((a, b) => b.share - a.share);
-  const deepest = promo.filter(p => p.owner !== HOME).sort((a, b) => promoDisc(b) - promoDisc(a));
-  const wide = brandWidePromos(list);
-  const gap = sameStoreGap(list);
-  const gapUp = gap.filter(g => g.diff > .5);
-  const ending = promo.filter(p => p.cur.till && daysTo(p.cur.till) >= 0 && daysTo(p.cur.till) <= 3);
-  const ch = changes();
-  const leaders = colaLeaders(list);
-
-  const ins = [];
-  if (rivals.length) ins.push({tag: "Slevová aktivita", h: `${rivals[0].o} má ve slevě ${pct(rivals[0].share)} sortimentu, ${HOME} ${pct(home.share)}.`,
-    p: rivals.map(r => `${r.o} ${pct(r.share)}`).join(" · "), go: ["slevy", {}], btn: "Všechny slevy"});
-  if (deepest[0]) { const p = deepest[0]; ins.push({tag: "Nejhlubší sleva konkurence", h: `${p.name} ${p.amount ? "(" + p.amount + ")" : ""}: −${Math.round(promoDisc(p))} %`,
-    p: `${p.channel}: ${kc(p.cur.price)} místo ${kc(p.cur.orig)}${p.cur.till ? `, platí do ${dCz(p.cur.till)}` : ""}.`, open: p.id, btn: "Detail produktu"}); }
-  if (wide[0]) { const a = wide[0], p = a[0]; ins.push({tag: "Plošná akce na značku", h: `${p.brand}: ${a.length} produktů se slevou −${Math.round(promoDisc(p))} % (${p.channel}).`,
-    p: a.slice(0, 3).map(x => x.name).join(", ") + (a.length > 3 ? " a další." : "."), go: ["slevy", {owner: p.owner, channel: p.channel}], btn: "Zobrazit akci"}); }
-  if (leaders.length) { const L = leaders.find(l => l.label.startsWith("Velká")) || leaders[0]; const cheapest = L.rows.reduce((a, c) => c.best.ppl < a.best.ppl ? c : a);
-    ins.push({tag: "Cola: kdo je nejlevnější", h: `${L.label}: nejlevnější litr má ${cheapest.b}, ${n1(cheapest.best.ppl)} Kč/l.`,
-      p: L.rows.map(r => `${r.b} od ${n1(r.best.ppl)} Kč/l`).join(" · ") + ".", go: ["srovnani", {cat: "Cola"}], btn: "Srovnat ceny"}); }
-  if (gap.length >= 5) { const top = gap.slice().sort((x, y) => Math.abs(y.diff) - Math.abs(x.diff))[0], same = gap.filter(g => Math.abs(g.diff) <= .5).length, low = gap.filter(g => g.diff < -.5).length;
-    ins.push({tag: "Stejný obchod, jiná cena", h: `Tesco Národní: ${gapUp.length} z ${gap.length} stejných produktů je na Boltu dražší než na Woltu.`,
-      p: `${same} má cenu stejnou${low ? `, ${low} je na Boltu levnějších` : ""}. Největší rozdíl: ${top.w.name} za ${kc(top.w.cur.price)} na Woltu, ${kc(top.b.cur.price)} na Boltu.`, open: top.b.id, btn: "Detail produktu"}); }
-  if (ending.length) ins.push({tag: "Brzy končí", h: `${ending.length} akcí končí do 3 dnů.`, p: [...new Set(ending.map(p => p.brand))].slice(0, 5).join(", ") + ".", go: ["slevy", {sort: "till"}], btn: "Akce podle konce"});
-  if (banners.length) { const own = banners.filter(b => b.owner); ins.push({tag: "Reklama na platformách", h: `${banners.length} reklamních umístění dnes, ${own.length} z nich patří sledovaným značkám.`,
-    p: own.length ? [...new Set(own.map(b => b.brand))].join(", ") + "." : "Sledované značky dnes v bannerech nejsou.", go: ["kampane", {}], btn: "Kampaně"}); }
-
+  const promo = list.filter(p => p.cur.sale), multi = list.filter(p => !p.cur.sale && p.cur.mq);
+  const duels = duelsNow();
+  const ch = changes(), bch = bannerChanges();
   const kpis = [
-    ["Sledované produkty", list.length.toLocaleString("cs-CZ"), `${channels().length} prodejních kanálů`],
+    ["Sledované produkty", list.length.toLocaleString("cs-CZ"), `${channels().length} prodejen na 4 platformách`],
     ["Ve slevě", promo.length.toLocaleString("cs-CZ"), `${pct(promo.length / Math.max(1, list.length) * 100)} sortimentu`],
     ["Množstevní akce", multi.length.toLocaleString("cs-CZ"), "Multikup, „Kup 4“ apod."],
-    ["Průměrná sleva", pct(promo.reduce((s, p) => s + promoDisc(p), 0) / Math.max(1, promo.length)), "u produktů ve slevě"],
+    ["Konkurence levnější", `${duels.filter(x => x.winner === "rival").length} z ${duels.length}`, "soubojů značek se stejným balením"],
   ];
-
+  const prevLabel = D.last > 0 ? `${dCz(D.dates[D.last - 1])} → ${dCz(D.dates[D.last])}` : "";
   return `
-  <div class="head"><div><h1>Co se děje na trhu nápojů</h1>
-    <p>Ceny, slevy a reklama Coca-Coly a konkurence na Rohlíku, Košíku, Woltu a Boltu. Souhrn je napsaný tak, aby šel přečíst za minutu.</p></div>
-    <div class="stamp">Poslední měření<br><b>${dCz(D.dates[D.last])} ${(D.dates[D.last] || "").slice(0, 4)}</b>${D.generated && !state.demo ? ` · ${new Date(D.generated).toLocaleTimeString("cs-CZ", {hour: "2-digit", minute: "2-digit"})}` : ""}</div></div>
+  <div class="head"><div><h1>Co se změnilo</h1>
+    <p>Přehled pro key account tým: kde je konkurence levnější než naše značky, co se od minulého měření pohnulo a kolik akcí běží.</p></div>
+    <div class="stamp">Poslední měření<br><b>${dCz(D.dates[D.last])} ${(D.dates[D.last] || "").slice(0, 4)}</b>${prevLabel ? `<br>srovnání ${prevLabel}` : ""}</div></div>
   <section class="grid kpis" aria-label="Hlavní čísla">${kpis.map(([l, v, n]) => `<div class="glass kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="note">${n}</div></div>`).join("")}</section>
-  <h2 class="sr" style="font:650 20px var(--font-display);margin:26px 4px 12px">Hlavní zjištění</h2>
-  <section class="grid insights">${ins.map(i => `<article class="glass insight"><span class="tag">${i.tag}</span><h3>${esc(i.h)}</h3><p>${esc(i.p)}</p>
-    <button class="btn go" ${i.go ? `data-go="${esc(JSON.stringify(i.go))}"` : `data-open="${i.open}"`}>${i.btn} →</button></article>`).join("")}</section>
+  ${changesSection(duels, ch, bch)}
+  ${duelsSection(duels)}
   <section class="grid" style="margin-top:14px">
-    <div class="glass panel"><h2>Podíl sortimentu ve slevě</h2><p class="sub">Kolik procent produktů každé firmy je dnes ve slevě, podle prodejního kanálu.</p>${heatTable(list)}</div>
-    <div class="glass panel"><h2>Změny od posledního měření</h2>${changesPanel(ch)}</div>
+    <div class="glass panel"><h2>Slevy podle firmy</h2><p class="sub">Počet produktů ve slevě a podíl ze sortimentu firmy v každé prodejně.</p>${heatTable(list)}</div>
   </section>`;
 }
-const daysTo = iso => Math.round((new Date(iso) - new Date(data().dates[data().last])) / 864e5);
+
+function changesSection(duels, ch, bch) {
+  const flips = duels.filter(x => x.flip);
+  if (!ch && !bch.length) return `<h2 class="sec">Změny od minulého měření</h2>
+    <div class="glass panel"><div class="empty"><h3>Zatím jedno měření</h3><p>Po dalším měření se tu objeví přetočení cen, nové akce a nové bannery podle platforem. Jak to bude vypadat, ukáže režim s ilustrační historií.</p><button class="btn solid" id="demoOn2">Zobrazit ukázku změn</button></div></div>`;
+  const per = Object.fromEntries(PLATFORMS.map(([s]) => [s, []]));
+  for (const x of flips) per[x.shop]?.push({rank: 0, kind: x.winner === "rival" ? "flip-bad" : "flip-good",
+    chip: x.winner === "rival" ? "Konkurence pod námi" : "Jsme zpět levnější",
+    h: x.winner === "rival" ? `${x.rival} je nově levnější než ${x.home}` : `${x.home} je znovu levnější než ${x.rival}`,
+    t: `${x.band} · ${storeOf(x.h.p)}: ${duelLine(x)}`, open: (x.winner === "rival" ? x.r : x.h).p.id});
+  for (const b of bch) per[b.platform]?.push({rank: 1, kind: b.type === "new" ? "banner" : "info", chip: b.type === "new" ? "Nový banner" : "Banner skončil",
+    h: `${b.brand || b.title}${b.example ? " (příklad)" : ""}`, t: `${b.placement}${b.title && b.brand ? " · " + b.title : ""}`, go: ["kampane", {}]});
+  for (const c of (ch || []).filter(c => c.p.owner !== HOME && (c.type === "promo" || c.type === "down" || c.type === "new")))
+    per[c.p.shop]?.push({rank: c.type === "promo" ? 2 : 3, kind: c.type === "promo" ? "sale" : "info", chip: c.label,
+      h: c.p.name, t: `${storeOf(c.p)} · ${c.from ? kc(c.from.price) + " → " : ""}${kc(c.to.price)}${c.to && c.to.sale && c.to.till ? ` do ${dCz(c.to.till)}` : ""}`, open: c.p.id, owner: c.p.owner});
+  for (const c of (ch || []).filter(c => c.p.owner === HOME && (c.type === "up" || c.type === "down" || c.type === "end")))
+    per[c.p.shop]?.push({rank: 4, kind: "info", chip: "Naše: " + c.label.toLowerCase(), h: c.p.name, t: `${storeOf(c.p)} · ${kc(c.from.price)} → ${kc(c.to.price)}`, open: c.p.id, owner: c.p.owner});
+  const counts = c => ({promo: (ch || []).filter(x => x.p.shop === c && x.type === "promo" && x.p.owner !== HOME).length,
+                        end: (ch || []).filter(x => x.p.shop === c && x.type === "end" && x.p.owner !== HOME).length});
+  return `<h2 class="sec">Změny od minulého měření${state.demo ? ` <span class="chip warn">ukázka</span>` : ""}</h2>
+  <section class="grid platforms">${PLATFORMS.map(([s, name]) => { const items = per[s].sort((a, b) => a.rank - b.rank), n = counts(s);
+    return `<article class="glass panel plat"><header><h3>${name}</h3><span class="muted">${n.promo} nových akcí konkurence · ${n.end} skončilo</span></header>
+    ${items.length ? `<ul class="feed">${items.slice(0, 7).map(i => `<li class="${i.kind}" ${i.open != null ? `data-open="${i.open}"` : i.go ? `data-go="${esc(JSON.stringify(i.go))}"` : ""}>
+      <span class="chip ${i.kind === "flip-bad" ? "alert" : i.kind === "flip-good" ? "good" : i.kind === "sale" ? "sale" : i.kind === "banner" ? "info" : ""}">${i.chip}</span>
+      <div class="h">${i.owner ? `<span class="dot" style="background:${ownerColor(i.owner)}"></span>` : ""}${esc(i.h)}</div><div class="t">${esc(i.t)}</div></li>`).join("")}</ul>
+      ${items.length > 7 ? `<button class="btn" data-go="${esc(JSON.stringify(["slevy", {}]))}">Dalších ${items.length - 7} změn →</button>` : ""}`
+      : `<p class="muted">Beze změn.</p>`}</article>`; }).join("")}</section>`;
+}
+
+function duelsSection(duels) {
+  return `<h2 class="sec">Kde je konkurence levnější</h2>
+  <p class="sec-sub">Souboj značek ve stejné prodejně a stejné velikosti balení. Srovnává se cena za litr včetně akcí. Ukázány jsou případy, kde je konkurence levnější o více než 2 %.</p>
+  <section class="grid platforms">${PLATFORMS.map(([s, name]) => {
+    const mine = duels.filter(x => x.shop === s), lose = mine.filter(x => x.winner === "rival").sort((a, b) => a.diff - b.diff);
+    const byPair = {}; lose.forEach(x => { const k = `${x.home}|${x.rival}`; (byPair[k] ||= []).push(x); });
+    return `<article class="glass panel plat"><header><h3>${name}</h3><span class="muted">konkurence levnější v ${lose.length} z ${mine.length} soubojů</span></header>
+    ${Object.keys(byPair).length ? `<ul class="feed">${Object.values(byPair).slice(0, 7).map(xs => { const x = xs[0];
+      return `<li data-open="${x.r.p.id}"><div class="h"><span class="dot" style="background:${ownerColor(x.r.p.owner)}"></span>${esc(x.rival)} levnější než ${esc(x.home)} <b class="neg">o ${Math.round(-x.diff)} %</b>${x.flip ? ` <span class="chip alert">nově</span>` : ""}</div>
+      <div class="t">${esc(x.band)} · ${esc(storeOf(x.h.p))}: ${esc(duelLine(x))}${xs.length > 1 ? ` · a v ${xs.length - 1} dalších srovnáních` : ""}</div></li>`; }).join("")}</ul>`
+      : `<p class="muted">${mine.length ? "Naše značky jsou všude levnější nebo stejně drahé." : "Nedostatek srovnatelných produktů."}</p>`}
+    <button class="btn" data-go="${esc(JSON.stringify(["souboje", {shop: s}]))}">Všechny souboje →</button></article>`; }).join("")}</section>`;
+}
+
+function viewSouboje() {
+  const f = filters.souboje ||= {};
+  const duels = duelsNow().filter(x => (!f.shop || x.shop === f.shop) && (!f.pair || `${x.home}|${x.rival}` === f.pair));
+  const chs = channels().filter(c => duels.some(x => x.ch === c));
+  const rows = {};
+  duels.forEach(x => { (rows[`${x.home}|${x.rival}|${x.band}`] ||= {})[x.ch] = x; });
+  const rk = Object.keys(rows).sort((a, b) => { const [ha, ra, ba] = a.split("|"), [hb, rb, bb] = b.split("|");
+    return PAIRS.findIndex(p => p[0] === ha && p[1] === ra) - PAIRS.findIndex(p => p[0] === hb && p[1] === rb) || BANDS.findIndex(x => x[0] === ba) - BANDS.findIndex(x => x[0] === bb); });
+  const plats = PLATFORMS.filter(([s]) => chs.some(c => current().find(p => p.channel === c && p.shop === s)));
+  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně a stejné velikosti balení. Buňka ukazuje, kdo má levnější litr a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
+  <div class="glass panel">
+    <div class="filters">
+      <select id="d-shop" aria-label="Platforma"><option value="">Všechny platformy</option>${PLATFORMS.map(([s, n]) => `<option value="${s}"${f.shop === s ? " selected" : ""}>${n}</option>`).join("")}</select>
+      <select id="d-pair" aria-label="Souboj"><option value="">Všechny souboje</option>${PAIRS.map(([h, r]) => `<option value="${h}|${r}"${f.pair === `${h}|${r}` ? " selected" : ""}>${h} vs ${r}</option>`).join("")}</select>
+      <span class="legend" style="margin:0 0 0 auto"><span class="chip alert">konkurence levnější</span><span class="chip good">my levnější</span><span class="chip">do 2 %</span></span>
+    </div>
+    ${rk.length ? `<div class="table-wrap"><table class="matrix"><thead><tr><th>Souboj</th>${chs.map(c => `<th class="num" style="white-space:normal;min-width:96px">${esc(c.replace("Bolt Food", "Bolt"))}</th>`).join("")}</tr></thead><tbody>
+    ${rk.map(k => { const [h, r, b] = k.split("|");
+      return `<tr><td><div class="name">${esc(h)} vs ${esc(r)}</div><div class="meta">${esc(b)}</div></td>${chs.map(c => { const x = rows[k][c]; if (!x) return `<td class="cell muted">–</td>`;
+        const cls = x.winner === "rival" ? "alert" : x.winner === "home" ? "good" : "";
+        return `<td class="cell" data-open="${(x.winner === "rival" ? x.r : x.h).p.id}" style="cursor:pointer" title="${esc(x.h.p.name)}: ${kc(x.h.x.price)} · ${esc(x.r.p.name)}: ${kc(x.r.x.price)}">
+          <span class="chip ${cls}">${x.winner === "tie" ? "≈" : (x.winner === "rival" ? esc(r) : esc(h)) + " −" + Math.round(Math.abs(x.winner === "rival" ? x.diff : (x.h.ppl - x.r.ppl) / x.r.ppl * 100)) + " %"}</span>${x.flip ? `<span class="pp">nově</span>` : ""}
+          <span class="pp">${n1(x.h.ppl)} vs ${n1(x.r.ppl)} Kč/l</span></td>`; }).join("")}</tr>`; }).join("")}
+    </tbody></table></div>` : `<div class="empty"><h3>Žádné souboje</h3><p>Pro tento výběr nejsou obě značky ve stejné prodejně.</p></div>`}
+  </div>`;
+}
 
 function heatTable(list) {
   const chs = channels();
   const short = c => c.replace("Bolt Food", "Bolt");
   const rows = OWNERS.filter(o => list.some(p => p.owner === o)).map(o => {
     const cells = chs.map(c => { const xs = list.filter(p => p.owner === o && p.channel === c); if (!xs.length) return `<td><div class="bar-in"><span class="muted">–</span></div></td>`;
-      const s = xs.filter(p => p.cur.sale).length / xs.length * 100;
-      return `<td title="${esc(o)} · ${esc(c)}: ${xs.filter(p => p.cur.sale).length} z ${xs.length}"><div class="bar-in"><i style="background:${ownerColor(o)};opacity:${.08 + s / 100 * .62}"></i><span>${Math.round(s)} %</span></div></td>`; }).join("");
-    return `<tr><th scope="row" style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--fg)">${ownerTag(o)}</th>${cells}</tr>`;
+      const n = xs.filter(p => p.cur.sale).length, s = n / xs.length * 100;
+      return `<td title="${esc(o)} · ${esc(c)}: ${n} z ${xs.length} ve slevě"><div class="bar-in"><i style="background:${ownerColor(o)};opacity:${.08 + s / 100 * .62}"></i><span><b>${n}</b> <small class="muted">${Math.round(s)} %</small></span></div></td>`; }).join("");
+    const tot = list.filter(p => p.owner === o), tn = tot.filter(p => p.cur.sale).length;
+    return `<tr><th scope="row" style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--fg)">${ownerTag(o)}</th>${cells}<td class="num"><b>${tn}</b> <small class="muted">${Math.round(tn / tot.length * 100)} %</small></td></tr>`;
   }).join("");
-  return `<div class="table-wrap"><table class="heat"><thead><tr><th></th>${chs.map(c => `<th style="text-align:center;white-space:normal;min-width:72px">${esc(short(c))}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>`;
-}
-function changesPanel(ch) {
-  if (!ch) return `<div class="empty"><h3>Zatím jedno měření</h3><p>Změny cen a akcí se tu objeví po dalším denním měření. Jak to bude vypadat, ukáže režim s ilustrační historií.</p><button class="btn solid" id="demoOn2">Zobrazit ukázku vývoje</button></div>`;
-  const kinds = {promo: "sale", end: "info", up: "up", down: "down", new: "info", gone: "info"};
-  const counts = {}; ch.forEach(c => counts[c.label] = (counts[c.label] || 0) + 1);
-  const rel = ch.filter(c => c.p.owner !== HOME || c.type === "up" || c.type === "down").sort((a, b) => (a.type === "promo" ? 0 : 1) - (b.type === "promo" ? 0 : 1)).slice(0, 8);
-  return `<p class="sub">${Object.entries(counts).map(([k, v]) => `${k}: <b>${v}</b>`).join(" · ")}</p>
-    <div class="table-wrap"><table><tbody>${rel.map(c => `<tr class="click" data-open="${c.p.id}"><td><div class="name">${esc(c.p.name)}</div><div class="meta">${ownerTag(c.p.owner)} · ${esc(c.p.channel)}</div></td>
-    <td><span class="chip ${kinds[c.type]}">${c.label}</span></td><td class="num">${c.from ? `<span class="strike">${kc(c.from.price)}</span><br>` : ""}${c.to ? kc(c.to.price) : ""}</td></tr>`).join("")}</tbody></table></div>`;
+  return `<div class="table-wrap"><table class="heat"><thead><tr><th></th>${chs.map(c => `<th style="text-align:center;white-space:normal;min-width:72px">${esc(short(c))}</th>`).join("")}<th class="num">Celkem</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
 /* ---------- Slevy ---------- */
@@ -718,7 +794,7 @@ $("#scrim").addEventListener("click", closeDrawer);
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
 
 /* ---------- render & events ---------- */
-const VIEWS = {prehled: viewPrehled, slevy: viewSlevy, srovnani: viewSrovnani, vyvoj: viewVyvoj, kampane: viewKampane, produkty: viewProdukty};
+const VIEWS = {prehled: viewPrehled, souboje: viewSouboje, slevy: viewSlevy, srovnani: viewSrovnani, vyvoj: viewVyvoj, kampane: viewKampane, produkty: viewProdukty};
 function render() {
   renderTabs();
   $("#app").innerHTML = VIEWS[state.tab]();
@@ -751,7 +827,7 @@ document.addEventListener("click", e => {
   if (t.id === "demoOn2" || t.id === "demoOn3") { state.demo = true; return render(); }
 });
 document.addEventListener("change", e => {
-  const m = {"f-owner": ["slevy", "owner"], "f-channel": ["slevy", "channel"], "f-cat": ["slevy", "cat"], "s-owner": ["srovnani", "owner"],
+  const m = {"d-shop": ["souboje", "shop"], "d-pair": ["souboje", "pair"], "f-owner": ["slevy", "owner"], "f-channel": ["slevy", "channel"], "f-cat": ["slevy", "cat"], "s-owner": ["srovnani", "owner"],
              "v-cat": ["vyvoj", "cat"], "v-channel": ["vyvoj", "channel"], "p-owner": ["produkty", "owner"], "p-channel": ["produkty", "channel"], "p-cat": ["produkty", "cat"]}[e.target.id];
   if (m) { (filters[m[0]] ||= {})[m[1]] = e.target.value; render(); }
 });
