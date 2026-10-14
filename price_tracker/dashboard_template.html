@@ -406,33 +406,65 @@ const PAIRS = [
   ["Monster", "Red Bull"], ["Monster", "Semtex"], ["Monster", "Rockstar"], ["Kinley", "Schweppes"],
   ["Fuze Tea", "Lipton Ice Tea"], ["Powerade", "Gatorade"], ["Natura", "Aquila"], ["Natura", "Rajec"],
 ];
-const BANDS = [["malé balení do 0,6 l", .15, .6], ["lahev 1–1,5 l", .9, 1.6], ["lahev 2–2,5 l", 1.9, 2.6], ["multipack plechovek", 0, 0], ["multipack lahví", 0, 0]];
+/* Variant: sugar-free vs regular + flavour (and sparkling level for water). Same variant on both sides is required. */
+const FLAVOURS = [["pomeranč", /pomeran|orange/], ["citron", /citr[oó]n|lemon/], ["limeta", /limet|\blime\b/], ["višeň", /cherry|vi[sš]e[nň]|vi[sš]ň/],
+  ["vanilka", /vanil/], ["mango", /mango/], ["broskev", /brosk|peach/], ["jahoda", /jahod|strawberr/], ["malina", /malin|raspberr/],
+  ["exotic", /exoti|tropic/], ["lesní ovoce", /lesn[ií]|berr|bor[uů]vk/], ["grep", /\bgrep|grapefruit/], ["jablko", /jabl|apple/],
+  ["meloun", /meloun|watermelon/], ["zázvor", /z[aá]zvor|ginger/], ["kokos", /kokos|coco/]];
+const BASE_FLAVOUR = {"Sprite": ["citron", "limeta"], "7UP": ["citron", "limeta"], "Fanta": ["pomeranč"], "Mirinda": ["pomeranč"]};
+const BRAND_WORDS = new Set("coca cola coke pepsi fanta mirinda sprite 7up kofola monster red bull redbull semtex rockstar kinley schweppes fuze fuzetea tea lipton ice icetea powerade gatorade natura aquila rajec".split(" "));
+const GENERIC = new Set(("original originál originalni classic energy drink energeticky energeticka napoj limonada limonáda sycena sycený syceny perliva jemne neperliva nesycena " +
+  "voda water pramenita mineralni prirodni prichuti prichut ochucena ochuceny ochucene the edition plech pet sklo can sleek multipack lahev ks kus zero max sugar free sugarfree " +
+  "light diet bez cukru nulka indian with and pro plus").split(" "));
+function variantOf(p) {
+  const n = norm(p.name);
+  const zero = /\bzero\b|\bmax\b|bez cukru|sugar\s?free|\blight\b|\bdiet\b|nulka|no sugar|0 ?% cukr/.test(n);
+  const fl = FLAVOURS.filter(([, rx]) => rx.test(n)).map(([k]) => k).filter(k => !(BASE_FLAVOUR[p.brand] || []).includes(k));
+  // Whatever is left after brand, pack, sugar and flavour words names a sub-line (Top Speed, Air, kojenecká, ...): it must match too.
+  const rest = n.replace(/\d+([.,]\d+)?/g, " ").split(/[^a-z]+/).filter(w => w.length > 2 && !BRAND_WORDS.has(w) && !GENERIC.has(w) && !FLAVOURS.some(([, rx]) => rx.test(w)) && !/^(ml|cl)$/.test(w)).sort().join(" ");
+  let head = zero ? "zero" : "reg", label = zero ? "Zero / bez cukru" : "klasická";
+  if (p.cat === "Vody") {
+    head = /neperliv|nesycen|\bstill\b/.test(n) ? "neperlivá" : /jemne perliv|jemne syc/.test(n) ? "jemně perlivá" : /perliv|sycen/.test(n) ? "perlivá" : "?";
+    label = head === "?" ? "" : head;
+  }
+  return {key: `${head}|${fl.join("+")}|${rest}`, label: [label, ...fl, rest].filter(Boolean).join(", ") || "bez příchuti"};
+}
+/* Pack: exact volume, container and number of pieces. */
 const MULTI = /(\d+)\s*[x×]\s*(\d+(?:[.,]\d+)?)\s*(ml|l)\b/i;
-const bandOf = p => {
+function packOf(p) {
   if (!p.liters) return null;
-  const m = MULTI.exec(p.name + " " + (p.amount || ""));
-  if (m && +m[1] > 1) { const unit = parseFloat(m[2].replace(",", ".")) / (m[3].toLowerCase() === "ml" ? 1000 : 1); return unit <= .6 ? BANDS[3][0] : BANDS[4][0]; }
-  if (p.liters > 2.6) return null;  // pack size unknown, do not guess
-  const b = BANDS.slice(0, 3).find(([, lo, hi]) => p.liters >= lo && p.liters <= hi); return b ? b[0] : null;
-};
+  const n = norm(p.name + " " + (p.amount || ""));
+  const m = MULTI.exec(n);
+  const count = m && +m[1] > 1 ? +m[1] : 1;
+  const unit = count > 1 ? parseFloat(m[2].replace(",", ".")) / (m[3] === "ml" ? 1000 : 1) : p.liters;
+  if (count === 1 && /\b\d+\s*(ks|kus)/.test(n)) return null;
+  const glass = /\bsklo|glass|\bsklen/.test(n), pet = /\bpet\b/.test(n);
+  const can = /plech|\bcan\b|sleek/.test(n) || (!glass && !pet && (p.cat === "Energy" ? unit <= .6 : unit <= .36));
+  const cont = glass ? "sklo" : can ? "plech" : "PET";
+  const vol = unit.toLocaleString("cs-CZ", {maximumFractionDigits: 3}) + " l";
+  return {key: `${count}|${Math.round(unit * 1000)}|${cont}`, label: `${count > 1 ? count + "× " : ""}${vol} ${cont}`};
+}
 const ptAt = (p, d) => p.pts.find(x => x.d === d) || null;
 
 function duelsAt(d) {
   const idx = {};
   for (const p of data().products) {
     const x = ptAt(p, d); if (!x) continue;
-    const band = bandOf(p); if (!band) continue;
-    const k = `${p.channel}|${p.brand}|${band}`, ppl = x.price / p.liters;
-    if (!idx[k] || ppl < idx[k].ppl) idx[k] = {p, x, ppl};
+    const pk = p._pack === undefined ? (p._pack = packOf(p)) : p._pack; if (!pk) continue;
+    const v = p._var || (p._var = variantOf(p));
+    const k = `${p.channel}|${p.brand}|${v.key}|${pk.key}`;
+    if (!idx[k] || x.price < idx[k].x.price) idx[k] = {p, x, ppl: x.price / p.liters, v, pk};
   }
   const out = [];
-  const chans = [...new Set(data().products.map(p => p.channel))];
-  for (const [home, rival] of PAIRS) for (const [band] of BANDS) for (const ch of chans) {
-    const h = idx[`${ch}|${home}|${band}`], r = idx[`${ch}|${rival}|${band}`];
-    if (!h || !r) continue;
-    const diff = (r.ppl - h.ppl) / h.ppl * 100; // negative = rival cheaper
-    out.push({key: `${home}|${rival}|${band}|${ch}`, home, rival, band, ch, shop: h.p.shop, h, r, diff,
-              winner: diff < -2 ? "rival" : diff > 2 ? "home" : "tie"});
+  const byBrand = {}; for (const [k, e] of Object.entries(idx)) { const [ch, brand] = k.split("|"); (byBrand[`${ch}|${brand}`] ||= []).push(e); }
+  for (const [home, rival] of PAIRS) for (const key of Object.keys(byBrand)) {
+    const [ch, brand] = key.split("|"); if (brand !== home) continue;
+    for (const h of byBrand[key]) {
+      const r = idx[`${ch}|${rival}|${h.v.key}|${h.pk.key}`]; if (!r) continue;
+      const diff = (r.x.price - h.x.price) / h.x.price * 100; // negative = rival cheaper
+      out.push({key: `${home}|${rival}|${h.v.key}|${h.pk.key}|${ch}`, home, rival, band: `${h.pk.label} · ${h.v.label}`, pack: h.pk.label, variant: h.v.label,
+                ch, shop: h.p.shop, h, r, diff, winner: diff < -2 ? "rival" : diff > 2 ? "home" : "tie"});
+    }
   }
   return out;
 }
@@ -484,7 +516,7 @@ function viewPrehled() {
     ["Sledované produkty", list.length.toLocaleString("cs-CZ"), `${channels().length} prodejen na 4 platformách`],
     ["Ve slevě", promo.length.toLocaleString("cs-CZ"), `${pct(promo.length / Math.max(1, list.length) * 100)} sortimentu`],
     ["Množstevní akce", multi.length.toLocaleString("cs-CZ"), "Multikup, „Kup 4“ apod."],
-    ["Konkurence levnější", `${duels.filter(x => x.winner === "rival").length} z ${duels.length}`, "soubojů značek se stejným balením"],
+    ["Konkurence levnější", `${duels.filter(x => x.winner === "rival").length} z ${duels.length}`, "soubojů: stejná varianta a balení"],
   ];
   const prevLabel = D.last > 0 ? `${dCz(D.dates[D.last - 1])} → ${dCz(D.dates[D.last])}` : "";
   return `
@@ -529,7 +561,7 @@ function changesSection(duels, ch, bch) {
 
 function duelsSection(duels) {
   return `<h2 class="sec">Kde je konkurence levnější</h2>
-  <p class="sec-sub">Souboj značek ve stejné prodejně a stejné velikosti balení. Srovnává se cena za litr včetně akcí. Ukázány jsou případy, kde je konkurence levnější o více než 2 %.</p>
+  <p class="sec-sub">Souboj spárovaných značek ve stejné prodejně, stejném balení a stejné variantě (Coca-Cola Zero proti Pepsi Zero Sugar, Fanta pomeranč proti Mirindě pomeranč). Srovnává se cena včetně akcí. Ukázány jsou případy, kde je konkurence levnější o více než 2 %.</p>
   <section class="grid platforms">${PLATFORMS.map(([s, name]) => {
     const mine = duels.filter(x => x.shop === s), lose = mine.filter(x => x.winner === "rival").sort((a, b) => a.diff - b.diff);
     const byPair = {}; lose.forEach(x => { const k = `${x.home}|${x.rival}`; (byPair[k] ||= []).push(x); });
@@ -548,9 +580,9 @@ function viewSouboje() {
   const rows = {};
   duels.forEach(x => { (rows[`${x.home}|${x.rival}|${x.band}`] ||= {})[x.ch] = x; });
   const rk = Object.keys(rows).sort((a, b) => { const [ha, ra, ba] = a.split("|"), [hb, rb, bb] = b.split("|");
-    return PAIRS.findIndex(p => p[0] === ha && p[1] === ra) - PAIRS.findIndex(p => p[0] === hb && p[1] === rb) || BANDS.findIndex(x => x[0] === ba) - BANDS.findIndex(x => x[0] === bb); });
+    return PAIRS.findIndex(p => p[0] === ha && p[1] === ra) - PAIRS.findIndex(p => p[0] === hb && p[1] === rb) || ba.localeCompare(bb, "cs"); });
   const plats = PLATFORMS.filter(([s]) => chs.some(c => current().find(p => p.channel === c && p.shop === s)));
-  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně a stejné velikosti balení. Buňka ukazuje, kdo má levnější litr a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
+  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně, ve stejném balení (objem, plech / PET / sklo, počet kusů) a ve stejné variantě (Zero proti Zero, stejná příchuť). Buňka ukazuje, kdo je levnější a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
   <div class="glass panel">
     <div class="filters">
       <select id="d-shop" aria-label="Platforma"><option value="">Všechny platformy</option>${PLATFORMS.map(([s, n]) => `<option value="${s}"${f.shop === s ? " selected" : ""}>${n}</option>`).join("")}</select>
@@ -562,8 +594,8 @@ function viewSouboje() {
       return `<tr><td><div class="name">${esc(h)} vs ${esc(r)}</div><div class="meta">${esc(b)}</div></td>${chs.map(c => { const x = rows[k][c]; if (!x) return `<td class="cell muted">–</td>`;
         const cls = x.winner === "rival" ? "alert" : x.winner === "home" ? "good" : "";
         return `<td class="cell" data-open="${(x.winner === "rival" ? x.r : x.h).p.id}" style="cursor:pointer" title="${esc(x.h.p.name)}: ${kc(x.h.x.price)} · ${esc(x.r.p.name)}: ${kc(x.r.x.price)}">
-          <span class="chip ${cls}">${x.winner === "tie" ? "≈" : (x.winner === "rival" ? esc(r) : esc(h)) + " −" + Math.round(Math.abs(x.winner === "rival" ? x.diff : (x.h.ppl - x.r.ppl) / x.r.ppl * 100)) + " %"}</span>${x.flip ? `<span class="pp">nově</span>` : ""}
-          <span class="pp">${n1(x.h.ppl)} vs ${n1(x.r.ppl)} Kč/l</span></td>`; }).join("")}</tr>`; }).join("")}
+          <span class="chip ${cls}">${x.winner === "tie" ? "≈" : (x.winner === "rival" ? esc(r) : esc(h)) + " −" + Math.round(Math.abs(x.winner === "rival" ? x.diff : (x.h.x.price - x.r.x.price) / x.r.x.price * 100)) + " %"}</span>${x.flip ? `<span class="pp">nově</span>` : ""}
+          <span class="pp">${kc(x.h.x.price)} vs ${kc(x.r.x.price)}</span></td>`; }).join("")}</tr>`; }).join("")}
     </tbody></table></div>` : `<div class="empty"><h3>Žádné souboje</h3><p>Pro tento výběr nejsou obě značky ve stejné prodejně.</p></div>`}
   </div>`;
 }
