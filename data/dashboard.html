@@ -113,7 +113,7 @@ body {
 .tab:hover { background: var(--chip); color: var(--fg); }
 .tab[aria-selected="true"] { background: var(--ink); color: var(--ink-fg); }
 .tab .count { font-size: 12px; opacity: .7; margin-left: 4px; }
-.search { position: relative; flex: 0 1 230px; min-width: 150px; }
+.search { position: relative; flex: 0 1 200px; min-width: 140px; }
 .search input {
   width: 100%; border: 1px solid var(--line); background: var(--glass-strong); color: var(--fg);
   font: 400 14px var(--font-body); padding: 10px 14px 10px 36px; border-radius: 999px; outline: none;
@@ -124,6 +124,7 @@ body {
   appearance: none; border: 1px solid var(--line); background: var(--glass-strong); color: var(--fg-2);
   font: 500 13px var(--font-body); padding: 9px 13px; border-radius: 999px; cursor: pointer; white-space: nowrap;
 }
+.mode.theme { width: 38px; height: 38px; padding: 0; font-size: 17px; line-height: 1; display: inline-grid; place-items: center; flex: none; }
 .mode[aria-pressed="true"] { background: var(--warn-bg); color: var(--warn-fg); border-color: transparent; }
 :focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
 
@@ -289,10 +290,15 @@ h2.sec + .grid { margin-top: 12px; }
 
 footer { margin: 28px 4px 0; color: var(--muted); font-size: 12.5px; max-width: 80ch; }
 
+@media (max-width: 1180px) {
+  .bar { flex-wrap: wrap; border-radius: 24px; }
+  .brand { margin-right: auto; }
+  .tabs { order: 4; flex-basis: 100%; flex-wrap: wrap; }
+}
 @media (max-width: 720px) {
   .bar { border-radius: 24px; flex-wrap: wrap; }
   .search { flex: 1 1 100%; order: 3; }
-  .tabs { order: 4; flex-basis: 100%; }
+  .tabs { order: 4; flex-basis: 100%; flex-wrap: wrap; }
   .hbar { grid-template-columns: 96px 1fr 44px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
@@ -310,7 +316,8 @@ footer { margin: 28px 4px 0; color: var(--muted); font-size: 12.5px; max-width: 
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="Hledat produkt, značku…" autocomplete="off" aria-label="Hledat produkt nebo značku">
     </label>
-    <button class="mode" id="mode" aria-pressed="false" title="Přepnout na ilustrační historii">Ukázka vývoje</button>
+    <button class="mode theme" id="theme" type="button" title="Vzhled stránky" aria-label="Vzhled stránky">◐</button>
+    <button class="mode" id="mode" aria-pressed="false" title="Přepnout na ilustrační historii">Ukázka</button>
   </nav>
   <div class="demo-strip" id="demoStrip" hidden>
     <span>⚠ Ukázková data: vývoj v čase je vymyšlený pro náhled vzhledu nástroje. Nejsou to skutečné ceny.</span>
@@ -397,8 +404,8 @@ const cats = () => [...new Set(current().map(p => p.cat))].sort((a, b) => a.loca
 
 /* ---------- tabs ---------- */
 const TABS = [
-  ["prehled", "Přehled"], ["souboje", "Souboje značek"], ["slevy", "Slevy a akce"], ["srovnani", "Srovnání cen"],
-  ["vyvoj", "Vývoj v čase"], ["kampane", "Marketing"], ["produkty", "Produkty"],
+  ["prehled", "Přehled"], ["souboje", "Souboje"], ["slevy", "Slevy"], ["srovnani", "Ceny"],
+  ["vyvoj", "Vývoj"], ["kampane", "Marketing"], ["produkty", "Produkty"],
 ];
 function renderTabs() {
   const counts = {slevy: current().filter(p => p.cur.sale || p.cur.mq).length, kampane: todaysBanners().length};
@@ -1009,6 +1016,18 @@ $("#q").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() =>
 $("#mode").addEventListener("click", () => { state.demo = !state.demo; render(); });
 $("#demoOff").addEventListener("click", () => { state.demo = false; render(); });
 
+/* Light / dark / follow the system. Charts read colours from CSS tokens, so re-render after a switch. */
+const THEMES = [["auto", "◐", "Vzhled: automaticky podle systému"], ["light", "☀", "Vzhled: světlý"], ["dark", "☾", "Vzhled: tmavý"]];
+function applyTheme(t) {
+  if (t === "auto") document.documentElement.removeAttribute("data-theme"); else document.documentElement.setAttribute("data-theme", t);
+  const th = THEMES.find(x => x[0] === t); $("#theme").textContent = th[1]; $("#theme").title = th[2] + " (kliknutím přepnete)"; $("#theme").setAttribute("aria-label", th[2]);
+  try { localStorage.setItem("radar-theme", t); } catch (e) {}
+}
+let theme = "auto";
+try { theme = localStorage.getItem("radar-theme") || "auto"; } catch (e) {}
+if (!THEMES.some(x => x[0] === theme)) theme = "auto";
+applyTheme(theme);
+$("#theme").addEventListener("click", () => { theme = THEMES[(THEMES.findIndex(x => x[0] === theme) + 1) % THEMES.length][0]; applyTheme(theme); render(); });
 try { const t = localStorage.getItem("radar-tab"); if (t && VIEWS[t]) state.tab = t; } catch (e) {}
 if (location.hash && VIEWS[location.hash.slice(1)]) state.tab = location.hash.slice(1);
 render();
