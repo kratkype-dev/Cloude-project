@@ -221,6 +221,19 @@ td .meta { font-size: 12.5px; color: var(--muted); }
 .hbar .track { height: 12px; border-radius: 6px; background: var(--chip); overflow: hidden; }
 .hbar .fill { height: 100%; border-radius: 6px; }
 
+.ask { padding: 18px 20px; }
+.ask-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.ask-row input { flex: 1 1 280px; min-width: 0; font: 500 16px var(--font-body); color: var(--fg); background: var(--glass-strong);
+  border: 1px solid var(--line); border-radius: 14px; padding: 13px 16px; outline: none; }
+.ask-row input::placeholder { color: var(--muted); opacity: .75; font-weight: 400; }
+.ask-row input:focus { border-color: var(--fg-2); }
+.ask-answer { margin-top: 14px; display: grid; gap: 8px; }
+.ask-head { font: 650 18px/1.35 var(--font-display); margin: 0; text-wrap: balance; }
+.ask-sub { margin: 0; color: var(--fg-2); }
+.ask-chips { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+.chip.ex { cursor: pointer; border: 0; font: 500 13px var(--font-body); padding: 6px 11px; }
+.chip.ex:hover { background: var(--glass-strong); color: var(--fg); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 h2.sec { font: 650 21px/1.2 var(--font-display); letter-spacing: -.01em; margin: 30px 4px 6px; display: flex; gap: 10px; align-items: center; }
 .sec-sub { margin: 0 4px 12px; color: var(--fg-2); font-size: 14px; max-width: 80ch; }
 h2.sec + .grid { margin-top: 12px; }
@@ -231,7 +244,8 @@ h2.sec + .grid { margin-top: 12px; }
 .feed { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 2px; }
 .feed li { padding: 9px 10px; border-radius: 12px; cursor: pointer; display: grid; gap: 3px; }
 .feed li:hover { background: var(--chip); }
-.feed li .h { font-weight: 600; font-size: 14.5px; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.feed li .h { font-weight: 600; font-size: 14.5px; }
+.feed li .h .dot { margin-right: 7px; vertical-align: 1px; }
 .feed li .t { font-size: 13px; color: var(--fg-2); }
 .feed li .chip { justify-self: start; }
 .feed li.flip-bad { background: var(--alert-bg); }
@@ -370,7 +384,7 @@ function demoize(real) {
 
 const REAL = prepare(RAW);
 let DEMO = null;
-const state = {tab: "prehled", demo: false, q: "", sel: null};
+const state = {tab: "prehled", demo: false, q: "", sel: null, ask: ""};
 const data = () => state.demo ? (DEMO ||= demoize(REAL)) : REAL;
 const current = () => data().products.filter(p => p.cur);
 const channels = () => [...new Set(current().map(p => p.channel))].sort((a, b) => order(a) - order(b) || a.localeCompare(b, "cs"));
@@ -422,7 +436,7 @@ function variantOf(p) {
   const fl = FLAVOURS.filter(([, rx]) => rx.test(n)).map(([k]) => k).filter(k => !(BASE_FLAVOUR[p.brand] || []).includes(k));
   // Whatever is left after brand, pack, sugar and flavour words names a sub-line (Top Speed, Air, kojenecká, ...): it must match too.
   const rest = n.replace(/\d+([.,]\d+)?/g, " ").split(/[^a-z]+/).filter(w => w.length > 2 && !BRAND_WORDS.has(w) && !GENERIC.has(w) && !FLAVOURS.some(([, rx]) => rx.test(w)) && !/^(ml|cl)$/.test(w)).sort().join(" ");
-  let head = zero ? "zero" : "reg", label = zero ? "Zero / bez cukru" : "klasická";
+  let head = zero ? "zero" : "reg", label = zero ? "Zero" : "klasická";
   if (p.cat === "Vody") {
     head = /neperliv|nesycen|\bstill\b/.test(n) ? "neperlivá" : /jemne perliv|jemne syc/.test(n) ? "jemně perlivá" : /perliv|sycen/.test(n) ? "perlivá" : "?";
     label = head === "?" ? "" : head;
@@ -442,7 +456,7 @@ function packOf(p) {
   const can = /plech|\bcan\b|sleek/.test(n) || (!glass && !pet && (p.cat === "Energy" ? unit <= .6 : unit <= .36));
   const cont = glass ? "sklo" : can ? "plech" : "PET";
   const vol = unit.toLocaleString("cs-CZ", {maximumFractionDigits: 3}) + " l";
-  return {key: `${count}|${Math.round(unit * 1000)}|${cont}`, label: `${count > 1 ? count + "× " : ""}${vol} ${cont}`};
+  return {key: `${count}|${Math.round(unit * 1000)}|${cont}`, label: `${count > 1 ? count + "× " : ""}${vol} ${cont}`, count, unit, cont};
 }
 const ptAt = (p, d) => p.pts.find(x => x.d === d) || null;
 
@@ -472,7 +486,7 @@ function duelsAt(d) {
     if (LITRE_PAIRS.has(`${home}|${rival}`)) {
       for (const head of ["reg", "zero"]) {
         const h = loose[`${ch}|${home}|${head}`], r = loose[`${ch}|${rival}|${head}`];
-        if (h && r) push(home, rival, ch, h, r, `cena za litr, libovolné balení · ${head === "zero" ? "Zero / bez cukru" : "klasická"}`, true);
+        if (h && r) push(home, rival, ch, h, r, `cena za litr, libovolné balení · ${head === "zero" ? "Zero" : "klasická"}`, true);
       }
       continue;
     }
@@ -544,7 +558,8 @@ function viewPrehled() {
   <div class="head"><div><h1>Co se změnilo</h1>
     <p>Přehled pro key account tým: kde je konkurence levnější než naše značky, co se od minulého měření pohnulo a kolik akcí běží.</p></div>
     <div class="stamp">Poslední měření<br><b>${dCz(D.dates[D.last])} ${(D.dates[D.last] || "").slice(0, 4)}</b>${prevLabel ? `<br>srovnání ${prevLabel}` : ""}</div></div>
-  <section class="grid kpis" aria-label="Hlavní čísla">${kpis.map(([l, v, n]) => `<div class="glass kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="note">${n}</div></div>`).join("")}</section>
+  ${askPanel()}
+  <section class="grid kpis" aria-label="Hlavní čísla" style="margin-top:14px">${kpis.map(([l, v, n]) => `<div class="glass kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="note">${n}</div></div>`).join("")}</section>
   ${changesSection(duels, ch, bch)}
   ${duelsSection(duels)}
   <section class="grid" style="margin-top:14px">
@@ -562,7 +577,7 @@ function changesSection(duels, ch, bch) {
     h: x.winner === "rival" ? `${x.rival} je nově levnější než ${x.home}` : `${x.home} je znovu levnější než ${x.rival}`,
     t: `${x.band} · ${storeOf(x.h.p)}: ${duelLine(x)}`, open: (x.winner === "rival" ? x.r : x.h).p.id});
   for (const b of bch) per[b.platform]?.push({rank: 1, kind: b.type === "new" ? "banner" : "info", chip: b.type === "new" ? "Nový banner" : "Banner skončil",
-    h: `${b.brand || b.title}${b.example ? " (příklad)" : ""}`, t: `${b.placement}${b.title && b.brand ? " · " + b.title : ""}`, go: ["kampane", {}], owner: b.owner, rank: b.owner ? 1 : 5});
+    h: `${b.title || b.brand}${b.example ? " (příklad)" : ""}`, t: `${b.placement}${b.brand ? " · " + b.brand : ""}`, go: ["kampane", {}], owner: b.owner, rank: b.owner ? 1 : 5});
   for (const c of (ch || []).filter(c => c.p.owner !== HOME && (c.type === "promo" || c.type === "down" || c.type === "new")))
     per[c.p.shop]?.push({rank: c.type === "promo" ? 2 : 3, kind: c.type === "promo" ? "sale" : "info", chip: c.label,
       h: c.p.name, t: `${storeOf(c.p)} · ${c.from ? kc(c.from.price) + " → " : ""}${kc(c.to.price)}${c.to && c.to.sale && c.to.till ? ` do ${dCz(c.to.till)}` : ""}`, open: c.p.id, owner: c.p.owner});
@@ -632,6 +647,99 @@ function heatTable(list) {
     return `<tr><th scope="row" style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--fg)">${ownerTag(o)}</th>${cells}<td class="num"><b>${tn}</b> <small class="muted">${Math.round(tn / tot.length * 100)} %</small></td></tr>`;
   }).join("");
   return `<div class="table-wrap"><table class="heat"><thead><tr><th></th>${chs.map(c => `<th style="text-align:center;white-space:normal;min-width:72px">${esc(short(c))}</th>`).join("")}<th class="num">Celkem</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+
+/* ---------- Ask: a question in plain Czech, answered from the data on the page ---------- */
+const ASK_EXAMPLES = ["Běží nějaká sleva na Coca-Cola Zero 0,33 na Rohlíku?", "Kde je nejlevnější Pepsi 1,5 l?", "Jaké akce má Kofola na Woltu?", "Kolik stojí Red Bull v Žabce?"];
+const ALIASES = {"Coca-Cola": ["coca cola", "coca-cola", "cocacola", "coke", "koka kola", "kola coca"], "7UP": ["7up", "7 up", "seven up"],
+  "Red Bull": ["red bull", "redbull"], "Lipton Ice Tea": ["lipton", "ice tea"], "Fuze Tea": ["fuze", "fuzetea"], "Mountain Dew": ["mountain dew"],
+  "Dobrá voda": ["dobra voda"], "Hanácká kyselka": ["hanacka"], "Top Topic": ["top topic"], "Citro Cola": ["citro cola"]};
+const SHOP_WORDS = [["rohlik", /rohlik/], ["kosik", /kosik/], ["wolt", /wolt/], ["bolt", /bolt/]];
+const STORE_WORDS = [["Albert", /albert/], ["Tesco", /tesco/], ["PENNY", /penny/], ["Žabka", /zab(ka|ce|ky|ku)/]];
+function parseAsk(q) {
+  let n = " " + norm(q).replace(/(\d)\.(\d)/g, "$1,$2").replace(/[?!.;]/g, " ") + " ";
+  const brands = [], all = [...new Set(current().map(p => p.brand))];
+  for (const b of all.sort((x, y) => y.length - x.length)) {
+    // Czech declension: "Fantu", "Kofolou", "Mirindě" -> match the stem without the last vowel
+    const keys = [norm(b), ...(ALIASES[b] || [])].map(k => k.length >= 5 && /[aeiouy]$/.test(k) ? k.slice(0, -1) : k);
+    const rxs = keys.map(k => new RegExp(`(^|[^a-z0-9])${k.replace(/[-]/g, "[- ]?")}[a-z]*`));
+    if (rxs.some(rx => rx.test(n))) { brands.push(b); for (const rx of rxs) n = n.replace(rx, " "); }
+  }
+  const owner = !brands.length ? OWNERS.find(o => n.includes(norm(o))) : null;
+  const zero = /\bzero\b|bez cukru|\bmax\b|light|nulka|sugar ?free/.test(n) ? true : /klasick|s cukrem|original/.test(n) ? false : null;
+  let vol = null, count = null;
+  const mc = /(\d+)\s*[x×]\s*(\d+(?:[.,]\d+)?)\s*(ml|l)?/.exec(n);
+  const mv = mc ? null : /(\d+(?:[.,]\d+)?)\s*(ml|l|litr\w*)?(?![a-z0-9])/.exec(n.replace(/\b7 ?up\b/, ""));
+  const toL = (num, unit) => { const v = parseFloat(num.replace(",", ".")); return unit === "ml" || (!unit && v >= 100) ? v / 1000 : v; };
+  if (mc) { count = +mc[1]; vol = toL(mc[2], mc[3]); } else if (mv && parseFloat(mv[1].replace(",", ".")) > 0) vol = toL(mv[1], mv[2]);
+  if (vol && (vol < .1 || vol > 10)) vol = null;
+  const cont = /plech|plechovk|\bcan\b/.test(n) ? "plech" : /\bpet\b|lahv|lahev/.test(n) ? "PET" : /sklo|sklen/.test(n) ? "sklo" : null;
+  const shops = SHOP_WORDS.filter(([, rx]) => rx.test(n)).map(([s]) => s);
+  const stores = STORE_WORDS.filter(([, rx]) => rx.test(n)).map(([s]) => s);
+  const cat = /energ/.test(n) ? "Energy" : /\bvod[auyeo]?\b|\bvodou\b|mineralk/.test(n) ? "Vody" : /\bcol[ay]\b/.test(n) && !brands.length ? "Cola" : /tonic/.test(n) ? "Tonic a mixery" : /ledov|\bcaj/.test(n) ? "Ledové čaje" : null;
+  const intent = /slev|akc|zlevn|promo|multikup/.test(n) ? "sale" : /nejlevn|levnejs|nejnizs/.test(n) ? "cheapest" : /kolik|cena|stoji|cenu/.test(n) ? "price" : "list";
+  return {brands, owner, zero, vol, count, cont, shops, stores, cat, intent};
+}
+function askMatches(a) {
+  return current().filter(p => {
+    if (a.brands.length && !a.brands.includes(p.brand)) return false;
+    if (a.owner && p.owner !== a.owner) return false;
+    if (a.cat && p.cat !== a.cat) return false;
+    if (a.shops.length && !a.shops.includes(p.shop)) return false;
+    if (a.stores.length && !a.stores.some(s => (p.store || "").includes(s))) return false;
+    const pk = p._pack === undefined ? (p._pack = packOf(p)) : p._pack;
+    if (a.vol || a.count || a.cont) {
+      if (!pk) return false;
+      if (a.vol && Math.abs(pk.unit - a.vol) > .011) return false;
+      if ((a.count || 1) !== pk.count) return false;
+      if (a.cont && pk.cont !== a.cont) return false;
+    }
+    if (a.zero !== null) { const v = p._var || (p._var = variantOf(p)); if ((v.key.startsWith("zero")) !== a.zero) return false; }
+    return true;
+  });
+}
+function askAnswer(q) {
+  const a = parseAsk(q);
+  if (!a.brands.length && !a.owner && !a.cat && !a.shops.length && !a.stores.length && !a.vol) return {a, head: "Dotazu jsem nerozuměl. Zkuste uvést značku, balení nebo obchod, třeba „Běží sleva na Fantu 1,5 l na Košíku?“", rows: []};
+  const what = [a.brands.join(", ") || a.owner || a.cat || "sledované nápoje", a.zero === true ? "Zero" : a.zero === false ? "klasická" : "",
+    a.count ? `${a.count}× ${a.vol.toLocaleString("cs-CZ", {maximumFractionDigits: 3})} l` : a.vol ? `${a.vol.toLocaleString("cs-CZ", {maximumFractionDigits: 3})} l` : "", a.cont || ""].filter(Boolean).join(" ");
+  const LOC = {"Albert": "v Albertu", "Tesco": "v Tescu", "PENNY": "v PENNY", "Žabka": "v Žabce"};
+  const where = a.stores.length ? a.stores.map(s => LOC[s] || s).join(", ") + (a.shops.length ? ` (${a.shops.map(s => REAL.shops[s]).join(", ")})` : "") : a.shops.length ? `na ${a.shops.map(s => REAL.shops[s].replace("Bolt Food", "Boltu").replace("Rohlík", "Rohlíku").replace("Košík", "Košíku").replace("Wolt", "Woltu")).join(", ")}` : "ve všech kanálech";
+  const all = askMatches(a);
+  if (!all.length) return {a, head: `Pro ${what} ${where} jsme v posledním měření nenašli žádný produkt.`, rows: []};
+  const sale = all.filter(p => p.cur.sale || p.cur.mq).sort((x, y) => promoDisc(y) - promoDisc(x));
+  const cheap = all.slice().sort((x, y) => (x.ppl ?? x.cur.price) - (y.ppl ?? y.cur.price));
+  const priceRange = () => { const ps = all.map(p => p.cur.price); const lo = Math.min(...ps), hi = Math.max(...ps); return lo === hi ? kc(lo) : `${kc(lo)} až ${kc(hi)}`; };
+  if (a.intent === "sale") {
+    if (!sale.length) return {a, head: `Ne, ${what} ${where} teď v akci není.`, sub: `Běžná cena ${priceRange()} (${all.length} ${all.length === 1 ? "produkt" : all.length < 5 ? "produkty" : "produktů"}).`, rows: cheap};
+    const top = sale[0];
+    return {a, head: `Ano, ${what} ${where}: ${sale.length === 1 ? "běží 1 akce" : `běží ${sale.length} ${sale.length < 5 ? "akce" : "akcí"}`}.`,
+      sub: `Nejvýhodnější: ${top.name} (${top.channel}) ${top.cur.sale ? `za ${kc(top.cur.price)} místo ${kc(top.cur.orig)}, −${Math.round(promoDisc(top))} %${top.cur.till ? `, do ${dCz(top.cur.till)}` : ""}` : `od ${top.cur.mq} ks za ${kc(top.cur.mp)}/ks`}.`, rows: sale};
+  }
+  if (a.intent === "cheapest") { const t = cheap[0];
+    return {a, head: `Nejlevnější ${what} ${where}: ${t.name} za ${kc(t.cur.price)}${t.ppl ? ` (${n1(t.ppl)} Kč/l)` : ""}${t.cur.sale ? ", v akci" : ""}, ${t.channel}.`, rows: cheap}; }
+  return {a, head: `${what[0].toUpperCase() + what.slice(1)} ${where}: ${all.length} ${all.length === 1 ? "produkt" : all.length < 5 ? "produkty" : "produktů"}, cena ${priceRange()}${sale.length ? `, ${sale.length} v akci` : ""}.`, rows: cheap};
+}
+function askPanel() {
+  const r = state.ask ? askAnswer(state.ask) : null;
+  if (r) { r.head = r.head.replace(/\.\.$/, "."); if (r.sub) r.sub = r.sub.replace(/\.\.$/, "."); }
+  const chips = r ? [r.a.brands.length && "Značka: " + r.a.brands.join(", "), r.a.owner && "Firma: " + r.a.owner, r.a.cat && "Kategorie: " + r.a.cat,
+    r.a.zero === true && "Varianta: Zero", r.a.zero === false && "Varianta: klasická", r.a.vol && `Balení: ${r.a.count ? r.a.count + "× " : ""}${r.a.vol.toLocaleString("cs-CZ", {maximumFractionDigits: 3})} l`, r.a.cont && "Obal: " + r.a.cont,
+    r.a.shops.length && "Platforma: " + r.a.shops.map(s => REAL.shops[s]).join(", "), r.a.stores.length && "Prodejna: " + r.a.stores.join(", "),
+    "Hledám: " + {sale: "slevy a akce", cheapest: "nejlevnější", price: "ceny", list: "produkty"}[r.a.intent]].filter(Boolean) : [];
+  return `<section class="glass panel ask" aria-label="Zeptejte se">
+    <form id="askForm" class="ask-row"><label class="sr" for="ask">Dotaz</label>
+      <input id="ask" type="text" autocomplete="off" placeholder="Např. ${esc(ASK_EXAMPLES[0])}" value="${esc(state.ask || "")}">
+      <button class="btn solid" type="submit">Zeptat se</button></form>
+    ${r ? `<div class="ask-answer"><p class="ask-head">${esc(r.head)}</p>${r.sub ? `<p class="ask-sub">${esc(r.sub)}</p>` : ""}
+      <div class="ask-chips">${chips.map(c => `<span class="chip">${esc(c)}</span>`).join("")}<button class="btn" id="askClear" type="button">Vymazat</button></div>
+      ${r.rows.length ? `<div class="table-wrap"><table><tbody>${r.rows.slice(0, 12).map(p => `<tr class="click" data-open="${p.id}"><td><div class="name">${esc(p.name)}</div><div class="meta">${ownerTag(p.owner)} · ${esc(p.amount || "")} · ${esc(p.channel)}</div></td>
+        <td class="num">${p.cur.sale ? `<b>${kc(p.cur.price)}</b><br><span class="strike">${kc(p.cur.orig)}</span>` : kc(p.cur.price)}</td>
+        <td class="num">${p.cur.sale ? `<span class="chip sale">−${Math.round(promoDisc(p))} %</span>${p.cur.till ? `<div class="meta">do ${dCz(p.cur.till)}</div>` : ""}` : p.cur.mq ? `<span class="chip">od ${p.cur.mq} ks ${kc(p.cur.mp)}</span>` : ""}</td></tr>`).join("")}</tbody></table></div>
+        ${r.rows.length > 12 ? `<p class="muted">a dalších ${r.rows.length - 12}. Celý seznam najdete v záložce Produkty.</p>` : ""}` : ""}</div>`
+    : `<div class="ask-chips">${ASK_EXAMPLES.map(e => `<button class="chip ex" type="button" data-ask="${esc(e)}">${esc(e)}</button>`).join("")}</div>`}
+  </section>`;
 }
 
 /* ---------- Slevy ---------- */
@@ -870,6 +978,8 @@ function render() {
 document.addEventListener("click", e => {
   const g = e.target.closest("[data-go]"); if (g) { const [t, o] = JSON.parse(g.dataset.go); filters[t] = {...(filters[t] || {}), ...o}; return go(t); }
   const o = e.target.closest("[data-open]"); if (o) return openProduct(+o.dataset.open);
+  const ex = e.target.closest("[data-ask]"); if (ex) { state.ask = ex.dataset.ask; return render(); }
+  if (e.target.id === "askClear") { state.ask = ""; return render(); }
   const t = e.target;
   const set = (tab, k, v) => { (filters[tab] ||= {})[k] = v; filters[tab].lim = 0; render(); };
   if (t.dataset.ftype !== undefined) return set("slevy", "type", t.dataset.ftype);
@@ -880,6 +990,10 @@ document.addEventListener("click", e => {
   if (t.id === "more-slevy") { filters.slevy.lim = (filters.slevy.lim || 60) + 60; return render(); }
   if (t.id === "more-prod") { filters.produkty.lim = (filters.produkty.lim || 80) + 80; return render(); }
   if (t.id === "demoOn2" || t.id === "demoOn3") { state.demo = true; return render(); }
+});
+document.addEventListener("submit", e => {
+  if (e.target.id !== "askForm") return;
+  e.preventDefault(); state.ask = $("#ask").value.trim(); render(); const el = $("#ask"); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); }
 });
 document.addEventListener("change", e => {
   const m = {"d-shop": ["souboje", "shop"], "d-pair": ["souboje", "pair"], "f-owner": ["slevy", "owner"], "f-channel": ["slevy", "channel"], "f-cat": ["slevy", "cat"], "s-owner": ["srovnani", "owner"],

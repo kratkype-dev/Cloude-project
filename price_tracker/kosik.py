@@ -14,6 +14,7 @@ import json
 import logging
 import re
 import urllib.parse
+from collections import Counter
 
 from .http import Http
 from .models import Observation, discount_pct
@@ -67,16 +68,47 @@ class Kosik:
         for name, slug in slugs:
             data = self.http.get_json("/api/front/page/products", {"slug": slug, "limit": 1})
             for i, b in enumerate(data.get("banners") or []):
-                text = re.sub(r"[-_/]", " ", f"{b.get('name', '')} {b.get('caption', '')} {b.get('link', '')}")
-                hit = classify(text)
+                title, owner, brand = self._banner_target(b)
                 rows.append({
                     "date": date, "platform": "kosik", "placement": f"Banner v kategorii {name}",
-                    "position": i + 1, "title": b.get("caption") or _banner_title(b.get("name")),
-                    "owner": hit[0] if hit else "", "brand": hit[1] if hit else "",
+                    "position": i + 1, "title": title, "owner": owner, "brand": brand,
                     "link": b.get("link") or "",
                     "image": ((b.get("images") or {}).get("main") or "").replace("WIDTHxHEIGHTx1", "1530x388x1"),
                 })
         return rows
+
+    def _banner_target(self, banner):
+        """Name and brands of a banner from the page it links to (the banner text itself is only in the image).
+
+        Returns (title, owner, brands): title of the landing page or product, the owner with most
+        products on it and up to three tracked brands by frequency.
+        """
+        link = banner.get("link") or ""
+        url = urllib.parse.urlparse(link)
+        slug = url.path.lstrip("/")
+        title, names = "", []
+        try:
+            if re.match(r"p\d+", slug):
+                product = self.http.get_json(f"/api/front/product/slug/{slug}").get("product") or {}
+                title = product.get("name") or ""
+                names = [(title, (product.get("brand") or {}).get("name") if isinstance(product.get("brand"), dict) else None)]
+            elif slug:
+                page = self.http.get_json("/api/front/page/products",
+                                          {"slug": slug, "limit": PAGE_LIMIT, **dict(urllib.parse.parse_qsl(url.query))})
+                title = page.get("title") or ""
+                for item in (page.get("products") or {}).get("items", []):
+                    b = item.get("brand")
+                    names.append((item.get("name"), b.get("name") if isinstance(b, dict) else b))
+        except Exception as e:  # landing page gone: fall back to the banner's internal name
+            log.info("Kosik banner target %s: %s", link, e)
+        hits = [h for h in (classify(n, b) for n, b in names) if h]
+        if not hits:  # e.g. a product link of an untracked brand, or no landing page
+            h = classify(re.sub(r"[-_/]", " ", f"{banner.get('name', '')} {link}"))
+            hits = [h] if h else []
+        owners = Counter(o for o, _ in hits)
+        brands = [b for b, _ in Counter(b for _, b in hits).most_common(3)]
+        title = title or banner.get("caption") or _banner_title(banner.get("name"))
+        return title, (owners.most_common(1)[0][0] if owners else ""), ", ".join(brands)
 
     def leaf_slugs(self):
         if self.slugs:
