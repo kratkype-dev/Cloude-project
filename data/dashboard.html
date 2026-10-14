@@ -930,13 +930,14 @@ function viewProdukty() {
 /* ---------- Drawer ---------- */
 function openProduct(id) {
   const D = data(), p = D.products[id]; if (!p) return;
+  if ($("#drawer").hidden) lastFocus = document.activeElement;
   const tokens = new Set(norm(p.name).split(/[^a-z0-9]+/).filter(w => w.length > 2));
   const sim = q => { const t = norm(q.name).split(/[^a-z0-9]+/).filter(w => w.length > 2); return t.filter(w => tokens.has(w)).length / Math.max(tokens.size, t.length, 1); };
   const peers = D.products.filter(q => q.cur && q.id !== p.id && q.brand === p.brand && q.liters === p.liters && sim(q) >= .5).sort((a, b) => a.cur.price - b.cur.price).slice(0, 8);
   const c = p.cur || p.pts[p.pts.length - 1];
   const min = Math.min(...p.pts.map(x => x.price)), max = Math.max(...p.pts.map(x => x.price));
   const salesDays = p.pts.filter(x => x.sale).length;
-  $("#drawer").innerHTML = `<button class="btn close" id="dclose" aria-label="Zavřít detail">Zavřít</button>
+  $("#drawer").innerHTML = `<button class="btn close" id="dclose" type="button" aria-label="Zavřít detail">Zavřít</button>
     ${ownerTag(p.owner)} <span class="muted">· ${esc(p.brand)} · ${esc(p.cat)}</span>
     <h2>${esc(p.name)}</h2><div class="muted">${esc(p.amount || "")} · ${esc(p.channel)}</div>
     <div style="display:flex;align-items:baseline;gap:12px;margin-top:14px;flex-wrap:wrap"><span class="price-big">${kc(c.price)}</span>
@@ -963,7 +964,11 @@ function openProduct(id) {
   }
   $("#dclose").focus();
 }
-function closeDrawer() { $("#drawer").hidden = true; $("#scrim").hidden = true; }
+let lastFocus = null;
+function closeDrawer() {
+  $("#drawer").hidden = true; $("#scrim").hidden = true;
+  if (lastFocus && document.contains(lastFocus)) lastFocus.focus();
+}
 $("#scrim").addEventListener("click", closeDrawer);
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
 
@@ -988,6 +993,7 @@ function render() {
 }
 document.addEventListener("click", e => {
   const g = e.target.closest("[data-go]"); if (g) { const [t, o] = JSON.parse(g.dataset.go); filters[t] = {...(filters[t] || {}), ...o}; return go(t); }
+  if (e.target.closest("#dclose")) return closeDrawer();
   const o = e.target.closest("[data-open]"); if (o) return openProduct(+o.dataset.open);
   const ex = e.target.closest("[data-ask]"); if (ex) { state.ask = ex.dataset.ask; return render(); }
   if (e.target.id === "askClear") { state.ask = ""; return render(); }
