@@ -465,12 +465,14 @@ function bannerChanges() {
   if (state.demo) return [{platform: "wolt", type: "new", title: "Kofola – nová příchuť", owner: "Kofola", brand: "Kofola", placement: "Úvodní stránka – hlavní karusel", example: true},
                           {platform: "kosik", type: "gone", title: "Pepsi – podzimní akce", owner: "PepsiCo", brand: "Pepsi", placement: "Banner v kategorii Nápoje", example: true}];
   const dates = [...new Set(REAL.banners.map(b => b.date))].sort(); if (dates.length < 2) return [];
-  const [prevD, lastD] = dates.slice(-2), k = b => `${b.platform}|${b.placement.replace(/ – .*$/, "")}|${b.title}`;
+  const [prevD, lastD] = dates.slice(-2), k = b => `${b.platform}|${b.placement.replace(/ – .*$/, "")}|${b.title.replace(/\s*\(týden \d+\)$/, "")}`;
   const prev = REAL.banners.filter(b => b.date === prevD), last = REAL.banners.filter(b => b.date === lastD);
   const prevPlat = new Set(prev.map(b => b.platform)), lastPlat = new Set(last.map(b => b.platform));
   const pk = new Set(prev.map(k)), lk = new Set(last.map(k));
-  return [...last.filter(b => prevPlat.has(b.platform) && !pk.has(k(b))).map(b => ({...b, type: "new"})),
-          ...prev.filter(b => lastPlat.has(b.platform) && !lk.has(k(b))).map(b => ({...b, type: "gone"}))];
+  // Wolt's front page rotates restaurant banners by time of day; only brand banners are a real change there.
+  const relevant = b => b.platform !== "wolt" || b.owner;
+  return [...last.filter(b => relevant(b) && prevPlat.has(b.platform) && !pk.has(k(b))).map(b => ({...b, type: "new"})),
+          ...prev.filter(b => relevant(b) && lastPlat.has(b.platform) && !lk.has(k(b))).map(b => ({...b, type: "gone"}))];
 }
 
 function viewPrehled() {
@@ -507,7 +509,7 @@ function changesSection(duels, ch, bch) {
     h: x.winner === "rival" ? `${x.rival} je nově levnější než ${x.home}` : `${x.home} je znovu levnější než ${x.rival}`,
     t: `${x.band} · ${storeOf(x.h.p)}: ${duelLine(x)}`, open: (x.winner === "rival" ? x.r : x.h).p.id});
   for (const b of bch) per[b.platform]?.push({rank: 1, kind: b.type === "new" ? "banner" : "info", chip: b.type === "new" ? "Nový banner" : "Banner skončil",
-    h: `${b.brand || b.title}${b.example ? " (příklad)" : ""}`, t: `${b.placement}${b.title && b.brand ? " · " + b.title : ""}`, go: ["kampane", {}]});
+    h: `${b.brand || b.title}${b.example ? " (příklad)" : ""}`, t: `${b.placement}${b.title && b.brand ? " · " + b.title : ""}`, go: ["kampane", {}], owner: b.owner, rank: b.owner ? 1 : 5});
   for (const c of (ch || []).filter(c => c.p.owner !== HOME && (c.type === "promo" || c.type === "down" || c.type === "new")))
     per[c.p.shop]?.push({rank: c.type === "promo" ? 2 : 3, kind: c.type === "promo" ? "sale" : "info", chip: c.label,
       h: c.p.name, t: `${storeOf(c.p)} · ${c.from ? kc(c.from.price) + " → " : ""}${kc(c.to.price)}${c.to && c.to.sale && c.to.till ? ` do ${dCz(c.to.till)}` : ""}`, open: c.p.id, owner: c.p.owner});

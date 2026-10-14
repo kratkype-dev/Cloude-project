@@ -7,6 +7,7 @@ The API requires app-style query params (deviceId, deviceType, version, ...),
 which the web app sends as well.
 """
 
+import html
 import json
 import logging
 import uuid
@@ -67,7 +68,7 @@ class Bolt:
                 continue
             n = 0
             for item, promo in seen.values():
-                hit = classify_full((item.get("name") or {}).get("value"))
+                hit = classify_full(html.unescape((item.get("name") or {}).get("value") or ""))
                 if hit:
                     out.append(parse_item(item, promo, hit, pid, store, date, scraped_at))
                     n += 1
@@ -86,7 +87,7 @@ def parse_item(item, promo, hit, pid, store, date, scraped_at):
     price = p.get("value")
     original = p.get("old_value") or p.get("original_value") or (p.get("original") or {}).get("value")
     on_sale = bool(original and price is not None and price < original)
-    name = (item.get("name") or {}).get("value") or ""
+    name = html.unescape((item.get("name") or {}).get("value") or "")
     return Observation(
         date=date,
         scraped_at=scraped_at,

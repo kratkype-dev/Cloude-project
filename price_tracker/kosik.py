@@ -67,7 +67,7 @@ class Kosik:
         for name, slug in slugs:
             data = self.http.get_json("/api/front/page/products", {"slug": slug, "limit": 1})
             for i, b in enumerate(data.get("banners") or []):
-                text = f"{b.get('name', '')} {b.get('caption', '')} {b.get('link', '')}".replace("-", " ")
+                text = re.sub(r"[-_/]", " ", f"{b.get('name', '')} {b.get('caption', '')} {b.get('link', '')}")
                 hit = classify(text)
                 rows.append({
                     "date": date, "platform": "kosik", "placement": f"Banner v kategorii {name}",
