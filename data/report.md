@@ -9,21 +9,25 @@
 | Bolt Food | Mattoni | 191 | 0 | 0 % |
 | Bolt Food | PepsiCo | 68 | 0 | 0 % |
 | Bolt Food | Red Bull | 30 | 0 | 0 % |
+| Bolt Food | Targa Florio | 12 | 0 | 0 % |
 | Košík | Coca-Cola | 112 | 6 | 5 % |
 | Košík | Kofola | 115 | 3 | 3 % |
 | Košík | Mattoni | 75 | 8 | 11 % |
 | Košík | PepsiCo | 33 | 1 | 3 % |
 | Košík | Red Bull | 10 | 0 | 0 % |
+| Košík | Targa Florio | 11 | 1 | 9 % |
 | Rohlík | Coca-Cola | 63 | 17 | 27 % |
 | Rohlík | Kofola | 86 | 37 | 43 % |
 | Rohlík | Mattoni | 67 | 19 | 28 % |
 | Rohlík | PepsiCo | 22 | 16 | 73 % |
 | Rohlík | Red Bull | 13 | 1 | 8 % |
+| Rohlík | Targa Florio | 8 | 0 | 0 % |
 | Wolt | Coca-Cola | 177 | 23 | 13 % |
 | Wolt | Kofola | 172 | 22 | 13 % |
 | Wolt | Mattoni | 223 | 33 | 15 % |
 | Wolt | PepsiCo | 67 | 10 | 15 % |
 | Wolt | Red Bull | 25 | 7 | 28 % |
+| Wolt | Targa Florio | 10 | 0 | 0 % |
 
 ## Průměrná cena za jednotku (Kč/l) podle značky
 
@@ -65,8 +69,11 @@
 | PepsiCo | Mountain Dew | 16,40 | 45,34 | 38,16 | – |
 | PepsiCo | Pepsi | 35,26 | 41,07 | 42,25 | – |
 | Red Bull | Red Bull | 177,34 | 178,39 | 147,71 | – |
+| Targa Florio | Targa | 54,24 | 55,75 | 75,45 | – |
+| Targa Florio | Targa Aranciata | 46,39 | 48,76 | 64,64 | – |
+| Targa Florio | Targa Limonata | 55,75 | 55,75 | 75,45 | – |
 
-## Aktuální slevy (203)
+## Aktuální slevy (204)
 
 | Obchod | Značka | Produkt | Balení | Cena | Běžná cena | Sleva | Platí do |
 |---|---|---|---|---:|---:|---:|---|
@@ -145,6 +152,7 @@
 | Wolt | Kofola | [Kofola Original 1l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1 l | 22,90 | 29,90 | 23,40 % |  |
 | Košík | Kinley | [Kinley  Cherry Pepper](https://www.kosik.cz/p815766-kinley-cherry-pepper) | 250,0 ml | 19,90 | 25,90 | 23,00 % | 2026-10-27 |
 | Košík | Kinley | [Kinley Pink Aromatic Berry](https://www.kosik.cz/p782988-kinley-pink-aromatic-berry) | 250,0 ml | 19,90 | 25,90 | 23,00 % | 2026-10-27 |
+| Košík | Targa Aranciata | [Targa Aranciata](https://www.kosik.cz/p426989-targa-aranciata) | 330,0 ml | 19,90 | 25,90 | 23,00 % | 2026-11-03 |
 | Rohlík | 7UP | [7UP Zero sugar](https://www.rohlik.cz/1458250-7up-zero-sugar) | 2,25 l | 36,90 | 47,90 | 23,00 % | 2026-10-19 |
 | Rohlík | Mirinda | [Mirinda](https://www.rohlik.cz/1314561-mirinda) | 2,25 l | 36,90 | 47,90 | 23,00 % | 2026-10-19 |
 | Rohlík | Mountain Dew | [Mountain Dew Limonáda s příchutí citrusového ovoce](https://www.rohlik.cz/1377057-mountain-dew-limonada-s-prichuti-citrusoveho-ovoce) | 2,25 l | 36,90 | 47,90 | 23,00 % | 2026-10-19 |
@@ -274,7 +282,7 @@
 | Wolt | Fanta | [Fanta pomeranč](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 2 l | 38,90 | 39,90 | 2,50 % |  |
 | Wolt | Sprite | [Sprite](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 2 l | 38,90 | 39,90 | 2,50 % |  |
 
-## Multikup / multipack — sleva při koupi více kusů (208)
+## Multikup / multipack — sleva při koupi více kusů (213)
 
 | Obchod | Značka | Produkt | Balení | Cena za 1 ks | Od ks | Cena za ks | Sleva |
 |---|---|---|---|---:|---:|---:|---:|
@@ -478,6 +486,11 @@
 | Košík | Red Bull | [Red Bull Sea Blue Edition](https://www.kosik.cz/p787764-red-bull-sea-blue-edition) | 250,0 ml | 44,90 | 2 | 39,90 | 11,14 % |
 | Košík | Red Bull | [Red Bull Sugar Free](https://www.kosik.cz/p49257-red-bull-sugar-free) | 250,0 ml | 44,90 | 2 | 39,90 | 11,14 % |
 | Košík | Red Bull | [Red Bull Zero](https://www.kosik.cz/p792566-red-bull-red-bull-zero) | 250,0 ml | 44,90 | 2 | 33,90 | 24,50 % |
+| Košík | Targa | [Targa Maracuja e Mandarino plech](https://www.kosik.cz/p795702-targa-maracuja-e-mandarino-plech) | 330,0 ml | 25,90 | 6 | 19,90 | 23,17 % |
+| Košík | Targa | [Targa Tonica Originale](https://www.kosik.cz/p722562-targa-tonica-originale) | 330,0 ml | 25,90 | 6 | 19,90 | 23,17 % |
+| Košík | Targa | [Targa Tonica Rosa ](https://www.kosik.cz/p722564-targa-tonica-rosa) | 330,0 ml | 25,90 | 6 | 19,90 | 23,17 % |
+| Košík | Targa Aranciata | [Targa Aranciata, multipack 4x330ml](https://www.kosik.cz/p779580-targa-aranciata-multipack-4x330ml) | 1,32 l | 69,90 | 2 | 59,90 | 14,31 % |
+| Košík | Targa Limonata | [Targa Limonata](https://www.kosik.cz/p430335-targa-limonata) | 330,0 ml | 25,90 | 6 | 19,90 | 23,17 % |
 | Rohlík | Cappy | [Cappy Pomeranč 100%](https://www.rohlik.cz/1372119-cappy-pomeranc-100) | 1 l | 82,90 | 2 | 64,90 | 21,71 % |
 | Rohlík | Coca-Cola | [Coca-Cola Zero Zero](https://www.rohlik.cz/1478230-coca-cola-zero-zero) | 330 ml | 22,90 | 4 | 19,90 | 13,10 % |
 | Rohlík | Kinley | [Kinley Ginger Ale](https://www.rohlik.cz/1437697-kinley-ginger-ale) | 1,5 l | 50,90 | 3 | 36,90 | 27,50 % |
@@ -2392,3 +2405,44 @@
 | Rohlík | Red Bull | Red Bull Zero plech | 250 ml | 3 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
 | Wolt | Red Bull | Red Bull energy drink bez cukru | 250 ml | 3 | 0 (0 %) | 32,90 | 37,90 | 36,23 | 37,90 |
 | Rohlík | Red Bull | Red Bull s příchutí třešně a sakury | 250 ml | 3 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Targa | TARGA FLORIO MARAKU. MANDARI. LIMONADA 330 ml |  | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Targa | Targa Florio Tonica Originale Sycený Nealkoholický Nápoj 330ml |  | 1 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Bolt Food | Targa | Targa Florio Tonica Rosa 1,33l |  | 1 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Bolt Food | Targa | Targa Maracuja E Mandarino 1,33L |  | 1 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | Targa | Targa Maracuja e Mandarino | 1,33 l | 1 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Košík | Targa | Targa Maracuja e Mandarino plech | 330,0 ml | 1 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Targa | Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 330ml | 330 ml | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa | Targa Tonica Originale | 330,0 ml | 1 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Targa | Targa Tonica Originale | 1,33 l | 1 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Košík | Targa | Targa Tonica Rosa | 1,33 l | 1 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Košík | Targa | Targa Tonica Rosa  | 330,0 ml | 1 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Bolt Food | Targa | Targa Tonica Rosa sycený nealkoholický nápoj 330ml |  | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Targa | Targa Tonica Rosa sycený nealkoholický nápoj 330ml | 330 ml | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Targa | Targa Tonica originale | 1,33 l | 1 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Targa | Targa Tonica originale | 330 ml | 1 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Targa | Targa Tonica rosa | 1,33 l | 1 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Targa | Targa Tonica rosa plech | 330 ml | 1 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Targa Aranciata | TARGA FLORIO POMERANČ 0,33l | 330 ml | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Targa Aranciata | Targa Arancia | 330 ml | 1 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Targa Aranciata | Targa Aranciata | 330,0 ml | 1 | 1 (100 %) | 19,90 | 19,90 | 19,90 | 25,90 |
+| Košík | Targa Aranciata | Targa Aranciata | 1,33 l | 1 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Rohlík | Targa Aranciata | Targa Aranciata  (4×330 ml) | 1,32 l | 1 | 0 (0 %) | 78,90 | 78,90 | 78,90 | 78,90 |
+| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 1,33l | 1,33 l | 1 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 330ml | 330 ml | 1 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 330ml | 330 ml | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa Aranciata | Targa Aranciata, multipack 4x330ml | 1,32 l | 1 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia 1,33l |  | 1 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia Sycená Pomerančová Limonáda 330Ml |  | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia Sycená Pomerančová Limonáda 330ml |  | 1 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia sycená pomerančová limonáda 4 x 330ml (1,32l) |  | 1 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
+| Wolt | Targa Aranciata | Targa Florio Arancia sycená pomerančová limonáda 4 x 330ml (1,32l) | 1,32 l | 1 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
+| Rohlík | Targa Aranciata | Targa pomeranč | 1,33 l | 1 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Wolt | Targa Limonata | TARGA FLORIO  CITRUS 0,33l | 330 ml | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa Limonata | Targa Citron | 1,33 l | 1 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Bolt Food | Targa Limonata | Targa Florio  Citrus 0,33l |  | 1 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Bolt Food | Targa Limonata | Targa Florio Limone Sycená Citronová Limonáda 330Ml |  | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa Limonata | Targa Limonata | 330,0 ml | 1 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Targa Limonata | Targa Limonata | 1,33 l | 1 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Bolt Food | Targa Limonata | Targa Limonata 1,33L |  | 1 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Targa Limonata | Targa Limonata sycená citronová limonáda 330ml | 330 ml | 1 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Targa Limonata | Targa citrón | 330 ml | 1 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |

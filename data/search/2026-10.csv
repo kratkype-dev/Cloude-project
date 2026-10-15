@@ -348,3 +348,352 @@ date,scraped_at,platform,store,query,position,product_id,name,owner,brand,sponso
 2026-10-15,2026-10-15T10:06:53+00:00,wolt,Žabka Římská,tonic,4,zabka-rimska:e1b319c392660f8db297c04e,Kinley Bitter Rose 500ml,Coca-Cola,Kinley,0,39.9
 2026-10-15,2026-10-15T10:06:53+00:00,wolt,Žabka Římská,tonic,5,zabka-rimska:d42628b88a5f9bbe43d16cc7,"Kinley Pink Aromatic Berry 1,5l",Coca-Cola,Kinley,0,45.9
 2026-10-15,2026-10-15T10:06:53+00:00,wolt,Žabka Římská,tonic,6,zabka-rimska:13d7b696ead52cb2d4f8d94c,Johan Freitag Gin&Tonic 330ml,,,0,57.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,1,1479399,Kofola Nulka – bez cukru,Kofola,Kofola,1,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,2,1421956,"Coca-Cola (6x0,33 l) plech",Coca-Cola,Coca-Cola,0,109.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,3,1421957,"Coca-Cola Zero (6x0,33 l) plech",Coca-Cola,Coca-Cola,0,122.4
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,4,1377057,Mountain Dew Limonáda s příchutí citrusového ovoce,PepsiCo,Mountain Dew,1,47.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,5,1437486,Coca-Cola,Coca-Cola,Coca-Cola,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,6,1437487,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,7,1478230,Coca-Cola Zero Zero,Coca-Cola,Coca-Cola,0,22.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,8,1437478,"Coca-Cola Zero multipack (4×1,5 l)",Coca-Cola,Coca-Cola,0,144.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,9,1478231,Coca-Cola Zero Zero,Coca-Cola,Coca-Cola,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,cola,10,1437476,"Coca-Cola multipack (4×1,5 l)",Coca-Cola,Coca-Cola,0,144.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,1,1408157,Bacilli BIO Fizzy Ginger,,Bacilli,1,52.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,2,1293593,Orangina Original pomerančová limonáda,,Orangina,0,56.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,3,1442995,Seicha Matcha Grapefruit sklo,,Seicha Matcha,0,48.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,4,1475951,Pepsi Twist Lemon,PepsiCo,Pepsi,1,47.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,5,1442997,Seicha Matcha Yuzu a zázvor sklo,,Seicha Matcha,0,48.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,6,1483850,Fonti di Crodo Lemonsoda citronová limonáda,,Fonti di Crodo,0,37.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,7,1456709,Bacilli BIO Sicilian lemon,,Bacilli,0,52.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,8,762995,Vinea limonáda červená,Kofola,Vinea,0,40.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,9,1442996,Seicha Matcha Limeta sklo,,Seicha Matcha,0,48.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,limonáda,10,1311877,"Fanta Pomeranč 4x0,33l plech",Coca-Cola,Fanta,0,84.4
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,1,1310513,Monster Energy Ultra Zero Sugar plech,Coca-Cola,Monster,1,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,2,1483551,Red Bull Winter s příchutí pistácií a lesního ovoce,Red Bull,Red Bull,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,3,1471009,Monster Energy Ultra Peachy Keen plech,Coca-Cola,Monster,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,4,1297121,Semtex Originál Explosive energy drink plech,Kofola,Semtex,1,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,5,1293289,Tiger Energy drink plech,,Tiger,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,6,1295189,Monster Energy sycený plech,Coca-Cola,Monster,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,7,1287301,Red Bull Energy drink Pack 4x250ml plech,Red Bull,Red Bull,0,174.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,8,1470016,Monster Energy Ultra Strawberry Dreams Zero Sugar,Coca-Cola,Monster,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,9,1418776,Monster Energy Ultra Fiesta Mango plech,Coca-Cola,Monster,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,energy drink,10,1294727,Big Shock! Energy Exotic juicy energetický nápoj plech,,Big Shock,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,1,1479410,Nordbeans Tea Černý s borůvkami sypaný,,Nordbeans,1,229.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,2,1479402,Rauch MyTea ZERO Broskev,,Rauch,0,42.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,3,1444791,Bonny Ledový čaj broskev,,Bonny,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,4,1305881,Holle BIO Čaj pro kojící maminky,,Holle,1,104.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,5,1479400,Rauch MyTea Broskev,,Rauch,0,42.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,6,1443567,Popstar Tea Ledový čaj s příchutí broskve a vanilky,,Popstar Tea,0,38.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,7,1377051,Aquila Tea Ledový černý čaj s broskví,Mattoni,Aquila,0,36.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,8,1472144,Dilmah Ledový čaj černý broskev,,Dilmah,0,28.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,9,1472143,Dilmah Ledový čaj černý citron,,Dilmah,0,28.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,ledový čaj,10,1287113,Lipton Ledový čaj zelený,,Lipton,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,1,1327985,Magnesia Red Brusinka jemně perlivá,Mattoni,Magnesia,1,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,2,1375371,Dobrá voda Přírodní neperlivá (6×2 l),Mattoni,Dobrá voda,0,104.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,3,1375261,"Magnesia Minerální voda jemně perlivá (6×1,5l)",Mattoni,Magnesia,0,112.95
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,4,1480152,"Magnesia Red Červený pomeranč 4×0,33l plech",Mattoni,Magnesia,1,89.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,5,1375379,"Mattoni minerální voda jemně perlivá (6x1,5l)",Mattoni,Mattoni,0,103.15
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,6,1375267,"Magnesia Minerální voda neperlivá (6×1,5l)",Mattoni,Magnesia,0,112.95
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,7,1300607,Rajec Kojenecká voda,Kofola,Rajec,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,8,1374577,"Natura Neperlivá voda (6×1,5l)",Coca-Cola,Natura,0,129.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,9,1375377,"Mattoni minerální voda perlivá (6x1,5l)",Mattoni,Mattoni,0,103.15
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,voda,10,1375363,"Rajec Kojenecká voda (6×1,5l)",Kofola,Rajec,0,119.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,1,1480085,Mattoni Nealko drink G&T plech,Mattoni,Mattoni,1,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,2,1418775,Kinley Tonic Water Zero,Coca-Cola,Kinley,0,50.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,3,1349861,River Tonic original,,River,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,4,1440564,River Tonic pink grapefruit,,River,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,5,1437695,Kinley Tonic Water,Coca-Cola,Kinley,0,50.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,6,1437696,Kinley Pink Aromatic Berry,Coca-Cola,Kinley,0,50.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,7,1441909,Thomas Henry Tonic water sklo,,Thomas Henry,0,109.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,8,1469873,Targa Tonica originale,Targa Florio,Targa,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,9,1288713,Schweppes Indian tonic,Mattoni,Schweppes,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,rohlik,,tonic,10,1441911,Thomas Henry Pink grapefruit sklo,,Thomas Henry,0,109.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,1,43747,"Coca-Cola Multipack, plech 4x330ml",Coca-Cola,Coca-Cola,0,54.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,2,43837,"Coca-Cola zero multipack, plech 4x330ml",Coca-Cola,Coca-Cola,0,54.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,3,719202,Coca-Cola,Coca-Cola,Coca-Cola,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,4,719206,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,5,736012,Pepsi Cola,PepsiCo,Pepsi,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,6,812086,Coca-Cola Zero Zero,Coca-Cola,Coca-Cola,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,7,719200,"Coca-Cola 4x1,5l",Coca-Cola,Coca-Cola,0,144.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,8,719216,Coca-Cola ,Coca-Cola,Coca-Cola,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,9,46297,Kofola Original,Kofola,Kofola,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,cola,10,719204,"Coca-Cola Zero 4x1,5l",Coca-Cola,Coca-Cola,0,144.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,1,43747,"Coca-Cola Multipack, plech 4x330ml",Coca-Cola,Coca-Cola,0,54.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,2,46687,Top Topic Malina,Kofola,Top Topic,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,3,71577,Zon Plus Oranž,,Zon,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,4,46297,Kofola Original,Kofola,Kofola,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,5,286524,Karáskova limonáda mateřídouška s jahodou,,Karáskova limonáda,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,6,287084,Karáskova limonáda švestka se skořicí,,Karáskova limonáda,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,7,43837,"Coca-Cola zero multipack, plech 4x330ml",Coca-Cola,Coca-Cola,0,54.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,8,43847,"Fanta Pomeranč Multipack, plech 4x330ml",Coca-Cola,Fanta,0,54.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,9,718792,Zon Plus Cola,,Zon,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,limonáda,10,286694,Karáskova limonáda Okurková s mátou,,Karáskova limonáda,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,1,777688,Semtex Extrem passion fruit,Kofola,Semtex,0,18.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,2,771480,Tiger Energy drink ALOHA Banana flavoured,,Tiger,0,22.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,3,47417,Tiger Energy Drink,,Tiger,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,4,47867,Tiger Energy drink Raspberry flavoured,,Tiger,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,5,46477,Semtex Original energy drink,Kofola,Semtex,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,6,791428,HELL Energy Drink Classic ,,HELL,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,7,211424,Tiger Energy drink Cactus flavoured,,Tiger,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,8,809744,Replay Energy Drink,,Replay,0,15.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,9,793700,Semtex Extrem Mandarin,Kofola,Semtex,0,18.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,energy drink,10,49247,Red Bull Energy drink 4x250ml,Red Bull,Red Bull,0,174.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,1,207332,Lipton Ice Tea Ledový čaj černý Peach,PepsiCo,Lipton Ice Tea,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,2,45547,Pfanner Ice Tea Broskev,,Pfanner,0,48.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,3,207322,Lipton Zero Ice Tea Ledový čaj zelený Lemon,PepsiCo,Lipton Ice Tea,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,4,45617,Pfanner Ledový čaj Broskev,,Pfanner,0,21.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,5,45747,Pfanner Ledový čaj Citron & limetka,,Pfanner,0,21.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,6,48017,Lipton Ledový čaj zelený low sugar,,Lipton,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,7,207342,Lipton Ice Tea Ledový čaj černý Lemon,PepsiCo,Lipton Ice Tea,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,8,43747,"Coca-Cola Multipack, plech 4x330ml",Coca-Cola,Coca-Cola,0,54.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,9,43837,"Coca-Cola zero multipack, plech 4x330ml",Coca-Cola,Coca-Cola,0,54.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,ledový čaj,10,211464,Nestea Lemon černý ledový čaj,,Nestea,0,42.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,1,785608,"Casino Eau de Saurce de Montagne, alpská voda 6x1,5l",,Casino,0,94.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,2,785610,"Casino Eau de Saurce de Montagne, alpská voda 6x500ml",,Casino,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,3,546426,"Zon Voda neperlivá 6x1,5l",,Zon,0,74.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,4,797364,Fromin Voda z doby ledové,,Fromin,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,5,555156,Dobrá voda Neperlivá 6x2l,Mattoni,Dobrá voda,0,99.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,6,546326,"Rajec Pramenitá voda nesycená 6x1,5l",Kofola,Rajec,0,114.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,7,400784,Nartes Kojenecká voda,,Nartes,0,69.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,8,555106,"Mattoni Jemně perlivá přírodní minerální voda 6x1,5l",Mattoni,Mattoni,0,104.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,9,555116,"Mattoni Neperlivá přírodní minerální voda 6x1,5l",Mattoni,Mattoni,0,104.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,voda,10,555096,"Aquila První voda neperlivá kojenecká 6x1,5 l",Mattoni,Aquila,0,114.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,1,47787,River Příchuť tonic,,River,0,38.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,2,43987,Kinley Tonic Water,Coca-Cola,Kinley,0,52.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,3,286074,Thomas Henry Cherry Blossom Tonic,,Thomas Henry,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,4,725906,River Pink Grapefruit flavoured,,River,0,38.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,5,44547,Schweppes Tonic,Mattoni,Schweppes,0,43.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,6,612339,Schweppes Pink Tonic,Mattoni,Schweppes,0,43.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,7,628159,Kinley Tonic Zero Water,Coca-Cola,Kinley,0,52.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,8,378864,Kinley Pink Aromatic Berry,Coca-Cola,Kinley,0,52.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,9,782988,Kinley Pink Aromatic Berry,Coca-Cola,Kinley,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,kosik,,tonic,10,793706,Targa Tonica Originale,Targa Florio,Targa,0,43.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,1,tesco-hypermarket-narodni:91cc7af501d1ac1323133e18,Coca-Cola Zero 6 x 330ml,Coca-Cola,Coca-Cola,0,134.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,2,tesco-hypermarket-narodni:83fd475d070ea5e92eccf1fa,"Coca-Cola Zero 1,5l",Coca-Cola,Coca-Cola,0,48.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,3,tesco-hypermarket-narodni:3d4335e3776eae4a80350545,"Coca-Cola 1,5l",Coca-Cola,Coca-Cola,0,48.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,4,tesco-hypermarket-narodni:e3dc08529e9edcc7f921affd,Coca-Cola 6 x 330ml,Coca-Cola,Coca-Cola,0,134.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,5,tesco-hypermarket-narodni:71265de12511541511465148,Coca-Cola Zero Zero 1l,Coca-Cola,Coca-Cola,0,32.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,6,tesco-hypermarket-narodni:1895ece43250ba6fdb08d836,Coca-Cola 4 x 330ml,Coca-Cola,Coca-Cola,0,91.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,7,tesco-hypermarket-narodni:c83c33e765f236f90e0b585f,Pepsi Cola 4 x 330ml,PepsiCo,Pepsi,0,77.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,8,tesco-hypermarket-narodni:611c90eee9c8d3531537c296,Coca-Cola Zero 4 x 330ml,Coca-Cola,Coca-Cola,0,91.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,9,tesco-hypermarket-narodni:7c428ca7359c476e806b939e,Coca-Cola 330ml,Coca-Cola,Coca-Cola,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,cola,10,tesco-hypermarket-narodni:754be58190cb862cdf1b67b9,Coca-Cola Zero 1l,Coca-Cola,Coca-Cola,0,32.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,1,tesco-hypermarket-narodni:609a74a0a3ffb1bec94d3cbd,Relax Sycená limonáda s příchutí coly a višně 330ml,,,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,2,tesco-hypermarket-narodni:0786c7f7caef79dd6ef1c0bd,Ugo Bylinková limonáda levandule jahoda citrón 500ml,Kofola,UGO,0,53.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,3,tesco-hypermarket-narodni:33e8402c733578a7940b9622,Targa Limonata sycená citronová limonáda 330ml,Targa Florio,Targa Limonata,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,4,tesco-hypermarket-narodni:4e1151de8e90e0df8f716ddd,Relax Sycená limonáda příchuť liči 330ml,,,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,5,tesco-hypermarket-narodni:1707fc42b39850860fc34ffb,Relax Sycená limonáda příchuť cola malina 330ml,,,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,6,tesco-hypermarket-narodni:55b1f832167995b2a16eeebd,Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 330ml,Targa Florio,Targa,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,7,tesco-hypermarket-narodni:aed2c5df792546182ea9846a,Relax Sycená limonáda příchuť mango 500ml,,,0,27.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,8,tesco-hypermarket-narodni:a95b87db242d32daaff910d0,Relax Sycená limonáda příchuť kaktus 330ml,,,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,9,tesco-hypermarket-narodni:36e81e72fe52d6a26610ffb1,Targa Aranciata sycená pomerančová limonáda 330ml,Targa Florio,Targa Aranciata,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,limonáda,10,tesco-hypermarket-narodni:cc501ce27fd09c8b1c840c09,Relax Sycená limonáda příchuť liči 500ml,,,0,27.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,1,tesco-hypermarket-narodni:1b90d331d482a0b2872609a2,Red Bull Energy drink 4 x 250ml,Red Bull,Red Bull,0,179.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,2,tesco-hypermarket-narodni:950f56bbb22240e58ed8e2c2,Red Bull Energy drink 250ml,Red Bull,Red Bull,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,3,tesco-hypermarket-narodni:2c88e38450ea0e2c29e379b9,Red Bull Energy drink 473ml,Red Bull,Red Bull,0,79.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,4,tesco-hypermarket-narodni:9adcf0d721ebc1f9615186f7,Red Bull Energy drink 2 x 250ml,Red Bull,Red Bull,0,114.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,5,tesco-hypermarket-narodni:1c04683ae077ca695e4df1e1,Guarana No Sleep Brainer Kiwi-Apple Energy Drink 500ml,,,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,6,tesco-hypermarket-narodni:a02acc6ca93f4b65d8ab01e7,Kx Blue Spark Energy Drink 250ml,,,0,10.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,7,tesco-hypermarket-narodni:982e3a6628211e56174507f3,Tiger Energy Drink Strong 250ml,,,0,22.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,8,tesco-hypermarket-narodni:b494af89958e0f1e33ea7fe4,Tiger Energy Drink Original 500ml,,,0,32.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,9,tesco-hypermarket-narodni:4ec2b3e5659f2d1e95fe4358,Hell Classic energetický nápoj 250ml,,,0,21.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,energy drink,10,tesco-hypermarket-narodni:43ddd0375daa146d148c8582,Kx Blue Spark Energy Drink 250ml,,,0,10.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,1,tesco-hypermarket-narodni:4ca5eaa84518aea7bf5395c4,"Nestea Ledový čaj s příchutí broskve 1,5l",,,0,43.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,2,tesco-hypermarket-narodni:b80074898daa912146676c66,"Lipton Zero Ice Tea Black ledový čaj s příchutí broskve 1,5l",PepsiCo,Lipton Ice Tea,0,45.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,3,tesco-hypermarket-narodni:600fce7a19c99093cd6f77f6,Lipton Ice Tea Green ledový čaj zelený 500ml,PepsiCo,Lipton Ice Tea,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,4,tesco-hypermarket-narodni:173ddd31578c25d2b9fc1acf,"Lipton Zero Ice Tea Green ledový čaj s příchutí citronu 1,5l",PepsiCo,Lipton Ice Tea,0,45.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,5,tesco-hypermarket-narodni:222afca491dec6c3a99354c7,"Nestea Ledový čaj s příchutí lesního ovoce 1,5l",,,0,43.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,6,tesco-hypermarket-narodni:967fbf5a46e5afa80cadebaf,"Lipton Ledový čaj s příchutí broskve 1,5l",,,0,45.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,7,tesco-hypermarket-narodni:5550c86c099c6fe960216566,"Lipton Ledový čaj zelený 1,5l",,,0,45.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,8,tesco-hypermarket-narodni:24248420541f7d61070b2493,"Nestea Ledový čaj s příchutí citrusů 1,5l",,,0,43.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,9,tesco-hypermarket-narodni:78e4c8e6760304b841a9946f,Lipton Ledový čaj s příchutí broskve 500ml,,,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,ledový čaj,10,tesco-hypermarket-narodni:5e1fb1f3200f3549cae8ae0c,"Lipton Ledový čaj zelený s příchutí jahod 1,5l",,,0,45.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,1,tesco-hypermarket-narodni:c054e837255d5cfa4df823a2,"Rajec Pramenitá voda nesycená 1,5l",Kofola,Rajec,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,2,tesco-hypermarket-narodni:c48d46fdc26a8bb6409c9f81,"Evian Přírodní minerální voda nesycená 1,5l ",,,0,51.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,3,tesco-hypermarket-narodni:0c2cc116b5a98e58a7ae562b,Dobrá voda Neperlivá 2l,Mattoni,Dobrá voda,0,17.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,4,tesco-hypermarket-narodni:5e7d5e140c7944b32af3547f,"Magnesia Perlivá přírodní minerální voda 1,5l",Mattoni,Magnesia,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,5,tesco-hypermarket-narodni:7b9825a42ab530c92a9f91da,"Aquila První voda neperlivá kojenecká 1,5l",Mattoni,Aquila,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,6,tesco-hypermarket-narodni:6350888a03a69a0f7fcb30e9,"Rajec Pramenitá voda nesycená 0,75l",Kofola,Rajec,0,16.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,7,tesco-hypermarket-narodni:e2f1ed376efd8051721decd1,S.Pellegrino Přírodní minerální voda sycená 1l,,,0,62.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,8,tesco-hypermarket-narodni:82a5b5e22c4b46643497f056,Evian Přírodní minerální voda nesycená 75cl,,,0,56.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,9,tesco-hypermarket-narodni:d8f64de226d7c0090a240018,"Bonny Pramenitá voda perlivá 1,5l",,,0,7.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,voda,10,tesco-hypermarket-narodni:06ef691b75e63b356b8692f6,"Magnesia Jemně perlivá přírodní minerální voda 1,5l",Mattoni,Magnesia,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,1,tesco-hypermarket-narodni:714b664c7e6e0a97fb8ee133,"Kinley Tonic Water Zero 1,5l",Coca-Cola,Kinley,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,2,tesco-hypermarket-narodni:cd62319d1aaa0c711790b1aa,"Kinley Tonic Water 1,5l",Coca-Cola,Kinley,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,3,tesco-hypermarket-narodni:c0b34020c558ab61f303628f,River Indian Tonic Water 2l,,,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,4,tesco-hypermarket-narodni:6b337bdb366998553837c068,"Schweppes Pink Tonic 1,5l",Mattoni,Schweppes,0,45.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,5,tesco-hypermarket-narodni:d6269b335eaff930d014e291,"Schweppes Indian Tonic 1,5l",Mattoni,Schweppes,0,45.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,6,tesco-hypermarket-narodni:d272663dcab17e83e5598c8b,Kinley Tonic Water 250ml,Coca-Cola,Kinley,0,26.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,7,tesco-hypermarket-narodni:bca064498727228f6764ec9a,River Tonic Water 330ml,,,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,8,tesco-hypermarket-narodni:ce51dcc1be780d161ed412ec,"Schweppes Indian Tonic 0,5l",Mattoni,Schweppes,0,32.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,9,tesco-hypermarket-narodni:dcd3febe4d22c3df23b0656c,"Schweppes Pink Tonic 0,5l",Mattoni,Schweppes,0,32.5
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Tesco Národní,tonic,10,tesco-hypermarket-narodni:23c48466bea017b1daebc12b,Targa Tonica Rosa sycený nealkoholický nápoj 330ml,Targa Florio,Targa,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,1,albert-vinohradska:287663bf49e7935eace13a4c,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,2,albert-vinohradska:068a6c4433dc8181c07114f5,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,38.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,3,albert-vinohradska:e1555199958d0db933a40662,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,4,albert-vinohradska:11e4eb33d75fcab2657ba493,Coca-Cola,Coca-Cola,Coca-Cola,0,38.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,5,albert-vinohradska:dc71ad74e76e657ad245d14d,Coca-Cola Zero 4 x 330ml,Coca-Cola,Coca-Cola,0,69.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,6,albert-vinohradska:dcfb824dfa802c2b4b1aaa10,Coca-Cola,Coca-Cola,Coca-Cola,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,7,albert-vinohradska:03c85a42e31c2f84a98abba5,Pepsi Cola,PepsiCo,Pepsi,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,8,albert-vinohradska:5c6ff480e72e2cf398a11565,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,9,albert-vinohradska:1a48fa55a6268a0a66b16914,Coca-Cola 4 x 330ml,Coca-Cola,Coca-Cola,0,69.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,cola,10,albert-vinohradska:028a856bcba5666944831528,Coca-Cola,Coca-Cola,Coca-Cola,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,1,albert-vinohradska:86914d094e19910c35535ec4,Albert limonáda citronová,,,0,31.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,2,albert-vinohradska:0ea128dec2a096f3a0a2e2f0,Relax Limonáda liči,,,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,3,albert-vinohradska:cf20303be431660224a0453a,"Targa Aranciata sycená pomerančová limonáda 1,33l",Targa Florio,Targa Aranciata,0,26.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,4,albert-vinohradska:bf686b0f2e23a2fbc2b63496,Pepsi Zero Sugar,PepsiCo,Pepsi,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,5,albert-vinohradska:287663bf49e7935eace13a4c,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,6,albert-vinohradska:068a6c4433dc8181c07114f5,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,38.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,7,albert-vinohradska:e1555199958d0db933a40662,Coca-Cola Zero,Coca-Cola,Coca-Cola,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,8,albert-vinohradska:dc71ad74e76e657ad245d14d,Coca-Cola Zero 4 x 330ml,Coca-Cola,Coca-Cola,0,69.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,9,albert-vinohradska:15dbb58354799c487953bb63,Sprite Zero,Coca-Cola,Sprite,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,limonáda,10,albert-vinohradska:a94cca5884aea64e03641893,Kofola Original,Kofola,Kofola,0,21.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,1,albert-vinohradska:238df5cf6839a84e420e4a74,Tiger Energy drink,,,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,2,albert-vinohradska:021915da964f26aecc9ca890,Red Bull Energy drink,Red Bull,Red Bull,0,37.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,3,albert-vinohradska:abde167e4b2acfbb62fd405f,Red Bull energy drink bez cukru,Red Bull,Red Bull,0,37.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,4,albert-vinohradska:3d6a56671eba197c1c0268f0,Red Bull Energy drink,Red Bull,Red Bull,0,164.0
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,5,albert-vinohradska:29e9584f794b2ff26658d8a8,Red Bull Energy drink,Red Bull,Red Bull,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,6,albert-vinohradska:e663815eb1b6b344b74d490b,"Monster Energetický nápoj ultra, sycený",Coca-Cola,Monster,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,7,albert-vinohradska:c178b34204512b9104be889a,Tiger Energy drink Zero Dragon Fruit,,,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,8,albert-vinohradska:0b8fe06483b1aa4a65d2f4ae,Tiger Zero,,,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,9,albert-vinohradska:e7c81064e01338403efde0aa,Red Bull Zero,Red Bull,Red Bull,0,37.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,energy drink,10,albert-vinohradska:e4c07d8c962147c37842aa6c,Monster Ultra Strawberry,Coca-Cola,Monster,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,1,albert-vinohradska:6b2bb0b0ed749e1b73db43b7,Aquila ledový čaj černý broskev,Mattoni,Aquila,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,2,albert-vinohradska:5b1710b6b3f55452264482c8,Lipton Ledový čaj Zero zelený s příchutí citrónu,,,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,3,albert-vinohradska:1ab97cc492f6b76f9b04a91e,Lipton ledový čaj černý broskev,,,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,4,albert-vinohradska:0498b4fb83773ceeed13a6d2,Lipton ledový čaj zelený,,,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,5,albert-vinohradska:33f717e5341a55ed677bb80f,FuzeTea ledový čaj jahoda a aloe vera,Coca-Cola,Fuze Tea,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,6,albert-vinohradska:3864d3441466b8e739ac9c02,Aquila ledový čaj zelený citron,Mattoni,Aquila,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,7,albert-vinohradska:8168f710f8ac6828236ba522,Aquila ledový čaj černý citron,Mattoni,Aquila,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,8,albert-vinohradska:dbb341d6bd2451be223612c5,FuzeTea ledový čaj broskev a ibišek,Coca-Cola,Fuze Tea,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,9,albert-vinohradska:272003f71f325133917a9721,Nature's Promise ledový čaj broskev,,,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,ledový čaj,10,albert-vinohradska:40d5c5ab86ef2094d22551a1,Lipton ledový čaj černý citron,,,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,1,albert-vinohradska:9ba400611842632ed5667e4d,Artesie voda neperlivá,,,0,7.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,2,albert-vinohradska:edecf71ac8345f6c164f3843,Aquila kojenecká voda neperlivá,Mattoni,Aquila,0,17.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,3,albert-vinohradska:f1d7b7937495562b7b8e8449,Magnesia minerální voda jemně perlivá,Mattoni,Magnesia,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,4,albert-vinohradska:8bbcc65b909ef5fcb85d4d35,Rajec minerální voda neperlivá,Kofola,Rajec,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,5,albert-vinohradska:0bca4261900ce8b76488cade,Magnesia minerální voda neperlivá,Mattoni,Magnesia,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,6,albert-vinohradska:42d868d4bd050b857438affb,Magnesia minerální voda perlivá,Mattoni,Magnesia,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,7,albert-vinohradska:758de09a983ec85d46d6f9c7,Evian minerální voda,,,0,47.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,8,albert-vinohradska:17823920d489d7f5146e1273,Artesie voda perlivá,,,0,7.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,9,albert-vinohradska:764ef6e05a1da23b1ef1ad25,Mattoni minerální voda perlivá,Mattoni,Mattoni,0,12.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,voda,10,albert-vinohradska:20c484537715072fb7abb828,Mattoni minerální voda jemně perlivá,Mattoni,Mattoni,0,12.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,1,albert-vinohradska:576ba9bde1af8eb4c6cfe57d,Schweppes Tonic,Mattoni,Schweppes,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,2,albert-vinohradska:94b8c1eab890c410b67fb9bc,Thomas Henry Tonic Water,,,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,3,albert-vinohradska:776f85c06f2df6ca1e54a9b1,Original River Tonic,,,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,4,albert-vinohradska:7492badde4bfbeb2bc1e8a45,Artesie Tonic,,,0,9.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,5,albert-vinohradska:c715cf16d7aa5179733c55e2,Original River Tonic levandule,,,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,6,albert-vinohradska:91b2f6b3af698405a73ffdd0,Thomas Henry Tonic Pink Grapefruit,,,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,7,albert-vinohradska:2d4155fa2ab808172990bbbb,Original River Tonic růžový grapefruit,,,0,32.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,8,albert-vinohradska:ecb4145a080967ed65c4860c,"Dynybyl Violet Gin&Tonic 4,5%",,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,9,albert-vinohradska:f7056b736bf4cdd76da5de5d,"Beefeater Pink Gin&Tonic 4,9%",,,0,49.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Albert Vinohradská,tonic,10,albert-vinohradska:2e7ee1bcddac4ef0f83414d5,"Dynybyl Gin&Tonic Grapefruit 4,5%",,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,1,penny-praha-vysehrad:7825c9a46c33bffcddd5b7a7,Tanja Naše česká kola 2l,,,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,2,penny-praha-vysehrad:ac669a8c3c320714686f7a09,"Pepsi Cola 2,5l",PepsiCo,Pepsi,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,3,penny-praha-vysehrad:9ac01f9089a8c180184e7697,"Pepsi Cola 1,5l",PepsiCo,Pepsi,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,4,penny-praha-vysehrad:a6f43634e15418bdeccfc0be,"Royal Crown Cola 1,33l",,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,5,penny-praha-vysehrad:4e319ec235f0b8e8b129ab2e,Royal Crown Cola 330ml,,,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,6,penny-praha-vysehrad:2f1ce32a370523a6696c765d,"Pepsi Zero Sugar 1,5l",PepsiCo,Pepsi,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,7,penny-praha-vysehrad:028ea1076675c8703897ece7,"Kofola Originál 0,5l",Kofola,Kofola,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,8,penny-praha-vysehrad:04738215cf5a8230762ee8c7,Salát mix Rucola / Polníček,,,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,9,penny-praha-vysehrad:68aed470c1df9259ac3a4f7c,Chocóla Tyčinky z extra mléčné čokolády s mléčnou náplní 8 ks 100g,,,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,cola,10,penny-praha-vysehrad:2bc088a7f05b445c1715e593,Bio Rucola My Bio,,,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,1,penny-praha-vysehrad:2f9a82ecf9b23d6882d2a0c3,Targa Aranciata sycená pomerančová limonáda 330ml,Targa Florio,Targa Aranciata,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,2,penny-praha-vysehrad:8af67238cec50fcf20a2e42c,Kofola Originál 2l,Kofola,Kofola,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,3,penny-praha-vysehrad:2f1ce32a370523a6696c765d,"Pepsi Zero Sugar 1,5l",PepsiCo,Pepsi,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,4,penny-praha-vysehrad:ac669a8c3c320714686f7a09,"Pepsi Cola 2,5l",PepsiCo,Pepsi,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,5,penny-praha-vysehrad:9ac01f9089a8c180184e7697,"Pepsi Cola 1,5l",PepsiCo,Pepsi,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,6,penny-praha-vysehrad:028ea1076675c8703897ece7,"Kofola Originál 0,5l",Kofola,Kofola,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,7,penny-praha-vysehrad:3b2b53133e54f472d4443b0d,"Mirinda Pomeranč 1,5l",PepsiCo,Mirinda,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,8,penny-praha-vysehrad:377f502b5f1a756d4df90ad8,"Kofola Original 1,5l",Kofola,Kofola,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,9,penny-praha-vysehrad:7a5de6e7525f4466a14c19da,Tanja Naše malinovka 2l,,,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,limonáda,10,penny-praha-vysehrad:3c8014e34729476cba4c25d6,Tanja Naše oranžáda 2l,,,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,1,penny-praha-vysehrad:9872e457f36ee2d1d3c40766,Tiger Energy Drink Original 500ml,,,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,2,penny-praha-vysehrad:5bc0d652b97368fadfa5bf2b,Firebird Energy Drink Classic 250ml,,,0,9.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,3,penny-praha-vysehrad:f05734870cc4b9054ffb1639,Red Bull Energy drink 250ml,Red Bull,Red Bull,0,42.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,4,penny-praha-vysehrad:2e35afc2655f2b97b652312f,Firebird Energy Drink Cranberry 250ml,,,0,9.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,5,penny-praha-vysehrad:e31c3bbb8f173036b55cb80a,Tiger Energy Drink Speed 500ml,,,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,6,penny-praha-vysehrad:b4e1d54550a0a96da6644d10,Semtex Air Energy Drink 500ml,Kofola,Semtex,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,7,penny-praha-vysehrad:df03f275aa4c3fb6b6ac04ef,Semtex Extrem Guarana & Matcha Energy Drink 500ml,Kofola,Semtex,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,8,penny-praha-vysehrad:3e5a2e33b11bc300c052d5d5,Red Bull Sugar free 250ml,Red Bull,Red Bull,0,42.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,9,penny-praha-vysehrad:7d9d0d0e09f1d4eb15f4cdf1,DrWitt Fit příchuť mango-citron-zelený čaj 750ml,,,0,31.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,energy drink,10,penny-praha-vysehrad:3d3a3cbb79234abdc2185429,Tiger Energy Drink Strong 250ml,,,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,1,penny-praha-vysehrad:9223a747fe83a154a6c68254,"Nestea Ledový čaj s příchutí broskve 1,5l",,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,2,penny-praha-vysehrad:7e548d56ecd411e686122cce,"Lipton Ledový čaj s příchutí broskve 1,5l",,,0,23.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,3,penny-praha-vysehrad:76b88fe6e129e6652b5275a8,"Lipton Ledový čaj s příchutí citronu 1,5l",,,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,4,penny-praha-vysehrad:f8ec2c5085cbd75d635fbbf9,"Nestea Ledový čaj s příchutí jahody a aloe vera 1,5l",,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,5,penny-praha-vysehrad:5ac4d97d9bbbd4822bad4943,Penny Instant Tea Lemon 350g,,,0,33.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,6,penny-praha-vysehrad:b2c6eca0d65e3dab86297d1d,Salát ledový cena za 1ks,,,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,7,penny-praha-vysehrad:f64379279db2bef182cfd59d,"Královská palírna John Graham medový likér 0,5l",,,0,239.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,8,penny-praha-vysehrad:93526abc5446d2aa57ac9a53,Enjoy Medový perník švestka 60g,,,0,7.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,9,penny-praha-vysehrad:48894df46632c9892c8bdeec,Enjoy Medový perník jahoda 60g,,,0,7.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,ledový čaj,10,penny-praha-vysehrad:8d94791521d221fbb812fd73,Palette Intensive Color Creme barva na vlasy ledový stříbřitě plavý 10-1,,,0,79.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,1,penny-praha-vysehrad:a5c95392359b5c3212655faa,"Magnesia Jemně perlivá přírodní minerální voda 1,5l",Mattoni,Magnesia,0,18.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,2,penny-praha-vysehrad:6bf69293efd882d76aef2a4d,"Korunní Přírodní minerální voda jemně perlivá 1,5l",Kofola,Korunní,0,11.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,3,penny-praha-vysehrad:ae7340b54fa631c9274b2005,"Aquila První voda neperlivá kojenecká 1,5l",Mattoni,Aquila,0,17.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,4,penny-praha-vysehrad:2b0648bc0de3e0c1d884f6db,"Rajec Pramenitá voda nesycená 0,75l",Kofola,Rajec,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,5,penny-praha-vysehrad:9488ca3681553c271003e1aa,"Gemerka Magnézium a kalcium přírodní minerální voda tichá 1,5l",,,0,17.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,6,penny-praha-vysehrad:06d0d18715ac3e7a09bedf48,"Gemerka Magnézium a kalcium jemně perlivá 1,5l",,,0,17.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,7,penny-praha-vysehrad:d955b193fd65c9359475a932,"Vincentka Luhačovice 0,7l",,,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,8,penny-praha-vysehrad:733fb30925099b37be4ac340,today Dent klasik ústní voda 500ml,,,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,9,penny-praha-vysehrad:92c75944a8cbfcd8764f8006,"Magnesia Red Malina jemně perlivá 1,5l",Mattoni,Magnesia,0,24.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,voda,10,penny-praha-vysehrad:038d9035b61c012b0103e2cb,"Poděbradka ProLinie Jemně perlivá citron 1,5l",Mattoni,Poděbradka,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,tonic,1,penny-praha-vysehrad:21c186618feec7018037f7be,River Indian Tonic Water 2l,,,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,tonic,2,penny-praha-vysehrad:65c0d1bff9b25466c222e8c3,"Orson's Gin & tonic 0,33l",,,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,PENNY Vyšehrad,tonic,3,penny-praha-vysehrad:1a2980534f4cd964fb4f2247,Beefeater London Dry Gin 70cl,,,0,499.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,1,zabka-rimska:60a3932e358d3baa3e589de7,Coca-Cola 330ml,Coca-Cola,Coca-Cola,0,31.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,2,zabka-rimska:50c4198217f7a2c177f3b718,Coca-Cola Zero 2l,Coca-Cola,Coca-Cola,0,61.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,3,zabka-rimska:23d61e028c6b963e493e30a7,Coca-Cola 2l,Coca-Cola,Coca-Cola,0,61.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,4,zabka-rimska:25813ae40a319c674c1d17a8,Coca-Cola Zero 1l,Coca-Cola,Coca-Cola,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,5,zabka-rimska:105f2f0ff0c718011d7df024,"Coca-Cola Zero 1,5l",Coca-Cola,Coca-Cola,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,6,zabka-rimska:d70fef5d8f8a3fa011b538ca,"COCA-COLA 1,5l",Coca-Cola,Coca-Cola,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,7,zabka-rimska:f9b16216ab0b50b77137d730,Coca-Cola 1l,Coca-Cola,Coca-Cola,0,44.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,8,zabka-rimska:4aba3a03bda16f1a296134c7,"Coca-Cola Zero Zero 1,5l",Coca-Cola,Coca-Cola,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,9,zabka-rimska:83fff97935c855be8f873965,"Pepsi Cola 0,5l",PepsiCo,Pepsi,0,29.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,cola,10,zabka-rimska:bf5e340fa43da0130fa96cad,Coca-Cola 500ml,Coca-Cola,Coca-Cola,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,1,zabka-rimska:60a3932e358d3baa3e589de7,Coca-Cola 330ml,Coca-Cola,Coca-Cola,0,31.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,2,zabka-rimska:50c4198217f7a2c177f3b718,Coca-Cola Zero 2l,Coca-Cola,Coca-Cola,0,61.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,3,zabka-rimska:e7a2a75aab538b7857057f85,Olé! Limonáda s příchutí multivitamin 2l,,,0,13.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,4,zabka-rimska:239fac0cd8e4372134f455ca,"Schweppes Indian Tonic 1,5l",Mattoni,Schweppes,0,55.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,5,zabka-rimska:94710a5b0c195320dbaea89f,"Schweppes Pink Tonic 1,5l",Mattoni,Schweppes,0,55.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,6,zabka-rimska:b7eb86d0f89cfcaf97c3c6e1,Sprite Zero citron-limetka 500ml,Coca-Cola,Sprite,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,7,zabka-rimska:ae373d15554d86449b8c96e7,"Kofola Originál 1,5l",Kofola,Kofola,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,8,zabka-rimska:7ad222f4e485b369098923c6,"Dr. Pepper 1,5l PET",,,0,51.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,9,zabka-rimska:45b68dfd1b8c02258c2b0dda,Kofola Originál 2l,Kofola,Kofola,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,limonáda,10,zabka-rimska:fd97efa153c96a64b69d8151,Kofola Original 1l,Kofola,Kofola,0,22.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,1,zabka-rimska:02f0082856de3b12a1d75fce,Monster Energy 500ml,Coca-Cola,Monster,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,2,zabka-rimska:cf54f1dae0212284b3d98645,Monster Juiced Mango Loco 500ml,Coca-Cola,Monster,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,3,zabka-rimska:18263bbef2fe80e8f9bfe0ed,Red Bull The Peach Edition White Peach 250ml,Red Bull,Red Bull,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,4,zabka-rimska:5166ce9f8208a5e85474df5c,Red Bull The Ice Edition Vanilla & Iced Berry 250ml,Red Bull,Red Bull,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,5,zabka-rimska:70ebc7f53cc3108ea8d5748e,Tiger Energy Drink Raspberry 500ml,,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,6,zabka-rimska:25cde0d7bfff4ea266bfc344,Red Bull Energy drink 250ml,Red Bull,Red Bull,0,34.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,7,zabka-rimska:2bccfa828dc313bd2fbc1258,Tiger Energy Drink Original 250ml,,,0,25.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,8,zabka-rimska:59518c02fb710d1a7f215b6e,Tiger Energy Drink Strong 250ml,,,0,25.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,9,zabka-rimska:6443afd1d148e007b4d4ad4f,Tiger Energy Drink Original 500ml,,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,energy drink,10,zabka-rimska:0530905d9adbcc19a6d74ae7,Maxx Exxtreme energy drink 250ml,,,0,16.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,1,zabka-rimska:771785d0136d2bbf75c67829,Arizona Original Green Tea with Honey nealkoholický ochucený nápoj 450ml,,,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,2,zabka-rimska:702385d361e2300975774cf2,"AQUILA TEA.M  LEDOVÝ ČAJ BROSKVOVÝ 1,5l",Mattoni,Aquila,0,36.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,3,zabka-rimska:c274aa00e5841c7be3afd8d5,"Lipton Ledový čaj zelený 1,5l",,,0,31.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,4,zabka-rimska:f007d50d60e39c6d9fae24d2,"Lipton Ledový čaj s příchutí broskve 1,5l",,,0,31.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,5,zabka-rimska:cf336d810f4360523f22dffd,"Lipton Ledový čaj s příchutí citronu 1,5l",,,0,31.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,6,zabka-rimska:a36522db0fd12b02a3f8d2a2,Lipton Ledový čaj s příchutí citronu 500ml,,,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,7,zabka-rimska:7071a7ab21a95b6f3eec3752,Lipton Ledový čaj s příchutí broskve 500ml,,,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,8,zabka-rimska:de271403e099368a09c27e16,Lipton Ice Tea Green ledový čaj zelený 500ml,PepsiCo,Lipton Ice Tea,0,35.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,9,zabka-rimska:5e0db1295fb881a81920348c,"Aquila Tea Zelený čaj se šťávou z citronu 1,5l",Mattoni,Aquila,0,36.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,ledový čaj,10,zabka-rimska:d333d6e4a91e180008d2788e,Big Shock! Ice Tea Green Tea Pear 330ml,,,0,30.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,1,zabka-rimska:e3b62cd6fd6609dce05f95e7,"Magnesia Neperlivá přírodní minerální voda 1,5l",Mattoni,Magnesia,0,21.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,2,zabka-rimska:89f9a8af235971414176602e,"Magnesia Perlivá přírodní minerální voda 1,5l",Mattoni,Magnesia,0,21.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,3,zabka-rimska:01526cfd4bada8afd30173d9,"Natura Neperlivá 1,5l",Coca-Cola,Natura,0,25.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,4,zabka-rimska:01b77325988c9141c20f37ad,"Magnesia Jemně perlivá přírodní minerální voda 0,5l",Mattoni,Magnesia,0,21.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,5,zabka-rimska:e40a4c4d74351e0b8e9d959b,"Dobrá voda Perlivá 1,5l",Mattoni,Dobrá voda,0,16.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,6,zabka-rimska:37608f385529bf43829cdea2,"Dobrá voda Neperlivá 0,5l",Mattoni,Dobrá voda,0,14.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,7,zabka-rimska:d28d6672425436cc3a67566f,"Dobrá voda Neperlivá 1,5l",Mattoni,Dobrá voda,0,16.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,8,zabka-rimska:d5b6ca30d7fa0202d9aa2091,"Aquila První voda neperlivá kojenecká 1,5l",Mattoni,Aquila,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,9,zabka-rimska:3b1957e99025c58a910194a4,"Rajec Pramenitá voda nesycená 1,5l",Kofola,Rajec,0,19.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,voda,10,zabka-rimska:fa2b3511535917ff279663bc,"Dobrá voda Jemně perlivá 1,5l",Mattoni,Dobrá voda,0,16.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,tonic,1,zabka-rimska:239fac0cd8e4372134f455ca,"Schweppes Indian Tonic 1,5l",Mattoni,Schweppes,0,55.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,tonic,2,zabka-rimska:94710a5b0c195320dbaea89f,"Schweppes Pink Tonic 1,5l",Mattoni,Schweppes,0,55.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,tonic,3,zabka-rimska:ecc37a943e8f9317f62c596a,"Kinley Tonic Water 1,5l",Coca-Cola,Kinley,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,tonic,4,zabka-rimska:e1b319c392660f8db297c04e,Kinley Bitter Rose 500ml,Coca-Cola,Kinley,0,39.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,tonic,5,zabka-rimska:d42628b88a5f9bbe43d16cc7,"Kinley Pink Aromatic Berry 1,5l",Coca-Cola,Kinley,0,45.9
+2026-10-15,2026-10-15T11:58:42+00:00,wolt,Žabka Římská,tonic,6,zabka-rimska:13d7b696ead52cb2d4f8d94c,Johan Freitag Gin&Tonic 330ml,,,0,57.9

@@ -492,7 +492,8 @@ function packOf(p) {
   const count = m && +m[1] > 1 ? +m[1] : 1;
   const unit = count > 1 ? parseFloat(m[2].replace(",", ".")) / (m[3] === "ml" ? 1000 : 1) : p.liters;
   if (count === 1 && /\b\d+\s*(ks|kus)/.test(n)) return null;
-  const glass = /\bsklo|glass|\bsklen/.test(n), pet = /\bpet\b/.test(n);
+  // Targa 0,33 l is a glass bottle unless the name says can ("plech").
+  const glass = /\bsklo|glass|\bsklen/.test(n) || (/^Targa/.test(p.brand) && unit <= .36 && !/plech|\bcan\b/.test(n)), pet = /\bpet\b/.test(n);
   const can = /plech|\bcan\b|sleek/.test(n) || (!glass && !pet && (p.cat === "Energy" ? unit <= .6 : unit <= .36));
   const cont = glass ? "sklo" : can ? "plech" : "PET";
   const vol = unit.toLocaleString("cs-CZ", {maximumFractionDigits: 3}) + " l";
@@ -501,10 +502,11 @@ function packOf(p) {
 const ptAt = (p, d) => p.pts.find(x => x.d === d) || null;
 
 /* Duel rules. Default: identical pack and variant. Exceptions:
-   - 2 l PET and 2,25 l PET count as the same pack (compared per litre);
+   - 2 l PET and 2,25 l PET, 1,5 l PET and 1,33 l PET (Targa) count as the same pack (compared per litre);
    - pairs marked "litre" ignore the pack and compare the base variant per litre (Red Bull as a drink type). */
 const LITRE_PAIRS = new Set(["Monster|Red Bull"]);
-const EQUIV_PACKS = {"1|2000|PET": ["1|2250|PET"], "1|2250|PET": ["1|2000|PET"]};
+const EQUIV_PACKS = {"1|2000|PET": ["1|2250|PET"], "1|2250|PET": ["1|2000|PET"],
+  "1|1500|PET": ["1|1330|PET"], "1|1330|PET": ["1|1500|PET"]}; // Targa 1,33 l vs Fanta / Sprite 1,5 l
 function duelsAt(d) {
   const idx = {}, loose = {};
   for (const p of data().products) {
@@ -870,7 +872,7 @@ function viewSouboje() {
   const rk = Object.keys(rows).sort((a, b) => { const [ha, ra, ba] = a.split("|"), [hb, rb, bb] = b.split("|");
     return PAIRS.findIndex(p => p[0] === ha && p[1] === ra) - PAIRS.findIndex(p => p[0] === hb && p[1] === rb) || ba.localeCompare(bb, "cs"); });
   const plats = PLATFORMS.filter(([s]) => chs.some(c => current().find(p => p.channel === c && p.shop === s)));
-  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně, ve stejném balení (objem, plech / PET / sklo, počet kusů) a ve stejné variantě (Zero proti Zero, stejná příchuť). Výjimky: lahve 2 l a 2,25 l se srovnávají cenou za litr a Red Bull se srovnává s Monsterem jako druh nápoje cenou za litr bez ohledu na balení. Buňka ukazuje, kdo je levnější a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
+  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně, ve stejném balení (objem, plech / PET / sklo, počet kusů) a ve stejné variantě (Zero proti Zero, stejná příchuť). Výjimky: lahve 2 l a 2,25 l a lahve 1,5 l a 1,33 l (Targa) se srovnávají cenou za litr a Red Bull se srovnává s Monsterem jako druh nápoje cenou za litr bez ohledu na balení. Buňka ukazuje, kdo je levnější a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
   ${indexPanel(all)}
   <div class="glass panel" style="margin-top:14px">
     <h2>Všechny souboje</h2><p class="sub">Kdo je levnější a o kolik. Pod cenou je cenový index souboje.</p>
