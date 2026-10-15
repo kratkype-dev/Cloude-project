@@ -285,6 +285,19 @@ h2.sec + .grid { margin-top: 12px; }
 .cov td { vertical-align: top; }
 .lead { margin: 0 4px 12px; font: 600 16px/1.4 var(--font-body); color: var(--fg); }
 .lead .muted { font-weight: 500; }
+details.fold { margin-top: 14px; }
+details.fold > summary { list-style: none; display: inline-flex; gap: 8px; align-items: center; }
+details.fold > summary::-webkit-details-marker { display: none; }
+details.fold > summary::after { content: "▾"; font-size: 12px; transition: transform .2s; }
+details.fold[open] > summary::after { transform: rotate(180deg); }
+details.fold > h2.sec:first-of-type { margin-top: 18px; }
+.brands th[scope="row"] { text-transform: none; letter-spacing: 0; color: var(--fg); font-weight: 400; white-space: normal; min-width: 170px; vertical-align: top; padding-top: 12px; }
+.brands .bname { font: 650 16px/1.25 var(--font-display); }
+.brands td.bcell { text-align: left; vertical-align: top; min-width: 150px; white-space: normal; }
+.brands td.bcell[data-go] { cursor: pointer; }
+.brands td.bcell[data-go]:hover { background: var(--chip); }
+.brands .brow { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 4px; }
+.brands .brow .chip:first-child { font-size: 15px; padding: 4px 10px; }
 ul.plain { margin: 6px 0 0; padding-left: 18px; color: var(--fg-2); font-size: 14px; display: grid; gap: 4px; }
 
 /* Drawer */
@@ -454,14 +467,15 @@ const BASE_FLAVOUR = {"Sprite": ["citron", "limeta"], "7UP": ["citron", "limeta"
 const BRAND_WORDS = new Set("coca cola coke pepsi fanta mirinda sprite 7up kofola monster red bull redbull semtex rockstar kinley schweppes fuze fuzetea tea lipton ice icetea powerade gatorade natura aquila rajec".split(" "));
 const GENERIC = new Set(("original originál originalni classic energy drink energeticky energeticka napoj limonada limonáda sycena sycený syceny perliva jemne neperliva nesycena " +
   "voda water pramenita mineralni prirodni prichuti prichut ochucena ochuceny ochucene the edition plech pet sklo can sleek multipack lahev ks kus zero max sugar free sugarfree " +
-  "light diet bez cukru nulka indian with and pro plus").split(" "));
+  "light diet bez cukru nulka indian with and pro plus kofeinu koffeinu caffeine").split(" "));
 function variantOf(p) {
   const n = norm(p.name);
   const zero = /\bzero\b|\bmax\b|bez cukru|sugar\s?free|\blight\b|\bdiet\b|nulka|no sugar|0 ?% cukr/.test(n);
   const fl = FLAVOURS.filter(([, rx]) => rx.test(n)).map(([k]) => k).filter(k => !(BASE_FLAVOUR[p.brand] || []).includes(k));
   // Whatever is left after brand, pack, sugar and flavour words names a sub-line (Top Speed, Air, kojenecká, ...): it must match too.
   const rest = n.replace(/\d+([.,]\d+)?/g, " ").split(/[^a-z]+/).filter(w => w.length > 2 && !BRAND_WORDS.has(w) && !GENERIC.has(w) && !FLAVOURS.some(([, rx]) => rx.test(w)) && !/^(ml|cl)$/.test(w)).sort().join(" ");
-  let head = zero ? "zero" : "reg", label = zero ? "Zero" : "klasická";
+  const zz = zero && /zero zero|kofein|koffein|caffeine/.test(n); // Coca-Cola Zero Zero = no sugar, no caffeine
+  let head = zz ? "zerozero" : zero ? "zero" : "reg", label = zz ? "Zero Zero" : zero ? "Zero" : "klasická";
   if (p.cat === "Vody") {
     head = /neperliv|nesycen|\bstill\b/.test(n) ? "neperlivá" : /jemne perliv|jemne syc/.test(n) ? "jemně perlivá" : /perliv|sycen/.test(n) ? "perlivá" : "?";
     label = head === "?" ? "" : head;
@@ -518,11 +532,13 @@ function duelsAt(d) {
     }
     for (const [k, h] of Object.entries(idx)) {
       if (!k.startsWith(`${ch}|${home}|`)) continue;
-      const exact = idx[`${ch}|${rival}|${h.v.key}|${h.pk.key}`];
-      if (exact) { push(home, rival, ch, h, exact, `${h.pk.label} · ${h.v.label}`, false); continue; }
-      for (const alt of EQUIV_PACKS[h.pk.key] || []) {
-        const r = idx[`${ch}|${rival}|${h.v.key}|${alt}`];
-        if (r) push(home, rival, ch, h, r, `${h.pk.label} vs ${r.pk.label} (cena za litr) · ${h.v.label}`, true);
+      const vkeys = [h.v.key, ...(h.v.key.startsWith("zerozero|") ? [h.v.key.replace(/^zerozero/, "zero")] : [])];
+      for (const vk of vkeys) {
+        const vl = vk === h.v.key ? h.v.label : `${h.v.label} vs Zero (nejbližší)`;
+        const exact = idx[`${ch}|${rival}|${vk}|${h.pk.key}`];
+        if (exact) { push(home, rival, ch, h, exact, `${h.pk.label} · ${vl}`, false); break; }
+        const r = (EQUIV_PACKS[h.pk.key] || []).map(alt => idx[`${ch}|${rival}|${vk}|${alt}`]).find(Boolean);
+        if (r) { push(home, rival, ch, h, r, `${h.pk.label} vs ${r.pk.label} (cena za litr) · ${vl}`, true); break; }
       }
     }
   }
@@ -665,6 +681,58 @@ function bannerChanges() {
           ...prev.filter(b => relevant(b) && lastPlat.has(b.platform) && !lk.has(k(b))).map(b => ({...b, type: "gone"}))];
 }
 
+/* ---------- Brand view: our key brands against their competitors, per customer ---------- */
+const headOf = p => (p._var || (p._var = variantOf(p))).key.split("|")[0];
+const LINES = [
+  {name: "Coca-Cola", brand: "Coca-Cola", head: "reg", rivals: ["Pepsi", "Kofola"], vs: "Pepsi Cola, Kofola Original"},
+  {name: "Coca-Cola Zero", brand: "Coca-Cola", head: "zero", rivals: ["Pepsi", "Kofola"], vs: "Pepsi Zero Sugar / Max, Kofola Nulka"},
+  {name: "Coca-Cola Zero Zero", brand: "Coca-Cola", head: "zerozero", rivalHead: "zero", rivals: ["Pepsi", "Kofola"], vs: "Pepsi Zero Sugar / Max, Kofola Nulka (nejbližší, bez kofeinu konkurence nemá)"},
+  {name: "Fanta", brand: "Fanta", rivals: ["Mirinda"], vs: "Mirinda"},
+  {name: "Sprite", brand: "Sprite", rivals: ["7UP"], vs: "7UP"},
+];
+function extraLines() {
+  const top = new Set(LINES.map(l => l.brand)), mine = new Set(current().filter(p => p.owner === HOME).map(p => p.brand));
+  const homes = [...new Set(PAIRS.map(p => p[0]))].filter(b => !top.has(b) && mine.has(b));
+  return [...homes.map(h => { const rivals = PAIRS.filter(p => p[0] === h).map(p => p[1]); return {name: h, brand: h, rivals, vs: rivals.join(", ")}; }),
+          ...[...mine].filter(b => !top.has(b) && !homes.includes(b)).sort((a, b) => a.localeCompare(b, "cs")).map(b => ({name: b, brand: b, rivals: [], vs: "bez přímého konkurenta"}))];
+}
+const inLine = (l, p) => p.brand === l.brand && (!l.head || headOf(p) === l.head);
+const rivalOf = (l, p) => l.rivals.includes(p.brand) && (!l.head || headOf(p) === (l.rivalHead || l.head));
+const inPromo = p => p.cur.sale || p.cur.mq;
+function lineStats(l, duels, shop) {
+  const here = p => !shop || p.shop === shop;
+  const ours = current().filter(p => here(p) && inLine(l, p)), theirs = current().filter(p => here(p) && rivalOf(l, p));
+  const ds = duels.filter(x => here(x.h.p) && inLine(l, x.h.p) && l.rivals.includes(x.rival));
+  return {ours, theirs, ds, idx: median(ds.map(x => x.index)), lose: ds.filter(x => x.winner === "rival"),
+          flipBad: ds.filter(x => x.flip && x.winner === "rival").length, flipGood: ds.filter(x => x.flip && x.winner === "home").length,
+          po: ours.filter(inPromo).length, pt: theirs.filter(inPromo).length};
+}
+function brandSection(duels) {
+  const f = filters.prehled ||= {};
+  const lines = f.more ? [...LINES, ...extraLines()] : LINES;
+  const plats = PLATFORMS.filter(([s]) => current().some(p => p.shop === s));
+  const cell = (l, s) => {
+    const st = lineStats(l, duels, s);
+    if (!st.ours.length) return `<td class="bcell muted">nenabízí</td>`;
+    const losers = [...new Set(st.lose.map(x => x.rival))].join(", ");
+    const pair = l.rivals.length === 1 ? `${l.brand}|${l.rivals[0]}` : "";
+    return `<td class="bcell" ${st.ds.length ? `data-go="${esc(JSON.stringify(["souboje", {shop: s, pair}]))}"` : ""}>
+      <div class="brow">${idxChip(st.idx)}${st.flipBad ? `<span class="chip alert">nově pod námi</span>` : st.flipGood ? `<span class="chip good">nově levnější</span>` : ""}</div>
+      <div class="meta">${st.ds.length ? (st.lose.length ? `<span class="neg">levnější ${esc(losers)}</span> · ${st.lose.length}/${st.ds.length} balení` : `my levnější nebo stejně · ${st.ds.length}/${st.ds.length}`) : l.rivals.length ? "bez stejného balení" : `${st.ours.length} produktů`}</div>
+      <div class="meta">akce: my <b>${st.po}</b>${l.rivals.length ? ` · konkurence <b>${st.pt}</b>` : ""}</div></td>`;
+  };
+  const row = l => { const all = lineStats(l, duels);
+    return `<tr><th scope="row"><div class="bname">${esc(l.name)}</div><div class="meta">proti: ${esc(l.vs)}</div></th>
+      ${plats.map(([s]) => cell(l, s)).join("")}
+      <td class="bcell"><div class="brow">${idxChip(all.idx)}</div><div class="meta">akce: my ${all.po}${l.rivals.length ? ` · konkurence ${all.pt}` : ""}</div></td></tr>`; };
+  const extra = extraLines().length;
+  return `<h2 class="sec">Naše značky proti konkurenci</h2>
+  <p class="sec-sub">Cenový index proti hlavnímu konkurentovi u každého zákazníka: naše cena / cena konkurence × 100, <b>konkurent = 100</b>. Nad 100 jsme dražší (červeně), pod 100 levnější (zeleně). Srovnává se stejné balení a varianta včetně akcí. Kliknutím otevřete souboje.</p>
+  <div class="glass panel"><div class="table-wrap"><table class="matrix brands"><thead><tr><th>Značka</th>${plats.map(([, n]) => `<th>${n}</th>`).join("")}<th>Celkem</th></tr></thead>
+    <tbody>${lines.map(row).join("")}</tbody></table></div>
+    ${extra ? `<div class="more"><button class="btn" data-more="${f.more ? "" : "1"}">${f.more ? "Skrýt další značky" : `Další značky Coca-Coly (${extra})`}</button></div>` : ""}</div>`;
+}
+
 function viewPrehled() {
   const D = data(), list = current();
   const promo = list.filter(p => p.cur.sale), multi = list.filter(p => !p.cur.sale && p.cur.mq);
@@ -679,17 +747,14 @@ function viewPrehled() {
   ];
   const prevLabel = D.last > 0 ? `${dCz(D.dates[D.last - 1])} → ${dCz(D.dates[D.last])}` : "";
   return `
-  <div class="head"><div><h1>Co se změnilo</h1>
-    <p>Přehled pro key account tým: kde je konkurence levnější než naše značky, co se od minulého měření pohnulo a kolik akcí běží.</p></div>
+  <div class="head"><div><h1>Naše značky</h1>
+    <p>Přehled pro key account tým: jak jsou na tom naše hlavní značky proti konkurenci u každého zákazníka a co se od minulého měření pohnulo.</p></div>
     <div class="stamp">Poslední měření<br><b>${dCz(D.dates[D.last])} ${(D.dates[D.last] || "").slice(0, 4)}</b>${prevLabel ? `<br>srovnání ${prevLabel}` : ""}</div></div>
   ${askPanel()}
   <section class="grid kpis" aria-label="Hlavní čísla" style="margin-top:14px">${kpis.map(([l, v, n]) => `<div class="glass kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="note">${n}</div></div>`).join("")}</section>
+  ${brandSection(duels)}
   ${changesSection(duels, ch, bch)}
-  ${duelsSection(duels)}
-  <section class="grid" style="margin-top:14px">
-    <div class="glass panel"><h2>Slevy podle firmy</h2><p class="sub">Počet produktů ve slevě a podíl ze sortimentu firmy v každé prodejně.</p>${heatTable(list)}</div>
-  </section>
-  ${coverageSection()}`;
+  <details class="fold"><summary class="btn">Pokrytí a omezení měření</summary>${coverageSection()}</details>`;
 }
 
 const median = v => { v = v.filter(x => x != null && isFinite(x)).sort((a, b) => a - b); const m = v.length >> 1; return !v.length ? null : v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2; };
@@ -732,17 +797,22 @@ function changesSection(duels, ch, bch) {
   const counts = c => ({promo: (ch || []).filter(x => x.p.shop === c && x.type === "promo" && x.p.owner !== HOME).length,
                         end: (ch || []).filter(x => x.p.shop === c && x.type === "end" && x.p.owner !== HOME).length});
   const f = filters.prehled ||= {};
+  const custName = Object.fromEntries(PLATFORMS);
+  const top = PLATFORMS.flatMap(([s]) => per[s].map(i => ({...i, cust: s}))).filter(i => i.rank <= 1 && i.conf !== "suspected").sort((a, b) => a.rank - b.rank).slice(0, 5);
+  const feed = items => `<ul class="feed">${items.map(i => `<li class="${i.kind}" ${i.open != null ? `data-open="${i.open}"` : i.go ? `data-go="${esc(JSON.stringify(i.go))}"` : ""}>
+      <span><span class="chip ${i.kind === "flip-bad" ? "alert" : i.kind === "flip-good" ? "good" : i.kind === "sale" ? "sale" : i.kind === "banner" ? "info" : ""}">${i.chip}</span>${confChip(i.conf)}</span>
+      <div class="h">${i.owner ? `<span class="dot" style="background:${ownerColor(i.owner)}"></span>` : ""}${esc(i.h)}</div><div class="t">${i.cust ? `<b>${custName[i.cust]}</b> · ` : ""}${esc(i.t)}</div></li>`).join("")}</ul>`;
   return `<h2 class="sec">Změny od minulého měření${state.demo ? ` <span class="chip warn">ukázka</span>` : ""}</h2>
   <p class="lead">${confirmed ? `${confirmed} ověřených změn` : "Bez nových ověřených prioritních změn."}${suspected ? ` <span class="muted">· ${suspected} podezření čeká na potvrzení dalším měřením</span>` : ""}</p>
-  <p class="sec-sub">Cenové změny se hlásí od ${ALERT_PCT} % proti poslednímu srovnatelnému měření, zvlášť běžná cena, akční cena a množstevní cena. Výpadek, vyřazení a novinka platí jako ověřené až po 2 měřeních po sobě; produkt z obchodu, který se nenačetl, se nehlásí jako chybějící.</p>
+  ${top.length ? `<div class="glass panel"><h2>Nejdůležitější</h2><p class="sub">Přetočení cen, nové bannery, vyhledávání a výpadky našich produktů.</p>${feed(top)}</div>` : ""}
+  <details class="fold"${f.open ? " open" : ""}><summary class="btn" data-fold="1">Všechny změny podle zákazníků (${all.length})</summary>
+  <p class="sec-sub" style="margin-top:12px">Cenové změny se hlásí od ${ALERT_PCT} % proti poslednímu srovnatelnému měření, zvlášť běžná cena, akční cena a množstevní cena. Výpadek, vyřazení a novinka platí jako ověřené až po 2 měřeních po sobě; produkt z obchodu, který se nenačetl, se nehlásí jako chybějící.</p>
   <section class="grid platforms">${PLATFORMS.map(([s, name]) => { const items = per[s].sort((a, b) => a.rank - b.rank), n = counts(s), lim = f.all === s ? 99 : 7;
     const cov = platformCoverage(s);
     return `<article class="glass panel plat"><header><h3>${name}</h3><span class="muted">${n.promo} nových akcí konkurence · ${n.end} skončilo</span>${cov.status !== "ok" ? `<span>${covChip(cov.status)} <span class="muted">${esc(cov.text)}</span></span>` : ""}</header>
-    ${items.length ? `<ul class="feed">${items.slice(0, lim).map(i => `<li class="${i.kind}" ${i.open != null ? `data-open="${i.open}"` : i.go ? `data-go="${esc(JSON.stringify(i.go))}"` : ""}>
-      <span><span class="chip ${i.kind === "flip-bad" ? "alert" : i.kind === "flip-good" ? "good" : i.kind === "sale" ? "sale" : i.kind === "banner" ? "info" : ""}">${i.chip}</span>${confChip(i.conf)}</span>
-      <div class="h">${i.owner ? `<span class="dot" style="background:${ownerColor(i.owner)}"></span>` : ""}${esc(i.h)}</div><div class="t">${esc(i.t)}</div></li>`).join("")}</ul>
+    ${items.length ? `${feed(items.slice(0, lim))}
       ${items.length > lim ? `<button class="btn" data-expand="${s}">Všech ${items.length} změn</button>` : f.all === s && items.length > 7 ? `<button class="btn" data-expand="">Zobrazit méně</button>` : ""}`
-      : `<p class="muted">${cov.status === "failed" || cov.status === "none" ? "Data se nenačetla, změny nelze ověřit." : "Beze změn."}</p>`}</article>`; }).join("")}</section>`;
+      : `<p class="muted">${cov.status === "failed" || cov.status === "none" ? "Data se nenačetla, změny nelze ověřit." : "Beze změn."}</p>`}</article>`; }).join("")}</section></details>`;
 }
 
 /* ---------- Coverage & caveats ---------- */
@@ -789,20 +859,6 @@ function coverageSection() {
   </section>`;
 }
 function lifecycleReal(p) { if (state.demo) { const s = state.demo; state.demo = false; const r = lifecycle(p); state.demo = s; return r; } return lifecycle(p); }
-
-function duelsSection(duels) {
-  return `<h2 class="sec">Kde je konkurence levnější</h2>
-  <p class="sec-sub">Souboj spárovaných značek ve stejné prodejně, stejném balení a stejné variantě (Coca-Cola Zero proti Pepsi Zero Sugar, Fanta pomeranč proti Mirindě pomeranč). Srovnává se cena včetně akcí. Ukázány jsou případy, kde je konkurence levnější o více než 2 %.</p>
-  <section class="grid platforms">${PLATFORMS.map(([s, name]) => {
-    const mine = duels.filter(x => x.shop === s), lose = mine.filter(x => x.winner === "rival").sort((a, b) => a.diff - b.diff);
-    const byPair = {}; lose.forEach(x => { const k = `${x.home}|${x.rival}`; (byPair[k] ||= []).push(x); });
-    return `<article class="glass panel plat"><header><h3>${name}</h3><span class="muted">konkurence levnější v ${lose.length} z ${mine.length} soubojů${mine.length ? ` · cenový index ${Math.round(median(mine.map(x => x.index)))}` : ""}</span></header>
-    ${Object.keys(byPair).length ? `<ul class="feed">${Object.values(byPair).slice(0, 7).map(xs => { const x = xs[0];
-      return `<li data-open="${x.r.p.id}"><div class="h"><span class="dot" style="background:${ownerColor(x.r.p.owner)}"></span>${esc(x.rival)} levnější než ${esc(x.home)} <b class="neg">o ${Math.round(-x.diff)} %</b> <span class="muted">· index ${Math.round(x.index)}</span>${x.flip ? ` <span class="chip alert">nově</span>` : ""}</div>
-      <div class="t">${esc(x.band)} · ${esc(storeOf(x.h.p))}: ${esc(duelLine(x))}${xs.length > 1 ? ` · a v ${xs.length - 1} dalších srovnáních` : ""}</div></li>`; }).join("")}</ul>`
-      : `<p class="muted">${mine.length ? "Naše značky jsou všude levnější nebo stejně drahé." : "Nedostatek srovnatelných produktů."}</p>`}
-    <button class="btn" data-go="${esc(JSON.stringify(["souboje", {shop: s}]))}">Všechny souboje →</button></article>`; }).join("")}</section>`;
-}
 
 function viewSouboje() {
   const f = filters.souboje ||= {};
@@ -967,7 +1023,8 @@ function viewSlevy() {
   list.sort(f.sort === "till" ? (a, b) => (a.cur.till || "9") .localeCompare(b.cur.till || "9") : (a, b) => promoDisc(b) - promoDisc(a));
   const lim = f.lim || 60;
   return `<div class="head"><div><h1>Slevy a akce</h1><p>Všechny aktuální slevy a množstevní akce. Nahoře jsou nejhlubší slevy, akce Coca-Coly jsou v seznamu taky pro srovnání.</p></div></div>
-  <div class="glass panel">
+  <div class="glass panel"><h2>Slevy podle firmy</h2><p class="sub">Počet produktů ve slevě a podíl ze sortimentu firmy v každé prodejně.</p>${heatTable(current())}</div>
+  <div class="glass panel" style="margin-top:14px">
     <div class="filters">
       <select id="f-owner" aria-label="Firma">${optionList(OWNERS, f.owner, "Všechny firmy")}</select>
       <select id="f-channel" aria-label="Kanál">${optionList(channels(), f.channel, "Všechny kanály")}</select>
@@ -1229,7 +1286,9 @@ function render() {
 document.addEventListener("click", e => {
   const g = e.target.closest("[data-go]"); if (g) { const [t, o] = JSON.parse(g.dataset.go); filters[t] = {...(filters[t] || {}), ...o}; return go(t); }
   if (e.target.closest("#dclose")) return closeDrawer();
-  const ex2 = e.target.closest("[data-expand]"); if (ex2) { (filters.prehled ||= {}).all = ex2.dataset.expand; return render(); }
+  const ex2 = e.target.closest("[data-expand]"); if (ex2) { (filters.prehled ||= {}).all = ex2.dataset.expand; filters.prehled.open = true; return render(); }
+  const mo = e.target.closest("[data-more]"); if (mo) { (filters.prehled ||= {}).more = !!mo.dataset.more; return render(); }
+  const fo = e.target.closest("[data-fold]"); if (fo) { (filters.prehled ||= {}).open = !fo.closest("details").open; }
   const o = e.target.closest("[data-open]"); if (o) return openProduct(+o.dataset.open);
   const ex = e.target.closest("[data-ask]"); if (ex) { state.ask = ex.dataset.ask; return render(); }
   if (e.target.id === "askClear") { state.ask = ""; return render(); }

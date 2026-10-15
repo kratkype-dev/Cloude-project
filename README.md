@@ -74,7 +74,7 @@ python -m unittest discover -s tests -t .      # offline testy
   předchozímu dni, průměrná cena za litr podle značky a obchodu a historie každého
   produktu (min, max, kolik dní byl ve slevě).
 - `data/banners/YYYY-MM.csv`: bannery a placená umístění.
-- `data/dashboard.html`: **Nápojový radar**, nástroj pro key account tým. Souhrn v běžné řeči, slevy a akce,
+- `data/dashboard.html`: **Nápojový radar**, nástroj pro key account tým. Přehled podle našich značek (Coca-Cola, Zero, Zero Zero, Fanta, Sprite, další po rozbalení) proti konkurenci u každého zákazníka, slevy a akce,
   srovnání cen napříč kanály, vývoj v čase, kampaně a vyhledávání s detailem produktu.
 
 ## Pravidelné spouštění a veřejná stránka
