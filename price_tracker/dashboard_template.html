@@ -599,13 +599,14 @@ function changes() {
     const lc = lifecycle(p);
     if (lc.event) out.push({p, type: lc.code, label: lc.label, conf: lc.conf, note: lc.note, from: p.prev, to: p.cur});
     const c = p.cur, v = p.prev; if (!c || !v) continue;
-    const add = (type, label, delta, conf = "confirmed") => out.push({p, type, label, from: v, to: c, delta, conf, gap: v.d !== D.last - 1});
-    if (c.sale && !v.sale) add("promo", "Nová akce", pctChg(v.price, c.price));
-    else if (!c.sale && v.sale) add("end", "Konec akce", pctChg(v.price, c.price));
+    // A jump over 50 % is more likely a changed pack or a data error than a price move: suspected until the next run.
+    const add = (type, label, delta, conf = delta != null && Math.abs(delta) > 50 ? "suspected" : "confirmed") =>
+      out.push({p, type, label, from: v, to: c, delta, conf, gap: v.d !== D.last - 1});
+    if (c.sale && !v.sale) add("promo", "Nová akce", pctChg(v.price, c.price), "confirmed");
+    else if (!c.sale && v.sale) add("end", "Konec akce", pctChg(v.price, c.price), "confirmed");
     else if (c.sale && v.sale && Math.abs(pctChg(v.price, c.price)) >= ALERT_PCT) add("promo-change", c.price < v.price ? "Hlubší akce" : "Mělčí akce", pctChg(v.price, c.price));
     const reg = pctChg(v.orig, c.orig);
-    // A jump over 50 % is more likely a changed pack or a data error than a price move: suspected until the next run.
-    if (v.orig && c.orig && Math.abs(reg) >= ALERT_PCT) add(reg > 0 ? "up" : "down", reg > 0 ? "Zdražení běžné ceny" : "Zlevnění běžné ceny", reg, Math.abs(reg) > 50 ? "suspected" : "confirmed");
+    if (v.orig && c.orig && Math.abs(reg) >= ALERT_PCT) add(reg > 0 ? "up" : "down", reg > 0 ? "Zdražení běžné ceny" : "Zlevnění běžné ceny", reg);
     if (c.mq && !v.mq) add("multi", "Nová množstevní akce", null);
     else if (!c.mq && v.mq) add("multi-end", "Konec množstevní akce", null);
     else if (c.mq && v.mq && v.mp && Math.abs(pctChg(v.mp, c.mp)) >= ALERT_PCT) add("multi-change", "Změna množstevní ceny", pctChg(v.mp, c.mp));
@@ -720,7 +721,7 @@ function changesSection(duels, ch, bch) {
     if (!it) continue;
     const t = c.type.startsWith("del") || c.type.startsWith("oos") || c.type === "back" || c.type === "first" || c.type === "new"
       ? `${where}${c.note ? " · " + c.note : ""}${c.to ? " · " + kc(c.to.price) : c.from ? " · naposledy " + kc(c.from.price) : ""}`
-      : `${where} · ${price}${fmtDelta(c.type === "up" || c.type === "down" ? c.delta : null)}${c.to && c.to.sale && c.to.till ? ` do ${dCz(c.to.till)}` : ""}${c.gap ? ` · srovnání s ${dCz(data().dates[c.from.d])}` : ""}`;
+      : `${where} · ${price}${fmtDelta(["up", "down", "promo-change", "multi-change"].includes(c.type) ? c.delta : null)}${c.to && c.to.sale && c.to.till ? ` do ${dCz(c.to.till)}` : ""}${c.gap ? ` · srovnání s ${dCz(data().dates[c.from.d])}` : ""}`;
     per[c.p.shop]?.push({...it, conf: c.conf, h: c.p.name, t, open: c.p.id, owner: c.p.owner});
   }
   const all = Object.values(per).flat(), confirmed = all.filter(i => i.conf === "confirmed" && i.rank < 5).length, suspected = all.filter(i => i.conf === "suspected").length;

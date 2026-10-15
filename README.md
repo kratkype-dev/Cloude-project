@@ -35,7 +35,7 @@ Bolt Food pořadí výsledků nevrací a Košík reklamu ve vyhledávání neozn
 ## Pravidla vyhodnocení
 
 - **Změna ceny** se hlásí od ±3 % proti poslednímu srovnatelnému měření produktu. Zvlášť běžná cena, akční cena
-  a množstevní cena. Skok nad 50 % je jen „podezření“ (spíš změna balení nebo chyba dat), dokud ho nepotvrdí další měření.
+  a množstevní cena. Skok nad 50 % (běžné, akční i množstevní ceny) je jen „podezření“ (spíš změna balení nebo chyba dat), dokud ho nepotvrdí další měření.
 - **Výpadek skladu a vyřazení z nabídky** platí jako ověřené až po 2 měřeních po sobě. Jedno měření je „podezření“.
   Návrat do prodeje se hlásí zvlášť.
 - **Nenačteno není vyřazeno.** Každé měření ukládá, co se opravdu načetlo (`data/coverage/`). Produkt chybějící
