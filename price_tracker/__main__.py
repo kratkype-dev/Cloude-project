@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
-from . import report, storage
+from . import coverage, report, storage
 from .bolt import Bolt
 from .kosik import Kosik
 from .rohlik import Rohlik
@@ -15,26 +15,39 @@ from .wolt import Wolt
 SHOPS = {"rohlik": Rohlik, "kosik": Kosik, "wolt": Wolt, "bolt": Bolt}
 
 
-def run_scrape(shops):
+def run_scrape(shops, ranking=True):
+    """Scrape the shops. Returns (observations by shop, banners, search rows, coverage rows, failed shops)."""
     now = datetime.now(timezone.utc)
     date = now.astimezone(ZoneInfo("Europe/Prague")).date().isoformat()
     scraped_at = now.isoformat(timespec="seconds")
-    results, banners, failed = {}, [], []
+    results, banners, ranks, cover, failed = {}, [], [], [], []
     for name in shops:
+        shop = SHOPS[name]()
         try:
-            shop = SHOPS[name]()
             results[name] = shop.scrape(date, scraped_at)
             logging.info("%s: %d portfolio products", name, len(results[name]))
-        except Exception:
+        except Exception as e:
             logging.exception("%s: scrape failed", name)
             failed.append(name)
+            cover += getattr(shop, "coverage", []) + [coverage.failed(name, "ceny", e)]
             continue
         if hasattr(shop, "banners"):
             try:
                 banners += shop.banners(date)
-            except Exception:
+                cover.append(coverage.entry(name, "", "bannery", 1, 0))
+            except Exception as e:
                 logging.exception("%s: banners failed", name)
-    return results, banners, failed
+                cover.append(coverage.failed(name, "bannery", e))
+        if ranking and hasattr(shop, "search_ranking"):
+            try:
+                ranks += shop.search_ranking(date, scraped_at)
+            except Exception as e:
+                logging.exception("%s: search ranking failed", name)
+                cover.append(coverage.failed(name, "vyhledavani", e))
+        cover += getattr(shop, "coverage", [])
+    for c in cover:
+        c.update(date=date, scraped_at=scraped_at)
+    return results, banners, ranks, cover, failed
 
 
 def print_sample(observations):
@@ -50,7 +63,8 @@ def write_reports():
     rows = storage.load()
     (storage.DATA_DIR / "report.md").write_text(report.markdown(rows), encoding="utf-8")
     (storage.DATA_DIR / "dashboard.html").write_text(
-        report.dashboard(rows, storage.load_banners()), encoding="utf-8")
+        report.dashboard(rows, storage.load_banners(), storage.load_coverage(), storage.load_search()),
+        encoding="utf-8")
     logging.info("Reports written to %s", storage.DATA_DIR)
 
 
@@ -69,13 +83,19 @@ def main(argv=None):
     if args.cmd == "report":
         write_reports()
         return 0
-    results, banners, failed = run_scrape(args.shop or list(SHOPS))
+    results, banners, ranks, cover, failed = run_scrape(args.shop or list(SHOPS), ranking=args.cmd == "scrape")
     observations = [o for obs in results.values() for o in obs]
     if args.cmd == "sample":
         print_sample(observations)
     else:
         storage.save(observations)
         storage.save_banners(banners)
+        storage.save_search(ranks)
+        storage.save_coverage(cover)
+        for c in cover:
+            if c["status"] != "ok":
+                logging.warning("Pokrytí %s %s %s: %s (%s/%s selhalo) %s", c["platform"], c["store"], c["scope"],
+                                c["status"], c["failed"], c["checked"], c["note"])
         write_reports()
     return 1 if failed else 0
 

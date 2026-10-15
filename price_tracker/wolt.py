@@ -13,6 +13,7 @@ import json
 import logging
 import re
 
+from . import coverage, search
 from .http import Http
 from .models import Observation, discount_pct
 from .portfolio import classify_full
@@ -43,6 +44,7 @@ class Wolt:
     def __init__(self, http=None, venues=None):
         self.http = http or Http(BASE)
         self.venues = venues or VENUES
+        self.coverage = []
 
     def _assortment(self, venue):
         return f"/consumer-api/consumer-assortment/v1/venues/slug/{venue}/assortment"
@@ -71,14 +73,20 @@ class Wolt:
     def scrape(self, date, scraped_at):
         out = []
         for venue, store in self.venues.items():
+            seen, cats, failed = {}, [], 0
             try:
-                seen = {}
-                for cat in self.drink_categories(venue):
-                    for item in self.items(venue, cat):
-                        seen.setdefault(item["id"], item)
+                cats = self.drink_categories(venue)
             except Exception as e:  # one closed / renamed store must not kill the run
                 log.warning("Wolt %s failed: %s", venue, e)
+                self.coverage.append(coverage.entry("wolt", store, "ceny", 1, 1, note=str(e)))
                 continue
+            for cat in cats:
+                try:
+                    for item in self.items(venue, cat):
+                        seen.setdefault(item["id"], item)
+                except Exception as e:
+                    log.warning("Wolt %s / %s failed: %s", venue, cat, e)
+                    failed += 1
             n = 0
             for item in seen.values():
                 hit = classify_full(item.get("name"))
@@ -86,7 +94,28 @@ class Wolt:
                     out.append(parse_item(item, hit, venue, store, date, scraped_at))
                     n += 1
             log.info("Wolt %s: %d drinks, %d tracked", store, len(seen), n)
+            self.coverage.append(coverage.entry("wolt", store, "ceny", len(cats), failed, n,
+                                                f"{len(seen)} nápojů v {len(cats)} kategoriích"))
         return out
+
+    def search_ranking(self, date, scraped_at):
+        """Top 10 of the in-store search of each venue; advertising_info marks a sponsored result."""
+        rows = []
+        for venue, store in self.venues.items():
+            failed = 0
+            for q in search.QUERIES:
+                try:
+                    data = self.http.post_json(f"{self._assortment(venue)}/items/search?language=cs", {"q": q})
+                except Exception as e:
+                    log.warning("Wolt search %s %r failed: %s", venue, q, e)
+                    failed += 1
+                    continue
+                for pos, item in enumerate((data.get("items") or [])[:search.TOP], 1):
+                    rows.append(search.row(date, scraped_at, "wolt", store, q, pos, f"{venue}:{item.get('id')}",
+                                           item.get("name"), None, bool(item.get("advertising_info")),
+                                           _price(item.get("price"))))
+            self.coverage.append(coverage.entry("wolt", store, "vyhledavani", len(search.QUERIES), failed))
+        return rows
 
     def banners(self, date):
         """Hero carousel and curated sections on the Wolt front page (Prague)."""

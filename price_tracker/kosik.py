@@ -16,6 +16,7 @@ import re
 import urllib.parse
 from collections import Counter
 
+from . import coverage, search
 from .http import Http
 from .models import Observation, discount_pct
 from .portfolio import classify, classify_full
@@ -48,6 +49,7 @@ class Kosik:
     def __init__(self, http=None, slugs=None):
         self.http = http or Http(BASE)
         self.slugs = slugs
+        self.coverage = []
 
     def banners(self, date):
         """Category banners in the drinks section (main + 1st level)."""
@@ -148,10 +150,15 @@ class Kosik:
             cursor = page.get("cursor")
 
     def scrape(self, date, scraped_at):
-        seen = {}
-        for slug in self.leaf_slugs():
-            for item in self.items(slug):
-                seen.setdefault(item.get("id"), item)
+        seen, failed = {}, 0
+        slugs = self.leaf_slugs()
+        for slug in slugs:
+            try:  # one broken category must not hide the rest, but it makes the run partial
+                for item in self.items(slug):
+                    seen.setdefault(item.get("id"), item)
+            except Exception as e:
+                log.warning("Kosik category %s failed: %s", slug, e)
+                failed += 1
         log.info("Kosik: %d drinks found", len(seen))
         out = []
         for item in seen.values():
@@ -159,7 +166,28 @@ class Kosik:
             hit = classify_full(item.get("name"), brand.get("name") if isinstance(brand, dict) else brand)
             if hit:
                 out.append(parse_item(item, hit, date, scraped_at))
+        self.coverage.append(coverage.entry("kosik", "", "ceny", len(slugs), failed, len(out),
+                                            f"{len(seen)} nápojů v {len(slugs)} kategoriích"))
         return out
+
+    def search_ranking(self, date, scraped_at):
+        """Top 10 of the site search (the /vyhledavani page). Košík does not label sponsored search results."""
+        rows, failed = [], 0
+        for q in search.QUERIES:
+            try:
+                data = self.http.get_json("/api/front/page/products",
+                                          {"slug": "vyhledavani", "search_term": q, "limit": search.TOP})
+            except Exception as e:
+                log.warning("Kosik search %r failed: %s", q, e)
+                failed += 1
+                continue
+            for pos, item in enumerate(((data.get("products") or {}).get("items") or [])[:search.TOP], 1):
+                b = item.get("brand")
+                rows.append(search.row(date, scraped_at, "kosik", "", q, pos, item.get("id"), item.get("name"),
+                                       b.get("name") if isinstance(b, dict) else b, False, item.get("price")))
+        self.coverage.append(coverage.entry("kosik", "", "vyhledavani", len(search.QUERIES), failed,
+                                            note="Košík sponzorované výsledky ve vyhledávání neoznačuje"))
+        return rows
 
 
 def _banner_title(name):

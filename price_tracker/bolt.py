@@ -12,6 +12,7 @@ import json
 import logging
 import uuid
 
+from . import coverage
 from .http import Http
 from .models import Observation, discount_pct
 from .portfolio import PORTFOLIO, classify_full
@@ -38,6 +39,7 @@ class Bolt:
     def __init__(self, http=None, providers=None):
         self.http = http or Http(BASE, delay=1.5)
         self.providers = providers or PROVIDERS
+        self.coverage = []
         self.base = {
             "deviceId": str(uuid.uuid4()), "deviceType": "web", "device_name": "Chrome",
             "device_os_version": "Linux", "language": "cs-CZ", "version": "FW.1.200",
@@ -58,14 +60,18 @@ class Bolt:
     def scrape(self, date, scraped_at):
         out = []
         for pid, store in self.providers.items():
-            seen = {}
-            try:
-                for term in _search_terms():
+            seen, terms, failed, streak = {}, _search_terms(), 0, 0
+            for i, term in enumerate(terms):
+                try:  # one failed brand search makes the store partial, not empty
                     for item, promo in self.search(pid, term):
                         seen.setdefault(item["id"], (item, promo))
-            except Exception as e:
-                log.warning("Bolt %s failed: %s", store, e)
-                continue
+                    streak = 0
+                except Exception as e:
+                    log.warning("Bolt %s %r failed: %s", store, term, e)
+                    failed, streak = failed + 1, streak + 1
+                    if streak >= 3:  # the store is down or we are rate limited: stop, the rest is unchecked
+                        failed += len(terms) - i - 1
+                        break
             n = 0
             for item, promo in seen.values():
                 hit = classify_full(html.unescape((item.get("name") or {}).get("value") or ""))
@@ -73,6 +79,8 @@ class Bolt:
                     out.append(parse_item(item, promo, hit, pid, store, date, scraped_at))
                     n += 1
             log.info("Bolt %s: %d search hits, %d tracked", store, len(seen), n)
+            self.coverage.append(coverage.entry("bolt", store, "ceny", len(terms), failed, n,
+                                                f"vyhledáno {len(terms)} značek"))
         return out
 
 

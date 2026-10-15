@@ -126,7 +126,7 @@ def markdown(rows):
     return "\n".join(lines) + "\n"
 
 
-def dashboard_data(rows, banners=()):
+def dashboard_data(rows, banners=(), coverage=(), search=()):
     """Compact JSON for the dashboard: one record per product, history as points."""
     dates = sorted({r["date"] for r in rows})
     di = {d: i for i, d in enumerate(dates)}
@@ -154,13 +154,28 @@ def dashboard_data(rows, banners=()):
         "products": products,
         "banners": [{k: b.get(k, "") for k in ("date", "platform", "placement", "position", "title",
                                                "owner", "brand", "link", "image")} for b in banners],
+        "coverage": [{k: c.get(k, "") for k in ("date", "platform", "store", "scope", "status", "checked",
+                                                 "failed", "products", "note", "area", "login")} for c in coverage],
+        "search": _search_latest_runs(search),
     }
 
 
-def dashboard(rows, banners=(), standalone=True):
+def _search_latest_runs(rows):
+    """Search rows of the latest run of each day and platform, compact: [date, platform, store, query, position,
+    name, owner, brand, sponsored]."""
+    last = {}
+    for r in rows:
+        k = (r["date"], r["platform"])
+        last[k] = max(last.get(k, ""), r["scraped_at"])
+    return [[r["date"], r["platform"], r["store"], r["query"], int(r["position"]), r["name"], r["owner"],
+             r["brand"], int(r["sponsored"] or 0)]
+            for r in rows if r["scraped_at"] == last[(r["date"], r["platform"])]]
+
+
+def dashboard(rows, banners=(), coverage=(), search=(), standalone=True):
     """HTML dashboard. standalone=False leaves out the document shell (for hosting that adds its own)."""
     template = (Path(__file__).parent / "dashboard_template.html").read_text(encoding="utf-8")
-    payload = json.dumps(dashboard_data(rows, banners), ensure_ascii=False, separators=(",", ":"))
+    payload = json.dumps(dashboard_data(rows, banners, coverage, search), ensure_ascii=False, separators=(",", ":"))
     html = template.replace("/*DATA*/{}", payload.replace("</", "<\\/"))
     if standalone:
         html = ('<!doctype html>\n<html lang="cs">\n<meta charset="utf-8">\n'
