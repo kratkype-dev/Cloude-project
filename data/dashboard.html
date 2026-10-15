@@ -273,6 +273,10 @@ h2.sec + .grid { margin-top: 12px; }
 .camp .card { padding: 16px; display: flex; flex-direction: column; gap: 6px; }
 .camp .card .where { font-size: 12.5px; color: var(--muted); }
 .camp .card .what { font-weight: 600; font-size: 15.5px; }
+.camp .card .chip { align-self: flex-start; white-space: normal; }
+.camp .card.key-ours { border: 2px solid var(--down); box-shadow: 0 0 0 4px var(--good-bg), 0 18px 40px -22px var(--glass-shade); }
+.camp .card.key-rival { border: 2px solid var(--alert); box-shadow: 0 0 0 4px var(--alert-bg), 0 18px 40px -22px var(--glass-shade); }
+.camp .card:not(.key-ours):not(.key-rival) { opacity: .72; }
 
 /* Search ranking strips: one square per position, owner colour, sponsored results outlined */
 .ranks { display: inline-flex; gap: 3px; vertical-align: middle; }
@@ -1171,7 +1175,15 @@ function viewKampane() {
   const list = current();
   const promoByOwner = OWNERS.map(o => ({o, n: list.filter(p => p.owner === o && (p.cur.sale || p.cur.mq)).length})).filter(x => x.n);
   const maxN = Math.max(1, ...promoByOwner.map(x => x.n));
-  const groups = {}; bs.forEach(b => (groups[b.platform] ||= []).push(b));
+  // Tiles tied to our 5 key brands (Zero variants included) or to their direct competitors go first and are highlighted.
+  const KEY_OURS = [...new Set(LINES.map(l => l.brand))], KEY_RIVALS = [...new Set(LINES.flatMap(l => l.rivals))];
+  const keyOf = b => { const br = (b.brand || "").split(/,\s*/).filter(Boolean);
+    const o = br.filter(x => KEY_OURS.includes(x)), r = br.filter(x => KEY_RIVALS.includes(x));
+    return o.length ? {cls: "key-ours", chip: `<span class="chip good">Naše klíčová značka: ${esc(o.join(", "))}</span>`, rank: 0}
+         : r.length ? {cls: "key-rival", chip: `<span class="chip alert">Konkurence našich značek: ${esc(r.join(", "))}</span>`, rank: 1} : {cls: "", chip: "", rank: 2}; };
+  const groups = {}; bs.forEach(b => (groups[b.platform] ||= []).push({...b, key: keyOf(b)}));
+  Object.values(groups).forEach(xs => xs.sort((a, b) => a.key.rank - b.key.rank || (+a.position || 0) - (+b.position || 0)));
+  const nOurs = bs.filter(b => keyOf(b).rank === 0).length, nRival = bs.filter(b => keyOf(b).rank === 1).length;
   return `<div class="head"><div><h1>Kampaně a reklama</h1><p>Bannery, placená umístění a pořadí ve vyhledávání z posledního měření a počet běžících akcí každé firmy.</p></div></div>
   <section class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))">
     <div class="glass panel"><h2>Běžící akce podle firmy</h2><p class="sub">Slevy a množstevní akce napříč všemi kanály.</p>
@@ -1184,8 +1196,10 @@ function viewKampane() {
       <tr><td><b>Bolt</b></td><td>Bannery jen pro přihlášené, zatím neměříme</td></tr></tbody></table></div></div>
   </section>
   ${searchSection()}
-  ${Object.keys(groups).length ? Object.entries(groups).map(([pl, xs]) => `<div class="glass panel" style="margin-top:14px"><h2>${plat[pl] || pl}</h2><p class="sub">${xs.length} umístění</p>
-    <div class="grid camp">${xs.map(b => `<div class="card glass"><span class="where">${esc(b.placement)}${b.position ? " · pozice " + esc(b.position) : ""}</span><span class="what">${esc(b.title || "(bez názvu)")}</span>${b.owner ? ownerTag(b.owner) + ` <span class="meta">${esc(b.brand)}</span>` : `<span class="meta">Mimo sledované značky</span>`}${/^https?:/.test(b.link) ? `<a href="${esc(b.link)}" target="_blank" rel="noopener" class="meta">Otevřít odkaz ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")
+  <h2 class="sec">Bannery a placená umístění</h2>
+  <p class="lead">${nOurs} s našimi klíčovými značkami <span class="muted">(Coca-Cola, Zero, Zero Zero, Fanta, Sprite)</span> · ${nRival} s jejich konkurencí <span class="muted">(Pepsi, Kofola, Mirinda, 7UP)</span></p>
+  ${Object.keys(groups).length ? Object.entries(groups).map(([pl, xs]) => `<div class="glass panel" style="margin-top:14px"><h2>${plat[pl] || pl}</h2><p class="sub">${xs.length} umístění${xs.some(b => b.key.rank < 2) ? ` · zvýrazněné jsou nahoře` : ""}</p>
+    <div class="grid camp">${xs.map(b => `<div class="card glass ${b.key.cls}">${b.key.chip}<span class="where">${esc(b.placement)}${b.position ? " · pozice " + esc(b.position) : ""}</span><span class="what">${esc(b.title || "(bez názvu)")}</span>${b.owner ? ownerTag(b.owner) + ` <span class="meta">${esc(b.brand)}</span>` : `<span class="meta">Mimo sledované značky</span>`}${/^https?:/.test(b.link) ? `<a href="${esc(b.link)}" target="_blank" rel="noopener" class="meta">Otevřít odkaz ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")
   : `<div class="glass panel" style="margin-top:14px"><div class="empty"><h3>Žádné bannery</h3><p>V posledním měření nebyla zachycena žádná reklama.</p></div></div>`}`;
 }
 
