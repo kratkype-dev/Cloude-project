@@ -63,6 +63,12 @@ PORTFOLIO = {
     "Red Bull": {
         "Red Bull": (r"\bred\s?bull\b", "Energy"),
     },
+    # Italian lemonades: Targa Limonata / citron competes with Sprite, Aranciata / pomeranč with Fanta.
+    "Targa Florio": {
+        "Targa Limonata": (r"\btarga\b.*\b(limonata|limone|citr[oó]n|citrus|lemon)", "Limonády"),
+        "Targa Aranciata": (r"\btarga\b.*\b(aranci|pomeran|orange)", "Limonády"),
+        "Targa": (r"\btarga\b", "Limonády"),
+    },
 }
 
 # Licensed / non-comparable products that mention a tracked brand.

@@ -454,7 +454,7 @@ const storeOf = p => p.store || data().shops[p.shop];
 
 /* Head-to-head brand duels: our brand vs a competitor, same store, comparable pack, price per litre incl. promotions. */
 const PAIRS = [
-  ["Coca-Cola", "Pepsi"], ["Coca-Cola", "Kofola"], ["Fanta", "Mirinda"], ["Sprite", "7UP"],
+  ["Coca-Cola", "Pepsi"], ["Coca-Cola", "Kofola"], ["Fanta", "Mirinda"], ["Fanta", "Targa Aranciata"], ["Sprite", "7UP"], ["Sprite", "Targa Limonata"],
   ["Monster", "Red Bull"], ["Monster", "Semtex"], ["Monster", "Rockstar"], ["Kinley", "Schweppes"],
   ["Fuze Tea", "Lipton Ice Tea"], ["Powerade", "Gatorade"], ["Natura", "Aquila"], ["Natura", "Rajec"],
 ];
@@ -463,8 +463,9 @@ const FLAVOURS = [["pomeranč", /pomeran|orange/], ["citron", /citr[oó]n|lemon/
   ["vanilka", /vanil/], ["mango", /mango/], ["broskev", /brosk|peach/], ["jahoda", /jahod|strawberr/], ["malina", /malin|raspberr/],
   ["exotic", /exoti|tropic/], ["lesní ovoce", /lesn[ií]|berr|bor[uů]vk/], ["grep", /\bgrep|grapefruit/], ["jablko", /jabl|apple/],
   ["meloun", /meloun|watermelon/], ["zázvor", /z[aá]zvor|ginger/], ["kokos", /kokos|coco/]];
-const BASE_FLAVOUR = {"Sprite": ["citron", "limeta"], "7UP": ["citron", "limeta"], "Fanta": ["pomeranč"], "Mirinda": ["pomeranč"]};
-const BRAND_WORDS = new Set("coca cola coke pepsi fanta mirinda sprite 7up kofola monster red bull redbull semtex rockstar kinley schweppes fuze fuzetea tea lipton ice icetea powerade gatorade natura aquila rajec".split(" "));
+const BASE_FLAVOUR = {"Sprite": ["citron", "limeta"], "7UP": ["citron", "limeta"], "Targa Limonata": ["citron", "limeta"],
+  "Fanta": ["pomeranč"], "Mirinda": ["pomeranč"], "Targa Aranciata": ["pomeranč"]};
+const BRAND_WORDS = new Set("coca cola coke pepsi fanta mirinda sprite 7up kofola monster red bull redbull semtex rockstar kinley schweppes fuze fuzetea tea lipton ice icetea powerade gatorade natura aquila rajec targa florio limonata aranciata arancia citrus".split(" "));
 const GENERIC = new Set(("original originál originalni classic energy drink energeticky energeticka napoj limonada limonáda sycena sycený syceny perliva jemne neperliva nesycena " +
   "voda water pramenita mineralni prirodni prichuti prichut ochucena ochuceny ochucene the edition plech pet sklo can sleek multipack lahev ks kus zero max sugar free sugarfree " +
   "light diet bez cukru nulka indian with and pro plus kofeinu koffeinu caffeine").split(" "));
@@ -491,7 +492,8 @@ function packOf(p) {
   const count = m && +m[1] > 1 ? +m[1] : 1;
   const unit = count > 1 ? parseFloat(m[2].replace(",", ".")) / (m[3] === "ml" ? 1000 : 1) : p.liters;
   if (count === 1 && /\b\d+\s*(ks|kus)/.test(n)) return null;
-  const glass = /\bsklo|glass|\bsklen/.test(n), pet = /\bpet\b/.test(n);
+  // Targa 0,33 l is a glass bottle unless the name says can ("plech").
+  const glass = /\bsklo|glass|\bsklen/.test(n) || (/^Targa/.test(p.brand) && unit <= .36 && !/plech|\bcan\b/.test(n)), pet = /\bpet\b/.test(n);
   const can = /plech|\bcan\b|sleek/.test(n) || (!glass && !pet && (p.cat === "Energy" ? unit <= .6 : unit <= .36));
   const cont = glass ? "sklo" : can ? "plech" : "PET";
   const vol = unit.toLocaleString("cs-CZ", {maximumFractionDigits: 3}) + " l";
@@ -500,10 +502,11 @@ function packOf(p) {
 const ptAt = (p, d) => p.pts.find(x => x.d === d) || null;
 
 /* Duel rules. Default: identical pack and variant. Exceptions:
-   - 2 l PET and 2,25 l PET count as the same pack (compared per litre);
+   - 2 l PET and 2,25 l PET, 1,5 l PET and 1,33 l PET (Targa) count as the same pack (compared per litre);
    - pairs marked "litre" ignore the pack and compare the base variant per litre (Red Bull as a drink type). */
 const LITRE_PAIRS = new Set(["Monster|Red Bull"]);
-const EQUIV_PACKS = {"1|2000|PET": ["1|2250|PET"], "1|2250|PET": ["1|2000|PET"]};
+const EQUIV_PACKS = {"1|2000|PET": ["1|2250|PET"], "1|2250|PET": ["1|2000|PET"],
+  "1|1500|PET": ["1|1330|PET"], "1|1330|PET": ["1|1500|PET"]}; // Targa 1,33 l vs Fanta / Sprite 1,5 l
 function duelsAt(d) {
   const idx = {}, loose = {};
   for (const p of data().products) {
@@ -687,8 +690,8 @@ const LINES = [
   {name: "Coca-Cola", brand: "Coca-Cola", head: "reg", rivals: ["Pepsi", "Kofola"], vs: "Pepsi Cola, Kofola Original"},
   {name: "Coca-Cola Zero", brand: "Coca-Cola", head: "zero", rivals: ["Pepsi", "Kofola"], vs: "Pepsi Zero Sugar / Max, Kofola Nulka"},
   {name: "Coca-Cola Zero Zero", brand: "Coca-Cola", head: "zerozero", rivalHead: "zero", rivals: ["Pepsi", "Kofola"], vs: "Pepsi Zero Sugar / Max, Kofola Nulka (nejbližší, bez kofeinu konkurence nemá)"},
-  {name: "Fanta", brand: "Fanta", rivals: ["Mirinda"], vs: "Mirinda"},
-  {name: "Sprite", brand: "Sprite", rivals: ["7UP"], vs: "7UP"},
+  {name: "Fanta", brand: "Fanta", rivals: ["Mirinda", "Targa Aranciata"], vs: "Mirinda, Targa Aranciata / pomeranč"},
+  {name: "Sprite", brand: "Sprite", rivals: ["7UP", "Targa Limonata"], vs: "7UP, Targa Limonata / citron"},
 ];
 function extraLines() {
   const top = new Set(LINES.map(l => l.brand)), mine = new Set(current().filter(p => p.owner === HOME).map(p => p.brand));
@@ -869,7 +872,7 @@ function viewSouboje() {
   const rk = Object.keys(rows).sort((a, b) => { const [ha, ra, ba] = a.split("|"), [hb, rb, bb] = b.split("|");
     return PAIRS.findIndex(p => p[0] === ha && p[1] === ra) - PAIRS.findIndex(p => p[0] === hb && p[1] === rb) || ba.localeCompare(bb, "cs"); });
   const plats = PLATFORMS.filter(([s]) => chs.some(c => current().find(p => p.channel === c && p.shop === s)));
-  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně, ve stejném balení (objem, plech / PET / sklo, počet kusů) a ve stejné variantě (Zero proti Zero, stejná příchuť). Výjimky: lahve 2 l a 2,25 l se srovnávají cenou za litr a Red Bull se srovnává s Monsterem jako druh nápoje cenou za litr bez ohledu na balení. Buňka ukazuje, kdo je levnější a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
+  return `<div class="head"><div><h1>Souboje značek</h1><p>Naše značka proti konkurenční ve stejné prodejně, ve stejném balení (objem, plech / PET / sklo, počet kusů) a ve stejné variantě (Zero proti Zero, stejná příchuť). Výjimky: lahve 2 l a 2,25 l a lahve 1,5 l a 1,33 l (Targa) se srovnávají cenou za litr a Red Bull se srovnává s Monsterem jako druh nápoje cenou za litr bez ohledu na balení. Buňka ukazuje, kdo je levnější a o kolik, včetně akcí. Kliknutím otevřete produkt.</p></div></div>
   ${indexPanel(all)}
   <div class="glass panel" style="margin-top:14px">
     <h2>Všechny souboje</h2><p class="sub">Kdo je levnější a o kolik. Pod cenou je cenový index souboje.</p>
@@ -1193,7 +1196,7 @@ function viewKampane() {
   </section>
   ${searchSection()}
   <h2 class="sec">Bannery a placená umístění</h2>
-  <p class="lead">${nOurs} s našimi klíčovými značkami <span class="muted">(Coca-Cola, Zero, Zero Zero, Fanta, Sprite)</span> · ${nRival} s jejich konkurencí <span class="muted">(Pepsi, Kofola, Mirinda, 7UP)</span></p>
+  <p class="lead">${nOurs} s našimi klíčovými značkami <span class="muted">(Coca-Cola, Zero, Zero Zero, Fanta, Sprite)</span> · ${nRival} s jejich konkurencí <span class="muted">(Pepsi, Kofola, Mirinda, 7UP, Targa)</span></p>
   ${Object.keys(groups).length ? Object.entries(groups).map(([pl, xs]) => `<div class="glass panel" style="margin-top:14px"><h2>${plat[pl] || pl}</h2><p class="sub">${xs.length} umístění${xs.some(b => b.key.rank < 2) ? ` · zvýrazněné jsou nahoře` : ""}</p>
     <div class="grid camp">${xs.map(b => `<div class="card glass ${b.key.cls}">${b.key.chip}<span class="where">${esc(b.placement)}${b.position ? " · pozice " + esc(b.position) : ""}</span><span class="what">${esc(b.title || "(bez názvu)")}</span>${b.owner ? ownerTag(b.owner) + ` <span class="meta">${esc(b.brand)}</span>` : `<span class="meta">Mimo sledované značky</span>`}${/^https?:/.test(b.link) ? `<a href="${esc(b.link)}" target="_blank" rel="noopener" class="meta">Otevřít odkaz ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")
   : `<div class="glass panel" style="margin-top:14px"><div class="empty"><h3>Žádné bannery</h3><p>V posledním měření nebyla zachycena žádná reklama.</p></div></div>`}`;

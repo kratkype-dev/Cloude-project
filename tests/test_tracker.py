@@ -107,6 +107,8 @@ class PortfolioTest(unittest.TestCase):
         self.assertIsNone(classify("Relax Pomeranč"))
         self.assertIsNone(classify("Sodastream příchuť Pepsi"))
         self.assertIsNone(classify("Capri-Sun Monster Alarm"))
+        self.assertEqual(classify("Targa Aranciata (4×330 ml)", "Targa Florio"), ("Targa Florio", "Targa Aranciata"))
+        self.assertEqual(classify("TARGA FLORIO CITRUS 0,33l"), ("Targa Florio", "Targa Limonata"))
 
 
 class RohlikTest(unittest.TestCase):
