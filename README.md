@@ -14,6 +14,7 @@ mění v čase a jak často jsou produkty v akci.
 - **Kofola:** Kofola, Citro Cola, Rajec, Korunní, Ondrášovka, Kláštorná, Šaratica, Vinea, Top Topic, Jupí, Jupík, Semtex, UGO
 - **Mattoni:** Mattoni, Magnesia, Aquila, Poděbradka, Dobrá voda, Hanácká kyselka, Schweppes
 - **Red Bull:** Red Bull
+- **Targa Florio:** Targa Limonata / citron (konkurence Sprite), Targa Aranciata / pomeranč (konkurence Fanty), ostatní Targa
 
 **Kanály** (Praha, anonymní zákazník, doručení na náměstí Míru):
 
