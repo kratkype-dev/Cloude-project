@@ -3,7 +3,7 @@
 import tempfile
 import unittest
 
-from price_tracker import report, storage
+from price_tracker import coverage, report, storage
 from price_tracker.kosik import Kosik
 from price_tracker.portfolio import classify
 from price_tracker.rohlik import Rohlik
@@ -146,6 +146,47 @@ class KosikTest(unittest.TestCase):
         self.assertEqual((coke.price, coke.multibuy_qty, coke.multibuy_price), (44.9, 2, 36.9))
 
 
+class CoverageSearchTest(unittest.TestCase):
+    def test_failed_category_makes_run_partial(self):
+        http = rohlik_fake()
+        routes = http.routes
+        routes["/api/v1/categories/normal/20/subcategories"] = {"categoryIds": [30, 31]}
+        names = routes["/api/v1/categories"]
+        routes["/api/v1/categories"] = lambda params: [{"categoryId": 31, "name": "Energy"} if v == 31 else names([(k, v)])[0]
+                                                       for k, v in params if k == "categories"]
+        routes["/api/v1/categories/normal/31/subcategories"] = {"categoryIds": []}
+
+        def broken(params):
+            raise TimeoutError("timed out")
+        routes["/api/v1/categories/normal/31/products"] = broken
+        shop = Rohlik(http)
+        obs = shop.scrape(D, TS)
+        self.assertEqual({o.product_id for o in obs}, {"1", "2"})  # the working category is kept
+        cov = shop.coverage[0]
+        self.assertEqual((cov["status"], cov["failed"], cov["products"]), ("partial", 1, 2))
+        self.assertEqual(coverage.entry("x", "", "ceny", 3, 3)["status"], "failed")
+        self.assertEqual(coverage.entry("x", "", "ceny", 3, 0)["status"], "ok")
+
+    def test_search_ranking(self):
+        http = FakeHttp({"/services/frontend-service/search-metadata": {"data": {
+            "productList": [{"productId": 7, "productName": "Kofola Original 2 l", "brand": "Kofola", "price": {"full": 39.9}},
+                            {"productId": 8, "productName": "Coca-Cola 1,5 l", "brand": "Coca-Cola", "price": {"full": 44.9}},
+                            {"productId": 9, "productName": "Tiger Energy", "brand": "Tiger", "price": {"full": 19.9}}],
+            "impressions": [{"productId": 7}]}}})
+        shop = Rohlik(http)
+        rows = shop.search_ranking(D, TS)
+        cola = [r for r in rows if r["query"] == "cola"]
+        self.assertEqual([(r["position"], r["owner"], r["sponsored"]) for r in cola],
+                         [(1, "Kofola", 1), (2, "Coca-Cola", 0), (3, "", 0)])
+        self.assertEqual(shop.coverage[-1]["status"], "ok")
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(storage.save_search(rows, tmp), len(rows))
+            self.assertEqual(storage.save_search(rows, tmp), 0)
+            self.assertEqual(len(storage.load_search(tmp)), len(rows))
+            data = report.dashboard_data([], [], [], storage.load_search(tmp))
+            self.assertEqual(data["search"][0][3:9], ["cola", 1, "Kofola Original 2 l", "Kofola", "Kofola", 1])
+
+
 class StorageReportTest(unittest.TestCase):
     def test_history_and_reports(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -154,13 +195,18 @@ class StorageReportTest(unittest.TestCase):
                 if o.product_id == "1":  # not on sale the day before
                     o.price, o.on_sale, o.discount_pct = 44.9, False, None
             storage.save(day1, tmp)
-            storage.save(Rohlik(rohlik_fake()).scrape(D, TS), tmp)
-            storage.save(Rohlik(rohlik_fake()).scrape(D, TS), tmp)  # same-day rerun replaces
+            today = Rohlik(rohlik_fake()).scrape(D, TS)
+            storage.save(today, tmp)
+            self.assertEqual(storage.save(today, tmp), 0)  # saving the same run again adds nothing
+            rerun = Rohlik(rohlik_fake()).scrape(D, "2026-10-13T09:00:00+00:00")
+            next(o for o in rerun if o.product_id == "1").price = 30.9
+            self.assertEqual(storage.save(rerun, tmp), 2)  # a second run that day is appended, not overwritten
             rows = storage.load(tmp)
-            self.assertEqual(len(rows), 4)
+            self.assertEqual(len(rows), 4)  # ... and load keeps the latest observation per product and day
+            self.assertIn(30.9, [r["price"] for r in rows if r["date"] == D])
 
             changes = report.price_changes(rows, D)
-            self.assertEqual([(p["price"], c["price"]) for p, c in changes], [(44.9, 32.9)])
+            self.assertEqual([(p["price"], c["price"]) for p, c in changes], [(44.9, 30.9)])
             md = report.markdown(rows)
             self.assertIn("Aktuální slevy (1)", md)
             self.assertIn("Coca-Cola Zero", md)

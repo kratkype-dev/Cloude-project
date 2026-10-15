@@ -13,6 +13,7 @@ import json
 import logging
 import re
 
+from . import coverage, search
 from .http import Http
 from .models import Observation, discount_pct
 from .portfolio import classify_full
@@ -40,6 +41,7 @@ class Rohlik:
         self.category_ids = category_ids
         self.category_names = {}
         self.sponsored = {}  # productId -> category name where it is a paid placement
+        self.coverage = []
 
     # --- categories -------------------------------------------------------
     def _subcategories(self, category_id=None):
@@ -116,9 +118,14 @@ class Rohlik:
         return out
 
     def scrape(self, date, scraped_at):
-        seen = {}
-        for cid in self.leaf_categories():
-            seen.update(dict.fromkeys(self.product_ids(cid)))
+        seen, failed = {}, 0
+        leaves = self.leaf_categories()
+        for cid in leaves:
+            try:  # one broken category must not hide the rest, but it makes the run partial
+                seen.update(dict.fromkeys(self.product_ids(cid)))
+            except Exception as e:
+                log.warning("Rohlik category %s failed: %s", cid, e)
+                failed += 1
         seen = list(seen)
         log.info("Rohlik: %d drinks found, fetching cards", len(seen))
 
@@ -132,6 +139,8 @@ class Rohlik:
                for c, hit in matched]
         for o in out:
             o.sponsored = int(o.product_id) in self.sponsored
+        self.coverage.append(coverage.entry("rohlik", "", "ceny", len(leaves), failed, len(out),
+                                            f"{len(seen)} nápojů v {len(leaves)} kategoriích"))
         self.banner_rows = [
             {"date": date, "platform": "rohlik", "placement": f"Sponzorovaný produkt – {self.sponsored[int(o.product_id)]}",
              "position": 1, "title": o.name, "owner": o.owner, "brand": o.brand, "link": o.url, "image": ""}
@@ -142,6 +151,26 @@ class Rohlik:
     def banners(self, date):
         """Sponsored products of tracked brands (collected during scrape)."""
         return getattr(self, "banner_rows", [])
+
+    def search_ranking(self, date, scraped_at):
+        """Top 10 of the site search for each generic query; `impressions` are the sponsored results."""
+        rows, failed = [], 0
+        for q in search.QUERIES:
+            try:
+                data = self.http.get_json("/services/frontend-service/search-metadata",
+                                          {"search": q, "offset": 0, "limit": search.TOP, "companyId": 1,
+                                           "canCorrect": "true"})["data"]
+            except Exception as e:
+                log.warning("Rohlik search %r failed: %s", q, e)
+                failed += 1
+                continue
+            ads = {i.get("productId") for i in data.get("impressions") or []}
+            for pos, p in enumerate((data.get("productList") or [])[:search.TOP], 1):
+                rows.append(search.row(date, scraped_at, "rohlik", "", q, pos, p.get("productId"),
+                                       p.get("productName"), p.get("brand"), p.get("productId") in ads,
+                                       (p.get("price") or {}).get("full")))
+        self.coverage.append(coverage.entry("rohlik", "", "vyhledavani", len(search.QUERIES), failed))
+        return rows
 
 
 def _amount(v):
