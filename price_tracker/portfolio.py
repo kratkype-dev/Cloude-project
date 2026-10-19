@@ -72,7 +72,9 @@ PORTFOLIO = {
 }
 
 # Licensed / non-comparable products that mention a tracked brand.
-EXCLUDE = re.compile(r"sodastream|capri[\s-]?sun|\bgin\b|\brum\b|vodka|whisk|tuháček|\bsirup\b.*\bpepsi\b",
+# Bolt's brand search also returns food sold under the same name (Natura starch, UGO salads): weight in grams or kg.
+EXCLUDE = re.compile(r"sodastream|capri[\s-]?sun|\bgin\b|\brum\b|vodka|whisk|tuháček|\bsirup\b.*\bpepsi\b"
+                     r"|sal[aá]t|[sš]krob|\b\d+(?:[.,]\d+)?\s*(?:g|kg)\b",
                      re.IGNORECASE)
 
 # Product-name keywords that override the brand's default category.

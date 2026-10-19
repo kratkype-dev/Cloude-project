@@ -11,6 +11,7 @@ import csv
 from pathlib import Path
 
 from .models import Observation
+from .portfolio import EXCLUDE
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 HISTORY_DIR = DATA_DIR / "history"
@@ -63,7 +64,8 @@ def load(history_dir=HISTORY_DIR):
             k = (r["date"], r["shop"], r["product_id"])
             if k not in latest or r["scraped_at"] >= latest[k]["scraped_at"]:
                 latest[k] = r
-    rows = list(latest.values())
+    # Exclusion rules apply to the stored history too, so a rule added later also cleans older runs.
+    rows = [r for r in latest.values() if not EXCLUDE.search(f"{r.get('brand', '')} {r['name']}")]
     for r in rows:
         for k in ("price", "original_price", "discount_pct", "unit_price", "multibuy_price",
                   "lowest_30d", "liters", "price_per_l"):

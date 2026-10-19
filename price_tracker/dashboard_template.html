@@ -602,7 +602,9 @@ function lifecycle(p) {
       r = {code: "back", label: before.s === "oos" ? "Znovu skladem" : "Znovu v nabídce", conf: "confirmed", event: true, note: n >= 2 ? "po potvrzeném výpadku" : "po jednom chybějícím měření"};
     } else {
       // Only a shop measured before the product appeared can show a new listing; first sighting is not yet a listing date.
-      const measuredBefore = Array.from({length: first}, (_, d) => d).some(d => ["ok", "inferred"].includes(covStatus(p.shop, p.store, d)));
+      // The brand must have been tracked in that shop before too: a brand newly added to tracking is not a new listing.
+      const measuredBefore = Array.from({length: first}, (_, d) => d).some(d => ["ok", "inferred"].includes(covStatus(p.shop, p.store, d)))
+        && D.products.some(q => q.shop === p.shop && q.store === p.store && q.brand === p.brand && q.pts[0].d < first);
       if (measuredBefore && seq.length === 1) r = {code: "first", label: "Poprvé zachycen", conf: "suspected", event: true, note: "novinka? ověří příští měření"};
       else if (measuredBefore && seq.length === 2 && streak === 2) r = {code: "new", label: "Novinka v nabídce", conf: "confirmed", event: true, note: "zachycen 2× po sobě"};
       else r = {code: "active", label: "V nabídce", conf: "confirmed"};
