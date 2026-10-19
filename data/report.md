@@ -4,14 +4,14 @@
 
 | Obchod | Vlastník | Produktů | Ve slevě | Podíl slev |
 |---|---|---:|---:|---:|
-| Bolt Food | Coca-Cola | 189 | 0 | 0 % |
-| Bolt Food | Kofola | 143 | 0 | 0 % |
+| Bolt Food | Coca-Cola | 182 | 0 | 0 % |
+| Bolt Food | Kofola | 132 | 0 | 0 % |
 | Bolt Food | Mattoni | 190 | 0 | 0 % |
 | Bolt Food | PepsiCo | 69 | 0 | 0 % |
 | Bolt Food | Red Bull | 29 | 0 | 0 % |
 | Bolt Food | Targa Florio | 13 | 0 | 0 % |
 | Košík | Coca-Cola | 111 | 6 | 5 % |
-| Košík | Kofola | 114 | 3 | 3 % |
+| Košík | Kofola | 114 | 4 | 4 % |
 | Košík | Mattoni | 75 | 12 | 16 % |
 | Košík | PepsiCo | 33 | 1 | 3 % |
 | Košík | Red Bull | 10 | 0 | 0 % |
@@ -49,7 +49,7 @@
 | Kofola | Kofola | 28,45 | 34,66 | 37,51 | – |
 | Kofola | Korunní | 13,68 | 16,37 | 14,37 | – |
 | Kofola | Ondrášovka | 13,93 | 13,88 | 12,58 | – |
-| Kofola | Rajec | 25,09 | 26,86 | 22,20 | – |
+| Kofola | Rajec | 25,09 | 26,41 | 22,20 | – |
 | Kofola | Semtex | 29,80 | 57,80 | 61,13 | – |
 | Kofola | Top Topic | 20,94 | 19,93 | 20,80 | – |
 | Kofola | UGO | 144,34 | 166,88 | 190,72 | – |
@@ -73,7 +73,7 @@
 | Targa Florio | Targa Aranciata | 46,39 | 48,76 | 64,64 | – |
 | Targa Florio | Targa Limonata | 55,75 | 55,75 | 75,45 | – |
 
-## Aktuální slevy (200)
+## Aktuální slevy (201)
 
 | Obchod | Značka | Produkt | Balení | Cena | Běžná cena | Sleva | Platí do |
 |---|---|---|---|---:|---:|---:|---|
@@ -115,6 +115,7 @@
 | Rohlík | Natura | [Natura Neperlivá voda (6×1,5l)](https://www.rohlik.cz/1374577-natura-neperliva-voda-6-1-5l) | 9 l | 89,90 | 129,90 | 30,80 % | 2026-12-31 |
 | Rohlík | Natura | [Natura Perlivá voda (6×1,5l)](https://www.rohlik.cz/1374581-natura-perliva-voda-6-1-5l) | 9 l | 89,90 | 129,90 | 30,80 % | 2026-12-31 |
 | Wolt | Korunní | [Korunní Etera pomelo a okurka](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 1,5 l | 13,90 | 19,90 | 30,20 % |  |
+| Košík | Rajec | [Rajec BIO růže & ostružina](https://www.kosik.cz/p813188-rajec-bio-ruze-ostruzina) | 750,0 ml | 15,90 | 22,90 | 30,00 % | 2026-10-31 |
 | Rohlík | Kofola | [Kofola Original 4×0,33 l plech](https://www.rohlik.cz/1458135-kofola-original-4-0-33-l-plech) | 1,32 l | 49,90 | 69,90 | 28,60 % | 2026-12-31 |
 | Wolt | Hanácká kyselka | [Hanácká Kyselka minerální Paměť, jemně perlivá](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 700 ml | 17,90 | 24,90 | 28,10 % |  |
 | Rohlík | UGO | [UGO RAW limonáda malina a bazalka](https://www.rohlik.cz/1357499-ugo-raw-limonada-malina-a-bazalka) | 500 ml | 44,90 | 61,90 | 27,50 % | 2026-10-31 |
@@ -516,13 +517,14 @@
 | Rohlík | Magnesia | [Magnesia Extra minerální voda](https://www.rohlik.cz/1331891-magnesia-extra-mineralni-voda) | 0,7 l | 39,90 | 3 | 35,90 | 10,03 % |
 | Rohlík | Magnesia | [Magnesia GO](https://www.rohlik.cz/1358901-magnesia-go) | 0,75 l | 19,90 | 3 | 17,90 | 10,05 % |
 
-## Změny cen oproti předchozímu měření (11)
+## Změny cen oproti předchozímu měření (12)
 
 | Obchod | Produkt | Předtím | Nyní | Běžná předtím | Běžná nyní |
 |---|---|---:|---:|---:|---:|
 | Košík | Kinley  Cherry Pepper (250,0 ml) | 19,90 | 25,90 | 25,90 | 25,90 |
 | Košík | Natura Jemně Perlivá 12x500ml (6,0 l) | 264,90 | 199,90 | 264,90 | 264,90 |
 | Košík | Natura Neperlivá 12x500ml (6,0 l) | 264,90 | 199,90 | 264,90 | 264,90 |
+| Košík | Rajec BIO růže & ostružina (750,0 ml) | 22,90 | 15,90 | 22,90 | 22,90 |
 | Košík | Aquila Méně cukru černý čaj s broskví (1,5 l) | 36,90 | 35,90 | 36,90 | 35,90 |
 | Košík | Magnesia RED Brusinka (1,5 l) | 24,90 | 19,90 | 24,90 | 24,90 |
 | Košík | Magnesia RED Granátové jablko (1,5 l) | 24,90 | 19,90 | 24,90 | 24,90 |
@@ -869,7 +871,6 @@
 | Košík | Kinley | Kinley Tonic Water plech | 250,0 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
 | Košík | Kinley | Kinley Tonic Zero Water | 1,5 l | 4 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
 | Bolt Food | Kinley | Kinley ginger Ale 1,5L |  | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Bolt Food | Monster | Lorenz Monster Munch Original 75g |  | 4 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
 | Bolt Food | Monster | MEGA MONSTER ENERGY 0.553l |  | 4 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
 | Bolt Food | Monster | MONSTER E. ULTRA FANTASY RUBY RED BEZ CUKRU 500 ml |  | 4 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
 | Bolt Food | Monster | MONSTER ENERGY JUICED BAD APPLE 500 ml |  | 4 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
@@ -963,10 +964,8 @@
 | Bolt Food | Monster | Monster Valentino Rossi Zero 0,5L |  | 4 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
 | Bolt Food | Monster | Monster Viking Berry 0,5L |  | 4 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
 | Bolt Food | Monster | Vitakraft Monster Party Hračka Pro Zvířata 1 Ks |  | 4 | 0 (0 %) | 139,90 | 139,90 | 139,90 | 139,90 |
-| Bolt Food | Natura | Eva Natura Hydratační koupelová sůl s lněným biokomplexem 600g |  | 4 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
 | Bolt Food | Natura | Eva Natura Pena Do Koupele S Lnenym Bi. 750Ml |  | 4 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
 | Bolt Food | Natura | Eva Natura Pečující krém na ruce a nehty lněný biokomplex 75ml |  | 4 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Bolt Food | Natura | Eva Natura Regenerační koupelová sůl s levandulovým olejem 600g |  | 4 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
 | Košík | Natura | Natura Citron a Máta  | 500,0 ml | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
 | Košík | Natura | Natura Citrón Máta 6 x 1.5 L | 9,0 l | 4 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
 | Bolt Food | Natura | Natura Jemně Perlivá 1,5L |  | 4 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
@@ -985,7 +984,6 @@
 | Wolt | Natura | Natura Kojenecká 1,5l | 1,5 l | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
 | Košík | Natura | Natura Kojenecká 6x1,5l | 9,0 l | 4 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
 | Rohlík | Natura | Natura Kojenecká voda (6x1,5l) | 9 l | 4 | 4 (100 %) | 109,90 | 109,90 | 109,90 | 144,90 |
-| Bolt Food | Natura | Natura Kukuřičný Škrob Jemný 200g |  | 4 | 0 (0 %) | 44,50 | 44,50 | 44,50 | 44,50 |
 | Košík | Natura | Natura Malina   | 500,0 ml | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
 | Košík | Natura | Natura Malina 6 x 1.5 L | 9,0 l | 4 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
 | Bolt Food | Natura | Natura Neperlivá 1,5L |  | 4 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
@@ -1012,9 +1010,6 @@
 | Bolt Food | Natura | Natura S Příchutí Malina 500ml |  | 3 | 0 (0 %) | 28,90 | 28,90 | 28,90 | 28,90 |
 | Wolt | Natura | Natura S příchutí citron máta 1,5l | 1,5 l | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
 | Wolt | Natura | Natura S příchutí malina 1,5l | 1,5 l | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Bolt Food | Natura | Natura Solamyl Jemný Bramborový Škrob 200g |  | 1 | 0 (0 %) | 44,50 | 44,50 | 44,50 | 44,50 |
-| Bolt Food | Natura | Natura Želatina V Prášku Kuchyňská Čirá 20g |  | 4 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Bolt Food | Natura | Natura Želatina V Prášku Na Vaječnou A Salámovou Tlačenku 20g |  | 4 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
 | Bolt Food | Natura | Spontex Natura Houbová Utěrka 3 Ks |  | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
 | Bolt Food | Powerade | POWERADE ATTACK 500 ml |  | 4 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
 | Bolt Food | Powerade | POWERADE S CITRONOVOU PRICHUTI 500 ml |  | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
@@ -1283,8 +1278,6 @@
 | Košík | Korunní | Korunní Bílé Hrozny jemně perlivá 6x1,5l | 9,0 l | 4 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
 | Rohlík | Korunní | Korunní Citron | 1,5 l | 4 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
 | Košík | Korunní | Korunní Citron jemně perlivá 6x1,5l | 9,0 l | 4 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Bolt Food | Korunní | Korunní Cukr Krystal 1000g |  | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Korunní | Korunní Cukr Pudrový cukr 400g |  | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
 | Košík | Korunní | Korunní Etera Maracuja & Zázvor 6x1,5l | 9,0 l | 4 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
 | Bolt Food | Korunní | Korunní Etera Marakuja & Zázvor 1,5L |  | 4 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
 | Košík | Korunní | Korunní Etera Pomelo & Okurka 6x1,5l | 9,0 l | 4 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
@@ -1405,7 +1398,7 @@
 | Rohlík | Rajec | Rajec BIO Rybíz a šípek | 1,5 l | 3 | 3 (100 %) | 22,90 | 22,90 | 22,90 | 25,90 |
 | Košík | Rajec | Rajec BIO Růže & Ostružina 6x1,5l  | 9,0 l | 4 | 0 (0 %) | 144,90 | 154,90 | 147,40 | 144,90 |
 | Košík | Rajec | Rajec BIO rybíz & šípek | 750,0 ml | 4 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Rajec | Rajec BIO růže & ostružina | 750,0 ml | 4 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Rajec | Rajec BIO růže & ostružina | 750,0 ml | 4 | 1 (25 %) | 15,90 | 22,90 | 21,15 | 22,90 |
 | Bolt Food | Rajec | Rajec Bio Malina - Lípa 1,5L |  | 4 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
 | Bolt Food | Rajec | Rajec Bio Rybíz - Šípek 0,75L |  | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
 | Bolt Food | Rajec | Rajec Bio Růže - Ostružina 1,5L |  | 4 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
@@ -1513,15 +1506,6 @@
 | Rohlík | Top Topic | Top Topic Malina | 1,5 l | 4 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
 | Košík | Top Topic | Top Topic Mango | 1,5 l | 4 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
 | Rohlík | Top Topic | Top Topic Mango drink | 1,5 l | 4 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Bolt Food | UGO | Oz Salát Caesar & S Kuřetem Ugo 210g |  | 1 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Bolt Food | UGO | Oz Salát Farmářský S Pečeným Kuřetem Ugo 260g |  | 2 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
-| Bolt Food | UGO | Oz Salát Losos & Kapary Ugo 220g |  | 3 | 0 (0 %) | 92,90 | 92,90 | 92,90 | 92,90 |
-| Bolt Food | UGO | Oz Salát Ovčí Sýr S Červenou Řepou Ugo 260g |  | 4 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
-| Bolt Food | UGO | Oz Ugo Salát Caprese S Cherry A Mozzarellou 210 G |  | 4 | 0 (0 %) | 93,90 | 93,90 | 93,90 | 93,90 |
-| Bolt Food | UGO | Oz Ugo Salát Pikant S Kuřetem A Krutóny 210 G |  | 4 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Bolt Food | UGO | Oz Ugo Salát Prosciutto S Pečeným Kuřetem 210 G |  | 3 | 0 (0 %) | 93,90 | 93,90 | 93,90 | 93,90 |
-| Bolt Food | UGO | Oz Ugo Salát Tuňák S Vejci 210 G |  | 2 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
-| Bolt Food | UGO | Oz Ugo Salát Řecký S Balkánským Sýrem 210 G |  | 1 | 0 (0 %) | 85,90 | 85,90 | 85,90 | 85,90 |
 | Bolt Food | UGO | UGO 100% GREP 0,25l |  | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
 | Košík | UGO | UGO 100% šťáva Grep | 750,0 ml | 4 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
 | Košík | UGO | UGO 100% šťáva Mrkev/jablko | 250,0 ml | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
@@ -1579,14 +1563,10 @@
 | Bolt Food | UGO | Ugo Malina, Jahoda, Borůvka, Jablko 250Ml |  | 4 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
 | Wolt | UGO | Ugo Malina, jahoda, borůvka, jablko 250ml | 250 ml | 4 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
 | Wolt | UGO | Ugo Pomeranč 250ml | 250 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | UGO | Ugo Salátová Směs 150g |  | 2 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
 | Bolt Food | UGO | Ugo Černý Rybíz A Jablko 250Ml |  | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
 | Wolt | UGO | Ugo Černý rybíz a jablko 250ml | 250 ml | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
 | Bolt Food | UGO | Ugo Řepa, Jablko 250Ml |  | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
 | Wolt | UGO | Ugo Řepa, jablko 250ml | 250 ml | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Bolt Food | UGO | Wrap Ugo Caesar 170g |  | 4 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
-| Bolt Food | UGO | Wrap Ugo Caprese 170g |  | 4 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
-| Bolt Food | UGO | Wrap Ugo Hot Strips 170g |  | 4 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
 | Košík | Vinea | Vinea Bílá | 1,5 l | 4 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
 | Wolt | Vinea | Vinea Bílá | 1,5 l | 4 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
 | Bolt Food | Vinea | Vinea Bílá 0,33l Plech |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |

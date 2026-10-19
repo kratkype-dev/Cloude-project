@@ -107,6 +107,9 @@ class PortfolioTest(unittest.TestCase):
         self.assertIsNone(classify("Relax Pomeranč"))
         self.assertIsNone(classify("Sodastream příchuť Pepsi"))
         self.assertIsNone(classify("Capri-Sun Monster Alarm"))
+        self.assertIsNone(classify("Natura Solamyl Jemný Bramborový Škrob 200g"))
+        self.assertIsNone(classify("Oz Salát Farmářský S Pečeným Kuřetem Ugo 260g"))
+        self.assertEqual(classify("Natura jemně perlivá 1,5 l"), ("Coca-Cola", "Natura"))
         self.assertEqual(classify("Targa Aranciata (4×330 ml)", "Targa Florio"), ("Targa Florio", "Targa Aranciata"))
         self.assertEqual(classify("TARGA FLORIO CITRUS 0,33l"), ("Targa Florio", "Targa Limonata"))
 
