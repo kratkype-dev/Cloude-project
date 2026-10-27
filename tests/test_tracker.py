@@ -171,6 +171,7 @@ class CoverageSearchTest(unittest.TestCase):
         self.assertEqual((cov["status"], cov["failed"], cov["products"]), ("partial", 1, 2))
         self.assertEqual(coverage.entry("x", "", "ceny", 3, 3)["status"], "failed")
         self.assertEqual(coverage.entry("x", "", "ceny", 3, 0)["status"], "ok")
+        self.assertEqual(coverage.entry("x", "", "ceny", 0, 0)["status"], "failed")  # empty assortment = not loaded
 
     def test_search_ranking(self):
         http = FakeHttp({"/services/frontend-service/search-metadata": {"data": {

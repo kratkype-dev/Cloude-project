@@ -1,89 +1,89 @@
-# Ceny Coca-Cola / PepsiCo — 2026-10-26
+# Ceny Coca-Cola / PepsiCo — 2026-10-27
 
 ## Přehled posledního scrapu
 
 | Obchod | Vlastník | Produktů | Ve slevě | Podíl slev |
 |---|---|---:|---:|---:|
-| Bolt Food | Coca-Cola | 183 | 0 | 0 % |
-| Bolt Food | Kofola | 132 | 0 | 0 % |
-| Bolt Food | Mattoni | 188 | 0 | 0 % |
-| Bolt Food | PepsiCo | 67 | 0 | 0 % |
+| Bolt Food | Coca-Cola | 182 | 0 | 0 % |
+| Bolt Food | Kofola | 131 | 0 | 0 % |
+| Bolt Food | Mattoni | 189 | 0 | 0 % |
+| Bolt Food | PepsiCo | 66 | 0 | 0 % |
 | Bolt Food | Red Bull | 30 | 0 | 0 % |
 | Bolt Food | Targa Florio | 12 | 0 | 0 % |
-| Košík | Coca-Cola | 111 | 5 | 5 % |
+| Košík | Coca-Cola | 112 | 5 | 4 % |
 | Košík | Kofola | 113 | 1 | 1 % |
 | Košík | Mattoni | 75 | 4 | 5 % |
 | Košík | PepsiCo | 33 | 0 | 0 % |
 | Košík | Red Bull | 10 | 0 | 0 % |
 | Košík | Targa Florio | 11 | 1 | 9 % |
-| Rohlík | Coca-Cola | 68 | 22 | 32 % |
-| Rohlík | Kofola | 83 | 36 | 43 % |
-| Rohlík | Mattoni | 66 | 15 | 23 % |
+| Rohlík | Coca-Cola | 68 | 20 | 29 % |
+| Rohlík | Kofola | 83 | 28 | 34 % |
+| Rohlík | Mattoni | 66 | 23 | 35 % |
 | Rohlík | PepsiCo | 21 | 7 | 33 % |
-| Rohlík | Red Bull | 13 | 11 | 85 % |
-| Rohlík | Targa Florio | 8 | 0 | 0 % |
-| Wolt | Coca-Cola | 113 | 23 | 20 % |
-| Wolt | Kofola | 99 | 3 | 3 % |
-| Wolt | Mattoni | 112 | 20 | 18 % |
-| Wolt | PepsiCo | 36 | 2 | 6 % |
-| Wolt | Red Bull | 26 | 9 | 35 % |
-| Wolt | Targa Florio | 7 | 2 | 29 % |
+| Rohlík | Red Bull | 13 | 0 | 0 % |
+| Rohlík | Targa Florio | 8 | 4 | 50 % |
+| Wolt | Coca-Cola | 175 | 23 | 13 % |
+| Wolt | Kofola | 170 | 3 | 2 % |
+| Wolt | Mattoni | 221 | 22 | 10 % |
+| Wolt | PepsiCo | 66 | 2 | 3 % |
+| Wolt | Red Bull | 27 | 10 | 37 % |
+| Wolt | Targa Florio | 12 | 2 | 17 % |
 
 ## Průměrná cena za jednotku (Kč/l) podle značky
 
 | Vlastník | Značka | Rohlík | Košík | Wolt | Bolt Food |
 |---|---|---:|---:|---:|---:|
-| Coca-Cola | Cappy | 64,23 | 68,44 | 74,80 | – |
-| Coca-Cola | Coca-Cola | 58,03 | 44,72 | 50,81 | – |
-| Coca-Cola | Fanta | 56,18 | 49,63 | 53,18 | – |
+| Coca-Cola | Cappy | 64,23 | 68,44 | 70,04 | – |
+| Coca-Cola | Coca-Cola | 58,49 | 44,72 | 50,99 | – |
+| Coca-Cola | Fanta | 56,18 | 49,63 | 52,88 | – |
 | Coca-Cola | Fuze Tea | 27,93 | 53,00 | 55,20 | – |
-| Coca-Cola | Kinley | 33,93 | 66,33 | 42,90 | – |
-| Coca-Cola | Monster | 89,04 | 89,68 | 77,08 | – |
-| Coca-Cola | Natura | 15,92 | 23,06 | 26,64 | – |
+| Coca-Cola | Kinley | 33,93 | 66,33 | 55,29 | – |
+| Coca-Cola | Monster | 89,04 | 89,81 | 77,72 | – |
+| Coca-Cola | Natura | 15,92 | 23,06 | 23,80 | – |
 | Coca-Cola | Powerade | 95,80 | 81,80 | – | – |
-| Coca-Cola | Römerquelle | 70,12 | 41,13 | 59,80 | – |
-| Coca-Cola | Sprite | 38,39 | 48,83 | 49,43 | – |
-| Kofola | Jupí | 86,52 | 83,81 | 64,69 | – |
+| Coca-Cola | Römerquelle | 70,12 | 41,13 | 61,93 | – |
+| Coca-Cola | Sprite | 38,39 | 48,83 | 50,72 | – |
+| Kofola | Jupí | 86,52 | 83,81 | 75,98 | – |
 | Kofola | Jupík | 60,62 | 62,74 | 44,84 | – |
-| Kofola | Kláštorná | 23,89 | 13,32 | 11,04 | – |
-| Kofola | Kofola | 28,45 | 34,66 | 37,54 | – |
-| Kofola | Korunní | 11,71 | 16,37 | 14,41 | – |
-| Kofola | Ondrášovka | 13,93 | 13,88 | 9,77 | – |
-| Kofola | Rajec | 26,33 | 26,63 | 23,29 | – |
-| Kofola | Semtex | 29,80 | 69,80 | 65,40 | – |
-| Kofola | Top Topic | 20,94 | 19,93 | 19,93 | – |
-| Kofola | UGO | 143,34 | 166,88 | – | – |
-| Kofola | Vinea | – | 40,63 | 46,17 | – |
+| Kofola | Kláštorná | 24,45 | 13,32 | 12,36 | – |
+| Kofola | Kofola | 29,07 | 34,66 | 39,54 | – |
+| Kofola | Korunní | 13,68 | 16,37 | 14,52 | – |
+| Kofola | Ondrášovka | 13,93 | 13,88 | 8,99 | – |
+| Kofola | Rajec | 26,54 | 26,63 | 22,31 | – |
+| Kofola | Semtex | 29,80 | 69,80 | 66,13 | – |
+| Kofola | Top Topic | 20,94 | 19,93 | 20,80 | – |
+| Kofola | UGO | 143,34 | 166,88 | 192,80 | – |
+| Kofola | Vinea | – | 40,63 | 42,16 | – |
 | Kofola | Šaratica | 83,80 | – | – | – |
-| Mattoni | Aquila | 23,26 | 23,63 | 21,66 | – |
-| Mattoni | Dobrá voda | 13,15 | 16,90 | 17,28 | – |
-| Mattoni | Hanácká kyselka | – | 13,32 | 24,09 | – |
-| Mattoni | Magnesia | 31,12 | 27,92 | 29,75 | – |
-| Mattoni | Mattoni | 21,18 | 23,14 | 22,61 | – |
-| Mattoni | Poděbradka | 13,50 | 14,53 | 10,35 | – |
-| Mattoni | Schweppes | 59,12 | 41,53 | 33,71 | – |
-| PepsiCo | 7UP | 37,98 | 45,34 | 22,28 | – |
-| PepsiCo | Gatorade | 59,80 | – | – | – |
+| Mattoni | Aquila | 23,26 | 23,63 | 23,91 | – |
+| Mattoni | Dobrá voda | 13,15 | 16,90 | 19,28 | – |
+| Mattoni | Hanácká kyselka | – | 13,32 | 27,83 | – |
+| Mattoni | Magnesia | 31,16 | 27,92 | 32,34 | – |
+| Mattoni | Mattoni | 20,52 | 23,14 | 24,53 | – |
+| Mattoni | Poděbradka | 13,50 | 14,53 | 17,20 | – |
+| Mattoni | Schweppes | 61,78 | 41,53 | 41,75 | – |
+| PepsiCo | 7UP | 37,98 | 45,34 | 21,19 | – |
+| PepsiCo | Gatorade | 59,80 | – | 49,80 | – |
 | PepsiCo | Lipton Ice Tea | – | 29,93 | 71,80 | – |
-| PepsiCo | Mirinda | 22,61 | 23,15 | 26,02 | – |
-| PepsiCo | Mountain Dew | 21,29 | 45,34 | 26,66 | – |
-| PepsiCo | Pepsi | 34,86 | 41,45 | 30,67 | – |
-| Red Bull | Red Bull | 139,03 | 178,39 | 142,44 | – |
-| Targa Florio | Targa | 54,24 | 55,75 | 23,23 | – |
-| Targa Florio | Targa Aranciata | 46,39 | 48,76 | 60,13 | – |
-| Targa Florio | Targa Limonata | 55,75 | 55,75 | 75,45 | – |
+| PepsiCo | Mirinda | 22,61 | 23,15 | 36,17 | – |
+| PepsiCo | Mountain Dew | 21,29 | 45,34 | 37,57 | – |
+| PepsiCo | Pepsi | 34,86 | 41,45 | 40,87 | – |
+| Red Bull | Red Bull | 179,65 | 178,39 | 142,33 | – |
+| Targa Florio | Targa | 53,11 | 55,75 | 49,34 | – |
+| Targa Florio | Targa Aranciata | 43,76 | 48,76 | 64,64 | – |
+| Targa Florio | Targa Limonata | 53,11 | 55,75 | 75,45 | – |
 
-## Aktuální slevy (161)
+## Aktuální slevy (155)
 
 | Obchod | Značka | Produkt | Balení | Cena | Běžná cena | Sleva | Platí do |
 |---|---|---|---|---:|---:|---:|---|
 | Rohlík | Semtex | [Semtex Originál Explosive energy drink plech](https://www.rohlik.cz/1297121-semtex-original-explosive-energy-drink-plech) | 500 ml | 14,90 | 35,90 | 58,50 % | 2026-12-31 |
-| Rohlík | Kláštorná | [Kláštorná Kalcia Přírodní minerální voda sycená (6x1,5l)](https://www.rohlik.cz/1375563-klastorna-kalcia-prirodni-mineralni-voda-sycena-6x1-5l) | 9 l | 89,90 | 154,90 | 42,00 % | 2026-12-31 |
-| Rohlík | Kláštorná | [Kláštorná Kalcia přírodní minerální voda jemně sycená (6x1,5l)](https://www.rohlik.cz/1375561-klastorna-kalcia-prirodni-mineralni-voda-jemne-sycena-6x1-5l) | 9 l | 89,90 | 154,90 | 42,00 % | 2026-12-31 |
 | Wolt | Mirinda | [Mirinda Pomeranč 1l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1 l | 19,90 | 33,90 | 41,30 % |  |
 | Wolt | Pepsi | [Pepsi Zero Sugar 1l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1 l | 19,90 | 33,90 | 41,30 % |  |
 | Rohlík | Natura | [Natura Jemně perlivá 12×0,5 l](https://www.rohlik.cz/1443066-natura-jemne-perliva-12-0-5-l) | 6 l | 169,90 | 264,90 | 35,90 % | 2026-12-31 |
 | Rohlík | Natura | [Natura Neperlivá 12×0,5 l](https://www.rohlik.cz/1443067-natura-neperliva-12-0-5-l) | 6 l | 169,90 | 264,90 | 35,90 % | 2026-12-31 |
+| Rohlík | Kláštorná | [Kláštorná Kalcia Přírodní minerální voda sycená (6x1,5l)](https://www.rohlik.cz/1375563-klastorna-kalcia-prirodni-mineralni-voda-sycena-6x1-5l) | 9 l | 99,90 | 154,90 | 35,50 % | 2026-12-31 |
+| Rohlík | Kláštorná | [Kláštorná Kalcia přírodní minerální voda jemně sycená (6x1,5l)](https://www.rohlik.cz/1375561-klastorna-kalcia-prirodni-mineralni-voda-jemne-sycena-6x1-5l) | 9 l | 99,90 | 154,90 | 35,50 % | 2026-12-31 |
 | Košík | Coca-Cola | [Coca-Cola Multipack, plech 4x330ml](https://www.kosik.cz/p43747-coca-cola-multipack-plech-4x330ml) | 1,32 l | 54,90 | 84,90 | 35,00 % | 2026-10-27 |
 | Košík | Coca-Cola | [Coca-Cola zero multipack, plech 4x330ml](https://www.kosik.cz/p43837-coca-cola-zero-multipack-plech-4x330ml) | 1,32 l | 54,90 | 84,90 | 35,00 % | 2026-10-27 |
 | Košík | Fanta | [Fanta Pomeranč Multipack, plech 4x330ml](https://www.kosik.cz/p43847-fanta-pomeranc-multipack-plech-4x330ml) | 1,32 l | 54,90 | 84,90 | 35,00 % | 2026-10-27 |
@@ -92,35 +92,22 @@
 | Rohlík | Natura | [Natura Neperlivá voda (6×1,5l)](https://www.rohlik.cz/1374577-natura-neperliva-voda-6-1-5l) | 9 l | 89,90 | 129,90 | 30,80 % | 2026-12-31 |
 | Rohlík | Natura | [Natura Perlivá voda (6×1,5l)](https://www.rohlik.cz/1374581-natura-perliva-voda-6-1-5l) | 9 l | 89,90 | 129,90 | 30,80 % | 2026-12-31 |
 | Košík | Rajec | [Rajec BIO růže & ostružina](https://www.kosik.cz/p813188-rajec-bio-ruze-ostruzina) | 750,0 ml | 15,90 | 22,90 | 30,00 % | 2026-10-31 |
+| Wolt | Mattoni | [Mattoni Mojito nealko jemně perlivá 0,33l](https://wolt.com/cs/cze/prague/venue/tesco-hypermarket-narodni) | 330 ml | 16,90 | 23,90 | 29,30 % |  |
 | Rohlík | Kofola | [Kofola Original 4×0,33 l plech](https://www.rohlik.cz/1458135-kofola-original-4-0-33-l-plech) | 1,32 l | 49,90 | 69,90 | 28,60 % | 2026-12-31 |
 | Rohlík | UGO | [UGO RAW limonáda malina a bazalka](https://www.rohlik.cz/1357499-ugo-raw-limonada-malina-a-bazalka) | 500 ml | 44,90 | 61,90 | 27,50 % | 2026-10-31 |
-| Rohlík | Red Bull | [Red Bull Energy Drink Borůvka plech](https://www.rohlik.cz/1349693-red-bull-energy-drink-boruvka-plech) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Energy Drink plech](https://www.rohlik.cz/734887-red-bull-energy-drink-plech) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Energy drink bez cukru plech](https://www.rohlik.cz/1349685-red-bull-energy-drink-bez-cukru-plech) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Green curuba a bezový květ](https://www.rohlik.cz/1470418-red-bull-green-curuba-a-bezovy-kvet) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Ice s příchutí vanilky a ledové borůvky](https://www.rohlik.cz/1478911-red-bull-ice-s-prichuti-vanilky-a-ledove-boruvky) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Peach s příchutí bílé broskve](https://www.rohlik.cz/1478910-red-bull-peach-s-prichuti-bile-broskve) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Pink Sugarfree lesní ovoce](https://www.rohlik.cz/1470417-red-bull-pink-sugarfree-lesni-ovoce) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Summer s příchutí sudachi a limetky](https://www.rohlik.cz/1480535-red-bull-summer-s-prichuti-sudachi-a-limetky) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Winter s příchutí pistácií a lesního ovoce](https://www.rohlik.cz/1483551-red-bull-winter-s-prichuti-pistacii-a-lesniho-ovoce) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull Zero plech](https://www.rohlik.cz/1372055-red-bull-zero-plech) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
-| Rohlík | Red Bull | [Red Bull s příchutí třešně a sakury](https://www.rohlik.cz/1478909-red-bull-s-prichuti-tresne-a-sakury) | 250 ml | 32,90 | 44,90 | 26,70 % | 2026-10-26 |
 | Rohlík | Poděbradka | [Poděbradka Prolinie Jemně perlivá lesní plody bez cukru 6×1,5 l](https://www.rohlik.cz/1461416-podebradka-prolinie-jemne-perliva-lesni-plody-bez-cukru-6-1-5-l) | 9 l | 99,90 | 134,90 | 25,90 % | 2026-12-31 |
 | Rohlík | Poděbradka | [Poděbradka Prolinie Jemně perlivá limetka bez cukru 6×1,5 l](https://www.rohlik.cz/1461417-podebradka-prolinie-jemne-perliva-limetka-bez-cukru-6-1-5-l) | 9 l | 99,90 | 134,90 | 25,90 % | 2026-12-31 |
 | Rohlík | Poděbradka | [Poděbradka Prolinie Jemně perlivá malina bez cukru 6×1,5 l](https://www.rohlik.cz/1461418-podebradka-prolinie-jemne-perliva-malina-bez-cukru-6-1-5-l) | 9 l | 99,90 | 134,90 | 25,90 % | 2026-12-31 |
 | Rohlík | Poděbradka | [Poděbradka Prolinie Jemně perlivá pomeranč bez cukru 6×1,5 l](https://www.rohlik.cz/1461419-podebradka-prolinie-jemne-perliva-pomeranc-bez-cukru-6-1-5-l) | 9 l | 99,90 | 134,90 | 25,90 % | 2026-12-31 |
 | Rohlík | Poděbradka | [Poděbradka Prolinie brusinka 6×1,5 l](https://www.rohlik.cz/1461412-podebradka-prolinie-brusinka-6-1-5-l) | 9 l | 99,90 | 134,90 | 25,90 % | 2026-12-31 |
 | Rohlík | Poděbradka | [Poděbradka Prolinie minerální voda citronová bez cukru 6×1,5 l](https://www.rohlik.cz/1461415-podebradka-prolinie-mineralni-voda-citronova-bez-cukru-6-1-5-l) | 9 l | 99,90 | 134,90 | 25,90 % | 2026-12-31 |
-| Rohlík | Kofola | [Kofola Nulka – bez cukru](https://www.rohlik.cz/1479399-kofola-nulka-bez-cukru) | 330 ml | 14,90 | 19,90 | 25,10 % | 2026-12-31 |
 | Wolt | Mattoni | [Mattoni minerální voda Black, jemně perlivá](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 1,5 l | 14,90 | 19,90 | 25,10 % |  |
-| Rohlík | Rajec | [Rajec Jemně perlivá voda (6×1,5l)](https://www.rohlik.cz/1375359-rajec-jemne-perliva-voda-6-1-5l) | 9 l | 89,90 | 119,90 | 25,00 % | 2026-12-31 |
-| Rohlík | Rajec | [Rajec Kojenecká voda (6×1,5l)](https://www.rohlik.cz/1375363-rajec-kojenecka-voda-6-1-5l) | 9 l | 89,90 | 119,90 | 25,00 % | 2026-12-31 |
-| Rohlík | Rajec | [Rajec Neperlivá voda (6×1,5l)](https://www.rohlik.cz/1375365-rajec-neperliva-voda-6-1-5l) | 9 l | 89,90 | 119,90 | 25,00 % | 2026-12-31 |
 | Rohlík | Natura | [Natura Kojenecká voda (6x1,5l)](https://www.rohlik.cz/1314569-natura-kojenecka-voda-6x1-5l) | 9 l | 109,90 | 144,90 | 24,20 % | 2026-12-31 |
 | Košík | Natura | [Natura Jemně Perlivá 12x500ml](https://www.kosik.cz/p734584-natura-jemne-perliva-12x500ml) | 6,0 l | 199,90 | 264,90 | 24,00 % | 2026-10-27 |
 | Košík | Natura | [Natura Neperlivá 12x500ml](https://www.kosik.cz/p734586-natura-neperliva-12x500ml) | 6,0 l | 199,90 | 264,90 | 24,00 % | 2026-10-27 |
 | Wolt | Red Bull | [RED BULL GREEN S PŘÍCHUTÍ CURUBA A BEZOVÝ KVĚT 0,25 l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 250 ml | 34,90 | 45,90 | 24,00 % |  |
 | Wolt | Red Bull | [RED BULL PINK SUGARFREE S PŘÍCHUTÍ LESNÍHO OVOCE 0,25 l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 250 ml | 34,90 | 45,90 | 24,00 % |  |
+| Wolt | Red Bull | [RED BULL SEA BLUE EDITION 250 ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 250 ml | 34,90 | 45,90 | 24,00 % |  |
 | Wolt | Red Bull | [RED BULL ZERO  0,25 l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 250 ml | 34,90 | 45,90 | 24,00 % |  |
 | Wolt | Red Bull | [Red Bull Blue edition 250ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 250 ml | 34,90 | 45,90 | 24,00 % |  |
 | Wolt | Red Bull | [Red Bull Energy drink 250ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 250 ml | 34,90 | 45,90 | 24,00 % |  |
@@ -141,6 +128,7 @@
 | Wolt | Targa | [Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 1,33l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,33 l | 34,90 | 44,90 | 22,30 % |  |
 | Wolt | Mattoni | [Mattoni Jemně perlivá přírodní minerální voda 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 14,90 | 18,90 | 21,20 % |  |
 | Wolt | Mattoni | [Mattoni Neperlivá přírodní minerální voda 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 14,90 | 18,90 | 21,20 % |  |
+| Wolt | Mattoni | [Mattoni Perlivá přírodní minerální voda 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 14,90 | 18,90 | 21,20 % |  |
 | Wolt | Coca-Cola | [COCA-COLA 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) |  | 45,90 | 57,90 | 20,70 % |  |
 | Wolt | Coca-Cola | [Coca-Cola Zero 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 45,90 | 57,90 | 20,70 % |  |
 | Wolt | Coca-Cola | [Coca-Cola Zero Zero 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 45,90 | 57,90 | 20,70 % |  |
@@ -151,6 +139,7 @@
 | Wolt | Magnesia | [Magnesia minerální Red brusinka, jemně perlivá](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 1,5 l | 19,90 | 24,90 | 20,10 % |  |
 | Wolt | Magnesia | [Magnesia minerální Red červ.pomeranč, jemn.perl.](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 1,5 l | 19,90 | 24,90 | 20,10 % |  |
 | Wolt | Poděbradka | [PODĚBRADKA POMERANČ 1,5 l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 15,90 | 19,90 | 20,10 % |  |
+| Wolt | Poděbradka | [Poděbradka Jemně perlivá s příchutí citron 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 15,90 | 19,90 | 20,10 % |  |
 | Wolt | Poděbradka | [Poděbradka ProLinie Jemně perlivá citron 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 15,90 | 19,90 | 20,10 % |  |
 | Wolt | Poděbradka | [Poděbradka Prolinie Jemně perlivá pomeranč 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 15,90 | 19,90 | 20,10 % |  |
 | Wolt | Poděbradka | [Poděbradka Prolinie Jemně perlivá s příchutí lesní plody 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 15,90 | 19,90 | 20,10 % |  |
@@ -162,17 +151,29 @@
 | Rohlík | UGO | [UGO Cold Brew tea mango eukalyptus](https://www.rohlik.cz/1484514-ugo-cold-brew-tea-mango-eukalyptus) | 500 ml | 39,90 | 49,90 | 20,00 % | 2026-11-09 |
 | Rohlík | UGO | [UGO RAW mrkev a jablko](https://www.rohlik.cz/1347765-ugo-raw-mrkev-a-jablko) | 0,75 l | 99,90 | 124,90 | 20,00 % | 2026-10-31 |
 | Rohlík | UGO | [UGO RAW červená řepa a jablko](https://www.rohlik.cz/1347763-ugo-raw-cervena-repa-a-jablko) | 0,75 l | 99,90 | 124,90 | 20,00 % | 2026-10-31 |
+| Rohlík | Kofola | [Kofola original (4x2l)](https://www.rohlik.cz/1330211-kofola-original-4x2l) | 8 l | 129,90 | 159,90 | 18,80 % | 2026-11-02 |
 | Rohlík | Coca-Cola | [Coca-Cola Zero plech (24×0,33 l)](https://www.rohlik.cz/1463407-coca-cola-zero-plech-24-0-33-l) | 7,92 l | 449,90 | 549,90 | 18,20 % | 2026-12-31 |
 | Rohlík | Coca-Cola | [Coca-Cola plech (24×0,33 l)](https://www.rohlik.cz/1463408-coca-cola-plech-24-0-33-l) | 7,92 l | 449,90 | 549,90 | 18,20 % | 2026-12-31 |
 | Rohlík | Cappy | [Cappy Jablko 100%](https://www.rohlik.cz/1372133-cappy-jablko-100) | 1 l | 54,90 | 66,90 | 17,90 % | 2026-12-31 |
 | Rohlík | Cappy | [Cappy Pomeranč](https://www.rohlik.cz/1473328-cappy-pomeranc) | 1 l | 54,90 | 66,90 | 17,90 % | 2026-12-31 |
-| Rohlík | Coca-Cola | [Coca-Cola Zero multipack (4×1,5 l)](https://www.rohlik.cz/1437478-coca-cola-zero-multipack-4-1-5-l) | 6 l | 119,90 | 144,90 | 17,30 % | 2026-10-26 |
-| Rohlík | Coca-Cola | [Coca-Cola multipack (4×1,5 l)](https://www.rohlik.cz/1437476-coca-cola-multipack-4-1-5-l) | 6 l | 119,90 | 144,90 | 17,30 % | 2026-10-26 |
-| Rohlík | Kofola | [Kofola Original](https://www.rohlik.cz/1374121-kofola-original) | 1 l | 24,90 | 29,90 | 16,70 % | 2026-12-31 |
+| Rohlík | Rajec | [Rajec Jemně perlivá voda (6×1,5l)](https://www.rohlik.cz/1375359-rajec-jemne-perliva-voda-6-1-5l) | 9 l | 99,90 | 119,90 | 16,70 % | 2026-12-31 |
+| Rohlík | Rajec | [Rajec Kojenecká voda (6×1,5l)](https://www.rohlik.cz/1375363-rajec-kojenecka-voda-6-1-5l) | 9 l | 99,90 | 119,90 | 16,70 % | 2026-12-31 |
+| Rohlík | Rajec | [Rajec Neperlivá voda (6×1,5l)](https://www.rohlik.cz/1375365-rajec-neperliva-voda-6-1-5l) | 9 l | 99,90 | 119,90 | 16,70 % | 2026-12-31 |
+| Rohlík | Mattoni | [Mattoni s příchutí bílé hrozny 6×1,5 l](https://www.rohlik.cz/1461406-mattoni-s-prichuti-bile-hrozny-6-1-5-l) | 9 l | 99,90 | 119,90 | 16,70 % | 2026-11-02 |
+| Rohlík | Mattoni | [Mattoni s příchutí citronu 6×1,5 l](https://www.rohlik.cz/1461407-mattoni-s-prichuti-citronu-6-1-5-l) | 9 l | 99,90 | 119,90 | 16,70 % | 2026-11-02 |
+| Rohlík | Mattoni | [Mattoni s příchutí pomeranče 6×1,5 l](https://www.rohlik.cz/1461408-mattoni-s-prichuti-pomerance-6-1-5-l) | 9 l | 99,90 | 119,90 | 16,70 % | 2026-11-02 |
 | Rohlík | Gatorade | [Gatorade Cool Blue](https://www.rohlik.cz/1359633-gatorade-cool-blue) | 500 ml | 29,90 | 35,90 | 16,70 % | 2026-12-31 |
 | Rohlík | Gatorade | [Gatorade Orange](https://www.rohlik.cz/1359625-gatorade-orange) | 500 ml | 29,90 | 35,90 | 16,70 % | 2026-12-31 |
-| Rohlík | Schweppes | [Schweppes Indian tonic](https://www.rohlik.cz/1288713-schweppes-indian-tonic) | 1,5 l | 36,90 | 43,90 | 15,90 % | 2026-10-26 |
+| Rohlík | Targa Aranciata | [Targa pomeranč](https://www.rohlik.cz/1469872-targa-pomeranc) | 1,33 l | 36,90 | 43,90 | 15,90 % | 2026-11-02 |
+| Rohlík | Targa Limonata | [Targa Limonata](https://www.rohlik.cz/1480244-targa-limonata) | 1,33 l | 36,90 | 43,90 | 15,90 % | 2026-11-02 |
+| Rohlík | Kofola | [Kofola Nulka – bez cukru](https://www.rohlik.cz/1479399-kofola-nulka-bez-cukru) | 330 ml | 16,90 | 19,90 | 15,10 % | 2026-12-31 |
 | Rohlík | UGO | [UGO RAW Cold Brew Tea Jahoda, bucco a máta](https://www.rohlik.cz/1441472-ugo-raw-cold-brew-tea-jahoda-bucco-a-mata) | 500 ml | 44,90 | 52,90 | 15,10 % | 2026-10-31 |
+| Rohlík | Mattoni | [Mattoni Cedrata s příchutí citrusů perlivá](https://www.rohlik.cz/1338895-mattoni-cedrata-s-prichuti-citrusu-perliva) | 1,5 l | 16,90 | 19,90 | 15,10 % | 2026-11-02 |
+| Rohlík | Mattoni | [Mattoni Multi](https://www.rohlik.cz/1376329-mattoni-multi) | 1,5 l | 16,90 | 19,90 | 15,10 % | 2026-11-02 |
+| Rohlík | Mattoni | [Mattoni s příchutí broskve](https://www.rohlik.cz/1455938-mattoni-s-prichuti-broskve) | 1,5 l | 16,90 | 19,90 | 15,10 % | 2026-11-02 |
+| Rohlík | Mattoni | [Mattoni s příchutí grapefruitu](https://www.rohlik.cz/1410997-mattoni-s-prichuti-grapefruitu) | 1,5 l | 16,90 | 19,90 | 15,10 % | 2026-11-02 |
+| Rohlík | Mattoni | [Mattoni s příchutí malina](https://www.rohlik.cz/1358891-mattoni-s-prichuti-malina) | 1,5 l | 16,90 | 19,90 | 15,10 % | 2026-11-02 |
+| Rohlík | Mattoni | [Mattoni s příchutí mango Alphonso](https://www.rohlik.cz/1480110-mattoni-s-prichuti-mango-alphonso) | 1,5 l | 16,90 | 19,90 | 15,10 % | 2026-11-02 |
 | Rohlík | UGO | [UGO RAW rybíz a jablko](https://www.rohlik.cz/1384931-ugo-raw-rybiz-a-jablko) | 250 ml | 39,90 | 46,90 | 14,90 % | 2026-10-31 |
 | Rohlík | Pepsi | [Pepsi (6×1,5l)](https://www.rohlik.cz/1418357-pepsi-6-1-5l) | 9 l | 199,90 | 234,90 | 14,90 % | 2026-12-31 |
 | Rohlík | Pepsi | [Pepsi Zero Sugar (6×1,5l)](https://www.rohlik.cz/1418360-pepsi-zero-sugar-6-1-5l) | 9 l | 199,90 | 234,90 | 14,90 % | 2026-12-31 |
@@ -188,24 +189,14 @@
 | Wolt | Monster | [Monster Juiced Mango Loco 500ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 500 ml | 39,90 | 46,90 | 14,90 % |  |
 | Wolt | Monster | [Monster Juiced Monarch 500ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 500 ml | 39,90 | 46,90 | 14,90 % |  |
 | Wolt | Monster | [Monster Juiced Viking Berry 500ml](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 500 ml | 39,90 | 46,90 | 14,90 % |  |
-| Rohlík | Korunní | [Korunní Citron](https://www.rohlik.cz/1385987-korunni-citron) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
-| Rohlík | Korunní | [Korunní Etera broskev a máta bez cukru](https://www.rohlik.cz/1480112-korunni-etera-broskev-a-mata-bez-cukru) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
-| Rohlík | Korunní | [Korunní Etera maracuja a zázvor bez cukru](https://www.rohlik.cz/1480113-korunni-etera-maracuja-a-zazvor-bez-cukru) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
-| Rohlík | Korunní | [Korunní Etera pomelo a okurka](https://www.rohlik.cz/1480114-korunni-etera-pomelo-a-okurka) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
-| Rohlík | Korunní | [Korunní Limeta a máta](https://www.rohlik.cz/1386017-korunni-limeta-a-mata) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
-| Rohlík | Korunní | [Korunní Mango](https://www.rohlik.cz/1386005-korunni-mango) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
-| Rohlík | Korunní | [Korunní Meruňka](https://www.rohlik.cz/1461986-korunni-merunka) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
-| Rohlík | Korunní | [Korunní Pomeranč](https://www.rohlik.cz/1385993-korunni-pomeranc) | 1,5 l | 17,90 | 20,90 | 14,40 % | 2026-10-26 |
 | Wolt | Kláštorná | [KLÁŠTORNÁ KALCIA JEMNĚ PERLIVÁ 1,5 l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 17,90 | 20,90 | 14,40 % |  |
 | Wolt | Kláštorná | [KLÁŠTORNÁ KALCIA PERLIVÁ 1,5 l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 17,90 | 20,90 | 14,40 % |  |
-| Rohlík | Korunní | [Korunní Neperlivá (6x1,5l)](https://www.rohlik.cz/1407622-korunni-neperliva-6x1-5l) | 9 l | 89,90 | 104,90 | 14,30 % | 2026-10-26 |
 | Rohlík | UGO | [UGO Funkční smoothie Fokus – jablko, černý rybíz, jahoda](https://www.rohlik.cz/1468849-ugo-funkcni-smoothie-fokus-jablko-cerny-rybiz-jahoda) | 250 ml | 44,00 | 50,90 | 13,60 % | 2026-10-31 |
 | Rohlík | Fanta | [Fanta Exotic plech](https://www.rohlik.cz/1480654-fanta-exotic-plech) | 330 ml | 19,90 | 22,90 | 13,10 % | 2026-11-01 |
 | Rohlík | Fanta | [Fanta Jablečno-třešňová chuť plech](https://www.rohlik.cz/1480656-fanta-jablecno-tresnova-chut-plech) | 330 ml | 19,90 | 22,90 | 13,10 % | 2026-11-01 |
 | Rohlík | Fanta | [Fanta Zero cukru pomeranč plech](https://www.rohlik.cz/1457454-fanta-zero-cukru-pomeranc-plech) | 330 ml | 19,90 | 22,90 | 13,10 % | 2026-11-01 |
 | Rohlík | Sprite | [Sprite plech](https://www.rohlik.cz/1410816-sprite-plech) | 330 ml | 19,90 | 22,90 | 13,10 % | 2026-11-01 |
 | Wolt | Mattoni | [MATTONI BÍLÉ HROZNY 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 22,90 | 13,10 % |  |
-| Wolt | Mattoni | [MATTONI MANGO ALPHONSO 1,5l PET](https://wolt.com/cs/cze/prague/venue/zabka-rimska) |  | 19,90 | 22,90 | 13,10 % |  |
 | Wolt | Mattoni | [Mattoni Cedrata s příchutí citrusů perlivá 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 22,90 | 13,10 % |  |
 | Wolt | Mattoni | [Mattoni Citron perlivá 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 22,90 | 13,10 % |  |
 | Wolt | Mattoni | [Mattoni Esence citron jemně perlivá 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 22,90 | 13,10 % |  |
@@ -214,11 +205,10 @@
 | Wolt | Mattoni | [Mattoni Malina perlivá 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 22,90 | 13,10 % |  |
 | Wolt | Mattoni | [Mattoni Multi s příchutí tropického ovoce jemně perlivá 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 22,90 | 13,10 % |  |
 | Wolt | Mattoni | [Mattoni Pomeranč perlivá 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 22,90 | 13,10 % |  |
-| Rohlík | Mattoni | [Mattoni minerální voda jemně perlivá (6x1,5l)](https://www.rohlik.cz/1375379-mattoni-mineralni-voda-jemne-perliva-6x1-5l) | 9 l | 89,90 | 103,15 | 12,80 % | 2026-12-31 |
-| Rohlík | Mattoni | [Mattoni minerální voda neperlivá (6x1,5l)](https://www.rohlik.cz/1375383-mattoni-mineralni-voda-neperliva-6x1-5l) | 9 l | 89,90 | 103,15 | 12,80 % | 2026-12-31 |
-| Rohlík | Mattoni | [Mattoni minerální voda perlivá (6x1,5l)](https://www.rohlik.cz/1375377-mattoni-mineralni-voda-perliva-6x1-5l) | 9 l | 89,90 | 103,15 | 12,80 % | 2026-12-31 |
 | Rohlík | UGO | [UGO RAW Funkční smoothie lesní směs s vlákninou](https://www.rohlik.cz/1425766-ugo-raw-funkcni-smoothie-lesni-smes-s-vlakninou) | 500 ml | 69,90 | 79,90 | 12,50 % | 2026-10-31 |
 | Rohlík | UGO | [UGO RAW 100% pomeranč](https://www.rohlik.cz/1308919-ugo-raw-100-pomeranc) | 250 ml | 42,90 | 48,90 | 12,30 % | 2026-10-31 |
+| Rohlík | Targa | [Targa Tonica originale](https://www.rohlik.cz/1469873-targa-tonica-originale) | 1,33 l | 36,90 | 41,90 | 11,90 % | 2026-11-02 |
+| Rohlík | Targa | [Targa Tonica rosa](https://www.rohlik.cz/1469874-targa-tonica-rosa) | 1,33 l | 36,90 | 41,90 | 11,90 % | 2026-11-02 |
 | Rohlík | UGO | [UGO Funkční drink Imunita – jablko, pomeranč, citron, zázvor](https://www.rohlik.cz/1468848-ugo-funkcni-drink-imunita-jablko-pomeranc-citron-zazvor) | 250 ml | 44,90 | 50,90 | 11,80 % | 2026-10-31 |
 | Rohlík | UGO | [UGO Funkční smoothie Digestiv – jablko, banán, špenát, spirulina](https://www.rohlik.cz/1468850-ugo-funkcni-smoothie-digestiv-jablko-banan-spenat-spirulina) | 250 ml | 44,90 | 50,90 | 11,80 % | 2026-10-31 |
 | Rohlík | UGO | [UGO Funkční smoothie Krása – jablko, banán, jahoda](https://www.rohlik.cz/1468851-ugo-funkcni-smoothie-krasa-jablko-banan-jahoda) | 250 ml | 44,90 | 50,90 | 11,80 % | 2026-10-31 |
@@ -231,8 +221,12 @@
 | Rohlík | Mirinda | [Mirinda Pomeranč](https://www.rohlik.cz/734177-mirinda-pomeranc) | 1,5 l | 34,90 | 38,90 | 10,30 % | 2026-12-31 |
 | Rohlík | Coca-Cola | [Coca-Cola (6x0,33 l) plech](https://www.rohlik.cz/1421956-coca-cola-6x0-33-l-plech) | 1,98 l | 109,90 | 122,40 | 10,20 % | 2026-12-31 |
 | Rohlík | Coca-Cola | [Coca-Cola Zero (6x0,33 l) plech](https://www.rohlik.cz/1421957-coca-cola-zero-6x0-33-l-plech) | 1,98 l | 109,90 | 122,40 | 10,20 % | 2026-12-31 |
+| Rohlík | Kofola | [Kofola Original](https://www.rohlik.cz/1374121-kofola-original) | 1 l | 26,90 | 29,90 | 10,00 % | 2026-12-31 |
 | Rohlík | UGO | [UGO RAW Smoothie banán, jahoda a jablko](https://www.rohlik.cz/1323045-ugo-raw-smoothie-banan-jahoda-a-jablko) | 250 ml | 44,90 | 49,90 | 10,00 % | 2026-10-31 |
 | Rohlík | UGO | [UGO RAW Smoothie malina, jahoda, borůvka a jablko](https://www.rohlik.cz/1323027-ugo-raw-smoothie-malina-jahoda-boruvka-a-jablko) | 250 ml | 44,90 | 49,90 | 10,00 % | 2026-10-31 |
+| Rohlík | Mattoni | [Mattoni minerální voda jemně perlivá (6x1,5l)](https://www.rohlik.cz/1375379-mattoni-mineralni-voda-jemne-perliva-6x1-5l) | 9 l | 92,90 | 103,15 | 9,90 % | 2026-12-31 |
+| Rohlík | Mattoni | [Mattoni minerální voda neperlivá (6x1,5l)](https://www.rohlik.cz/1375383-mattoni-mineralni-voda-neperliva-6x1-5l) | 9 l | 92,90 | 103,15 | 9,90 % | 2026-12-31 |
+| Rohlík | Mattoni | [Mattoni minerální voda perlivá (6x1,5l)](https://www.rohlik.cz/1375377-mattoni-mineralni-voda-perliva-6x1-5l) | 9 l | 92,90 | 103,15 | 9,90 % | 2026-12-31 |
 | Wolt | Mattoni | [Mattoni Esence mango jemně perlivá 1,5l](https://wolt.com/cs/cze/prague/venue/zabka-rimska) | 1,5 l | 19,90 | 21,90 | 9,10 % |  |
 | Wolt | Coca-Cola | [Coca-Cola](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 2 l | 38,90 | 39,90 | 2,50 % |  |
 | Wolt | Coca-Cola | [Coca-Cola Zero](https://wolt.com/cs/cze/prague/venue/albert-vinohradska) | 2 l | 38,90 | 39,90 | 2,50 % |  |
@@ -243,8 +237,8 @@
 
 | Obchod | Značka | Produkt | Balení | Cena za 1 ks | Od ks | Cena za ks | Sleva |
 |---|---|---|---|---:|---:|---:|---:|
-| Košík | Cappy | [Cappy 100% Jablko](https://www.kosik.cz/p43367-cappy-100-jablko) | 1,0 l | 64,90 | 2 | 57,90 | 10,79 % |
 | Košík | Cappy | [Cappy 100% Jablko](https://www.kosik.cz/p43357-cappy-100-jablko) | 330,0 ml | 37,90 | 2 | 33,90 | 10,55 % |
+| Košík | Cappy | [Cappy 100% Jablko](https://www.kosik.cz/p43367-cappy-100-jablko) | 1,0 l | 64,90 | 2 | 57,90 | 10,79 % |
 | Košík | Cappy | [Cappy 100% Pomeranč](https://www.kosik.cz/p43377-cappy-100-pomeranc) | 1,0 l | 84,90 | 2 | 74,90 | 11,78 % |
 | Košík | Cappy | [Cappy Jahodový Mix](https://www.kosik.cz/p628199-cappy-jahodovy-mix) | 1,0 l | 64,90 | 2 | 57,90 | 10,79 % |
 | Košík | Cappy | [Cappy Multivitamin](https://www.kosik.cz/p43387-cappy-multivitamin) | 1,0 l | 64,90 | 2 | 57,90 | 10,79 % |
@@ -253,8 +247,8 @@
 | Košík | Coca-Cola | [Coca-Cola 4x1,5l](https://www.kosik.cz/p719200-coca-cola-4x1-5l) | 6,0 l | 144,90 | 2 | 109,90 | 24,15 % |
 | Košík | Coca-Cola | [Coca-Cola Creamy Vanilla](https://www.kosik.cz/p822326-coca-cola-creamy-vanilla) | 330,0 ml | 22,90 | 4 | 18,90 | 17,47 % |
 | Košík | Coca-Cola | [Coca-Cola Creamy Vanilla](https://www.kosik.cz/p822322-coca-cola-creamy-vanilla) | 1,5 l | 44,90 | 2 | 39,90 | 11,14 % |
-| Košík | Coca-Cola | [Coca-Cola Creamy Vanilla Zero](https://www.kosik.cz/p822324-coca-cola-creamy-vanilla-zero) | 1,5 l | 44,90 | 2 | 39,90 | 11,14 % |
 | Košík | Coca-Cola | [Coca-Cola Creamy Vanilla Zero](https://www.kosik.cz/p822328-coca-cola-creamy-vanilla-zero) | 330,0 ml | 22,90 | 4 | 18,90 | 17,47 % |
+| Košík | Coca-Cola | [Coca-Cola Creamy Vanilla Zero](https://www.kosik.cz/p822324-coca-cola-creamy-vanilla-zero) | 1,5 l | 44,90 | 2 | 39,90 | 11,14 % |
 | Košík | Coca-Cola | [Coca-Cola Multipack 6x330ml](https://www.kosik.cz/p43887-coca-cola-multipack-6x330ml) | 1,98 l | 119,90 | 2 | 89,90 | 25,02 % |
 | Košík | Coca-Cola | [Coca-Cola Zero](https://www.kosik.cz/p719220-coca-cola-zero) | 2,0 l | 49,90 | 3 | 36,90 | 26,05 % |
 | Košík | Coca-Cola | [Coca-Cola Zero 4x1,5l](https://www.kosik.cz/p719204-coca-cola-zero-4x1-5l) | 6,0 l | 144,90 | 2 | 109,90 | 24,15 % |
@@ -473,2363 +467,2045 @@
 | Rohlík | Magnesia | [Magnesia Extra minerální voda](https://www.rohlik.cz/1331891-magnesia-extra-mineralni-voda) | 0,7 l | 39,90 | 3 | 35,90 | 10,03 % |
 | Rohlík | Magnesia | [Magnesia GO](https://www.rohlik.cz/1358901-magnesia-go) | 0,75 l | 19,90 | 3 | 17,90 | 10,05 % |
 
-## Změny cen oproti předchozímu měření (421)
+## Změny cen oproti předchozímu měření (102)
 
 | Obchod | Produkt | Předtím | Nyní | Běžná předtím | Běžná nyní |
 |---|---|---:|---:|---:|---:|
-| Bolt Food | Vitakraft Monster Party Hračka Pro Zvířata 1 Ks () | 139,90 | 199,90 | 139,90 | 199,90 |
-| Bolt Food | POWERADE ATTACK 500 ml () | 29,90 | 49,90 | 29,90 | 49,90 |
-| Bolt Food | MAGNESIA RED S PRICH. CERVENE. POM. SYC. 0,33 L () | 23,90 | 24,90 | 23,90 | 24,90 |
-| Bolt Food | MAGNESIA RED S PRICHUTI MALINY SYCENA 0,33 L () | 23,90 | 24,90 | 23,90 | 24,90 |
-| Bolt Food | Mattoni Cedrata S Příchutí Citrusů Jemně Perlivá 0,5L () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Mattoni Imuno Jablko Kiwi Ananas Jemně Perlivá 0,5L () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Mattoni Imuno Mango Pomeranč Jemně Perlivá 0,5L () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 0,5L () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Lipton Ice Tea green Ledový Čaj Zelený 500Ml () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Cappy 100% Jablečný Džus 330ml () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Cappy 100% Jablko 1l () | 71,90 | 72,90 | 71,90 | 72,90 |
-| Bolt Food | Cappy 100% Pomerančový Džus 1l () | 92,90 | 94,90 | 92,90 | 94,90 |
-| Bolt Food | Cappy Lemonade Bez Cukru Citrón & Jahoda 400ml () | 49,90 | 51,90 | 49,90 | 51,90 |
-| Bolt Food | Cappy Multivitamínový Smíšený Ovocný Nektar S Přidanými Vitamíny 1l () | 71,90 | 72,90 | 71,90 | 72,90 |
-| Bolt Food | Cappy Multivitamínový Smíšený Ovocný Nektar S Přidanými Vitamíny 330ml () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Cappy Nesycený Nealkoholický Nápoj S Jablečnou, Jahodovou A Aroniovou Šťávou 1l () | 71,90 | 72,90 | 71,90 | 72,90 |
-| Bolt Food | Cappy Pomeranč Nektar 0,33L () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Cappy Pulpy Grapefruit 1l () | 65,90 | 69,90 | 65,90 | 69,90 |
-| Bolt Food | Cappy Pulpy Pomeranč 1l () | 65,90 | 69,90 | 65,90 | 69,90 |
-| Bolt Food | Cappy Pulpy Pomeranč 330ml () | 38,90 | 39,90 | 38,90 | 39,90 |
-| Bolt Food | Coca Cola 330ml () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Coca-Cola 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Coca-Cola 1l () | 46,90 | 47,90 | 46,90 | 47,90 |
-| Bolt Food | Coca-Cola Cherry 0,33l Plech () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Coca-Cola Cherry 0,5l () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Coca-Cola Cherry 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Coca-Cola Vanilla 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Coca-Cola Vanilla 500ml () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Coca-Cola Zero 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Coca-Cola Zero 1l () | 46,90 | 47,90 | 46,90 | 47,90 |
-| Bolt Food | Coca-Cola Zero 330ml () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Coca-Cola Zero Zero 0,33L Plech () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Coca-Cola Zero Zero 0,5L () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Coca-Cola Zero Zero 1,5L () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Coca-Cola Zero Zero 1L () | 46,90 | 47,90 | 46,90 | 47,90 |
-| Bolt Food | Fanta Apple Lychee Zero 0,33l Plech () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Fanta Exotic 0,33L Plech () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Fanta Exotic 1,5L () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Fanta Pomeranč 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Fanta Pomeranč 1l () | 46,90 | 47,90 | 46,90 | 47,90 |
-| Bolt Food | Fanta Pomeranč 330ml () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Fanta Pomeranč 500ml () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Fanta Pomeranč Zero 0,33l Plech () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Fanta Pomeranč Zero 0,5l Pet () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Fanta Pomeranč Zero 1,5l Pet () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Fanta Shokata 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Fanta Shokata 330ml () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Fanta Shokata 500ml () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Kinley Grape 0,5l Pet () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Kinley Pink Aromatic Berry 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Kinley Pink Berry 0,5l Pet () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Kinley Tonic Sycený Nápoj S Příchutí Tonicu 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Kinley Tonic Water 0,25l Plech () | 38,90 | 39,90 | 38,90 | 39,90 |
-| Bolt Food | Monster Energy Sycený Energetický Nápoj 500ml () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Energy The Doctor 500ml () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Energy Ultra 500ml () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Energy Zero 0,5l () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Juiced Monarch 500ml () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Lando Norris Zero 0,5L () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Rio Punch 0,5l () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Ultra Rosa 500ml () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Ultra Straw. Dreams Zero 0,5l () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Valentino Rossi Zero 0,5L () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Monster Viking Berry 0,5L () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Natura Jemně Perlivá 1,5l () | 26,90 | 27,90 | 26,90 | 27,90 |
-| Bolt Food | Natura Jemně Perlivá 500ml () | 27,90 | 29,90 | 27,90 | 29,90 |
-| Bolt Food | Natura Kojenecká 1,5l () | 28,90 | 29,90 | 28,90 | 29,90 |
-| Bolt Food | Natura Neperlivá 1,5l () | 26,90 | 27,90 | 26,90 | 27,90 |
-| Bolt Food | Natura Neperlivá 750ml () | 28,90 | 29,90 | 28,90 | 29,90 |
-| Bolt Food | Natura Perlivá 1,5l () | 26,90 | 27,90 | 26,90 | 27,90 |
-| Bolt Food | Natura S Příchutí Citron Máta 1,5l () | 27,90 | 29,90 | 27,90 | 29,90 |
-| Bolt Food | Natura S Příchutí Citron Máta 500ml () | 28,90 | 29,90 | 28,90 | 29,90 |
-| Bolt Food | Natura S Příchutí Malina 1,5l () | 27,90 | 29,90 | 27,90 | 29,90 |
-| Bolt Food | Natura S Příchutí Malina 500ml () | 28,90 | 29,90 | 28,90 | 29,90 |
-| Bolt Food | Powerade Mountain Blast 500ml () | 53,90 | 54,90 | 53,90 | 54,90 |
-| Bolt Food | Powerade Mountain Blast Zero 0,5l Pet () | 53,90 | 64,90 | 53,90 | 64,90 |
-| Bolt Food | Römerquelle Citronová Tráva 0,5L () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Römerquelle Neperlivá 0,5L () | 29,90 | 35,90 | 29,90 | 35,90 |
-| Bolt Food | Römerquelle Perlivá 0,5L () | 29,90 | 35,90 | 29,90 | 35,90 |
-| Bolt Food | Sprite Citron Limetka 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Sprite Citron Limetka 1l () | 46,90 | 47,90 | 46,90 | 47,90 |
-| Bolt Food | Sprite Citron Limetka 330ml () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Sprite Citron Limetka 500ml () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Sprite Zero 0,5 L () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Sprite Zero 1,5 L Pet () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Sprite Zero 330 Ml Plech () | 33,90 | 34,90 | 33,90 | 34,90 |
-| Bolt Food | Jupí Sirup Citrón 0,7l () | 62,90 | 64,90 | 62,90 | 64,90 |
-| Bolt Food | Jupí Sirup Lesní Směs 0,7l () | 62,90 | 64,90 | 62,90 | 64,90 |
-| Bolt Food | Jupí Sirup Malina 0,7l () | 62,90 | 64,90 | 62,90 | 64,90 |
-| Bolt Food | Jupí Sirup Pomeranč 0,7l () | 62,90 | 64,90 | 62,90 | 64,90 |
-| Bolt Food | Jupík Aqua Jablko 500ml () | 26,50 | 27,90 | 26,50 | 27,90 |
-| Bolt Food | Jupík Aqua Jahoda 500ml () | 26,50 | 27,90 | 26,50 | 27,90 |
-| Bolt Food | Jupík Aqua Sport Lesní Ovoce 0,5l () | 26,50 | 27,90 | 26,50 | 27,90 |
-| Bolt Food | Kláštorná Kalcia Jemně Sycená 0,5l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Kláštorná Kalcia Jemně Sycená 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Kláštorná Kalcia Sycená 0,5l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Kláštorná Kalcia Sycená 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Kofola Citrus 2l () | 49,90 | 51,90 | 49,90 | 51,90 |
-| Bolt Food | Kofola Nulka 0,33L () | 23,90 | 29,90 | 23,90 | 29,90 |
-| Bolt Food | Kofola Nulka 2L () | 49,90 | 51,90 | 49,90 | 51,90 |
-| Bolt Food | Kofola Original 0,33l Plech () | 23,90 | 29,90 | 23,90 | 29,90 |
-| Bolt Food | Kofola Original 1,5l () | 41,90 | 42,90 | 41,90 | 42,90 |
-| Bolt Food | Kofola Original 1l () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Korunní Jemně Perlivá S Příchutí Citron 1,5l () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Korunní Jemně Perlivá S Příchutí Limeta A Máta 0,75l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Korunní Jemně Perlivá S Příchutí Mango 0,75l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Korunní Jemně Perlivá S Příchutí Mango 1,5l () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Rajec Bio Malina - Lípa 1,5L () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Rajec Bio Rybíz - Šípek 0,75L () | 27,90 | 29,90 | 27,90 | 29,90 |
-| Bolt Food | Rajec Bio Růže - Ostružina 1,5L () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Rajec Bylinka Mateřídouška Nesycená 0,75l () | 28,90 | 29,90 | 28,90 | 29,90 |
-| Bolt Food | Rajec Bylinka Mateřídouška Nesycená 1,5l () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Rajec Bylinka Pampeliška Nesycená 1,5l () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Rajec Kojenecká Voda 0,33l () | 19,90 | 21,90 | 19,90 | 21,90 |
-| Bolt Food | Rajec Kojenecká Voda Pramenitá Nesycená 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Rajec Pramenitá Voda Jemně Sycená 1,5l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Rajec Pramenitá Voda Nesycená 1,5l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Semtex Air 0,5l Plech () | 40,90 | 41,90 | 40,90 | 41,90 |
-| Bolt Food | Semtex Cactus 0,5l () | 40,90 | 41,90 | 40,90 | 41,90 |
-| Bolt Food | Semtex Extrem Mandarin 0,5L () | 40,90 | 41,90 | 40,90 | 41,90 |
-| Bolt Food | Semtex Extrem Passion Fruit 0,5l Plech () | 40,90 | 41,90 | 40,90 | 41,90 |
-| Bolt Food | Top Topic 1,5l () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Vinea Bílá 0,33l Plech () | 24,90 | 29,90 | 24,90 | 29,90 |
-| Bolt Food | Vinea Bílá 0,5l () | 29,50 | 31,90 | 29,50 | 31,90 |
-| Bolt Food | Aquila První Voda Jemně Perlivá Kojenecká 1,5l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Aquila První Voda Neperlivá Kojenecká 0,5l () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Aquila První Voda Neperlivá Kojenecká 0,75l () | 28,90 | 29,90 | 28,90 | 29,90 |
-| Bolt Food | Aquila První Voda Neperlivá Kojenecká 1,5l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Aquila Tea Zelený Čaj Se Šťávou Z Citronu 1,5l () | 39,90 | 41,90 | 39,90 | 41,90 |
-| Bolt Food | Aquila Tea Černý Čaj Se Šťávou Z Broskve 1,5l () | 39,90 | 41,90 | 39,90 | 41,90 |
-| Bolt Food | Aquila Tea Černý Čaj Se Šťávou Z Citronu 1,5l () | 39,90 | 41,90 | 39,90 | 41,90 |
-| Bolt Food | Dobrá Voda Jemně Perlivá 0,5l () | 17,90 | 19,90 | 17,90 | 19,90 |
-| Bolt Food | Dobrá Voda Jemně Perlivá 1,5l () | 18,90 | 19,90 | 18,90 | 19,90 |
-| Bolt Food | Dobrá Voda Jemně Perlivá S Příchutí Citron 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Dobrá Voda Neperlivá 0,5l () | 17,90 | 19,90 | 17,90 | 19,90 |
-| Bolt Food | Dobrá Voda Neperlivá 1,5l () | 18,90 | 19,90 | 18,90 | 19,90 |
-| Bolt Food | Dobrá Voda Neperlivá S Příchutí Bílé Hrozny 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Dobrá Voda Neperlivá S Příchutí Jahoda 0,75l () | 21,90 | 23,90 | 21,90 | 23,90 |
-| Bolt Food | Dobrá Voda Neperlivá S Příchutí Jahoda 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Dobrá Voda Neperlivá S Příchutí Malina 0,75l () | 21,90 | 23,90 | 21,90 | 23,90 |
-| Bolt Food | Dobrá Voda Neperlivá S Příchutí Malina 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Dobrá Voda Perlivá 1,5l () | 18,90 | 19,90 | 18,90 | 19,90 |
-| Bolt Food | Magnesia Extra 0,7l () | 48,90 | 49,90 | 48,90 | 49,90 |
-| Bolt Food | Magnesia Go Přírodní Minerální Voda Neperlivá 0,75l () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Magnesia Jemně Perlivá Přírodní Minerální Voda 0,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Magnesia Jemně Perlivá Přírodní Minerální Voda 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Magnesia Neperlivá Přírodní Minerální Voda 0,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Magnesia Neperlivá Přírodní Minerální Voda 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Magnesia Perlivá Přírodní Minerální Voda 1,5l () | 24,90 | 25,90 | 24,90 | 25,90 |
-| Bolt Food | Magnesia Plus Antistress Mango Meduňka 0,7l () | 43,90 | 44,90 | 43,90 | 44,90 |
-| Bolt Food | Magnesia Plus Boost Mandarinka, Limetka, Zázvor 0,7l Pet () | 43,90 | 44,90 | 43,90 | 44,90 |
-| Bolt Food | Magnesia Plus Focus Meruňka Marakuja Ženšen 0,7l () | 43,90 | 44,90 | 43,90 | 44,90 |
-| Bolt Food | Magnesia Plus Revital Hroznové Víno, Aloe Vera 0,7l Pet () | 43,90 | 44,90 | 43,90 | 44,90 |
-| Bolt Food | Magnesia Red Jahoda Jemně Perlivá 1,5l () | 29,90 | 32,90 | 29,90 | 32,90 |
-| Bolt Food | Magnesia Red Malina 0,33L Plech () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Magnesia Red Malina 0,5l Pet () | 29,90 | 32,90 | 29,90 | 32,90 |
-| Bolt Food | Magnesia Red Malina Jemně Perlivá 1,5l () | 29,90 | 32,90 | 29,90 | 32,90 |
-| Bolt Food | Magnesia Red Červený Pomeranč 0,33L Plech () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni  G&Tonik 0,33L Plech () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Bílé Hrozny 0,5l Pet () | 24,90 | 26,90 | 24,90 | 26,90 |
-| Bolt Food | Mattoni Bílé Hrozny Perlivá 1,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Cedrata 0,5l Pet () | 24,90 | 26,90 | 24,90 | 26,90 |
-| Bolt Food | Mattoni Cedrata S Příchutí Citrusů Jemně Perlivá 0,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Cedrata S Příchutí Citrusů Perlivá 1,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Citron 0,5l Pet () | 24,90 | 26,90 | 24,90 | 26,90 |
-| Bolt Food | Mattoni Citron Perlivá 1,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Daiquiri Jahoda 0,33L Plech () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Esence Citronu Perlivá 1,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Esence Jablka A Máty 0,75l Pet () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Esence Mango 0,75l Pet () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Esence Mango 1,5 L Pet () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Esence Pomeranče Perlivá 1,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Esence Yuzu A Okurky 1,5l Pet () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Imuno Hruška&Marakuja&Zázvor 0,7L Pet () | 44,90 | 45,90 | 44,90 | 45,90 |
-| Bolt Food | Mattoni Imuno Jablko Kiwi Ananas 0,7l Pet () | 44,90 | 45,90 | 44,90 | 45,90 |
-| Bolt Food | Mattoni Imuno Mango Pomeranč 0,7l Pet () | 44,90 | 45,90 | 44,90 | 45,90 |
-| Bolt Food | Mattoni Imuno Mango Pomeranč Jemně Perlivá 0,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Jemně Perlivá 0,5l Pet () | 23,90 | 25,90 | 23,90 | 25,90 |
-| Bolt Food | Mattoni Jemně Perlivá Přírodní Minerální Voda 1,5l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Mattoni Malina 1,5l Pet () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Mango Alphonso 0,5L Pet () | 24,90 | 26,90 | 24,90 | 26,90 |
-| Bolt Food | Mattoni Mango Alphonso 1,5L Pet () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Mojito 0,33L Plech () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Multi 0,5L Pet () | 24,90 | 26,90 | 24,90 | 26,90 |
-| Bolt Food | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 0,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 1,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Mattoni Neperlivá 0,75l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Mattoni Neperlivá Přírodní Minerální Voda 1,5l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Mattoni Perlivá 0,5L Pet () | 23,90 | 25,90 | 23,90 | 25,90 |
-| Bolt Food | Mattoni Perlivá Přírodní Minerální Voda 1,5l () | 22,90 | 24,90 | 22,90 | 24,90 |
-| Bolt Food | Mattoni Pomeranč 0,5L Pet () | 24,90 | 26,90 | 24,90 | 26,90 |
-| Bolt Food | Mattoni Pomeranč Perlivá 1,5l () | 25,90 | 26,90 | 25,90 | 26,90 |
-| Bolt Food | Poděbradka Jemně Perlivá S Příchutí Citron 1,5l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Poděbradka Jemně Perlivá S Příchutí Pomeranč 1,5l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Poděbradka Prolinie Jemně Perlivá Citron 1,5l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Poděbradka Prolinie Jemně Perlivá Pomeranč 1,5l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Poděbradka Prolinie Jemně Perlivá S Příchutí Lesní Plody 1,5l () | 21,90 | 24,90 | 21,90 | 24,90 |
-| Bolt Food | Schweppes Citrus Mix 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | Schweppes Indian Tonic 1,5l () | 59,90 | 61,90 | 59,90 | 61,90 |
-| Bolt Food | 7Up Zero Sugar 0,33l () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | 7Up Zero Sugar 0,5l () | 37,90 | 35,90 | 37,90 | 35,90 |
-| Bolt Food | Gatorade Cool Blue Nealkoholický Nápoj S Příchutí Malin 500ml () | 44,50 | 49,90 | 44,50 | 49,90 |
-| Bolt Food | Gatorade Orange Nealkoholický Nápoj S Příchutí Pomeranče 500ml () | 44,50 | 49,90 | 44,50 | 49,90 |
-| Bolt Food | Lipton Ice Tea Green Ledový Čaj Zelený 500ml () | 39,90 | 41,90 | 39,90 | 41,90 |
-| Bolt Food | Lipton Zero Ice Tea Black Ledový Čaj S Příchutí Broskve 1,5l () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Mirinda Mango Tangerine 0,5l Pet () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Mirinda Mango Tangerine 1,5l Pet () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Mirinda Pomeranč 0,5l () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Mirinda Pomeranč 1,5l () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Mirinda Pomeranč 1l () | 37,90 | 39,90 | 37,90 | 39,90 |
-| Bolt Food | Mirinda Pomeranč 330ml () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Mirinda Strawberry Lychee 0,5l Pet () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Mirinda Strawberry Lychee 1,5l Pet () | 44,90 | 46,90 | 44,90 | 46,90 |
-| Bolt Food | Mountain Dew 1,5l () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Mountain Dew 500ml () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Pepsi Cherry Zero Sugar 0,33l Plech () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Pepsi Cherry Zero Sugar 0,5l Pet () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Pepsi Cherry Zero Sugar 1,5l Pet () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Pepsi Cola 0,5l () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Pepsi Cola 1l () | 37,90 | 39,90 | 37,90 | 39,90 |
-| Bolt Food | Pepsi Cola 330ml () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Pepsi Lemon Zero Sugar 0,33l Plech () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Pepsi Lemon Zero Sugar 1,5l Pet () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Pepsi Raspberry 0,33L Plech () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Pepsi Raspberry Pet 0,5L () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Pepsi Twist Lemon Pet 0,5L () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Pepsi Zero Sugar 0,5l () | 34,90 | 35,90 | 34,90 | 35,90 |
-| Bolt Food | Pepsi Zero Sugar 1,5l () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Pepsi Zero Sugar 1l () | 37,90 | 39,90 | 37,90 | 39,90 |
-| Bolt Food | Pepsi Zero Sugar 330ml () | 26,90 | 29,90 | 26,90 | 29,90 |
-| Bolt Food | Red Bull 473ml () | 79,90 | 84,90 | 79,90 | 84,90 |
-| Bolt Food | Red Bull Blue Edition 0,355l () | 69,90 | 74,90 | 69,90 | 74,90 |
-| Bolt Food | Red Bull Blue Edition 250ml () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Energy Drink 2 Pack 0,25 L () | 79,90 | 81,90 | 79,90 | 81,90 |
-| Bolt Food | Red Bull Energy Drink 250ml () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Energy Drink 355ml () | 69,90 | 74,90 | 69,90 | 74,90 |
-| Bolt Food | Red Bull Green S Příchutí Curuba A Bezový Květ 0,25l () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Ice S Příchutí Vanilky A Ledové Borůvky 0,25L () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Peach S Příchutí Bílé Broskve 0,25L () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Pink Sugarfree S Příchutí Lesního Ovoce 0,25l () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Sea Blue Edition 250ml () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Sugar Free 250ml () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Bolt Food | Red Bull Zero 0,355L () | 69,90 | 74,90 | 69,90 | 74,90 |
-| Bolt Food | Red Bull Zero 250ml () | 54,90 | 56,90 | 54,90 | 56,90 |
-| Košík | Cappy 100% Jablko (1,0 l) | 67,90 | 64,90 | 67,90 | 64,90 |
-| Košík | Cappy Multivitamin (1,0 l) | 67,90 | 64,90 | 67,90 | 64,90 |
-| Košík | Kinley Pink Aromatic Berry (250,0 ml) | 19,90 | 25,90 | 25,90 | 25,90 |
-| Košík | Rajec BIO Malina & Lípa 6x1,5l  (9,0 l) | 144,90 | 154,90 | 144,90 | 154,90 |
-| Košík | Rajec BIO Rybíz & Šípek 6x1,5l (9,0 l) | 144,90 | 154,90 | 144,90 | 154,90 |
-| Košík | Rajec BIO Růže & Ostružina 6x1,5l  (9,0 l) | 144,90 | 154,90 | 144,90 | 154,90 |
-| Košík | Rajec Pramenitá voda Máta nesycená 6x1,5l (9,0 l) | 144,90 | 154,90 | 144,90 | 154,90 |
-| Košík | Semtex Extrem Jalbko (500,0 ml) | 18,90 | 34,90 | 34,90 | 34,90 |
-| Košík | Semtex Extrem Mandarin (500,0 ml) | 18,90 | 34,90 | 34,90 | 34,90 |
-| Košík | Semtex Extrem passion fruit (500,0 ml) | 18,90 | 34,90 | 34,90 | 34,90 |
-| Košík | Aquila Méně cukru černý čaj s broskví (1,5 l) | 35,90 | 36,90 | 35,90 | 36,90 |
-| Košík | Dobrá voda Neperlivá Bílé hrozny 6 x 1,5l (9,0 l) | 119,90 | 129,90 | 119,90 | 129,90 |
-| Košík | Dobrá voda Neperlivá Malina 6 x 1.5 L (9,0 l) | 119,90 | 129,90 | 119,90 | 129,90 |
-| Košík | Dobrá voda Neperlivá Mandarinka 6 x 1,5l (9,0 l) | 119,90 | 129,90 | 119,90 | 129,90 |
-| Košík | Dobrá voda Neperlivá s příchutí jahoda 6 x 1.5 L (9,0 l) | 119,90 | 129,90 | 119,90 | 129,90 |
-| Košík | Poděbradka Jemně perlivá s příchutí pomeranč 6 x 1,5 L (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Poděbradka ProLinie Granátové jablko 6 x 1,5 L (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Poděbradka ProLinie Jemně perlivá citron 6 x 1,5 L (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Poděbradka ProLinie Jemně perlivá limetka 6 x 1,5 L (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Poděbradka ProLinie Jemně perlivá pomeranč 6 x 1,5 L (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Poděbradka ProLinie Jemně perlivá s příchutí maliny (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Poděbradka ProLinie lesní plody (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Poděbradka Prolinie brusinka 6x1,5L (9,0 l) | 64,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Pepsi Cola (1,0 l) | 24,90 | 32,90 | 32,90 | 32,90 |
-| Rohlík | Coca-Cola Zero multipack (4×1,5 l) (6 l) | 144,90 | 119,90 | 144,90 | 144,90 |
-| Rohlík | Coca-Cola multipack (4×1,5 l) (6 l) | 144,90 | 119,90 | 144,90 | 144,90 |
-| Rohlík | Fanta Zero cukru pomeranč plech (330 ml) | 22,90 | 19,90 | 22,90 | 22,90 |
-| Rohlík | Monster Energy Juiced Aussie Style Lemonade 4×0,5 l (2 l) | 124,90 | 144,90 | 144,90 | 144,90 |
-| Rohlík | Sprite plech (330 ml) | 22,90 | 19,90 | 22,90 | 22,90 |
-| Rohlík | Jupí Extra Mojito (0,7 l) | 49,90 | 72,90 | 72,90 | 72,90 |
-| Rohlík | Jupí Extra bezový květ (0,7 l) | 49,90 | 72,90 | 72,90 | 72,90 |
-| Rohlík | Jupí Extra černý čaj a broskev k přípravě Ice Tea (0,7 l) | 49,90 | 72,90 | 72,90 | 72,90 |
-| Rohlík | Jupík Aqua Lesní ovoce (500 ml) | 24,90 | 22,90 | 24,90 | 22,90 |
-| Rohlík | Jupík Aqua Malina (500 ml) | 24,90 | 22,90 | 24,90 | 22,90 |
-| Rohlík | Jupík Aqua jahoda (500 ml) | 24,90 | 22,90 | 24,90 | 22,90 |
-| Rohlík | Jupík Aqua sport pomeranč (500 ml) | 24,90 | 22,90 | 24,90 | 22,90 |
-| Rohlík | Korunní Citron (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Korunní Etera broskev a máta bez cukru (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Korunní Etera maracuja a zázvor bez cukru (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Korunní Etera pomelo a okurka (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Korunní Limeta a máta (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Korunní Mango (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Korunní Meruňka (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Korunní Neperlivá (6x1,5l) (9 l) | 104,90 | 89,90 | 104,90 | 104,90 |
-| Rohlík | Korunní Pomeranč (1,5 l) | 20,90 | 17,90 | 20,90 | 20,90 |
-| Rohlík | Rajec Bobulka Brusinka jemně sycená (1,5 l) | 22,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Rajec Bylinka Bezový květ neperlivá voda (1,5 l) | 22,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Rajec Bylinka Mateřídouška neperlivá voda (1,5 l) | 22,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Rajec Bylinka Máta neperlivá voda (1,5 l) | 22,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Rajec Bylinka Pampeliška voda neperlivá (1,5 l) | 22,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | UGO Bylinková limonáda borůvka a černý bez (500 ml) | 44,90 | 39,90 | 49,90 | 49,90 |
-| Rohlík | UGO Cold Brew tea mango eukalyptus (500 ml) | 44,90 | 39,90 | 49,90 | 49,90 |
-| Rohlík | Aquila Tea Ledový zelený čaj s citronem (1,5 l) | 29,90 | 36,90 | 36,90 | 36,90 |
-| Rohlík | Aquila Tea Ledový černý čaj s broskví (1,5 l) | 29,90 | 36,90 | 36,90 | 36,90 |
-| Rohlík | Aquila Zelený čaj s jahodou (1,5 l) | 29,90 | 36,90 | 36,90 | 36,90 |
-| Rohlík | Aquila Černý čaj s citronem (1,5 l) | 29,90 | 36,90 | 36,90 | 36,90 |
-| Rohlík | Mattoni Imuno jablko, kiwi a ananas plech (500 ml) | 22,90 | 23,90 | 22,90 | 23,90 |
-| Rohlík | Mattoni Multi plech (500 ml) | 22,90 | 23,90 | 22,90 | 23,90 |
-| Rohlík | Schweppes Indian tonic (1,5 l) | 44,90 | 36,90 | 44,90 | 43,90 |
-| Rohlík | 7UP Zero sugar (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Mirinda (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Mountain Dew Limonáda s příchutí citrusového ovoce (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Pepsi (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Pepsi Cherry zero sugar (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Pepsi Lemon zero sugar (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Pepsi Raspberry (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Pepsi Twist Lemon (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Pepsi Zero Sugar (2,25 l) | 36,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Red Bull Energy Drink Borůvka plech (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Energy Drink plech (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Energy drink bez cukru plech (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Green curuba a bezový květ (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Ice s příchutí vanilky a ledové borůvky (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Peach s příchutí bílé broskve (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Pink Sugarfree lesní ovoce (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Summer s příchutí sudachi a limetky (250 ml) | 39,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Winter s příchutí pistácií a lesního ovoce (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull Zero plech (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Rohlík | Red Bull s příchutí třešně a sakury (250 ml) | 44,90 | 32,90 | 44,90 | 44,90 |
-| Wolt | Cappy 100% jablko (330 ml) | 29,90 | 36,90 | 29,90 | 36,90 |
-| Wolt | Cappy 100% pomeranč (1 l) | 49,90 | 79,90 | 49,90 | 79,90 |
-| Wolt | Cappy Pomeranč 1l (1 l) | 34,90 | 64,90 | 34,90 | 64,90 |
-| Wolt | Cappy Pomeranč 330ml (330 ml) | 29,90 | 36,90 | 29,90 | 36,90 |
-| Wolt | Cappy Pulpy Pomeranč (1 l) | 29,90 | 44,90 | 29,90 | 44,90 |
-| Wolt | Cappy multivitamín nektar (1 l) | 34,90 | 64,90 | 34,90 | 64,90 |
-| Wolt | Coca-Cola 4 x 330ml (1,32 l) | 69,90 | 79,90 | 69,90 | 79,90 |
-| Wolt | Coca-Cola Zero 4 x 330ml (1,32 l) | 69,90 | 79,90 | 69,90 | 79,90 |
-| Wolt | Kinley Pink Berry (1,5 l) | 32,90 | 45,90 | 32,90 | 45,90 |
-| Wolt | Monster Energetický nápoj ultra, sycený (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Monster Energy (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Monster Energy Zero Sugar 500ml (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Monster Mango Loco (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Monster Monarch (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Monster Ultra Peach Keen (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Monster Ultra Strawberry (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Monster Valentino Rossi Zero (500 ml) | 34,90 | 42,90 | 34,90 | 42,90 |
-| Wolt | Jupí sirup s příchutí aloe vera (700 ml) | 31,90 | 54,90 | 31,90 | 54,90 |
-| Wolt | Jupí sirup s příchutí citron (700 ml) | 31,90 | 54,90 | 31,90 | 54,90 |
-| Wolt | Jupí sirup s příchutí jahoda (700 ml) | 31,90 | 54,90 | 31,90 | 54,90 |
-| Wolt | Jupí sirup s příchutí lesní směs (700 ml) | 31,90 | 54,90 | 31,90 | 54,90 |
-| Wolt | Jupí sirup s příchutí malina (700 ml) | 31,90 | 54,90 | 31,90 | 54,90 |
-| Wolt | Jupí sirup s příchutí pomeranč (700 ml) | 31,90 | 54,90 | 31,90 | 54,90 |
-| Wolt | Jupík Aqua jablko (500 ml) | 14,90 | 21,90 | 14,90 | 21,90 |
-| Wolt | Jupík Aqua jahoda (500 ml) | 14,90 | 21,90 | 14,90 | 21,90 |
-| Wolt | Jupík Aqua lesní směs (500 ml) | 14,90 | 21,90 | 14,90 | 21,90 |
-| Wolt | Jupík Aqua malina (500 ml) | 14,90 | 21,90 | 14,90 | 21,90 |
-| Wolt | Kláštorná Kalcia jemně perlivá (1,5 l) | 18,90 | 13,90 | 18,90 | 13,90 |
-| Wolt | Kofola Nulka () | 14,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Kofola Nulka 0,5l (500 ml) | 19,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Kofola Nulka 2l (2 l) | 21,90 | 29,90 | 26,90 | 29,90 |
-| Wolt | Kofola Original (500 ml) | 19,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Kofola Original (2 l) | 21,90 | 29,90 | 26,90 | 29,90 |
-| Wolt | Kofola Original (330 ml) | 14,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Korunní Etera pomelo a okurka (1,5 l) | 13,90 | 14,90 | 19,90 | 14,90 |
-| Wolt | Korunní Etera s příchutí jablko, kiwi (1,5 l) | 13,90 | 14,90 | 13,90 | 14,90 |
-| Wolt | Korunní minerální voda citron (1,5 l) | 13,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Korunní minerální voda mango (1,5 l) | 13,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Korunní minerální voda meruňka (1,5 l) | 13,90 | 14,90 | 13,90 | 14,90 |
-| Wolt | Korunní minerální voda s příchutí limeta a máta (1,5 l) | 13,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Ondrášovka minerální voda citron (1,5 l) | 11,90 | 13,90 | 13,90 | 13,90 |
-| Wolt | Ondrášovka minerální voda lesní plody (1,5 l) | 11,90 | 13,90 | 13,90 | 13,90 |
-| Wolt | Rajec kojenecká voda (1,5 l) | 14,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Rajec minerální voda neperlivá (1,5 l) | 14,90 | 17,90 | 17,90 | 17,90 |
-| Wolt | Rajec pramenitá voda mateřídouška (1,5 l) | 19,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Semtex Energy Original (500 ml) | 14,90 | 29,90 | 17,90 | 29,90 |
-| Wolt | Aquila kojenecká voda neperlivá (1,5 l) | 17,90 | 11,90 | 17,90 | 11,90 |
-| Wolt | Dobrá voda minerální bílé hrozny, neperlivá (1,5 l) | 13,90 | 20,90 | 13,90 | 20,90 |
-| Wolt | Dobrá voda minerální jahoda, neperlivá (1,5 l) | 13,90 | 20,90 | 13,90 | 20,90 |
-| Wolt | Dobrá voda minerální lesní jahoda,jem.perlivá (1,5 l) | 13,90 | 20,90 | 13,90 | 20,90 |
-| Wolt | Mattoni Esence Active s příchutí limeta, pomeranč (700 ml) | 19,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Mattoni Esence Active s příchutí mango, marakuja (700 ml) | 19,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Mattoni Imuno hruška & maracuja & zázvor (700 ml) | 19,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Mattoni minerální Esence citron, perlivá (1,5 l) | 14,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni minerální Esence mango, perlivá (1,5 l) | 14,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni minerální Imuno jablko, kiwi a ananas (700 ml) | 19,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Mattoni minerální Imuno mango a pomeranč (700 ml) | 19,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Mattoni minerální voda jemně perlivá (1,5 l) | 12,90 | 16,90 | 12,90 | 16,90 |
-| Wolt | Mattoni minerální voda neperlivá (1,5 l) | 12,90 | 16,90 | 12,90 | 16,90 |
-| Wolt | Mattoni minerální voda perlivá (1,5 l) | 12,90 | 16,90 | 12,90 | 16,90 |
-| Wolt | Poděbradka Prolinie citron, jemně perlivá (1,5 l) | 10,90 | 13,90 | 13,90 | 13,90 |
-| Wolt | Poděbradka Prolinie limetka, jemně perlivá (1,5 l) | 10,90 | 13,90 | 13,90 | 13,90 |
-| Wolt | Schweppes Tonic (1,5 l) | 19,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | 7UP Zero Sugar 1,5l (1,5 l) | 38,90 | 26,90 | 38,90 | 26,90 |
-| Wolt | 7UP Zero Sugar 2,25l (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Mirinda jahoda a liči (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Mirinda mango a mandarinka (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Mirinda pomeranč (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Mirinda pomeranč (1,5 l) | 38,90 | 26,90 | 38,90 | 26,90 |
-| Wolt | Mountain Dew (1,5 l) | 38,90 | 26,90 | 38,90 | 26,90 |
-| Wolt | Mountain Dew (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Pepsi Cola (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Pepsi Cola (1,5 l) | 38,90 | 26,90 | 38,90 | 26,90 |
-| Wolt | Pepsi Zero Sugar (1,5 l) | 38,90 | 26,90 | 38,90 | 26,90 |
-| Wolt | Pepsi Zero Sugar (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Pepsi Zero Sugar Cherry 1,5l (1,5 l) | 38,90 | 26,90 | 38,90 | 26,90 |
-| Wolt | Pepsi Zero Sugar Cherry 2,25l (2,25 l) | 24,90 | 47,20 | 32,90 | 47,20 |
-| Wolt | Red Bull Blue (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull Energy drink (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull Energy drink (355 ml) | 39,90 | 59,90 | 39,90 | 59,90 |
-| Wolt | Red Bull Green curuba a bezový květ (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull Ice vanilka a ledová borůvka (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull Peach s příchutí bílé broskve (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull Pink Sugarfree lesní ovoce (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull Sea Blue (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull Zero (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Wolt | Red Bull energy drink bez cukru (250 ml) | 37,90 | 32,90 | 37,90 | 32,90 |
-| Bolt Food | Monster Juiced Mango Loco 500ml () | 52,90 | 54,90 | 52,90 | 54,90 |
-| Bolt Food | Targa Florio Tonica Originale Sycený Nealkoholický Nápoj 330ml () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Targa Florio Tonica Rosa 1,33l () | 49,90 | 51,90 | 49,90 | 51,90 |
-| Bolt Food | Targa Florio Arancia 1,33l () | 49,90 | 51,90 | 49,90 | 51,90 |
-| Bolt Food | Targa Florio Arancia Sycená Pomerančová Limonáda 330ml () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Targa Florio  Citrus 0,33l () | 30,90 | 31,90 | 30,90 | 31,90 |
-| Bolt Food | Targa Limonata 1,33L () | 49,90 | 51,90 | 49,90 | 51,90 |
-| Rohlík | Fanta Exotic plech (330 ml) | 22,90 | 19,90 | 22,90 | 22,90 |
-| Rohlík | Fanta Jablečno-třešňová chuť plech (330 ml) | 22,90 | 19,90 | 22,90 | 22,90 |
-| Bolt Food | Cappy Jahoda Mix 330ml () | 45,90 | 46,90 | 45,90 | 46,90 |
-| Bolt Food | Targa Florio Tonica Rosa Sycený Nealkoholický Nápoj 330ml () | 30,90 | 31,90 | 30,90 | 31,90 |
+| Rohlík | Coca-Cola Zero multipack (4×1,5 l) (6 l) | 119,90 | 144,90 | 144,90 | 144,90 |
+| Rohlík | Coca-Cola multipack (4×1,5 l) (6 l) | 119,90 | 144,90 | 144,90 | 144,90 |
+| Rohlík | Kláštorná Kalcia Přírodní minerální voda sycená (6x1,5l) (9 l) | 89,90 | 99,90 | 154,90 | 154,90 |
+| Rohlík | Kláštorná Kalcia přírodní minerální voda jemně sycená (6x1,5l) (9 l) | 89,90 | 99,90 | 154,90 | 154,90 |
+| Rohlík | Kofola Nulka – bez cukru (330 ml) | 14,90 | 16,90 | 19,90 | 19,90 |
+| Rohlík | Kofola Original (1 l) | 24,90 | 26,90 | 29,90 | 29,90 |
+| Rohlík | Kofola original (4x2l) (8 l) | 159,90 | 129,90 | 159,90 | 159,90 |
+| Rohlík | Korunní Citron (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Korunní Etera broskev a máta bez cukru (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Korunní Etera maracuja a zázvor bez cukru (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Korunní Etera pomelo a okurka (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Korunní Limeta a máta (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Korunní Mango (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Korunní Meruňka (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Korunní Neperlivá (6x1,5l) (9 l) | 89,90 | 104,90 | 104,90 | 104,90 |
+| Rohlík | Korunní Pomeranč (1,5 l) | 17,90 | 20,90 | 20,90 | 20,90 |
+| Rohlík | Rajec Jemně perlivá voda (6×1,5l) (9 l) | 89,90 | 99,90 | 119,90 | 119,90 |
+| Rohlík | Rajec Kojenecká voda (6×1,5l) (9 l) | 89,90 | 99,90 | 119,90 | 119,90 |
+| Rohlík | Rajec Neperlivá voda (6×1,5l) (9 l) | 89,90 | 99,90 | 119,90 | 119,90 |
+| Rohlík | Magnesia Minerální voda jemně perlivá (6×1,5l) (9 l) | 112,95 | 114,90 | 112,95 | 114,90 |
+| Rohlík | Magnesia Minerální voda neperlivá (6×1,5l) (9 l) | 112,95 | 114,90 | 112,95 | 114,90 |
+| Rohlík | Magnesia minerální voda perlivá (6x1,5l) (9 l) | 112,95 | 114,90 | 112,95 | 114,90 |
+| Rohlík | Mattoni Cedrata s příchutí citrusů perlivá (1,5 l) | 19,90 | 16,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni Multi (1,5 l) | 19,90 | 16,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni minerální voda jemně perlivá (6x1,5l) (9 l) | 89,90 | 92,90 | 103,15 | 103,15 |
+| Rohlík | Mattoni minerální voda neperlivá (6x1,5l) (9 l) | 89,90 | 92,90 | 103,15 | 103,15 |
+| Rohlík | Mattoni minerální voda perlivá (6x1,5l) (9 l) | 89,90 | 92,90 | 103,15 | 103,15 |
+| Rohlík | Mattoni s příchutí broskve (1,5 l) | 19,90 | 16,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni s příchutí bílé hrozny 6×1,5 l (9 l) | 124,90 | 99,90 | 124,90 | 119,90 |
+| Rohlík | Mattoni s příchutí citronu 6×1,5 l (9 l) | 124,90 | 99,90 | 124,90 | 119,90 |
+| Rohlík | Mattoni s příchutí grapefruitu (1,5 l) | 19,90 | 16,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni s příchutí malina (1,5 l) | 19,90 | 16,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni s příchutí mango Alphonso (1,5 l) | 19,90 | 16,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni s příchutí pomeranče 6×1,5 l (9 l) | 124,90 | 99,90 | 124,90 | 119,90 |
+| Rohlík | Schweppes Indian tonic (1,5 l) | 36,90 | 44,90 | 43,90 | 44,90 |
+| Rohlík | Red Bull Energy Drink Borůvka plech (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Energy Drink plech (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Energy drink bez cukru plech (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Green curuba a bezový květ (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Ice s příchutí vanilky a ledové borůvky (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Peach s příchutí bílé broskve (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Pink Sugarfree lesní ovoce (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Summer s příchutí sudachi a limetky (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Winter s příchutí pistácií a lesního ovoce (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull Zero plech (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Red Bull s příchutí třešně a sakury (250 ml) | 32,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Coca-Cola 1,5l (1,5 l) | 48,90 | 32,90 | 48,90 | 32,90 |
+| Wolt | Coca-Cola Cherry 1,5l (1,5 l) | 48,90 | 32,90 | 48,90 | 32,90 |
+| Wolt | Coca-Cola Vanilla 1,5l (1,5 l) | 48,90 | 32,90 | 48,90 | 32,90 |
+| Wolt | Coca-Cola Zero 1,5l (1,5 l) | 48,90 | 32,90 | 48,90 | 32,90 |
+| Wolt | Fanta Pomeranč 1,5l (1,5 l) | 48,90 | 32,90 | 48,90 | 32,90 |
+| Wolt | Jupí Lahvinka Hustý sirup zahradní ovoce 0,7l (700 ml) | 39,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Jupí Lahvinka Koktejl sirup mojito 0,7l (700 ml) | 39,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Jupí Lahvinka Sirup bezový květ 0,7l (700 ml) | 39,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Kofola Originál 2l (2 l) | 29,90 | 43,50 | 29,90 | 43,50 |
+| Wolt | Kofola Višeň 2l (2 l) | 29,90 | 43,50 | 29,90 | 43,50 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí citron 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí hruška 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí jablko a kiwano 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí lesní plody 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí limeta a citron 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí malina 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí pomeranč 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | Ondrášovka Jemně perlivá s příchutí višeň 1,5l (1,5 l) | 21,50 | 12,90 | 21,50 | 12,90 |
+| Wolt | MAGNESIA RED MALINA 0,33l PLECH () | 23,90 | 24,90 | 23,90 | 24,90 |
+| Wolt | MAGNESIA RED ČERVENÝ POMERANČ 0,33l PLECH () | 23,90 | 24,90 | 23,90 | 24,90 |
+| Wolt | Magnesia Jemně perlivá přírodní minerální voda 1,5l (1,5 l) | 14,90 | 19,90 | 14,90 | 19,90 |
+| Wolt | Magnesia Neperlivá přírodní minerální voda 1,5l (1,5 l) | 14,90 | 19,90 | 14,90 | 19,90 |
+| Wolt | Magnesia Perlivá přírodní minerální voda 1,5l (1,5 l) | 14,90 | 19,90 | 14,90 | 19,90 |
+| Wolt | MATTONI IMUNO HRUŠKA&MARAKUJA&ZÁZVOR 0,7l PET () | 34,90 | 19,90 | 34,90 | 19,90 |
+| Wolt | MATTONI MANGO ALPHONSO 1,5l PET () | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Black s příchutí černých plodů jemně perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Broskev perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Bílé hrozny perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Cedrata s příchutí citrusů jemně perlivá 0,5l (500 ml) | 24,90 | 25,90 | 24,90 | 25,90 |
+| Wolt | Mattoni Cedrata s příchutí citrusů perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Citron perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Esence citron jemně perlivá 1,5l (1,5 l) | 21,50 | 14,90 | 21,50 | 14,90 |
+| Wolt | Mattoni Esence jablko a máta jemně perlivá 1,5l (1,5 l) | 21,50 | 14,90 | 21,50 | 14,90 |
+| Wolt | Mattoni Esence pomeranč jemně perlivá 1,5l (1,5 l) | 21,50 | 14,90 | 21,50 | 14,90 |
+| Wolt | Mattoni Esence yuzu a okurka jemně perlivá 1,5l (1,5 l) | 21,50 | 14,90 | 21,50 | 14,90 |
+| Wolt | Mattoni Grapefruit perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Imuno jablko kiwi ananas jemně perlivá 0,5l (500 ml) | 16,90 | 25,90 | 16,90 | 25,90 |
+| Wolt | Mattoni Imuno mango pomeranč jemně perlivá 0,5l  (500 ml) | 16,90 | 25,90 | 16,90 | 25,90 |
+| Wolt | Mattoni Imuno s příchutí jablko kiwi ananas jemně perlivá 0,7l (700 ml) | 34,90 | 19,90 | 34,90 | 19,90 |
+| Wolt | Mattoni Imuno s příchutí mango pomeranč jemně perlivá 0,7l (700 ml) | 34,90 | 19,90 | 34,90 | 19,90 |
+| Wolt | Mattoni Malina perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Mojito nealko jemně perlivá 0,33l (330 ml) | 23,90 | 16,90 | 23,90 | 23,90 |
+| Wolt | Mattoni Multi s příchutí tropického ovoce jemně perlivá 0,5l (500 ml) | 16,90 | 25,90 | 16,90 | 25,90 |
+| Wolt | Mattoni Multi s příchutí tropického ovoce jemně perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | Mattoni Pomeranč perlivá 1,5l (1,5 l) | 14,90 | 21,50 | 14,90 | 21,50 |
+| Wolt | 7UP Zero Sugar 1,5l (1,5 l) | 35,90 | 26,90 | 35,90 | 26,90 |
+| Wolt | Mirinda Pomeranč 1,5l (1,5 l) | 35,90 | 26,90 | 35,90 | 26,90 |
+| Wolt | Mountain Dew 1,5l (1,5 l) | 35,90 | 26,90 | 35,90 | 26,90 |
+| Wolt | Pepsi Cola 1,5l (1,5 l) | 35,90 | 26,90 | 35,90 | 26,90 |
+| Wolt | Pepsi Zero Sugar 1,5l (1,5 l) | 35,90 | 26,90 | 35,90 | 26,90 |
+| Wolt | Pepsi Zero Sugar Cherry 1,5l (1,5 l) | 35,90 | 26,90 | 35,90 | 26,90 |
+| Wolt | Pepsi Zero Sugar Lemon 1,5l (1,5 l) | 35,90 | 26,90 | 35,90 | 26,90 |
+| Rohlík | Targa Tonica originale (1,33 l) | 39,90 | 36,90 | 39,90 | 41,90 |
+| Rohlík | Targa Tonica rosa (1,33 l) | 39,90 | 36,90 | 39,90 | 41,90 |
+| Rohlík | Targa pomeranč (1,33 l) | 43,90 | 36,90 | 43,90 | 43,90 |
+| Rohlík | Targa Limonata (1,33 l) | 43,90 | 36,90 | 43,90 | 43,90 |
 
 ## Historie produktů
 
 | Obchod | Značka | Produkt | Balení | Dní | Dní ve slevě | Min | Max | Průměr | Běžná |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|
-| Bolt Food | Cappy | CAPPY LIMONADA S CITRON. A JAHOD. PRICHUTI 1,25 L |  | 5 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
-| Bolt Food | Cappy | CAPPY POMERANC NEKTAR  52% 1 L |  | 4 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Bolt Food | Cappy | Cappy 100% Jablečný Džus 330ml |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Košík | Cappy | Cappy 100% Jablko | 330,0 ml | 5 | 0 (0 %) | 37,90 | 37,90 | 37,90 | 37,90 |
-| Košík | Cappy | Cappy 100% Jablko | 1,0 l | 5 | 0 (0 %) | 64,90 | 67,90 | 66,70 | 64,90 |
-| Bolt Food | Cappy | Cappy 100% Jablko 1L |  | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Bolt Food | Cappy | Cappy 100% Jablko 1l |  | 5 | 0 (0 %) | 71,90 | 72,90 | 72,10 | 72,90 |
-| Košík | Cappy | Cappy 100% Pomeranč | 1,0 l | 5 | 0 (0 %) | 79,90 | 84,90 | 83,90 | 84,90 |
-| Bolt Food | Cappy | Cappy 100% Pomeranč 1L |  | 5 | 0 (0 %) | 85,90 | 85,90 | 85,90 | 85,90 |
-| Bolt Food | Cappy | Cappy 100% Pomerančový Džus 1l |  | 5 | 0 (0 %) | 92,90 | 94,90 | 93,30 | 94,90 |
-| Wolt | Cappy | Cappy 100% jablko | 1 l | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Wolt | Cappy | Cappy 100% jablko | 330 ml | 5 | 0 (0 %) | 29,90 | 36,90 | 31,30 | 36,90 |
-| Wolt | Cappy | Cappy 100% jablko 1l | 1 l | 4 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Wolt | Cappy | Cappy 100% jablko 1l | 1 l | 5 | 0 (0 %) | 62,90 | 62,90 | 62,90 | 62,90 |
-| Wolt | Cappy | Cappy 100% pomeranč | 1 l | 5 | 0 (0 %) | 49,90 | 79,90 | 55,90 | 79,90 |
-| Wolt | Cappy | Cappy 100% pomeranč 1l | 1 l | 4 | 0 (0 %) | 85,90 | 85,90 | 85,90 | 85,90 |
-| Wolt | Cappy | Cappy 100% pomeranč 1l | 1 l | 5 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
-| Rohlík | Cappy | Cappy Jablko 100% | 1 l | 5 | 5 (100 %) | 54,90 | 54,90 | 54,90 | 66,90 |
-| Bolt Food | Cappy | Cappy Jahoda Mix 1L |  | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Bolt Food | Cappy | Cappy Jahoda Mix 330ml |  | 2 | 0 (0 %) | 45,90 | 46,90 | 46,40 | 46,90 |
-| Košík | Cappy | Cappy Jahodový Mix | 1,0 l | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Wolt | Cappy | Cappy Lemonade 1,25l | 1,25 l | 4 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
-| Bolt Food | Cappy | Cappy Lemonade Bez Cukru Citrón & Jahoda 400ml |  | 5 | 0 (0 %) | 49,90 | 51,90 | 50,30 | 51,90 |
-| Košík | Cappy | Cappy Lemonade Citrón | 1,25 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Košík | Cappy | Cappy Lemonade Citrón & Jahoda bez cukru | 1,25 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Wolt | Cappy | Cappy Lemonade No Sugar Lemon & Strawberry 1,25l | 1,25 l | 4 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
-| Wolt | Cappy | Cappy Lemonade No Sugar Lemon & Strawberry 400ml | 400 ml | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Bolt Food | Cappy | Cappy Lemonade Tasty Lemon 1,25L |  | 5 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
-| Košík | Cappy | Cappy Multivitamin | 1,0 l | 5 | 0 (0 %) | 64,90 | 67,90 | 66,70 | 64,90 |
-| Bolt Food | Cappy | Cappy Multivitamin 1L |  | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Wolt | Cappy | Cappy Multivitamin 1l | 1 l | 4 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Wolt | Cappy | Cappy Multivitamin 1l | 1 l | 5 | 0 (0 %) | 62,90 | 62,90 | 62,90 | 62,90 |
-| Bolt Food | Cappy | Cappy Multivitamínový Smíšený Ovocný Nektar S Přidanými Vitamíny 1l |  | 5 | 0 (0 %) | 71,90 | 72,90 | 72,10 | 72,90 |
-| Bolt Food | Cappy | Cappy Multivitamínový Smíšený Ovocný Nektar S Přidanými Vitamíny 330ml |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Bolt Food | Cappy | Cappy Nesycený Nealkoholický Nápoj S Jablečnou, Jahodovou A Aroniovou Šťávou 1l |  | 5 | 0 (0 %) | 71,90 | 72,90 | 72,10 | 72,90 |
-| Rohlík | Cappy | Cappy Pomeranč | 1 l | 5 | 5 (100 %) | 54,90 | 54,90 | 54,90 | 66,90 |
-| Rohlík | Cappy | Cappy Pomeranč 100% | 1 l | 5 | 0 (0 %) | 82,90 | 82,90 | 82,90 | 82,90 |
-| Wolt | Cappy | Cappy Pomeranč 1l | 1 l | 5 | 0 (0 %) | 34,90 | 64,90 | 40,90 | 64,90 |
-| Wolt | Cappy | Cappy Pomeranč 1l | 1 l | 3 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Wolt | Cappy | Cappy Pomeranč 330ml | 330 ml | 5 | 0 (0 %) | 29,90 | 36,90 | 31,30 | 36,90 |
-| Bolt Food | Cappy | Cappy Pomeranč Nektar 0,33L |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Bolt Food | Cappy | Cappy Pulpy Grapefruit 1l |  | 5 | 0 (0 %) | 65,90 | 69,90 | 66,70 | 69,90 |
-| Wolt | Cappy | Cappy Pulpy Pomeranč | 1 l | 5 | 0 (0 %) | 29,90 | 44,90 | 32,90 | 44,90 |
-| Bolt Food | Cappy | Cappy Pulpy Pomeranč 1L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Cappy | Cappy Pulpy Pomeranč 1l |  | 5 | 0 (0 %) | 65,90 | 69,90 | 66,70 | 69,90 |
-| Bolt Food | Cappy | Cappy Pulpy Pomeranč 330ml |  | 5 | 0 (0 %) | 38,90 | 39,90 | 39,10 | 39,90 |
-| Bolt Food | Cappy | Cappy Pulpy grapefruit 1L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Cappy | Cappy Pulpy grapefruit 1l | 1 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Cappy | Cappy Pulpy grapefruit 1l | 1 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Wolt | Cappy | Cappy Pulpy pomeranč 1l | 1 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Cappy | CAPPY LIMONADA S CITRON. A JAHOD. PRICHUTI 1,25 L |  | 6 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
+| Bolt Food | Cappy | CAPPY POMERANC NEKTAR  52% 1 L |  | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Bolt Food | Cappy | Cappy 100% Jablečný Džus 330ml |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Košík | Cappy | Cappy 100% Jablko | 330,0 ml | 6 | 0 (0 %) | 37,90 | 37,90 | 37,90 | 37,90 |
+| Košík | Cappy | Cappy 100% Jablko | 1,0 l | 6 | 0 (0 %) | 64,90 | 67,90 | 66,40 | 64,90 |
+| Bolt Food | Cappy | Cappy 100% Jablko 1L |  | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Bolt Food | Cappy | Cappy 100% Jablko 1l |  | 6 | 0 (0 %) | 71,90 | 72,90 | 72,23 | 72,90 |
+| Košík | Cappy | Cappy 100% Pomeranč | 1,0 l | 6 | 0 (0 %) | 79,90 | 84,90 | 84,07 | 84,90 |
+| Bolt Food | Cappy | Cappy 100% Pomeranč 1L |  | 6 | 0 (0 %) | 85,90 | 85,90 | 85,90 | 85,90 |
+| Bolt Food | Cappy | Cappy 100% Pomerančový Džus 1l |  | 6 | 0 (0 %) | 92,90 | 94,90 | 93,57 | 94,90 |
+| Wolt | Cappy | Cappy 100% jablko | 1 l | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Wolt | Cappy | Cappy 100% jablko | 330 ml | 6 | 0 (0 %) | 29,90 | 36,90 | 32,23 | 36,90 |
+| Wolt | Cappy | Cappy 100% jablko 1l | 1 l | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Wolt | Cappy | Cappy 100% jablko 1l | 1 l | 6 | 0 (0 %) | 62,90 | 62,90 | 62,90 | 62,90 |
+| Wolt | Cappy | Cappy 100% pomeranč | 1 l | 6 | 0 (0 %) | 49,90 | 79,90 | 59,90 | 79,90 |
+| Wolt | Cappy | Cappy 100% pomeranč 1l | 1 l | 5 | 0 (0 %) | 85,90 | 85,90 | 85,90 | 85,90 |
+| Wolt | Cappy | Cappy 100% pomeranč 1l | 1 l | 6 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
+| Rohlík | Cappy | Cappy Jablko 100% | 1 l | 6 | 6 (100 %) | 54,90 | 54,90 | 54,90 | 66,90 |
+| Bolt Food | Cappy | Cappy Jahoda Mix 1L |  | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Bolt Food | Cappy | Cappy Jahoda Mix 330ml |  | 3 | 0 (0 %) | 45,90 | 46,90 | 46,57 | 46,90 |
+| Košík | Cappy | Cappy Jahodový Mix | 1,0 l | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Wolt | Cappy | Cappy Lemonade 1,25l | 1,25 l | 5 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
+| Bolt Food | Cappy | Cappy Lemonade Bez Cukru Citrón & Jahoda 400ml |  | 6 | 0 (0 %) | 49,90 | 51,90 | 50,57 | 51,90 |
+| Košík | Cappy | Cappy Lemonade Citrón | 1,25 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Košík | Cappy | Cappy Lemonade Citrón & Jahoda bez cukru | 1,25 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Wolt | Cappy | Cappy Lemonade No Sugar Lemon & Strawberry 1,25l | 1,25 l | 5 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
+| Wolt | Cappy | Cappy Lemonade No Sugar Lemon & Strawberry 400ml | 400 ml | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Bolt Food | Cappy | Cappy Lemonade Tasty Lemon 1,25L |  | 6 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
+| Košík | Cappy | Cappy Multivitamin | 1,0 l | 6 | 0 (0 %) | 64,90 | 67,90 | 66,40 | 64,90 |
+| Bolt Food | Cappy | Cappy Multivitamin 1L |  | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Wolt | Cappy | Cappy Multivitamin 1l | 1 l | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Wolt | Cappy | Cappy Multivitamin 1l | 1 l | 6 | 0 (0 %) | 62,90 | 62,90 | 62,90 | 62,90 |
+| Bolt Food | Cappy | Cappy Multivitamínový Smíšený Ovocný Nektar S Přidanými Vitamíny 1l |  | 6 | 0 (0 %) | 71,90 | 72,90 | 72,23 | 72,90 |
+| Bolt Food | Cappy | Cappy Multivitamínový Smíšený Ovocný Nektar S Přidanými Vitamíny 330ml |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Bolt Food | Cappy | Cappy Nesycený Nealkoholický Nápoj S Jablečnou, Jahodovou A Aroniovou Šťávou 1l |  | 6 | 0 (0 %) | 71,90 | 72,90 | 72,23 | 72,90 |
+| Rohlík | Cappy | Cappy Pomeranč | 1 l | 6 | 6 (100 %) | 54,90 | 54,90 | 54,90 | 66,90 |
+| Rohlík | Cappy | Cappy Pomeranč 100% | 1 l | 6 | 0 (0 %) | 82,90 | 82,90 | 82,90 | 82,90 |
+| Wolt | Cappy | Cappy Pomeranč 1l | 1 l | 6 | 0 (0 %) | 34,90 | 64,90 | 44,90 | 64,90 |
+| Wolt | Cappy | Cappy Pomeranč 1l | 1 l | 4 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Wolt | Cappy | Cappy Pomeranč 330ml | 330 ml | 6 | 0 (0 %) | 29,90 | 36,90 | 32,23 | 36,90 |
+| Bolt Food | Cappy | Cappy Pomeranč Nektar 0,33L |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Bolt Food | Cappy | Cappy Pulpy Grapefruit 1l |  | 6 | 0 (0 %) | 65,90 | 69,90 | 67,23 | 69,90 |
+| Wolt | Cappy | Cappy Pulpy Pomeranč | 1 l | 6 | 0 (0 %) | 29,90 | 44,90 | 34,90 | 44,90 |
+| Bolt Food | Cappy | Cappy Pulpy Pomeranč 1L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Cappy | Cappy Pulpy Pomeranč 1l |  | 6 | 0 (0 %) | 65,90 | 69,90 | 67,23 | 69,90 |
+| Bolt Food | Cappy | Cappy Pulpy Pomeranč 330ml |  | 6 | 0 (0 %) | 38,90 | 39,90 | 39,23 | 39,90 |
+| Bolt Food | Cappy | Cappy Pulpy grapefruit 1L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Wolt | Cappy | Cappy Pulpy grapefruit 1l | 1 l | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Wolt | Cappy | Cappy Pulpy grapefruit 1l | 1 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Wolt | Cappy | Cappy Pulpy pomeranč 1l | 1 l | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
 | Wolt | Cappy | Cappy Pulpy pomeranč 1l | 1 l | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Wolt | Cappy | Cappy Strawberry Mix 1l | 1 l | 4 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Wolt | Cappy | Cappy multivitamín nektar | 1 l | 5 | 0 (0 %) | 34,90 | 64,90 | 40,90 | 64,90 |
-| Bolt Food | Coca-Cola | Bacardi & Coca Cola 250ml Plech |  | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Wolt | Coca-Cola | COCA-COLA 1,5l |  | 5 | 5 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
-| Wolt | Coca-Cola | COCA-COLA CHERRY 0,5 l | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Bolt Food | Coca-Cola | COCA-COLA LIMETKA 500 ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Bolt Food | Coca-Cola | COCA-COLA S LIMETKOVOU PRICHUTI 1,5 L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Coca-Cola | COCA-COLA ZERO 0,33 l PLECH | 330 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Bolt Food | Coca-Cola | COCA-COLA ZERO CUKRU BEZ KOFEINU 1,5 L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | COCA-COLA ZERO KOFFEINU 330 ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Coca-Cola | COCA-COLA ZERO ZERO 0,5l |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Bolt Food | Coca-Cola | Coca Cola 330Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Coca-Cola | Coca Cola 330ml |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Wolt | Coca-Cola | Coca Cola Zero Zero | 1,5 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Wolt | Coca-Cola | Coca Cola Zero Zero | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Coca-Cola | Coca-Cola | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola | 500,0 ml | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Košík | Coca-Cola | Coca-Cola | 1,0 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Rohlík | Coca-Cola | Coca-Cola | 500 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Rohlík | Coca-Cola | Coca-Cola | 2 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Coca-Cola | Coca-Cola | 1,5 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Wolt | Coca-Cola | Coca-Cola | 1 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Coca-Cola | Coca-Cola | 330 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Coca-Cola | Coca-Cola | 2 l | 5 | 4 (80 %) | 38,90 | 49,90 | 41,10 | 39,90 |
-| Wolt | Coca-Cola | Coca-Cola | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Coca-Cola | Coca-Cola  | 2,0 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Rohlík | Coca-Cola | Coca-Cola (6x0,33 l) plech | 1,98 l | 5 | 5 (100 %) | 109,90 | 109,90 | 109,90 | 122,40 |
-| Bolt Food | Coca-Cola | Coca-Cola 1,5L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | Coca-Cola 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Coca-Cola | Coca-Cola 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | Coca-Cola 1L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Coca-Cola | Coca-Cola 1l |  | 5 | 0 (0 %) | 46,90 | 47,90 | 47,10 | 47,90 |
-| Wolt | Coca-Cola | Coca-Cola 1l | 1 l | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Coca-Cola | Coca-Cola 1l | 1 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola 24x330ml | 7,92 l | 5 | 0 (0 %) | 399,00 | 399,00 | 399,00 | 399,00 |
-| Wolt | Coca-Cola | Coca-Cola 2l | 2 l | 5 | 0 (0 %) | 61,90 | 61,90 | 61,90 | 61,90 |
-| Wolt | Coca-Cola | Coca-Cola 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Coca-Cola | Coca-Cola 330ml | 330 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Bolt Food | Coca-Cola | Coca-Cola 4 X 330Ml |  | 5 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Wolt | Coca-Cola | Coca-Cola 4 x 330ml | 1,32 l | 5 | 0 (0 %) | 69,90 | 79,90 | 73,90 | 79,90 |
-| Wolt | Coca-Cola | Coca-Cola 4 x 330ml | 1,32 l | 4 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Košík | Coca-Cola | Coca-Cola 4x1,5l | 6,0 l | 5 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Bolt Food | Coca-Cola | Coca-Cola 500ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Coca-Cola | Coca-Cola 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Coca-Cola | Coca-Cola 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Bolt Food | Coca-Cola | Coca-Cola 6 X 330Ml |  | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Wolt | Coca-Cola | Coca-Cola 6 x 330ml | 1,98 l | 4 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Košík | Coca-Cola | Coca-Cola Cherry | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Coca-Cola | Coca-Cola Cherry | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Cappy | Cappy Strawberry Mix 1l | 1 l | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Wolt | Cappy | Cappy multivitamín nektar | 1 l | 6 | 0 (0 %) | 34,90 | 64,90 | 44,90 | 64,90 |
+| Bolt Food | Coca-Cola | Bacardi & Coca Cola 250ml Plech |  | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Wolt | Coca-Cola | COCA-COLA 1,5l |  | 6 | 6 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
+| Wolt | Coca-Cola | COCA-COLA CHERRY 0,5 l | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Bolt Food | Coca-Cola | COCA-COLA LIMETKA 500 ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Bolt Food | Coca-Cola | COCA-COLA S LIMETKOVOU PRICHUTI 1,5 L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Wolt | Coca-Cola | COCA-COLA ZERO 0,33 l PLECH | 330 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Bolt Food | Coca-Cola | COCA-COLA ZERO CUKRU BEZ KOFEINU 1,5 L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Coca-Cola | COCA-COLA ZERO KOFFEINU 330 ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Coca-Cola | COCA-COLA ZERO ZERO 0,5l |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Bolt Food | Coca-Cola | Coca Cola 330Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Coca-Cola | Coca Cola 330ml |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Wolt | Coca-Cola | Coca Cola Zero Zero | 1,5 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Wolt | Coca-Cola | Coca Cola Zero Zero | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Coca-Cola | Coca-Cola | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola | 500,0 ml | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Košík | Coca-Cola | Coca-Cola | 1,0 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Rohlík | Coca-Cola | Coca-Cola | 500 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Rohlík | Coca-Cola | Coca-Cola | 2 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Coca-Cola | Coca-Cola | 1,5 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Wolt | Coca-Cola | Coca-Cola | 1 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Coca-Cola | Coca-Cola | 330 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Coca-Cola | Coca-Cola | 2 l | 6 | 5 (83 %) | 38,90 | 49,90 | 40,73 | 39,90 |
+| Wolt | Coca-Cola | Coca-Cola | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Coca-Cola | Coca-Cola  | 2,0 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Rohlík | Coca-Cola | Coca-Cola (6x0,33 l) plech | 1,98 l | 6 | 6 (100 %) | 109,90 | 109,90 | 109,90 | 122,40 |
+| Bolt Food | Coca-Cola | Coca-Cola 1,5L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Coca-Cola | Coca-Cola 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Coca-Cola | Coca-Cola 1,5l | 1,5 l | 5 | 0 (0 %) | 32,90 | 48,90 | 45,70 | 32,90 |
+| Bolt Food | Coca-Cola | Coca-Cola 1L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Coca-Cola | Coca-Cola 1l |  | 6 | 0 (0 %) | 46,90 | 47,90 | 47,23 | 47,90 |
+| Wolt | Coca-Cola | Coca-Cola 1l | 1 l | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Coca-Cola | Coca-Cola 1l | 1 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola 24x330ml | 7,92 l | 6 | 0 (0 %) | 399,00 | 399,00 | 399,00 | 399,00 |
+| Wolt | Coca-Cola | Coca-Cola 2l | 2 l | 6 | 0 (0 %) | 61,90 | 61,90 | 61,90 | 61,90 |
+| Wolt | Coca-Cola | Coca-Cola 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Coca-Cola | Coca-Cola 330ml | 330 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Bolt Food | Coca-Cola | Coca-Cola 4 X 330Ml |  | 6 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
+| Wolt | Coca-Cola | Coca-Cola 4 x 330ml | 1,32 l | 6 | 0 (0 %) | 69,90 | 79,90 | 74,90 | 79,90 |
+| Wolt | Coca-Cola | Coca-Cola 4 x 330ml | 1,32 l | 5 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
+| Košík | Coca-Cola | Coca-Cola 4x1,5l | 6,0 l | 6 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
+| Bolt Food | Coca-Cola | Coca-Cola 500ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Coca-Cola | Coca-Cola 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Coca-Cola | Coca-Cola 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Bolt Food | Coca-Cola | Coca-Cola 6 X 330Ml |  | 6 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Wolt | Coca-Cola | Coca-Cola 6 x 330ml | 1,98 l | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Košík | Coca-Cola | Coca-Cola Cherry | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Coca-Cola | Coca-Cola Cherry | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
 | Wolt | Coca-Cola | Coca-Cola Cherry | 1,5 l | 3 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Cherry 0,33l Plech |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Cherry 0,5l |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Cherry 0.5L |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Bolt Food | Coca-Cola | Coca-Cola Cherry 1,5 L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Cherry 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Coca-Cola | Coca-Cola Cherry 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Cherry 330 Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Coca-Cola | Coca-Cola Cherry 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Coca-Cola | Coca-Cola Cherry 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Košík | Coca-Cola | Coca-Cola Creamy Vanilla | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Coca-Cola | Coca-Cola Creamy Vanilla | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola Creamy Vanilla Zero | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola Creamy Vanilla Zero | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Coca-Cola | Coca-Cola Holiday creamy vanilla | 1,5 l | 2 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Rohlík | Coca-Cola | Coca-Cola Holiday creamy vanilla | 330 ml | 2 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Košík | Coca-Cola | Coca-Cola Lime | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola Mini | 200,0 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Košík | Coca-Cola | Coca-Cola Multipack 6x330ml | 1,98 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Coca-Cola | Coca-Cola Multipack, plech 4x330ml | 1,32 l | 5 | 4 (80 %) | 54,90 | 84,90 | 60,90 | 84,90 |
-| Rohlík | Coca-Cola | Coca-Cola Vanilka | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola Vanilla | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Cherry 0,33l Plech |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Cherry 0,5l |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Cherry 0.5L |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Bolt Food | Coca-Cola | Coca-Cola Cherry 1,5 L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Cherry 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Coca-Cola | Coca-Cola Cherry 1,5l | 1,5 l | 5 | 0 (0 %) | 32,90 | 48,90 | 45,70 | 32,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Cherry 330 Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Coca-Cola | Coca-Cola Cherry 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Coca-Cola | Coca-Cola Cherry 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Košík | Coca-Cola | Coca-Cola Creamy Vanilla | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Coca-Cola | Coca-Cola Creamy Vanilla | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola Creamy Vanilla Zero | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola Creamy Vanilla Zero | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Coca-Cola | Coca-Cola Holiday creamy vanilla | 1,5 l | 3 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Rohlík | Coca-Cola | Coca-Cola Holiday creamy vanilla | 330 ml | 3 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Košík | Coca-Cola | Coca-Cola Lime | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola Mini | 200,0 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Košík | Coca-Cola | Coca-Cola Multipack 6x330ml | 1,98 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Košík | Coca-Cola | Coca-Cola Multipack, plech 4x330ml | 1,32 l | 6 | 5 (83 %) | 54,90 | 84,90 | 59,90 | 84,90 |
+| Rohlík | Coca-Cola | Coca-Cola Vanilka | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola Vanilla | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
 | Wolt | Coca-Cola | Coca-Cola Vanilla | 1,5 l | 3 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Vanilla 1,5L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Vanilla 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Coca-Cola | Coca-Cola Vanilla 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Vanilla 500Ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Bolt Food | Coca-Cola | Coca-Cola Vanilla 500ml |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Wolt | Coca-Cola | Coca-Cola Vanilla 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Košík | Coca-Cola | Coca-Cola Zero | 2,0 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | Coca-Cola | Coca-Cola Zero | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero | 2 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero | 1,5 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero | 1 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero | 330 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero | 2 l | 5 | 4 (80 %) | 38,90 | 49,90 | 41,10 | 39,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero (6x0,33 l) plech | 1,98 l | 5 | 5 (100 %) | 109,90 | 109,90 | 109,90 | 122,40 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 1,5L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero 1,5l | 1,5 l | 5 | 5 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 1L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 1l |  | 5 | 0 (0 %) | 46,90 | 47,90 | 47,10 | 47,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero 1l | 1 l | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Coca-Cola | Coca-Cola Zero 1l | 1 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola Zero 24x330ml | 7,92 l | 5 | 0 (0 %) | 399,00 | 399,00 | 399,00 | 399,00 |
-| Wolt | Coca-Cola | Coca-Cola Zero 2l | 2 l | 5 | 0 (0 %) | 61,90 | 61,90 | 61,90 | 61,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 330Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 330ml |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 4 X 330Ml |  | 5 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero 4 x 330ml | 1,32 l | 5 | 0 (0 %) | 69,90 | 79,90 | 73,90 | 79,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero 4 x 330ml | 1,32 l | 4 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Košík | Coca-Cola | Coca-Cola Zero 4x1,5l | 6,0 l | 5 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 500Ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Coca-Cola | Coca-Cola Zero 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Coca-Cola | Coca-Cola Zero 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero 6 X 330Ml |  | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero 6 x 330ml | 1,98 l | 4 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Košík | Coca-Cola | Coca-Cola Zero 6x330ml | 1,98 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Coca-Cola | Coca-Cola Zero Mini  | 200,0 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Košík | Coca-Cola | Coca-Cola Zero Zero | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Coca-Cola | Coca-Cola Zero Zero | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Coca-Cola | Coca-Cola Zero Zero | 1,0 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Košík | Coca-Cola | Coca-Cola Zero Zero | 500,0 ml | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero Zero | 330 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero Zero | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 0,33L Plech |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 0,5L |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 1,5L |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero Zero 1,5l | 1,5 l | 4 | 4 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 1L |  | 5 | 0 (0 %) | 46,90 | 47,90 | 47,10 | 47,90 |
-| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 1l |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Coca-Cola | Coca-Cola Zero Zero 1l | 1 l | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Coca-Cola | Coca-Cola Zero Zero 1l | 1 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero Zero 330ml | 330 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Wolt | Coca-Cola | Coca-Cola Zero Zero 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero cukru holiday creamy vanilla | 330 ml | 2 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero cukru holiday creamy vanilla | 1,5 l | 2 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero multipack (4×1,5 l) | 6 l | 5 | 1 (20 %) | 119,90 | 144,90 | 139,90 | 144,90 |
-| Rohlík | Coca-Cola | Coca-Cola Zero plech (24×0,33 l) | 7,92 l | 5 | 5 (100 %) | 449,90 | 469,90 | 453,90 | 549,90 |
-| Rohlík | Coca-Cola | Coca-Cola mexická sklo | 355 ml | 5 | 0 (0 %) | 99,90 | 119,90 | 111,90 | 99,90 |
-| Rohlík | Coca-Cola | Coca-Cola multipack (4×1,5 l) | 6 l | 5 | 1 (20 %) | 119,90 | 144,90 | 139,90 | 144,90 |
-| Rohlík | Coca-Cola | Coca-Cola plech (24×0,33 l) | 7,92 l | 5 | 5 (100 %) | 449,90 | 469,90 | 453,90 | 549,90 |
-| Košík | Coca-Cola | Coca-Cola zero | 500,0 ml | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Košík | Coca-Cola | Coca-Cola zero | 1,0 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Košík | Coca-Cola | Coca-Cola zero multipack, plech 4x330ml | 1,32 l | 5 | 4 (80 %) | 54,90 | 84,90 | 60,90 | 84,90 |
-| Bolt Food | Fanta | FANTA  EXOTIC 0,33 L |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Fanta | FANTA CRIMSON CHERRY 330 ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Fanta | FANTA EXOTIC 0,33l PLECH |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Fanta | FANTA EXOTIC 1,5l |  | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Fanta | FANTA SHOKATA CITR.BEZ.KVET. PRICH. 1.5 L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Fanta | Fanta Apple Lychee Zero 0,33l Plech |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Bolt Food | Fanta | Fanta Beetlejuice Mix 500 Ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Rohlík | Fanta | Fanta Berry plech | 355 ml | 5 | 0 (0 %) | 32,90 | 38,90 | 35,30 | 32,90 |
-| Košík | Fanta | Fanta Exotic | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Fanta | Fanta Exotic | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Fanta | Fanta Exotic | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Fanta | Fanta Exotic 0,33L Plech |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Bolt Food | Fanta | Fanta Exotic 1,5 l |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Fanta | Fanta Exotic 1,5L |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Rohlík | Fanta | Fanta Exotic plech | 330 ml | 3 | 1 (33 %) | 19,90 | 22,90 | 21,90 | 22,90 |
-| Rohlík | Fanta | Fanta Jablečno-třešňová chuť plech | 330 ml | 3 | 1 (33 %) | 19,90 | 22,90 | 21,90 | 22,90 |
-| Rohlík | Fanta | Fanta Pineapple plech | 355 ml | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Rohlík | Fanta | Fanta Pomeranč | 2 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Bolt Food | Fanta | Fanta Pomeranč 1,5L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Fanta | Fanta Pomeranč 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Košík | Fanta | Fanta Pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Fanta | Fanta Pomeranč 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Fanta | Fanta Pomeranč 1,5l | 1,5 l | 5 | 5 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
-| Bolt Food | Fanta | Fanta Pomeranč 1l |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Fanta | Fanta Pomeranč 1l |  | 5 | 0 (0 %) | 46,90 | 47,90 | 47,10 | 47,90 |
-| Wolt | Fanta | Fanta Pomeranč 1l | 1 l | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Fanta | Fanta Pomeranč 1l | 1 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Fanta | Fanta Pomeranč 2l | 2,0 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Bolt Food | Fanta | Fanta Pomeranč 330Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Fanta | Fanta Pomeranč 330ml |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Košík | Fanta | Fanta Pomeranč 330ml | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Wolt | Fanta | Fanta Pomeranč 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Fanta | Fanta Pomeranč 330ml | 330 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Bolt Food | Fanta | Fanta Pomeranč 4 X 330Ml |  | 5 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Wolt | Fanta | Fanta Pomeranč 4 x 330ml | 1,32 l | 4 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
-| Rohlík | Fanta | Fanta Pomeranč 4x0,33l plech | 1,32 l | 5 | 0 (0 %) | 84,40 | 84,40 | 84,40 | 84,40 |
-| Bolt Food | Fanta | Fanta Pomeranč 500ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Bolt Food | Fanta | Fanta Pomeranč 500ml |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Wolt | Fanta | Fanta Pomeranč 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Fanta | Fanta Pomeranč 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Košík | Fanta | Fanta Pomeranč Multipack, plech 4x330ml | 1,32 l | 5 | 4 (80 %) | 54,90 | 84,90 | 60,90 | 84,90 |
-| Bolt Food | Fanta | Fanta Pomeranč Zero 0,33l Plech |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Bolt Food | Fanta | Fanta Pomeranč Zero 0,5l Pet |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Bolt Food | Fanta | Fanta Pomeranč Zero 1,5l Pet |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Bolt Food | Fanta | Fanta Shokata 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Fanta | Fanta Shokata 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Fanta | Fanta Shokata 330ml |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Bolt Food | Fanta | Fanta Shokata 500Ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Bolt Food | Fanta | Fanta Shokata 500ml |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Wolt | Fanta | Fanta Shokata 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Fanta | Fanta Shokata 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Košík | Fanta | Fanta Shokata plech | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Fanta | Fanta Wanta Crimson | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Fanta | Fanta Wanta Crimson | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | Fanta | Fanta Zero Cukru S Prichu. Jablka A Lici 1,5 L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Fanta | Fanta Zero Cukru S Prichu. Jablka A Lici 330 Ml |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Fanta | Fanta Zero cukru pomeranč  | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Fanta | Fanta Zero cukru pomeranč  | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Fanta | Fanta Zero cukru pomeranč  | 500,0 ml | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Rohlík | Fanta | Fanta Zero cukru pomeranč plech | 330 ml | 5 | 1 (20 %) | 19,90 | 22,90 | 22,30 | 22,90 |
-| Košík | Fanta | Fanta Zero cukru s příchutí jablka a liči | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Fanta | Fanta Zero cukru s příchutí jablka a liči | 500,0 ml | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Rohlík | Fanta | Fanta Zero cukru s příchutí jablka a liči | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Fanta | Fanta Zero cukru s příchutí jablka a liči 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Fanta | Fanta Zero cukru s příchutí jablka a liči 330ml | 330 ml | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Fanta | Fanta Zero cukru s příchutí jablka a liči 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Rohlík | Fanta | Fanta Zero pomeranč | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Fanta | Fanta Zero pomeranč 1,5l |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Fanta | Fanta Zero pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Wolt | Fanta | Fanta Zero pomeranč 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Fanta | Fanta Zero pomeranč 330ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Fanta | Fanta Zero pomeranč 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Fanta | Fanta Zero pomeranč 500ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Fanta | Fanta Zero pomeranč 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Fanta | Fanta Zero pomeranč 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | Fanta | Fanta pomeranč | 1,5 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Wolt | Fanta | Fanta pomeranč | 2 l | 5 | 4 (80 %) | 38,90 | 49,90 | 41,10 | 39,90 |
-| Wolt | Fanta | Fanta pomeranč | 330 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Fanta | Fanta pomeranč | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Rohlík | Fuze Tea | FuzeTea Broskev a ibišek | 1,5 l | 5 | 5 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
-| Wolt | Fuze Tea | FuzeTea Broskev ibišek 1,5l | 1,5 l | 5 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
-| Wolt | Fuze Tea | FuzeTea Broskev ibišek 500ml | 500 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Fuze Tea | FuzeTea Green Ice Tea Lemon Zero | 1,5 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Fuze Tea | FuzeTea Green Tea citrus 1,5l | 1,5 l | 4 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
-| Wolt | Fuze Tea | FuzeTea Green Tea citrus 500ml | 500 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Fuze Tea | FuzeTea Green Tea jahoda aloe vera 1,5l | 1,5 l | 5 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
-| Wolt | Fuze Tea | FuzeTea Green Tea jahoda aloe vera 500ml | 500 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Fuze Tea | FuzeTea ledový čaj broskev a ibišek | 500 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Fuze Tea | FuzeTea ledový čaj broskev a ibišek | 1,5 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Fuze Tea | FuzeTea ledový čaj jahoda a aloe vera | 500 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Fuze Tea | FuzeTea ledový čaj jahoda a aloe vera | 1,5 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Rohlík | Fuze Tea | FuzeTea zelený ledový čaj citrus stévie | 1,5 l | 5 | 5 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
-| Rohlík | Fuze Tea | FuzeTea zelený ledový čaj citrón bez cukru | 1,5 l | 5 | 5 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
-| Rohlík | Fuze Tea | FuzeTea zelený ledový čaj jahoda aloe vera | 1,5 l | 5 | 5 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
-| Košík | Fuze Tea | Fuzetea Broskev&Ibišek | 250,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Fuze Tea | Fuzetea Lemon Zero zelený ledový čaj | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Košík | Fuze Tea | Fuzetea Mango&Ananas | 250,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Fuze Tea | Fuzetea Peach Hibiscus černý ledový čaj | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Košík | Fuze Tea | Fuzetea Strawberry Aloe Vera zelený ledový čaj | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Wolt | Fuze Tea | Fuzetea ledový čaj citrus | 500 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Bolt Food | Kinley | KINLEY CHERRY PEPPER 250 ml |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Kinley | KINLEY LIMONADA PRICHUTI ZAZVORU 250 ml |  | 3 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Kinley | KINLEY SOUR CHERRY BLACK PEPPER 1,5 L |  | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | Kinley | Kinley  Cherry Pepper | 250,0 ml | 5 | 3 (60 %) | 19,90 | 25,90 | 22,30 | 25,90 |
-| Wolt | Kinley | Kinley Bitter Rose 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Košík | Kinley | Kinley Cherry Pepper | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Rohlík | Kinley | Kinley Ginger Ale | 1,5 l | 5 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
-| Wolt | Kinley | Kinley Ginger Ale 1,5l | 1,5 l | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Kinley | Kinley Ginger Ale 250ml | 250 ml | 2 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Košík | Kinley | Kinley Ginger Ale plech | 250,0 ml | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Košík | Kinley | Kinley Grape & Elderflower | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Vanilla 1,5L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Vanilla 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Coca-Cola | Coca-Cola Vanilla 1,5l | 1,5 l | 5 | 0 (0 %) | 32,90 | 48,90 | 45,70 | 32,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Vanilla 500Ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Bolt Food | Coca-Cola | Coca-Cola Vanilla 500ml |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Wolt | Coca-Cola | Coca-Cola Vanilla 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Košík | Coca-Cola | Coca-Cola Zero | 2,0 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | Coca-Cola | Coca-Cola Zero | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero | 2 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero | 1,5 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero | 1 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero | 330 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero | 2 l | 6 | 5 (83 %) | 38,90 | 49,90 | 40,73 | 39,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero (6x0,33 l) plech | 1,98 l | 6 | 6 (100 %) | 109,90 | 109,90 | 109,90 | 122,40 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 1,5L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero 1,5l | 1,5 l | 5 | 0 (0 %) | 32,90 | 48,90 | 45,70 | 32,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero 1,5l | 1,5 l | 6 | 6 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 1L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 1l |  | 6 | 0 (0 %) | 46,90 | 47,90 | 47,23 | 47,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero 1l | 1 l | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Coca-Cola | Coca-Cola Zero 1l | 1 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola Zero 24x330ml | 7,92 l | 6 | 0 (0 %) | 399,00 | 399,00 | 399,00 | 399,00 |
+| Wolt | Coca-Cola | Coca-Cola Zero 2l | 2 l | 6 | 0 (0 %) | 61,90 | 61,90 | 61,90 | 61,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 330Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 330ml |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 4 X 330Ml |  | 6 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero 4 x 330ml | 1,32 l | 6 | 0 (0 %) | 69,90 | 79,90 | 74,90 | 79,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero 4 x 330ml | 1,32 l | 5 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
+| Košík | Coca-Cola | Coca-Cola Zero 4x1,5l | 6,0 l | 6 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 500Ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Coca-Cola | Coca-Cola Zero 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Coca-Cola | Coca-Cola Zero 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero 6 X 330Ml |  | 6 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero 6 x 330ml | 1,98 l | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Košík | Coca-Cola | Coca-Cola Zero 6x330ml | 1,98 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Košík | Coca-Cola | Coca-Cola Zero Mini  | 200,0 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Košík | Coca-Cola | Coca-Cola Zero Zero | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Coca-Cola | Coca-Cola Zero Zero | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Coca-Cola | Coca-Cola Zero Zero | 1,0 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Košík | Coca-Cola | Coca-Cola Zero Zero | 500,0 ml | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero Zero | 330 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero Zero | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 0,33L Plech |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 0,5L |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 1,5L |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero Zero 1,5l | 1,5 l | 5 | 5 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 1L |  | 6 | 0 (0 %) | 46,90 | 47,90 | 47,23 | 47,90 |
+| Bolt Food | Coca-Cola | Coca-Cola Zero Zero 1l |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Coca-Cola | Coca-Cola Zero Zero 1l | 1 l | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Coca-Cola | Coca-Cola Zero Zero 1l | 1 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero Zero 330ml | 330 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Wolt | Coca-Cola | Coca-Cola Zero Zero 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero cukru holiday creamy vanilla | 330 ml | 3 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero cukru holiday creamy vanilla | 1,5 l | 3 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero multipack (4×1,5 l) | 6 l | 6 | 1 (17 %) | 119,90 | 144,90 | 140,73 | 144,90 |
+| Rohlík | Coca-Cola | Coca-Cola Zero plech (24×0,33 l) | 7,92 l | 6 | 6 (100 %) | 449,90 | 469,90 | 453,23 | 549,90 |
+| Rohlík | Coca-Cola | Coca-Cola mexická sklo | 355 ml | 6 | 0 (0 %) | 99,90 | 119,90 | 109,90 | 99,90 |
+| Rohlík | Coca-Cola | Coca-Cola multipack (4×1,5 l) | 6 l | 6 | 1 (17 %) | 119,90 | 144,90 | 140,73 | 144,90 |
+| Rohlík | Coca-Cola | Coca-Cola plech (24×0,33 l) | 7,92 l | 6 | 6 (100 %) | 449,90 | 469,90 | 453,23 | 549,90 |
+| Košík | Coca-Cola | Coca-Cola zero | 500,0 ml | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Košík | Coca-Cola | Coca-Cola zero | 1,0 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Košík | Coca-Cola | Coca-Cola zero multipack, plech 4x330ml | 1,32 l | 6 | 5 (83 %) | 54,90 | 84,90 | 59,90 | 84,90 |
+| Bolt Food | Fanta | FANTA  EXOTIC 0,33 L |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Fanta | FANTA CRIMSON CHERRY 330 ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Fanta | FANTA EXOTIC 0,33l PLECH |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Fanta | FANTA EXOTIC 1,5l |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Fanta | FANTA SHOKATA CITR.BEZ.KVET. PRICH. 1.5 L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Fanta | Fanta Apple Lychee Zero 0,33l Plech |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Bolt Food | Fanta | Fanta Beetlejuice Mix 500 Ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Rohlík | Fanta | Fanta Berry plech | 355 ml | 6 | 0 (0 %) | 32,90 | 38,90 | 34,90 | 32,90 |
+| Košík | Fanta | Fanta Exotic | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Fanta | Fanta Exotic | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Fanta | Fanta Exotic | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Fanta | Fanta Exotic 0,33L Plech |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Bolt Food | Fanta | Fanta Exotic 1,5 l |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Fanta | Fanta Exotic 1,5L |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Rohlík | Fanta | Fanta Exotic plech | 330 ml | 4 | 2 (50 %) | 19,90 | 22,90 | 21,40 | 22,90 |
+| Rohlík | Fanta | Fanta Jablečno-třešňová chuť plech | 330 ml | 4 | 2 (50 %) | 19,90 | 22,90 | 21,40 | 22,90 |
+| Rohlík | Fanta | Fanta Pineapple plech | 355 ml | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Rohlík | Fanta | Fanta Pomeranč | 2 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Bolt Food | Fanta | Fanta Pomeranč 1,5L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Fanta | Fanta Pomeranč 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Košík | Fanta | Fanta Pomeranč 1,5l | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Fanta | Fanta Pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 32,90 | 48,90 | 45,70 | 32,90 |
+| Wolt | Fanta | Fanta Pomeranč 1,5l | 1,5 l | 6 | 6 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
+| Bolt Food | Fanta | Fanta Pomeranč 1l |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Fanta | Fanta Pomeranč 1l |  | 6 | 0 (0 %) | 46,90 | 47,90 | 47,23 | 47,90 |
+| Wolt | Fanta | Fanta Pomeranč 1l | 1 l | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Fanta | Fanta Pomeranč 1l | 1 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Fanta | Fanta Pomeranč 2l | 2,0 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Bolt Food | Fanta | Fanta Pomeranč 330Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Fanta | Fanta Pomeranč 330ml |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Košík | Fanta | Fanta Pomeranč 330ml | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Wolt | Fanta | Fanta Pomeranč 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Fanta | Fanta Pomeranč 330ml | 330 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Bolt Food | Fanta | Fanta Pomeranč 4 X 330Ml |  | 6 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
+| Wolt | Fanta | Fanta Pomeranč 4 x 330ml | 1,32 l | 5 | 0 (0 %) | 91,90 | 91,90 | 91,90 | 91,90 |
+| Rohlík | Fanta | Fanta Pomeranč 4x0,33l plech | 1,32 l | 6 | 0 (0 %) | 84,40 | 84,40 | 84,40 | 84,40 |
+| Bolt Food | Fanta | Fanta Pomeranč 500ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Bolt Food | Fanta | Fanta Pomeranč 500ml |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Wolt | Fanta | Fanta Pomeranč 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Fanta | Fanta Pomeranč 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Košík | Fanta | Fanta Pomeranč Multipack, plech 4x330ml | 1,32 l | 6 | 5 (83 %) | 54,90 | 84,90 | 59,90 | 84,90 |
+| Bolt Food | Fanta | Fanta Pomeranč Zero 0,33l Plech |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Bolt Food | Fanta | Fanta Pomeranč Zero 0,5l Pet |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Bolt Food | Fanta | Fanta Pomeranč Zero 1,5l Pet |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Bolt Food | Fanta | Fanta Shokata 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Fanta | Fanta Shokata 1,5l | 1,5 l | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Fanta | Fanta Shokata 330ml |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Bolt Food | Fanta | Fanta Shokata 500Ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Bolt Food | Fanta | Fanta Shokata 500ml |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Wolt | Fanta | Fanta Shokata 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Fanta | Fanta Shokata 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Košík | Fanta | Fanta Shokata plech | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Fanta | Fanta Wanta Crimson | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Fanta | Fanta Wanta Crimson | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | Fanta | Fanta Zero Cukru S Prichu. Jablka A Lici 1,5 L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Fanta | Fanta Zero Cukru S Prichu. Jablka A Lici 330 Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Fanta | Fanta Zero cukru pomeranč  | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Fanta | Fanta Zero cukru pomeranč  | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Fanta | Fanta Zero cukru pomeranč  | 500,0 ml | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Rohlík | Fanta | Fanta Zero cukru pomeranč plech | 330 ml | 6 | 2 (33 %) | 19,90 | 22,90 | 21,90 | 22,90 |
+| Košík | Fanta | Fanta Zero cukru s příchutí jablka a liči | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Fanta | Fanta Zero cukru s příchutí jablka a liči | 500,0 ml | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Rohlík | Fanta | Fanta Zero cukru s příchutí jablka a liči | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Fanta | Fanta Zero cukru s příchutí jablka a liči 1,5l | 1,5 l | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Wolt | Fanta | Fanta Zero cukru s příchutí jablka a liči 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Fanta | Fanta Zero cukru s příchutí jablka a liči 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Rohlík | Fanta | Fanta Zero pomeranč | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Fanta | Fanta Zero pomeranč 1,5l |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Wolt | Fanta | Fanta Zero pomeranč 1,5l | 1,5 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Wolt | Fanta | Fanta Zero pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Fanta | Fanta Zero pomeranč 330ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Fanta | Fanta Zero pomeranč 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Fanta | Fanta Zero pomeranč 500ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Fanta | Fanta Zero pomeranč 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Fanta | Fanta Zero pomeranč 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Wolt | Fanta | Fanta pomeranč | 1,5 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Wolt | Fanta | Fanta pomeranč | 2 l | 6 | 5 (83 %) | 38,90 | 49,90 | 40,73 | 39,90 |
+| Wolt | Fanta | Fanta pomeranč | 330 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Fanta | Fanta pomeranč | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Fuze Tea | FuzeTea Broskev a ibišek | 1,5 l | 6 | 6 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
+| Wolt | Fuze Tea | FuzeTea Broskev ibišek 1,5l | 1,5 l | 6 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
+| Wolt | Fuze Tea | FuzeTea Broskev ibišek 500ml | 500 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Fuze Tea | FuzeTea Green Ice Tea Lemon Zero | 1,5 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Fuze Tea | FuzeTea Green Tea citrus 1,5l | 1,5 l | 5 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
+| Wolt | Fuze Tea | FuzeTea Green Tea citrus 500ml | 500 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Fuze Tea | FuzeTea Green Tea jahoda aloe vera 1,5l | 1,5 l | 6 | 0 (0 %) | 56,90 | 56,90 | 56,90 | 56,90 |
+| Wolt | Fuze Tea | FuzeTea Green Tea jahoda aloe vera 500ml | 500 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Fuze Tea | FuzeTea ledový čaj broskev a ibišek | 500 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Fuze Tea | FuzeTea ledový čaj broskev a ibišek | 1,5 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Fuze Tea | FuzeTea ledový čaj jahoda a aloe vera | 500 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Fuze Tea | FuzeTea ledový čaj jahoda a aloe vera | 1,5 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Rohlík | Fuze Tea | FuzeTea zelený ledový čaj citrus stévie | 1,5 l | 6 | 6 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
+| Rohlík | Fuze Tea | FuzeTea zelený ledový čaj citrón bez cukru | 1,5 l | 6 | 6 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
+| Rohlík | Fuze Tea | FuzeTea zelený ledový čaj jahoda aloe vera | 1,5 l | 6 | 6 (100 %) | 41,90 | 41,90 | 41,90 | 53,90 |
+| Košík | Fuze Tea | Fuzetea Broskev&Ibišek | 250,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Fuze Tea | Fuzetea Lemon Zero zelený ledový čaj | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Košík | Fuze Tea | Fuzetea Mango&Ananas | 250,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Fuze Tea | Fuzetea Peach Hibiscus černý ledový čaj | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Košík | Fuze Tea | Fuzetea Strawberry Aloe Vera zelený ledový čaj | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Wolt | Fuze Tea | Fuzetea ledový čaj citrus | 500 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Bolt Food | Kinley | KINLEY CHERRY PEPPER 250 ml |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Kinley | KINLEY LIMONADA PRICHUTI ZAZVORU 250 ml |  | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Kinley | KINLEY SOUR CHERRY BLACK PEPPER 1,5 L |  | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | Kinley | Kinley  Cherry Pepper | 250,0 ml | 6 | 3 (50 %) | 19,90 | 25,90 | 22,90 | 25,90 |
+| Wolt | Kinley | Kinley Bitter Rose 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Košík | Kinley | Kinley Cherry Pepper | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Rohlík | Kinley | Kinley Ginger Ale | 1,5 l | 6 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
+| Wolt | Kinley | Kinley Ginger Ale 1,5l | 1,5 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Kinley | Kinley Ginger Ale 250ml | 250 ml | 3 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Košík | Kinley | Kinley Ginger Ale plech | 250,0 ml | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Kinley | Kinley Grape & Elderflower | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
 | Košík | Kinley | Kinley Grape & Elderflower | 1,5 l | 2 | 2 (100 %) | 18,50 | 47,60 | 33,05 | 52,90 |
-| Košík | Kinley | Kinley Grape & Elderflower plech | 250,0 ml | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Bolt Food | Kinley | Kinley Grape 0,5l Pet |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Košík | Kinley | Kinley Pink Aromatic Berry | 250,0 ml | 5 | 4 (80 %) | 19,90 | 25,90 | 21,10 | 25,90 |
-| Košík | Kinley | Kinley Pink Aromatic Berry | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Rohlík | Kinley | Kinley Pink Aromatic Berry | 1,5 l | 5 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
-| Bolt Food | Kinley | Kinley Pink Aromatic Berry 1,5L |  | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Bolt Food | Kinley | Kinley Pink Aromatic Berry 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Kinley | Kinley Pink Aromatic Berry 1,5l | 1,5 l | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Kinley | Kinley Pink Aromatic Berry 1,5l | 1,5 l | 5 | 5 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
-| Bolt Food | Kinley | Kinley Pink Aromatic Berry 500 Ml |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Kinley | Kinley Pink Aromatic Berry 500ml | 500 ml | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Kinley | Kinley Pink Berry | 1,5 l | 5 | 0 (0 %) | 32,90 | 45,90 | 35,50 | 45,90 |
-| Bolt Food | Kinley | Kinley Pink Berry 0,5l Pet |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
+| Košík | Kinley | Kinley Grape & Elderflower plech | 250,0 ml | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Bolt Food | Kinley | Kinley Grape 0,5l Pet |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Košík | Kinley | Kinley Pink Aromatic Berry | 250,0 ml | 6 | 4 (67 %) | 19,90 | 25,90 | 21,90 | 25,90 |
+| Košík | Kinley | Kinley Pink Aromatic Berry | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Rohlík | Kinley | Kinley Pink Aromatic Berry | 1,5 l | 6 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
+| Bolt Food | Kinley | Kinley Pink Aromatic Berry 1,5L |  | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Bolt Food | Kinley | Kinley Pink Aromatic Berry 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Kinley | Kinley Pink Aromatic Berry 1,5l | 1,5 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Kinley | Kinley Pink Aromatic Berry 1,5l | 1,5 l | 6 | 6 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
+| Bolt Food | Kinley | Kinley Pink Aromatic Berry 500 Ml |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Wolt | Kinley | Kinley Pink Aromatic Berry 500ml | 500 ml | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Wolt | Kinley | Kinley Pink Berry | 1,5 l | 6 | 0 (0 %) | 32,90 | 45,90 | 37,23 | 45,90 |
+| Bolt Food | Kinley | Kinley Pink Berry 0,5l Pet |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
 | Bolt Food | Kinley | Kinley Pur. Lim. Prich. Do Gua.Cr A Ibisku 1,5 L |  | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Bolt Food | Kinley | Kinley Pur. Lim. Prich. Do Gua.Cr A Ibisku 500 Ml |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Košík | Kinley | Kinley Purple | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Bolt Food | Kinley | Kinley Pur. Lim. Prich. Do Gua.Cr A Ibisku 500 Ml |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Košík | Kinley | Kinley Purple | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
 | Wolt | Kinley | Kinley Purple 1,5l | 1,5 l | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Kinley | Kinley Purple 500ml | 500 ml | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Kinley | Kinley Tonic Sycený Nápoj S Příchutí Tonicu 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Košík | Kinley | Kinley Tonic Water | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Rohlík | Kinley | Kinley Tonic Water | 1,5 l | 5 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
-| Bolt Food | Kinley | Kinley Tonic Water 0,25l Plech |  | 5 | 0 (0 %) | 38,90 | 39,90 | 39,10 | 39,90 |
-| Bolt Food | Kinley | Kinley Tonic Water 1,5L |  | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Kinley | Kinley Tonic Water 1,5l | 1,5 l | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Kinley | Kinley Tonic Water 1,5l | 1,5 l | 5 | 5 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
-| Bolt Food | Kinley | Kinley Tonic Water 250ml |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Wolt | Kinley | Kinley Tonic Water 250ml | 250 ml | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Rohlík | Kinley | Kinley Tonic Water Zero | 1,5 l | 5 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
-| Bolt Food | Kinley | Kinley Tonic Water Zero 1,5L |  | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Kinley | Kinley Tonic Water Zero 1,5l | 1,5 l | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | Kinley | Kinley Tonic Water plech | 250,0 ml | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Košík | Kinley | Kinley Tonic Zero Water | 1,5 l | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Bolt Food | Kinley | Kinley ginger Ale 1,5L |  | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Bolt Food | Monster | MEGA MONSTER ENERGY 0.553l |  | 5 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
-| Bolt Food | Monster | MONSTER E. ULTRA FANTASY RUBY RED BEZ CUKRU 500 ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | MONSTER ENERGY JUICED BAD APPLE 500 ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | MONSTER ENERGY LANDO NORRIS ZERO SUG. 500 ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | MONSTER ENERGY TOP SPEED ZERO SUGAR 500 ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | MONSTER ENERGY VALENTINO ROSSI ZERO CUK. 500 ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | MONSTER JUICED AUSSIE STYLE LEMONADE 500 ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Monster | MONSTER RIO PUNCH 0,5 l | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Wolt | Monster | MONSTER THE DOCTOR 0,5l | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Wolt | Monster | MONSTER ULTRA STRAW. DREAMS ZERO 0,5 l | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Bolt Food | Monster | MONSTER VIKING BERRY 0,5 L |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Monster | Monster Energetický nápoj ultra, sycený | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Košík | Monster | Monster Energy | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Monster | Monster Energy | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Wolt | Monster | Monster Energy 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Košík | Monster | Monster Energy Juiced Aussie Style Lemonade | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Monster | Monster Energy Juiced Aussie Style Lemonade 4×0,5 l | 2 l | 5 | 4 (80 %) | 124,90 | 144,90 | 128,90 | 144,90 |
-| Košík | Monster | Monster Energy Juiced Viking Berry | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Monster | Monster Energy Lando Norris | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Monster | Monster Energy Lando Norris Zero Sugar | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Wolt | Monster | Monster Energy Lando Norris Zero Sugar 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Wolt | Monster | Monster Energy Lewis Hamilton sycený energetický nápoj 500ml | 500 ml | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Košík | Monster | Monster Energy Mango Loco | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Monster | Monster Energy Nitro | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Monster | Monster Energy Nitro Super Dry 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Košík | Monster | Monster Energy Pipeline Punch | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Monster | Monster Energy Rio Punch | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Monster | Monster Energy Sycený Energetický Nápoj 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | Monster Energy Sycený Energetický Nápoj 500ml |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Bolt Food | Monster | Monster Energy Sycený energetický nápoj 4 x 500ml |  | 3 | 0 (0 %) | 154,90 | 154,90 | 154,90 | 154,90 |
-| Bolt Food | Monster | Monster Energy The Doctor 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | Monster Energy The Doctor 500ml |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Wolt | Monster | Monster Energy The Doctor 500ml | 500 ml | 5 | 0 (0 %) | 28,90 | 28,90 | 28,90 | 28,90 |
-| Rohlík | Monster | Monster Energy The Doctor Sycený plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Košík | Monster | Monster Energy Top Speed Zero Sugar | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Monster | Monster Energy Ultra 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | Monster Energy Ultra 500ml |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Wolt | Monster | Monster Energy Ultra 500ml | 500 ml | 4 | 4 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Košík | Monster | Monster Energy Ultra Fantasy Ruby Red | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Monster | Monster Energy Ultra Fantasy Ruby Red 500ml | 500 ml | 4 | 1 (25 %) | 31,90 | 46,90 | 43,15 | 46,90 |
-| Košík | Monster | Monster Energy Ultra Fiesta | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Monster | Monster Energy Ultra Fiesta Mango 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Rohlík | Monster | Monster Energy Ultra Fiesta Mango plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Bolt Food | Monster | Monster Energy Ultra Peac. Keen Zero Cuk. 500 Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Monster | Monster Energy Ultra Peachy Keen 500ml | 500 ml | 5 | 0 (0 %) | 27,90 | 28,90 | 28,10 | 27,90 |
-| Košík | Monster | Monster Energy Ultra Peachy Keen Zero | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Monster | Monster Energy Ultra Peachy Keen plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Košík | Monster | Monster Energy Ultra Rosá | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Monster | Monster Energy Ultra Rosá 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Rohlík | Monster | Monster Energy Ultra Rosá Zero Sugar plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Košík | Monster | Monster Energy Ultra Strawberry Dreams | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Monster | Monster Energy Ultra Strawberry Dreams Zc 500 Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Rohlík | Monster | Monster Energy Ultra Strawberry Dreams Zero Sugar | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Rohlík | Monster | Monster Energy Ultra Zero Sugar plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Košík | Monster | Monster Energy Ultra multipack 4x500ml | 2,0 l | 5 | 0 (0 %) | 184,90 | 184,90 | 184,90 | 184,90 |
-| Košík | Monster | Monster Energy Valentino Rossi Zero | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Monster | Monster Energy Valentino Rossi Zero Sugar 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Bolt Food | Monster | Monster Energy Zero 0,5l |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Bolt Food | Monster | Monster Energy Zero Sugar 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Monster | Monster Energy Zero Sugar 500ml | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Wolt | Monster | Monster Energy Zero Sugar 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Rohlík | Monster | Monster Energy Zero Sugar plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Košík | Monster | Monster Energy Zero sugar | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Monster | Monster Energy plech (4×500 ml) | 2 l | 1 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Rohlík | Monster | Monster Energy sycený plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Košík | Monster | Monster Juiced Bad Apple | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Monster | Monster Juiced Mango Loco 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | Monster Juiced Mango Loco 500ml |  | 3 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
-| Wolt | Monster | Monster Juiced Mango Loco 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Bolt Food | Monster | Monster Juiced Monarch 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | Monster Juiced Monarch 500ml |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Wolt | Monster | Monster Juiced Monarch 500ml | 500 ml | 5 | 0 (0 %) | 28,90 | 28,90 | 28,90 | 28,90 |
-| Wolt | Monster | Monster Juiced Monarch 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Rohlík | Monster | Monster Juiced Viking Berry | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Wolt | Monster | Monster Juiced Viking Berry 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Bolt Food | Monster | Monster Lando Norris Zero 0,5L |  | 4 | 0 (0 %) | 52,90 | 54,90 | 53,40 | 54,90 |
-| Wolt | Monster | Monster Mango Loco | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Rohlík | Monster | Monster Mango Loco plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Košík | Monster | Monster Mega Energy | 553,0 ml | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Monster | Monster Monarch | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Bolt Food | Monster | Monster Pipeline Punch 500Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Monster | Monster Pipeline Punch 500ml | 500 ml | 5 | 0 (0 %) | 28,90 | 28,90 | 28,90 | 28,90 |
-| Bolt Food | Monster | Monster Rio Punch 0,5 L |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Monster | Monster Rio Punch 0,5l |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Košík | Monster | Monster The Doctor | 500,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Monster | Monster Top Speed Zero Sugar plech | 500 ml | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Wolt | Monster | Monster Ultra Peach Keen | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Bolt Food | Monster | Monster Ultra Rosa 500ml |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Bolt Food | Monster | Monster Ultra Straw. Dreams Zero 0,5l |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Wolt | Monster | Monster Ultra Strawberry | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Wolt | Monster | Monster Valentino Rossi Zero | 500 ml | 5 | 0 (0 %) | 34,90 | 42,90 | 36,50 | 42,90 |
-| Bolt Food | Monster | Monster Valentino Rossi Zero 0,5L |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Bolt Food | Monster | Monster Viking Berry 0,5L |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,30 | 54,90 |
-| Bolt Food | Monster | Vitakraft Monster Party Hračka Pro Zvířata 1 Ks |  | 5 | 0 (0 %) | 139,90 | 199,90 | 151,90 | 199,90 |
-| Bolt Food | Natura | Eva Natura Pena Do Koupele S Lnenym Bi. 750Ml |  | 5 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
-| Bolt Food | Natura | Eva Natura Pečující krém na ruce a nehty lněný biokomplex 75ml |  | 5 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Košík | Natura | Natura Citron a Máta  | 500,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Natura | Natura Citrón Máta 6 x 1.5 L | 9,0 l | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Bolt Food | Natura | Natura Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | Natura | Natura Jemně Perlivá 1,5l |  | 5 | 0 (0 %) | 26,90 | 27,90 | 27,10 | 27,90 |
-| Košík | Natura | Natura Jemně Perlivá 12x500ml | 6,0 l | 5 | 2 (40 %) | 199,90 | 264,90 | 238,90 | 264,90 |
-| Bolt Food | Natura | Natura Jemně Perlivá 500ml |  | 5 | 0 (0 %) | 27,90 | 29,90 | 28,30 | 29,90 |
-| Wolt | Natura | Natura Jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Wolt | Natura | Natura Jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Natura | Natura Jemně perlivá 12×0,5 l | 6 l | 5 | 5 (100 %) | 169,90 | 169,90 | 169,90 | 264,90 |
-| Wolt | Natura | Natura Jemně perlivá 500ml | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Natura | Natura Jemně perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Rohlík | Natura | Natura Jemně perlivá voda (6×1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 129,90 |
-| Bolt Food | Natura | Natura Kojenecká 1,5L |  | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | Natura | Natura Kojenecká 1,5l |  | 5 | 0 (0 %) | 28,90 | 29,90 | 29,10 | 29,90 |
-| Wolt | Natura | Natura Kojenecká 1,5l | 1,5 l | 4 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Wolt | Natura | Natura Kojenecká 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Košík | Natura | Natura Kojenecká 6x1,5l | 9,0 l | 5 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
-| Rohlík | Natura | Natura Kojenecká voda (6x1,5l) | 9 l | 5 | 5 (100 %) | 109,90 | 109,90 | 109,90 | 144,90 |
-| Košík | Natura | Natura Malina   | 500,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Natura | Natura Malina 6 x 1.5 L | 9,0 l | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Bolt Food | Natura | Natura Neperlivá 1,5L |  | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | Natura | Natura Neperlivá 1,5l |  | 5 | 0 (0 %) | 26,90 | 27,90 | 27,10 | 27,90 |
-| Wolt | Natura | Natura Neperlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Wolt | Natura | Natura Neperlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Košík | Natura | Natura Neperlivá 12x500ml | 6,0 l | 5 | 2 (40 %) | 199,90 | 264,90 | 238,90 | 264,90 |
-| Rohlík | Natura | Natura Neperlivá 12×0,5 l | 6 l | 5 | 5 (100 %) | 169,90 | 169,90 | 169,90 | 264,90 |
+| Wolt | Kinley | Kinley Purple 500ml | 500 ml | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Kinley | Kinley Tonic Sycený Nápoj S Příchutí Tonicu 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Košík | Kinley | Kinley Tonic Water | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Rohlík | Kinley | Kinley Tonic Water | 1,5 l | 6 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
+| Bolt Food | Kinley | Kinley Tonic Water 0,25l Plech |  | 6 | 0 (0 %) | 38,90 | 39,90 | 39,23 | 39,90 |
+| Bolt Food | Kinley | Kinley Tonic Water 1,5L |  | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Kinley | Kinley Tonic Water 1,5l | 1,5 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Kinley | Kinley Tonic Water 1,5l | 1,5 l | 6 | 6 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
+| Bolt Food | Kinley | Kinley Tonic Water 250ml |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Kinley | Kinley Tonic Water 250ml | 250 ml | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Rohlík | Kinley | Kinley Tonic Water Zero | 1,5 l | 6 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
+| Bolt Food | Kinley | Kinley Tonic Water Zero 1,5L |  | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Kinley | Kinley Tonic Water Zero 1,5l | 1,5 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | Kinley | Kinley Tonic Water plech | 250,0 ml | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Kinley | Kinley Tonic Zero Water | 1,5 l | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Bolt Food | Kinley | Kinley ginger Ale 1,5L |  | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Bolt Food | Monster | MEGA MONSTER ENERGY 0.553l |  | 6 | 0 (0 %) | 50,90 | 50,90 | 50,90 | 50,90 |
+| Bolt Food | Monster | MONSTER E. ULTRA FANTASY RUBY RED BEZ CUKRU 500 ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | MONSTER ENERGY JUICED BAD APPLE 500 ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | MONSTER ENERGY LANDO NORRIS ZERO SUG. 500 ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | MONSTER ENERGY TOP SPEED ZERO SUGAR 500 ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | MONSTER ENERGY VALENTINO ROSSI ZERO CUK. 500 ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | MONSTER JUICED AUSSIE STYLE LEMONADE 500 ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Monster | MONSTER RIO PUNCH 0,5 l | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Wolt | Monster | MONSTER THE DOCTOR 0,5l | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Wolt | Monster | MONSTER ULTRA STRAW. DREAMS ZERO 0,5 l | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Bolt Food | Monster | MONSTER VIKING BERRY 0,5 L |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Monster | Monster Energetický nápoj ultra, sycený | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Košík | Monster | Monster Energy | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Monster | Monster Energy | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Wolt | Monster | Monster Energy 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Košík | Monster | Monster Energy Juiced Aussie Style Lemonade | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Monster | Monster Energy Juiced Aussie Style Lemonade 4×0,5 l | 2 l | 6 | 4 (67 %) | 124,90 | 144,90 | 131,57 | 144,90 |
+| Košík | Monster | Monster Energy Juiced Viking Berry | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Monster | Monster Energy Lando Norris | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Monster | Monster Energy Lando Norris Zero Sugar | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Wolt | Monster | Monster Energy Lando Norris Zero Sugar 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Wolt | Monster | Monster Energy Lewis Hamilton sycený energetický nápoj 500ml | 500 ml | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Košík | Monster | Monster Energy Mango Loco | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Monster | Monster Energy Nitro | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Monster | Monster Energy Nitro Super Dry 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Košík | Monster | Monster Energy Pipeline Punch | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Monster | Monster Energy Rio Punch | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Monster | Monster Energy Sycený Energetický Nápoj 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | Monster Energy Sycený Energetický Nápoj 500ml |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Bolt Food | Monster | Monster Energy Sycený energetický nápoj 4 x 500ml |  | 4 | 0 (0 %) | 154,90 | 154,90 | 154,90 | 154,90 |
+| Bolt Food | Monster | Monster Energy The Doctor 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | Monster Energy The Doctor 500ml |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Wolt | Monster | Monster Energy The Doctor 500ml | 500 ml | 6 | 0 (0 %) | 28,90 | 28,90 | 28,90 | 28,90 |
+| Rohlík | Monster | Monster Energy The Doctor Sycený plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Košík | Monster | Monster Energy Top Speed Zero Sugar | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Monster | Monster Energy Ultra 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | Monster Energy Ultra 500ml |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Wolt | Monster | Monster Energy Ultra 500ml | 500 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Košík | Monster | Monster Energy Ultra Fantasy Ruby Red | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Monster | Monster Energy Ultra Fantasy Ruby Red 500ml | 500 ml | 5 | 1 (20 %) | 31,90 | 46,90 | 43,90 | 46,90 |
+| Košík | Monster | Monster Energy Ultra Fiesta | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Monster | Monster Energy Ultra Fiesta Mango 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Rohlík | Monster | Monster Energy Ultra Fiesta Mango plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Bolt Food | Monster | Monster Energy Ultra Peac. Keen Zero Cuk. 500 Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Monster | Monster Energy Ultra Peachy Keen 500ml | 500 ml | 6 | 0 (0 %) | 27,90 | 28,90 | 28,07 | 27,90 |
+| Košík | Monster | Monster Energy Ultra Peachy Keen Zero | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Monster | Monster Energy Ultra Peachy Keen plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Košík | Monster | Monster Energy Ultra Rosá | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Monster | Monster Energy Ultra Rosá 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Rohlík | Monster | Monster Energy Ultra Rosá Zero Sugar plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Košík | Monster | Monster Energy Ultra Strawberry Dreams | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Monster | Monster Energy Ultra Strawberry Dreams Zc 500 Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Rohlík | Monster | Monster Energy Ultra Strawberry Dreams Zero Sugar | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Rohlík | Monster | Monster Energy Ultra Zero Sugar plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Košík | Monster | Monster Energy Ultra multipack 4x500ml | 2,0 l | 6 | 0 (0 %) | 184,90 | 184,90 | 184,90 | 184,90 |
+| Košík | Monster | Monster Energy Valentino Rossi Zero | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Monster | Monster Energy Valentino Rossi Zero Sugar 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Bolt Food | Monster | Monster Energy Zero 0,5l |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Bolt Food | Monster | Monster Energy Zero Sugar 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Monster | Monster Energy Zero Sugar 500ml | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Wolt | Monster | Monster Energy Zero Sugar 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Rohlík | Monster | Monster Energy Zero Sugar plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Košík | Monster | Monster Energy Zero sugar | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Monster | Monster Energy multipack 4x500ml | 2,0 l | 1 | 0 (0 %) | 184,90 | 184,90 | 184,90 | 184,90 |
+| Rohlík | Monster | Monster Energy plech (4×500 ml) | 2 l | 2 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
+| Rohlík | Monster | Monster Energy sycený plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Košík | Monster | Monster Juiced Bad Apple | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Monster | Monster Juiced Mango Loco 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | Monster Juiced Mango Loco 500ml |  | 4 | 0 (0 %) | 52,90 | 54,90 | 53,90 | 54,90 |
+| Wolt | Monster | Monster Juiced Mango Loco 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Bolt Food | Monster | Monster Juiced Monarch 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | Monster Juiced Monarch 500ml |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Wolt | Monster | Monster Juiced Monarch 500ml | 500 ml | 6 | 0 (0 %) | 28,90 | 28,90 | 28,90 | 28,90 |
+| Wolt | Monster | Monster Juiced Monarch 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Rohlík | Monster | Monster Juiced Viking Berry | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Wolt | Monster | Monster Juiced Viking Berry 500ml | 500 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Bolt Food | Monster | Monster Lando Norris Zero 0,5L |  | 5 | 0 (0 %) | 52,90 | 54,90 | 53,70 | 54,90 |
+| Wolt | Monster | Monster Mango Loco | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Rohlík | Monster | Monster Mango Loco plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Košík | Monster | Monster Mega Energy | 553,0 ml | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Monster | Monster Monarch | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Bolt Food | Monster | Monster Pipeline Punch 500Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Monster | Monster Pipeline Punch 500ml | 500 ml | 6 | 0 (0 %) | 28,90 | 28,90 | 28,90 | 28,90 |
+| Bolt Food | Monster | Monster Rio Punch 0,5 L |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Monster | Monster Rio Punch 0,5l |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Košík | Monster | Monster The Doctor | 500,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Monster | Monster Top Speed Zero Sugar plech | 500 ml | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Wolt | Monster | Monster Ultra Peach Keen | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Bolt Food | Monster | Monster Ultra Rosa 500ml |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Bolt Food | Monster | Monster Ultra Straw. Dreams Zero 0,5l |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Wolt | Monster | Monster Ultra Strawberry | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Wolt | Monster | Monster Valentino Rossi Zero | 500 ml | 6 | 0 (0 %) | 34,90 | 42,90 | 37,57 | 42,90 |
+| Bolt Food | Monster | Monster Valentino Rossi Zero 0,5L |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Bolt Food | Monster | Monster Viking Berry 0,5L |  | 6 | 0 (0 %) | 52,90 | 54,90 | 53,57 | 54,90 |
+| Bolt Food | Monster | Vitakraft Monster Party Hračka Pro Zvířata 1 Ks |  | 6 | 0 (0 %) | 139,90 | 199,90 | 159,90 | 199,90 |
+| Bolt Food | Natura | Eva Natura Pena Do Koupele S Lnenym Bi. 750Ml |  | 6 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
+| Bolt Food | Natura | Eva Natura Pečující krém na ruce a nehty lněný biokomplex 75ml |  | 6 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Košík | Natura | Natura Citron a Máta  | 500,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Natura | Natura Citrón Máta 6 x 1.5 L | 9,0 l | 6 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Bolt Food | Natura | Natura Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | Natura | Natura Jemně Perlivá 1,5l |  | 6 | 0 (0 %) | 26,90 | 27,90 | 27,23 | 27,90 |
+| Košík | Natura | Natura Jemně Perlivá 12x500ml | 6,0 l | 6 | 3 (50 %) | 199,90 | 264,90 | 232,40 | 264,90 |
+| Bolt Food | Natura | Natura Jemně Perlivá 500ml |  | 6 | 0 (0 %) | 27,90 | 29,90 | 28,57 | 29,90 |
+| Wolt | Natura | Natura Jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Wolt | Natura | Natura Jemně perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Natura | Natura Jemně perlivá 12×0,5 l | 6 l | 6 | 6 (100 %) | 169,90 | 169,90 | 169,90 | 264,90 |
+| Wolt | Natura | Natura Jemně perlivá 500ml | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Natura | Natura Jemně perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Rohlík | Natura | Natura Jemně perlivá voda (6×1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 89,90 | 89,90 | 129,90 |
+| Bolt Food | Natura | Natura Kojenecká 1,5L |  | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | Natura | Natura Kojenecká 1,5l |  | 6 | 0 (0 %) | 28,90 | 29,90 | 29,23 | 29,90 |
+| Wolt | Natura | Natura Kojenecká 1,5l | 1,5 l | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Wolt | Natura | Natura Kojenecká 1,5l | 1,5 l | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Košík | Natura | Natura Kojenecká 6x1,5l | 9,0 l | 6 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
+| Rohlík | Natura | Natura Kojenecká voda (6x1,5l) | 9 l | 6 | 6 (100 %) | 109,90 | 109,90 | 109,90 | 144,90 |
+| Košík | Natura | Natura Malina   | 500,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Natura | Natura Malina 6 x 1.5 L | 9,0 l | 6 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Bolt Food | Natura | Natura Neperlivá 1,5L |  | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | Natura | Natura Neperlivá 1,5l |  | 6 | 0 (0 %) | 26,90 | 27,90 | 27,23 | 27,90 |
+| Wolt | Natura | Natura Neperlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Wolt | Natura | Natura Neperlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Natura | Natura Neperlivá 12x500ml | 6,0 l | 6 | 3 (50 %) | 199,90 | 264,90 | 232,40 | 264,90 |
+| Rohlík | Natura | Natura Neperlivá 12×0,5 l | 6 l | 6 | 6 (100 %) | 169,90 | 169,90 | 169,90 | 264,90 |
 | Bolt Food | Natura | Natura Neperlivá 500ml |  | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Natura | Natura Neperlivá 500ml | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Natura | Natura Neperlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Bolt Food | Natura | Natura Neperlivá 750ml |  | 5 | 0 (0 %) | 28,90 | 29,90 | 29,10 | 29,90 |
-| Wolt | Natura | Natura Neperlivá 750ml | 750 ml | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Rohlík | Natura | Natura Neperlivá voda (6×1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 129,90 |
-| Rohlík | Natura | Natura Ochucená pramenitá voda citron a máta | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Rohlík | Natura | Natura Ochucená pramenitá voda malina | 1,5 l | 5 | 0 (0 %) | 20,90 | 23,90 | 22,10 | 20,90 |
-| Bolt Food | Natura | Natura Perlivá 1,5l |  | 5 | 0 (0 %) | 26,90 | 27,90 | 27,10 | 27,90 |
-| Wolt | Natura | Natura Perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Košík | Natura | Natura Perlivá pramenitá voda 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Rohlík | Natura | Natura Perlivá voda (6×1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 129,90 |
-| Bolt Food | Natura | Natura S Příchutí Citron Máta 1,5l |  | 5 | 0 (0 %) | 27,90 | 29,90 | 28,30 | 29,90 |
-| Bolt Food | Natura | Natura S Příchutí Citron Máta 500ml |  | 5 | 0 (0 %) | 28,90 | 29,90 | 29,10 | 29,90 |
-| Bolt Food | Natura | Natura S Příchutí Malina 1,5l |  | 5 | 0 (0 %) | 27,90 | 29,90 | 28,30 | 29,90 |
-| Bolt Food | Natura | Natura S Příchutí Malina 500ml |  | 4 | 0 (0 %) | 28,90 | 29,90 | 29,15 | 29,90 |
-| Wolt | Natura | Natura S příchutí citron máta 1,5l | 1,5 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Wolt | Natura | Natura S příchutí malina 1,5l | 1,5 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Bolt Food | Natura | Spontex Natura Houbová Utěrka 3 Ks |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | Powerade | POWERADE ATTACK 500 ml |  | 5 | 0 (0 %) | 29,90 | 49,90 | 33,90 | 49,90 |
-| Bolt Food | Powerade | POWERADE S CITRONOVOU PRICHUTI 500 ml |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Powerade | Powerade  Black Currant Zero 0,5 L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Košík | Powerade | Powerade  FIFA Attack | 500,0 ml | 5 | 0 (0 %) | 39,90 | 47,90 | 41,50 | 39,90 |
-| Košík | Powerade | Powerade  FIFA Defense | 500,0 ml | 5 | 0 (0 %) | 39,90 | 47,90 | 41,50 | 39,90 |
-| Košík | Powerade | Powerade  FIFA Midfield | 500,0 ml | 5 | 0 (0 %) | 39,90 | 47,90 | 41,50 | 39,90 |
-| Košík | Powerade | Powerade  Lemon | 500,0 ml | 5 | 0 (0 %) | 41,90 | 47,90 | 43,10 | 41,90 |
-| Košík | Powerade | Powerade  Mountain Blast | 500,0 ml | 5 | 0 (0 %) | 41,90 | 47,90 | 43,10 | 41,90 |
-| Košík | Powerade | Powerade  Zero Mountain Blast | 500,0 ml | 5 | 0 (0 %) | 41,90 | 47,90 | 43,10 | 41,90 |
-| Bolt Food | Powerade | Powerade Mountain Blast 500Ml |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Powerade | Powerade Mountain Blast 500ml |  | 5 | 0 (0 %) | 53,90 | 54,90 | 54,10 | 54,90 |
-| Bolt Food | Powerade | Powerade Mountain Blast Zero 0,5 L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Powerade | Powerade Mountain Blast Zero 0,5l Pet |  | 5 | 0 (0 %) | 53,90 | 64,90 | 56,10 | 64,90 |
-| Rohlík | Powerade | Powerade Zero Mountain Blast | 500 ml | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Bolt Food | Römerquelle | Romerquelle Neperliva 0.5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Römerquelle | Romerquelle Perliva 0,5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Römerquelle | Römerquelle Citronová Tráva 0,5L |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Rohlík | Römerquelle | Römerquelle Emotion Lemongrass minerální voda s příchutí citronové trávy sycená sklo | 330 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Bolt Food | Römerquelle | Römerquelle Neperlivá 0,5L |  | 5 | 0 (0 %) | 29,90 | 35,90 | 31,10 | 35,90 |
-| Košík | Römerquelle | Römerquelle Ochucená minerální voda s příchutí citronové trávy sycená | 500,0 ml | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Bolt Food | Römerquelle | Römerquelle Perlivá 0,5L |  | 5 | 0 (0 %) | 29,90 | 35,90 | 31,10 | 35,90 |
-| Košík | Römerquelle | Römerquelle Přírodní minerální voda nesycená | 500,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Römerquelle | Römerquelle Přírodní minerální voda nesycená 500ml | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Römerquelle | Römerquelle Přírodní minerální voda nesycená 500ml | 500 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Rohlík | Römerquelle | Römerquelle Přírodní minerální voda nesycená sklo | 0,75 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Römerquelle | Römerquelle Přírodní minerální voda sycená | 500,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Römerquelle | Römerquelle Přírodní minerální voda sycená 500ml | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Rohlík | Römerquelle | Römerquelle Přírodní minerální voda sycená sklo | 0,75 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Sprite | SPRITE 1.5 L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Sprite | SPRITE ZERO CHILL MINT 330 ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Sprite | SPRITE ZERO CHILL MINT 500 ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Rohlík | Sprite | Sprite | 2 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Wolt | Sprite | Sprite | 1,5 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Wolt | Sprite | Sprite | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Sprite | Sprite | 2 l | 5 | 4 (80 %) | 38,90 | 49,90 | 41,10 | 39,90 |
-| Bolt Food | Sprite | Sprite Citron Limetka 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Bolt Food | Sprite | Sprite Citron Limetka 1L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Sprite | Sprite Citron Limetka 1l |  | 5 | 0 (0 %) | 46,90 | 47,90 | 47,10 | 47,90 |
-| Bolt Food | Sprite | Sprite Citron Limetka 330Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Sprite | Sprite Citron Limetka 330ml |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Bolt Food | Sprite | Sprite Citron Limetka 500ml |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Košík | Sprite | Sprite Citron limetka 2l | 2,0 l | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Bolt Food | Sprite | Sprite Citron limetka 500ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Sprite | Sprite Citron limetka 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Sprite | Sprite Citron-limetka příchuť 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Sprite | Sprite Citron-limetka příchuť 1,5l | 1,5 l | 5 | 5 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
-| Wolt | Sprite | Sprite Citron-limetka příchuť 1l | 1 l | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Sprite | Sprite Citron-limetka příchuť 1l | 1 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Sprite | Sprite Citron-limetka příchuť 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Sprite | Sprite Citron-limetka příchuť 330ml | 330 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Wolt | Sprite | Sprite Citron-limetka příchuť 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | Sprite | Sprite Zero | 1,5 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Bolt Food | Sprite | Sprite Zero 0,5 L |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Bolt Food | Sprite | Sprite Zero 1,5 L Pet |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Bolt Food | Sprite | Sprite Zero 330 Ml Plech |  | 5 | 0 (0 %) | 33,90 | 34,90 | 34,10 | 34,90 |
-| Košík | Sprite | Sprite Zero Citron a limetka | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Sprite | Sprite Zero Citron-limetka | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Sprite | Sprite Zero Cukru 1,5 L |  | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | Sprite | Sprite Zero Cukru 330 Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Sprite | Sprite Zero Cukru 500 Ml |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Košík | Sprite | Sprite Zero Mint Chill | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Sprite | Sprite Zero citron a limetka | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Sprite | Sprite Zero citron-limetka příchuť 1,5l | 1,5 l | 4 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Wolt | Sprite | Sprite Zero citron-limetka příchuť 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Sprite | Sprite Zero citron-limetka příchuť 500ml | 500 ml | 4 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Sprite | Sprite Zero citron-limetka příchuť 500ml | 500 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Košík | Sprite | Sprite citron-limetka | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Sprite | Sprite plech | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Sprite | Sprite plech | 330 ml | 5 | 1 (20 %) | 19,90 | 22,90 | 22,30 | 22,90 |
-| Wolt | Jupí | JUPI SIRUP BEZOVY KVET S MATOU 0,7 L |  | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | Jupí | JUPÍ SIRUP  CITRON 0,7 l PET |  | 1 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Wolt | Jupí | JUPÍ SIRUP LESNÍ SMĚS 0,7l PET |  | 5 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Wolt | Jupí | JUPÍ SIRUP MALINA 0,7  l PET | 700 ml | 5 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Wolt | Jupí | JUPÍ SIRUP POMERANČ 0,7 l PET |  | 5 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Rohlík | Jupí | Jupí Bezový květ a máta | 0,7 l | 5 | 0 (0 %) | 51,90 | 51,90 | 51,90 | 51,90 |
-| Rohlík | Jupí | Jupí Extra Mojito | 0,7 l | 5 | 4 (80 %) | 49,90 | 72,90 | 54,50 | 72,90 |
-| Rohlík | Jupí | Jupí Extra bezový květ | 0,7 l | 5 | 4 (80 %) | 49,90 | 72,90 | 54,50 | 72,90 |
-| Rohlík | Jupí | Jupí Extra černý čaj a broskev k přípravě Ice Tea | 0,7 l | 5 | 4 (80 %) | 49,90 | 72,90 | 54,50 | 72,90 |
-| Košík | Jupí | Jupí Hustý jahoda | 700,0 ml | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Košík | Jupí | Jupí Hustý sirup Pomeranč-Jablko | 700,0 ml | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Košík | Jupí | Jupí Hustý sirup malina | 700,0 ml | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Košík | Jupí | Jupí Jupí Extra Bezový květ | 700,0 ml | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Košík | Jupí | Jupí Koktejl sirup Mojito | 700,0 ml | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Bolt Food | Jupí | Jupí Lahvinka Hustý Sirup Zahradní Ovoce 0,7L |  | 5 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
-| Wolt | Jupí | Jupí Lahvinka Hustý sirup malina jablko 0,7l | 700 ml | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | Jupí | Jupí Lahvinka Hustý sirup malina jablko 0,7l | 700 ml | 4 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
-| Wolt | Jupí | Jupí Lahvinka Hustý sirup zahradní ovoce 0,7l | 700 ml | 4 | 4 (100 %) | 39,90 | 39,90 | 39,90 | 75,90 |
-| Bolt Food | Jupí | Jupí Lahvinka Koktejl Sirup Mojito 0,7L |  | 5 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
-| Wolt | Jupí | Jupí Lahvinka Koktejl sirup mojito 0,7l | 700 ml | 4 | 4 (100 %) | 39,90 | 39,90 | 39,90 | 75,90 |
-| Bolt Food | Jupí | Jupí Lahvinka Malinový Sirup Imunita 0,7L |  | 5 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
-| Bolt Food | Jupí | Jupí Lahvinka Rakytníkový Sirup Imunita 0,7L |  | 5 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
-| Wolt | Jupí | Jupí Lahvinka Rakytníkový sirup imunita 0,7l | 700 ml | 4 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
-| Bolt Food | Jupí | Jupí Lahvinka Sirup Bezový Květ 0,7L |  | 5 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
-| Wolt | Jupí | Jupí Lahvinka Sirup bezový květ 0,7l | 700 ml | 4 | 4 (100 %) | 39,90 | 39,90 | 39,90 | 75,90 |
-| Bolt Food | Jupí | Jupí Sirup Aloe Vera 0,7L |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | Jupí | Jupí Sirup Citrón 0,7L |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | Jupí | Jupí Sirup Citrón 0,7l |  | 5 | 0 (0 %) | 62,90 | 64,90 | 63,30 | 64,90 |
-| Košík | Jupí | Jupí Sirup Imunita rakytník | 700,0 ml | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Bolt Food | Jupí | Jupí Sirup Jahoda 0,7L |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | Jupí | Jupí Sirup Lesní Směs 0,7L |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | Jupí | Jupí Sirup Lesní Směs 0,7l |  | 5 | 0 (0 %) | 62,90 | 64,90 | 63,30 | 64,90 |
-| Bolt Food | Jupí | Jupí Sirup Malina 0,7L |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | Jupí | Jupí Sirup Malina 0,7l |  | 5 | 0 (0 %) | 62,90 | 64,90 | 63,30 | 64,90 |
-| Bolt Food | Jupí | Jupí Sirup Pomeranč 0,7L |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | Jupí | Jupí Sirup Pomeranč 0,7l |  | 5 | 0 (0 %) | 62,90 | 64,90 | 63,30 | 64,90 |
-| Košík | Jupí | Jupí Sirup aloe vera | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | Jupí | Jupí Sirup aloe vera 0,7l | 700 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Košík | Jupí | Jupí Sirup bezový květ s mátou | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Košík | Jupí | Jupí Sirup citrón | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | Jupí | Jupí Sirup citrón 0,7l | 700 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Košík | Jupí | Jupí Sirup jahoda | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Rohlík | Jupí | Jupí Sirup jahoda | 0,7 l | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | Jupí | Jupí Sirup jahoda 0,7l | 700 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Košík | Jupí | Jupí Sirup lesní směs | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Rohlík | Jupí | Jupí Sirup lesní směs | 0,7 l | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | Jupí | Jupí Sirup lesní směs 0,7l | 700 ml | 5 | 0 (0 %) | 39,90 | 49,90 | 41,90 | 39,90 |
-| Wolt | Jupí | Jupí Sirup lesní směs 0,7l | 700 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | Jupí | Jupí Sirup lesní směs 3l | 3 l | 5 | 0 (0 %) | 119,90 | 139,90 | 123,90 | 119,90 |
-| Košík | Jupí | Jupí Sirup malina | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Rohlík | Jupí | Jupí Sirup malina | 0,7 l | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | Jupí | Jupí Sirup malina 0,7l | 700 ml | 5 | 0 (0 %) | 39,90 | 49,90 | 41,90 | 39,90 |
-| Wolt | Jupí | Jupí Sirup malina 0,7l | 700 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | Jupí | Jupí Sirup malina 3l | 3 l | 5 | 0 (0 %) | 119,90 | 139,90 | 123,90 | 119,90 |
-| Bolt Food | Jupí | Jupí Sirup multivitamín 0,7l |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | Jupí | Jupí Sirup multivitamín 0,7l | 700 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Košík | Jupí | Jupí Sirup pomeranč | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Rohlík | Jupí | Jupí Sirup pomeranč | 0,7 l | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | Jupí | Jupí Sirup pomeranč | 3 l | 5 | 1 (20 %) | 119,90 | 199,00 | 183,18 | 199,00 |
-| Wolt | Jupí | Jupí Sirup pomeranč 0,7l | 700 ml | 5 | 0 (0 %) | 39,90 | 49,90 | 41,90 | 39,90 |
-| Wolt | Jupí | Jupí Sirup pomeranč 0,7l | 700 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | Jupí | Jupí Sirup pomeranč 3l | 3 l | 5 | 0 (0 %) | 119,90 | 139,90 | 123,90 | 119,90 |
-| Košík | Jupí | Jupí Sirup černý rybíz | 700,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Košík | Jupí | Jupí Superovocný sirup zahradní ovoce | 700,0 ml | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Košík | Jupí | Jupí XXL Sirup s příchutí citrón | 3,0 l | 5 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
-| Košík | Jupí | Jupí XXL Sirup s příchutí jahody | 3,0 l | 5 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
-| Košík | Jupí | Jupí XXL Sirup s příchutí lesní směsi | 3,0 l | 5 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
-| Košík | Jupí | Jupí XXL Sirup s příchutí malina | 3,0 l | 5 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
-| Košík | Jupí | Jupí XXL Sirup s příchutí pomeranč | 3,0 l | 5 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
-| Rohlík | Jupí | Jupí sirup citrón | 0,7 l | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | Jupí | Jupí sirup s příchutí aloe vera | 700 ml | 5 | 0 (0 %) | 31,90 | 54,90 | 41,10 | 54,90 |
-| Wolt | Jupí | Jupí sirup s příchutí citron | 700 ml | 5 | 0 (0 %) | 31,90 | 54,90 | 41,10 | 54,90 |
-| Wolt | Jupí | Jupí sirup s příchutí jahoda | 700 ml | 5 | 0 (0 %) | 31,90 | 54,90 | 41,10 | 54,90 |
-| Wolt | Jupí | Jupí sirup s příchutí lesní směs | 700 ml | 5 | 0 (0 %) | 31,90 | 54,90 | 41,10 | 54,90 |
-| Wolt | Jupí | Jupí sirup s příchutí malina | 700 ml | 5 | 0 (0 %) | 31,90 | 54,90 | 41,10 | 54,90 |
-| Wolt | Jupí | Jupí sirup s příchutí pomeranč | 700 ml | 5 | 0 (0 %) | 31,90 | 54,90 | 41,10 | 54,90 |
-| Košík | Jupík | Jupík Aqua Jablko | 500,0 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Jupík | Jupík Aqua Jablko 500ml |  | 5 | 0 (0 %) | 26,50 | 27,90 | 26,78 | 27,90 |
-| Košík | Jupík | Jupík Aqua Jahoda | 500,0 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Jupík | Jupík Aqua Jahoda 500ml |  | 5 | 0 (0 %) | 26,50 | 27,90 | 26,78 | 27,90 |
-| Wolt | Jupík | Jupík Aqua Jahoda 500ml | 500 ml | 5 | 0 (0 %) | 24,50 | 24,50 | 24,50 | 24,50 |
-| Rohlík | Jupík | Jupík Aqua Lesní ovoce | 500 ml | 5 | 0 (0 %) | 22,90 | 24,90 | 24,50 | 22,90 |
-| Košík | Jupík | Jupík Aqua Malina | 500,0 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Rohlík | Jupík | Jupík Aqua Malina | 500 ml | 5 | 0 (0 %) | 22,90 | 24,90 | 24,50 | 22,90 |
-| Bolt Food | Jupík | Jupík Aqua Sport Lesní Ovoce 0,5l |  | 5 | 0 (0 %) | 26,50 | 27,90 | 26,78 | 27,90 |
-| Wolt | Jupík | Jupík Aqua jablko | 500 ml | 5 | 0 (0 %) | 14,90 | 21,90 | 16,30 | 21,90 |
-| Rohlík | Jupík | Jupík Aqua jahoda | 500 ml | 5 | 0 (0 %) | 22,90 | 24,90 | 24,50 | 22,90 |
-| Wolt | Jupík | Jupík Aqua jahoda | 500 ml | 5 | 0 (0 %) | 14,90 | 21,90 | 16,30 | 21,90 |
-| Wolt | Jupík | Jupík Aqua lesní směs | 500 ml | 5 | 0 (0 %) | 14,90 | 21,90 | 16,30 | 21,90 |
-| Wolt | Jupík | Jupík Aqua malina | 500 ml | 5 | 0 (0 %) | 14,90 | 21,90 | 16,30 | 21,90 |
-| Rohlík | Jupík | Jupík Aqua sport pomeranč | 500 ml | 5 | 0 (0 %) | 22,90 | 24,90 | 24,50 | 22,90 |
-| Košík | Jupík | Jupík Lollipopz Berry Bomb | 330,0 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Rohlík | Jupík | Jupík Lollipopz Berry Bomb | 330 ml | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Košík | Jupík | Jupík Lollipopz Dizzy Bezzy | 330,0 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Rohlík | Jupík | Jupík Lollipopz Dizzy Bezzy | 330 ml | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Jupík | Jupík Ovocík 40% Jablko | 330 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Košík | Jupík | Jupík Ovocík 40% Jahoda  | 330,0 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Košík | Jupík | Jupík Ovocík 40% Multivitamin | 330,0 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Rohlík | Jupík | Jupík Ovocík 40% Multivitamín | 330 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Jupík | Prima Jupík Cherry Cola 115ml |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Jupík | Prima Jupík Pomeranč 115ml |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Jupík | Zmrzlina Jupík Jahoda 115ml |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Kláštorná | KLÁŠTORNÁ KALCIA JEMNĚ PERLIVÁ 1,5 l | 1,5 l | 4 | 4 (100 %) | 17,90 | 17,90 | 17,90 | 20,90 |
-| Wolt | Kláštorná | KLÁŠTORNÁ KALCIA PERLIVÁ 1,5 l | 1,5 l | 5 | 5 (100 %) | 17,90 | 17,90 | 17,90 | 20,90 |
-| Bolt Food | Kláštorná | Kláštorná Kalcia Jemně Sycená 0,5l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Bolt Food | Kláštorná | Kláštorná Kalcia Jemně Sycená 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Kláštorná | Kláštorná Kalcia Jemně Sycená 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Košík | Kláštorná | Kláštorná Kalcia Přírodní minerální jemně sycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Kláštorná | Kláštorná Kalcia Přírodní minerální sycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Rohlík | Kláštorná | Kláštorná Kalcia Přírodní minerální voda sycená | 500 ml | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Rohlík | Kláštorná | Kláštorná Kalcia Přírodní minerální voda sycená (6x1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 154,90 |
-| Bolt Food | Kláštorná | Kláštorná Kalcia Sycená 0,5l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Bolt Food | Kláštorná | Kláštorná Kalcia Sycená 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Kláštorná | Kláštorná Kalcia Sycená 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Wolt | Kláštorná | Kláštorná Kalcia Sycená 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Kláštorná | Kláštorná Kalcia jemně perlivá | 1,5 l | 5 | 0 (0 %) | 13,90 | 18,90 | 17,90 | 13,90 |
-| Rohlík | Kláštorná | Kláštorná Kalcia jemně sycená | 500 ml | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Kláštorná | Kláštorná Kalcia jemně sycená 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Rohlík | Kláštorná | Kláštorná Kalcia přírodní minerální voda jemně sycená (6x1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 154,90 |
-| Rohlík | Kofola | Cirkulka Kofola Original sklo | 1 l | 5 | 0 (0 %) | 31,43 | 31,43 | 31,43 | 31,43 |
-| Wolt | Kofola | KOFOLA NULKA 0,33l |  | 4 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Bolt Food | Kofola | KOFOLA NULKA BEZ CUKRU 0,33 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Kofola | KOFOLA NULKA BEZ CUKRU 1 L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Kofola | KOFOLA ORIGINÁL 0,5l PET | 500 ml | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Košík | Kofola | Kofola Citrus | 2,0 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Bolt Food | Kofola | Kofola Citrus 0,5L |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Kofola | Kofola Citrus 0,5l | 500 ml | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Bolt Food | Kofola | Kofola Citrus 2L |  | 5 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
-| Bolt Food | Kofola | Kofola Citrus 2l |  | 5 | 0 (0 %) | 49,90 | 51,90 | 50,30 | 51,90 |
-| Wolt | Kofola | Kofola Citrus 2l | 2 l | 4 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
-| Bolt Food | Kofola | Kofola Meloun 0,5L |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Bolt Food | Kofola | Kofola Meloun 0,5l |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Wolt | Kofola | Kofola Meloun 0,5l | 500 ml | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Natura | Natura Neperlivá 500ml | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Natura | Natura Neperlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Bolt Food | Natura | Natura Neperlivá 750ml |  | 6 | 0 (0 %) | 28,90 | 29,90 | 29,23 | 29,90 |
+| Wolt | Natura | Natura Neperlivá 750ml | 750 ml | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Rohlík | Natura | Natura Neperlivá voda (6×1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 89,90 | 89,90 | 129,90 |
+| Rohlík | Natura | Natura Ochucená pramenitá voda citron a máta | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Rohlík | Natura | Natura Ochucená pramenitá voda malina | 1,5 l | 6 | 0 (0 %) | 20,90 | 23,90 | 21,90 | 20,90 |
+| Bolt Food | Natura | Natura Perlivá 1,5l |  | 6 | 0 (0 %) | 26,90 | 27,90 | 27,23 | 27,90 |
+| Wolt | Natura | Natura Perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Natura | Natura Perlivá pramenitá voda 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Rohlík | Natura | Natura Perlivá voda (6×1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 89,90 | 89,90 | 129,90 |
+| Bolt Food | Natura | Natura S Příchutí Citron Máta 1,5l |  | 6 | 0 (0 %) | 27,90 | 29,90 | 28,57 | 29,90 |
+| Bolt Food | Natura | Natura S Příchutí Citron Máta 500ml |  | 6 | 0 (0 %) | 28,90 | 29,90 | 29,23 | 29,90 |
+| Bolt Food | Natura | Natura S Příchutí Malina 1,5l |  | 6 | 0 (0 %) | 27,90 | 29,90 | 28,57 | 29,90 |
+| Bolt Food | Natura | Natura S Příchutí Malina 500ml |  | 5 | 0 (0 %) | 28,90 | 29,90 | 29,30 | 29,90 |
+| Wolt | Natura | Natura S příchutí citron máta 1,5l | 1,5 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Natura | Natura S příchutí malina 1,5l | 1,5 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Bolt Food | Natura | Spontex Natura Houbová Utěrka 3 Ks |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | Powerade | POWERADE ATTACK 500 ml |  | 6 | 0 (0 %) | 29,90 | 49,90 | 36,57 | 49,90 |
+| Bolt Food | Powerade | POWERADE S CITRONOVOU PRICHUTI 500 ml |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Powerade | Powerade  Black Currant Zero 0,5 L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Košík | Powerade | Powerade  FIFA Attack | 500,0 ml | 6 | 0 (0 %) | 39,90 | 47,90 | 41,23 | 39,90 |
+| Košík | Powerade | Powerade  FIFA Defense | 500,0 ml | 6 | 0 (0 %) | 39,90 | 47,90 | 41,23 | 39,90 |
+| Košík | Powerade | Powerade  FIFA Midfield | 500,0 ml | 6 | 0 (0 %) | 39,90 | 47,90 | 41,23 | 39,90 |
+| Košík | Powerade | Powerade  Lemon | 500,0 ml | 6 | 0 (0 %) | 41,90 | 47,90 | 42,90 | 41,90 |
+| Košík | Powerade | Powerade  Mountain Blast | 500,0 ml | 6 | 0 (0 %) | 41,90 | 47,90 | 42,90 | 41,90 |
+| Košík | Powerade | Powerade  Zero Mountain Blast | 500,0 ml | 6 | 0 (0 %) | 41,90 | 47,90 | 42,90 | 41,90 |
+| Bolt Food | Powerade | Powerade Mountain Blast 500Ml |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Powerade | Powerade Mountain Blast 500ml |  | 6 | 0 (0 %) | 53,90 | 54,90 | 54,23 | 54,90 |
+| Bolt Food | Powerade | Powerade Mountain Blast Zero 0,5 L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Powerade | Powerade Mountain Blast Zero 0,5l Pet |  | 6 | 0 (0 %) | 53,90 | 64,90 | 57,57 | 64,90 |
+| Rohlík | Powerade | Powerade Zero Mountain Blast | 500 ml | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Bolt Food | Römerquelle | Romerquelle Neperliva 0.5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Römerquelle | Romerquelle Perliva 0,5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Römerquelle | Römerquelle Citronová Tráva 0,5L |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Rohlík | Römerquelle | Römerquelle Emotion Lemongrass minerální voda s příchutí citronové trávy sycená sklo | 330 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Bolt Food | Römerquelle | Römerquelle Neperlivá 0,5L |  | 6 | 0 (0 %) | 29,90 | 35,90 | 31,90 | 35,90 |
+| Košík | Römerquelle | Römerquelle Ochucená minerální voda s příchutí citronové trávy sycená | 500,0 ml | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Bolt Food | Römerquelle | Römerquelle Perlivá 0,5L |  | 6 | 0 (0 %) | 29,90 | 35,90 | 31,90 | 35,90 |
+| Košík | Römerquelle | Römerquelle Přírodní minerální voda nesycená | 500,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Römerquelle | Römerquelle Přírodní minerální voda nesycená 500ml | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Römerquelle | Römerquelle Přírodní minerální voda nesycená 500ml | 500 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Rohlík | Römerquelle | Römerquelle Přírodní minerální voda nesycená sklo | 0,75 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Römerquelle | Römerquelle Přírodní minerální voda sycená | 500,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Römerquelle | Römerquelle Přírodní minerální voda sycená 500ml | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Rohlík | Römerquelle | Römerquelle Přírodní minerální voda sycená sklo | 0,75 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Sprite | SPRITE 1.5 L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Sprite | SPRITE ZERO CHILL MINT 330 ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Sprite | SPRITE ZERO CHILL MINT 500 ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Rohlík | Sprite | Sprite | 2 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Wolt | Sprite | Sprite | 1,5 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Wolt | Sprite | Sprite | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Sprite | Sprite | 2 l | 6 | 5 (83 %) | 38,90 | 49,90 | 40,73 | 39,90 |
+| Bolt Food | Sprite | Sprite Citron Limetka 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Bolt Food | Sprite | Sprite Citron Limetka 1L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Sprite | Sprite Citron Limetka 1l |  | 6 | 0 (0 %) | 46,90 | 47,90 | 47,23 | 47,90 |
+| Bolt Food | Sprite | Sprite Citron Limetka 330Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Sprite | Sprite Citron Limetka 330ml |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Bolt Food | Sprite | Sprite Citron Limetka 500ml |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Košík | Sprite | Sprite Citron limetka 2l | 2,0 l | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Bolt Food | Sprite | Sprite Citron limetka 500ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Sprite | Sprite Citron limetka 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Sprite | Sprite Citron-limetka příchuť 1,5l | 1,5 l | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Wolt | Sprite | Sprite Citron-limetka příchuť 1,5l | 1,5 l | 6 | 6 (100 %) | 45,90 | 45,90 | 45,90 | 57,90 |
+| Wolt | Sprite | Sprite Citron-limetka příchuť 1l | 1 l | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Sprite | Sprite Citron-limetka příchuť 1l | 1 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Sprite | Sprite Citron-limetka příchuť 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Sprite | Sprite Citron-limetka příchuť 330ml | 330 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Wolt | Sprite | Sprite Citron-limetka příchuť 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Wolt | Sprite | Sprite Zero | 1,5 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Bolt Food | Sprite | Sprite Zero 0,5 L |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Bolt Food | Sprite | Sprite Zero 1,5 L Pet |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Bolt Food | Sprite | Sprite Zero 330 Ml Plech |  | 6 | 0 (0 %) | 33,90 | 34,90 | 34,23 | 34,90 |
+| Košík | Sprite | Sprite Zero Citron a limetka | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Sprite | Sprite Zero Citron-limetka | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Sprite | Sprite Zero Cukru 1,5 L |  | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | Sprite | Sprite Zero Cukru 330 Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Sprite | Sprite Zero Cukru 500 Ml |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Košík | Sprite | Sprite Zero Mint Chill | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Sprite | Sprite Zero citron a limetka | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Sprite | Sprite Zero citron-limetka příchuť 1,5l | 1,5 l | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Wolt | Sprite | Sprite Zero citron-limetka příchuť 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Sprite | Sprite Zero citron-limetka příchuť 500ml | 500 ml | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Wolt | Sprite | Sprite Zero citron-limetka příchuť 500ml | 500 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Košík | Sprite | Sprite citron-limetka | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Sprite | Sprite plech | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Sprite | Sprite plech | 330 ml | 6 | 2 (33 %) | 19,90 | 22,90 | 21,90 | 22,90 |
+| Wolt | Jupí | JUPI SIRUP BEZOVY KVET S MATOU 0,7 L |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | Jupí | JUPÍ SIRUP  CITRON 0,7 l PET |  | 2 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Wolt | Jupí | JUPÍ SIRUP LESNÍ SMĚS 0,7l PET |  | 6 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Wolt | Jupí | JUPÍ SIRUP MALINA 0,7  l PET | 700 ml | 6 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Wolt | Jupí | JUPÍ SIRUP POMERANČ 0,7 l PET |  | 6 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Rohlík | Jupí | Jupí Bezový květ a máta | 0,7 l | 6 | 0 (0 %) | 51,90 | 51,90 | 51,90 | 51,90 |
+| Rohlík | Jupí | Jupí Extra Mojito | 0,7 l | 6 | 4 (67 %) | 49,90 | 72,90 | 57,57 | 72,90 |
+| Rohlík | Jupí | Jupí Extra bezový květ | 0,7 l | 6 | 4 (67 %) | 49,90 | 72,90 | 57,57 | 72,90 |
+| Rohlík | Jupí | Jupí Extra černý čaj a broskev k přípravě Ice Tea | 0,7 l | 6 | 4 (67 %) | 49,90 | 72,90 | 57,57 | 72,90 |
+| Košík | Jupí | Jupí Hustý jahoda | 700,0 ml | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Košík | Jupí | Jupí Hustý sirup Pomeranč-Jablko | 700,0 ml | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Košík | Jupí | Jupí Hustý sirup malina | 700,0 ml | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Košík | Jupí | Jupí Jupí Extra Bezový květ | 700,0 ml | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Košík | Jupí | Jupí Koktejl sirup Mojito | 700,0 ml | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Bolt Food | Jupí | Jupí Lahvinka Hustý Sirup Zahradní Ovoce 0,7L |  | 6 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Jupí | Jupí Lahvinka Hustý sirup malina jablko 0,7l | 700 ml | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Wolt | Jupí | Jupí Lahvinka Hustý sirup malina jablko 0,7l | 700 ml | 5 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Jupí | Jupí Lahvinka Hustý sirup zahradní ovoce 0,7l | 700 ml | 5 | 4 (80 %) | 39,90 | 75,90 | 47,10 | 75,90 |
+| Bolt Food | Jupí | Jupí Lahvinka Koktejl Sirup Mojito 0,7L |  | 6 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Jupí | Jupí Lahvinka Koktejl sirup mojito 0,7l | 700 ml | 5 | 4 (80 %) | 39,90 | 75,90 | 47,10 | 75,90 |
+| Bolt Food | Jupí | Jupí Lahvinka Malinový Sirup Imunita 0,7L |  | 6 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
+| Bolt Food | Jupí | Jupí Lahvinka Rakytníkový Sirup Imunita 0,7L |  | 6 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Jupí | Jupí Lahvinka Rakytníkový sirup imunita 0,7l | 700 ml | 5 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
+| Bolt Food | Jupí | Jupí Lahvinka Sirup Bezový Květ 0,7L |  | 6 | 0 (0 %) | 75,90 | 75,90 | 75,90 | 75,90 |
+| Wolt | Jupí | Jupí Lahvinka Sirup bezový květ 0,7l | 700 ml | 5 | 4 (80 %) | 39,90 | 75,90 | 47,10 | 75,90 |
+| Bolt Food | Jupí | Jupí Sirup Aloe Vera 0,7L |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | Jupí | Jupí Sirup Citrón 0,7L |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | Jupí | Jupí Sirup Citrón 0,7l |  | 6 | 0 (0 %) | 62,90 | 64,90 | 63,57 | 64,90 |
+| Košík | Jupí | Jupí Sirup Imunita rakytník | 700,0 ml | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Bolt Food | Jupí | Jupí Sirup Jahoda 0,7L |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | Jupí | Jupí Sirup Lesní Směs 0,7L |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | Jupí | Jupí Sirup Lesní Směs 0,7l |  | 6 | 0 (0 %) | 62,90 | 64,90 | 63,57 | 64,90 |
+| Bolt Food | Jupí | Jupí Sirup Malina 0,7L |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | Jupí | Jupí Sirup Malina 0,7l |  | 6 | 0 (0 %) | 62,90 | 64,90 | 63,57 | 64,90 |
+| Bolt Food | Jupí | Jupí Sirup Pomeranč 0,7L |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | Jupí | Jupí Sirup Pomeranč 0,7l |  | 6 | 0 (0 %) | 62,90 | 64,90 | 63,57 | 64,90 |
+| Košík | Jupí | Jupí Sirup aloe vera | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | Jupí | Jupí Sirup aloe vera 0,7l | 700 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Košík | Jupí | Jupí Sirup bezový květ s mátou | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Košík | Jupí | Jupí Sirup citrón | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | Jupí | Jupí Sirup citrón 0,7l | 700 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Košík | Jupí | Jupí Sirup jahoda | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Rohlík | Jupí | Jupí Sirup jahoda | 0,7 l | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | Jupí | Jupí Sirup jahoda 0,7l | 700 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Košík | Jupí | Jupí Sirup lesní směs | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Rohlík | Jupí | Jupí Sirup lesní směs | 0,7 l | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | Jupí | Jupí Sirup lesní směs 0,7l | 700 ml | 6 | 0 (0 %) | 39,90 | 49,90 | 41,57 | 39,90 |
+| Wolt | Jupí | Jupí Sirup lesní směs 0,7l | 700 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | Jupí | Jupí Sirup lesní směs 3l | 3 l | 6 | 0 (0 %) | 119,90 | 139,90 | 123,23 | 119,90 |
+| Košík | Jupí | Jupí Sirup malina | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Rohlík | Jupí | Jupí Sirup malina | 0,7 l | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | Jupí | Jupí Sirup malina 0,7l | 700 ml | 6 | 0 (0 %) | 39,90 | 49,90 | 41,57 | 39,90 |
+| Wolt | Jupí | Jupí Sirup malina 0,7l | 700 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | Jupí | Jupí Sirup malina 3l | 3 l | 6 | 0 (0 %) | 119,90 | 139,90 | 123,23 | 119,90 |
+| Bolt Food | Jupí | Jupí Sirup multivitamín 0,7l |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | Jupí | Jupí Sirup multivitamín 0,7l | 700 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Košík | Jupí | Jupí Sirup pomeranč | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Rohlík | Jupí | Jupí Sirup pomeranč | 0,7 l | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | Jupí | Jupí Sirup pomeranč | 3 l | 6 | 1 (17 %) | 119,90 | 199,00 | 185,82 | 199,00 |
+| Wolt | Jupí | Jupí Sirup pomeranč 0,7l | 700 ml | 6 | 0 (0 %) | 39,90 | 49,90 | 41,57 | 39,90 |
+| Wolt | Jupí | Jupí Sirup pomeranč 0,7l | 700 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | Jupí | Jupí Sirup pomeranč 3l | 3 l | 6 | 0 (0 %) | 119,90 | 139,90 | 123,23 | 119,90 |
+| Košík | Jupí | Jupí Sirup černý rybíz | 700,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Košík | Jupí | Jupí Superovocný sirup zahradní ovoce | 700,0 ml | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Košík | Jupí | Jupí XXL Sirup s příchutí citrón | 3,0 l | 6 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
+| Košík | Jupí | Jupí XXL Sirup s příchutí jahody | 3,0 l | 6 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
+| Košík | Jupí | Jupí XXL Sirup s příchutí lesní směsi | 3,0 l | 6 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
+| Košík | Jupí | Jupí XXL Sirup s příchutí malina | 3,0 l | 6 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
+| Košík | Jupí | Jupí XXL Sirup s příchutí pomeranč | 3,0 l | 6 | 0 (0 %) | 209,90 | 209,90 | 209,90 | 209,90 |
+| Rohlík | Jupí | Jupí sirup citrón | 0,7 l | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | Jupí | Jupí sirup s příchutí aloe vera | 700 ml | 6 | 0 (0 %) | 31,90 | 54,90 | 43,40 | 54,90 |
+| Wolt | Jupí | Jupí sirup s příchutí citron | 700 ml | 6 | 0 (0 %) | 31,90 | 54,90 | 43,40 | 54,90 |
+| Wolt | Jupí | Jupí sirup s příchutí jahoda | 700 ml | 6 | 0 (0 %) | 31,90 | 54,90 | 43,40 | 54,90 |
+| Wolt | Jupí | Jupí sirup s příchutí lesní směs | 700 ml | 6 | 0 (0 %) | 31,90 | 54,90 | 43,40 | 54,90 |
+| Wolt | Jupí | Jupí sirup s příchutí malina | 700 ml | 6 | 0 (0 %) | 31,90 | 54,90 | 43,40 | 54,90 |
+| Wolt | Jupí | Jupí sirup s příchutí pomeranč | 700 ml | 6 | 0 (0 %) | 31,90 | 54,90 | 43,40 | 54,90 |
+| Košík | Jupík | Jupík Aqua Jablko | 500,0 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Jupík | Jupík Aqua Jablko 500ml |  | 6 | 0 (0 %) | 26,50 | 27,90 | 26,97 | 27,90 |
+| Košík | Jupík | Jupík Aqua Jahoda | 500,0 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Jupík | Jupík Aqua Jahoda 500ml |  | 6 | 0 (0 %) | 26,50 | 27,90 | 26,97 | 27,90 |
+| Wolt | Jupík | Jupík Aqua Jahoda 500ml | 500 ml | 6 | 0 (0 %) | 24,50 | 24,50 | 24,50 | 24,50 |
+| Rohlík | Jupík | Jupík Aqua Lesní ovoce | 500 ml | 6 | 0 (0 %) | 22,90 | 24,90 | 24,23 | 22,90 |
+| Košík | Jupík | Jupík Aqua Malina | 500,0 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Rohlík | Jupík | Jupík Aqua Malina | 500 ml | 6 | 0 (0 %) | 22,90 | 24,90 | 24,23 | 22,90 |
+| Bolt Food | Jupík | Jupík Aqua Sport Lesní Ovoce 0,5l |  | 6 | 0 (0 %) | 26,50 | 27,90 | 26,97 | 27,90 |
+| Wolt | Jupík | Jupík Aqua jablko | 500 ml | 6 | 0 (0 %) | 14,90 | 21,90 | 17,23 | 21,90 |
+| Rohlík | Jupík | Jupík Aqua jahoda | 500 ml | 6 | 0 (0 %) | 22,90 | 24,90 | 24,23 | 22,90 |
+| Wolt | Jupík | Jupík Aqua jahoda | 500 ml | 6 | 0 (0 %) | 14,90 | 21,90 | 17,23 | 21,90 |
+| Wolt | Jupík | Jupík Aqua lesní směs | 500 ml | 6 | 0 (0 %) | 14,90 | 21,90 | 17,23 | 21,90 |
+| Wolt | Jupík | Jupík Aqua malina | 500 ml | 6 | 0 (0 %) | 14,90 | 21,90 | 17,23 | 21,90 |
+| Rohlík | Jupík | Jupík Aqua sport pomeranč | 500 ml | 6 | 0 (0 %) | 22,90 | 24,90 | 24,23 | 22,90 |
+| Košík | Jupík | Jupík Lollipopz Berry Bomb | 330,0 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Jupík | Jupík Lollipopz Berry Bomb | 330 ml | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Jupík | Jupík Lollipopz Dizzy Bezzy | 330,0 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Jupík | Jupík Lollipopz Dizzy Bezzy | 330 ml | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Jupík | Jupík Ovocík 40% Jablko | 330 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Jupík | Jupík Ovocík 40% Jahoda  | 330,0 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Jupík | Jupík Ovocík 40% Multivitamin | 330,0 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Rohlík | Jupík | Jupík Ovocík 40% Multivitamín | 330 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Jupík | Prima Jupík Cherry Cola 115ml |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Jupík | Prima Jupík Pomeranč 115ml |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Jupík | Zmrzlina Jupík Jahoda 115ml |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Wolt | Kláštorná | KLÁŠTORNÁ KALCIA JEMNĚ PERLIVÁ 1,5 l | 1,5 l | 5 | 5 (100 %) | 17,90 | 17,90 | 17,90 | 20,90 |
+| Wolt | Kláštorná | KLÁŠTORNÁ KALCIA PERLIVÁ 1,5 l | 1,5 l | 6 | 6 (100 %) | 17,90 | 17,90 | 17,90 | 20,90 |
+| Bolt Food | Kláštorná | Kláštorná Kalcia Jemně Sycená 0,5l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Bolt Food | Kláštorná | Kláštorná Kalcia Jemně Sycená 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Kláštorná | Kláštorná Kalcia Jemně Sycená 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Košík | Kláštorná | Kláštorná Kalcia Přírodní minerální jemně sycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Košík | Kláštorná | Kláštorná Kalcia Přírodní minerální sycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Rohlík | Kláštorná | Kláštorná Kalcia Přírodní minerální voda sycená | 500 ml | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Rohlík | Kláštorná | Kláštorná Kalcia Přírodní minerální voda sycená (6x1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 99,90 | 91,57 | 154,90 |
+| Bolt Food | Kláštorná | Kláštorná Kalcia Sycená 0,5l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Bolt Food | Kláštorná | Kláštorná Kalcia Sycená 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Kláštorná | Kláštorná Kalcia Sycená 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Wolt | Kláštorná | Kláštorná Kalcia Sycená 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Kláštorná | Kláštorná Kalcia jemně perlivá | 1,5 l | 6 | 0 (0 %) | 13,90 | 18,90 | 17,23 | 13,90 |
+| Rohlík | Kláštorná | Kláštorná Kalcia jemně sycená | 500 ml | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Kláštorná | Kláštorná Kalcia jemně sycená 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Rohlík | Kláštorná | Kláštorná Kalcia přírodní minerální voda jemně sycená (6x1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 99,90 | 91,57 | 154,90 |
+| Rohlík | Kofola | Cirkulka Kofola Original sklo | 1 l | 6 | 0 (0 %) | 31,43 | 31,43 | 31,43 | 31,43 |
+| Wolt | Kofola | KOFOLA NULKA 0,33l |  | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Bolt Food | Kofola | KOFOLA NULKA BEZ CUKRU 0,33 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Kofola | KOFOLA NULKA BEZ CUKRU 1 L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Kofola | KOFOLA ORIGINÁL 0,5l PET | 500 ml | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Košík | Kofola | Kofola Citrus | 2,0 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Bolt Food | Kofola | Kofola Citrus 0,5L |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Kofola | Kofola Citrus 0,5l | 500 ml | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Bolt Food | Kofola | Kofola Citrus 2L |  | 6 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
+| Bolt Food | Kofola | Kofola Citrus 2l |  | 6 | 0 (0 %) | 49,90 | 51,90 | 50,57 | 51,90 |
+| Wolt | Kofola | Kofola Citrus 2l | 2 l | 5 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
+| Bolt Food | Kofola | Kofola Meloun 0,5L |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Bolt Food | Kofola | Kofola Meloun 0,5l |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
 | Wolt | Kofola | Kofola Meloun 0,5l | 500 ml | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Košík | Kofola | Kofola Nulka | 2,0 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Košík | Kofola | Kofola Nulka | 330,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Kofola | Kofola Nulka | 1,5 l | 5 | 0 (0 %) | 37,90 | 37,90 | 37,90 | 37,90 |
-| Košík | Kofola | Kofola Nulka | 500,0 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Kofola | Kofola Nulka |  | 5 | 4 (80 %) | 14,90 | 19,90 | 15,90 | 19,90 |
-| Wolt | Kofola | Kofola Nulka | 1,5 l | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
-| Bolt Food | Kofola | Kofola Nulka 0,33L |  | 5 | 0 (0 %) | 23,90 | 29,90 | 25,10 | 29,90 |
-| Bolt Food | Kofola | Kofola Nulka 0,5L |  | 5 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
-| Bolt Food | Kofola | Kofola Nulka 0,5l |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Kofola | Kofola Nulka 0,5l | 500 ml | 5 | 4 (80 %) | 19,90 | 24,90 | 20,90 | 24,90 |
-| Wolt | Kofola | Kofola Nulka 0,5l | 500 ml | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Bolt Food | Kofola | Kofola Nulka 2L |  | 5 | 0 (0 %) | 49,90 | 51,90 | 50,30 | 51,90 |
-| Bolt Food | Kofola | Kofola Nulka 2l |  | 5 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
-| Wolt | Kofola | Kofola Nulka 2l | 2 l | 5 | 4 (80 %) | 21,90 | 29,90 | 23,50 | 29,90 |
-| Rohlík | Kofola | Kofola Nulka – bez cukru | 330 ml | 5 | 5 (100 %) | 14,90 | 14,90 | 14,90 | 19,90 |
-| Rohlík | Kofola | Kofola Nulka – bez cukru | 2 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Košík | Kofola | Kofola Original | 2,0 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Košík | Kofola | Kofola Original | 500,0 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Kofola | Kofola Original | 1,5 l | 5 | 0 (0 %) | 37,90 | 37,90 | 37,90 | 37,90 |
-| Rohlík | Kofola | Kofola Original | 2 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Kofola | Kofola Original | 1 l | 5 | 5 (100 %) | 24,90 | 24,90 | 24,90 | 29,90 |
-| Wolt | Kofola | Kofola Original | 500 ml | 5 | 4 (80 %) | 19,90 | 24,90 | 20,90 | 24,90 |
-| Wolt | Kofola | Kofola Original | 2 l | 5 | 4 (80 %) | 21,90 | 29,90 | 23,50 | 29,90 |
-| Wolt | Kofola | Kofola Original | 330 ml | 5 | 4 (80 %) | 14,90 | 19,90 | 15,90 | 19,90 |
-| Wolt | Kofola | Kofola Original | 1 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Kofola | Kofola Original | 1,5 l | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
-| Bolt Food | Kofola | Kofola Original 0,33l Plech |  | 5 | 0 (0 %) | 23,90 | 29,90 | 25,10 | 29,90 |
-| Bolt Food | Kofola | Kofola Original 0,5L |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Bolt Food | Kofola | Kofola Original 0,5l |  | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Bolt Food | Kofola | Kofola Original 1,5l |  | 5 | 0 (0 %) | 41,90 | 42,90 | 42,10 | 42,90 |
-| Wolt | Kofola | Kofola Original 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 21,90 | 20,30 | 19,90 |
-| Bolt Food | Kofola | Kofola Original 1L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Kofola | Kofola Original 1l |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Wolt | Kofola | Kofola Original 1l | 1 l | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Kofola | Kofola Original 1l | 1 l | 5 | 5 (100 %) | 22,90 | 22,90 | 22,90 | 29,90 |
-| Bolt Food | Kofola | Kofola Original 2L |  | 5 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
+| Wolt | Kofola | Kofola Meloun 0,5l | 500 ml | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Košík | Kofola | Kofola Nulka | 2,0 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Košík | Kofola | Kofola Nulka | 330,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Kofola | Kofola Nulka | 1,5 l | 6 | 0 (0 %) | 37,90 | 37,90 | 37,90 | 37,90 |
+| Košík | Kofola | Kofola Nulka | 500,0 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Kofola | Kofola Nulka |  | 6 | 4 (67 %) | 14,90 | 19,90 | 16,57 | 19,90 |
+| Wolt | Kofola | Kofola Nulka | 1,5 l | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Bolt Food | Kofola | Kofola Nulka 0,33L |  | 6 | 0 (0 %) | 23,90 | 29,90 | 25,90 | 29,90 |
+| Bolt Food | Kofola | Kofola Nulka 0,5L |  | 6 | 0 (0 %) | 29,50 | 29,50 | 29,50 | 29,50 |
+| Bolt Food | Kofola | Kofola Nulka 0,5l |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Kofola | Kofola Nulka 0,5l | 500 ml | 6 | 4 (67 %) | 19,90 | 24,90 | 21,57 | 24,90 |
+| Wolt | Kofola | Kofola Nulka 0,5l | 500 ml | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Bolt Food | Kofola | Kofola Nulka 2L |  | 6 | 0 (0 %) | 49,90 | 51,90 | 50,57 | 51,90 |
+| Bolt Food | Kofola | Kofola Nulka 2l |  | 6 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
+| Wolt | Kofola | Kofola Nulka 2l | 2 l | 6 | 4 (67 %) | 21,90 | 29,90 | 24,57 | 29,90 |
+| Rohlík | Kofola | Kofola Nulka – bez cukru | 330 ml | 6 | 6 (100 %) | 14,90 | 16,90 | 15,23 | 19,90 |
+| Rohlík | Kofola | Kofola Nulka – bez cukru | 2 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Košík | Kofola | Kofola Original | 2,0 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Košík | Kofola | Kofola Original | 500,0 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Kofola | Kofola Original | 1,5 l | 6 | 0 (0 %) | 37,90 | 37,90 | 37,90 | 37,90 |
+| Rohlík | Kofola | Kofola Original | 2 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Kofola | Kofola Original | 1 l | 6 | 6 (100 %) | 24,90 | 26,90 | 25,23 | 29,90 |
+| Wolt | Kofola | Kofola Original | 500 ml | 6 | 4 (67 %) | 19,90 | 24,90 | 21,57 | 24,90 |
+| Wolt | Kofola | Kofola Original | 2 l | 6 | 4 (67 %) | 21,90 | 29,90 | 24,57 | 29,90 |
+| Wolt | Kofola | Kofola Original | 330 ml | 6 | 4 (67 %) | 14,90 | 19,90 | 16,57 | 19,90 |
+| Wolt | Kofola | Kofola Original | 1 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Kofola | Kofola Original | 1,5 l | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Bolt Food | Kofola | Kofola Original 0,33l Plech |  | 6 | 0 (0 %) | 23,90 | 29,90 | 25,90 | 29,90 |
+| Bolt Food | Kofola | Kofola Original 0,5L |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Bolt Food | Kofola | Kofola Original 0,5l |  | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Bolt Food | Kofola | Kofola Original 1,5l |  | 6 | 0 (0 %) | 41,90 | 42,90 | 42,23 | 42,90 |
+| Wolt | Kofola | Kofola Original 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 21,90 | 20,23 | 19,90 |
+| Bolt Food | Kofola | Kofola Original 1L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Kofola | Kofola Original 1l |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Wolt | Kofola | Kofola Original 1l | 1 l | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Kofola | Kofola Original 1l | 1 l | 6 | 6 (100 %) | 22,90 | 22,90 | 22,90 | 29,90 |
+| Bolt Food | Kofola | Kofola Original 2L |  | 6 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
 | Bolt Food | Kofola | Kofola Original 2l |  | 4 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Rohlík | Kofola | Kofola Original 4×0,33 l plech | 1,32 l | 5 | 5 (100 %) | 49,90 | 49,90 | 49,90 | 69,90 |
-| Košík | Kofola | Kofola Original Multipack 4x330ml plech | 1,32 l | 5 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Košík | Kofola | Kofola Original limonáda 4 x 2l | 8,0 l | 5 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
-| Košík | Kofola | Kofola Original, plech | 330,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Kofola | Kofola Originál 0,5l | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Kofola | Kofola Originál 0,5l | 500 ml | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Kofola | Kofola Originál 1,5l | 1,5 l | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Kofola | Kofola Originál 2l | 2 l | 5 | 0 (0 %) | 34,90 | 39,90 | 35,90 | 34,90 |
-| Wolt | Kofola | Kofola Originál 2l | 2 l | 4 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Kofola | Kofola Originál 2l | 2 l | 5 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Bolt Food | Kofola | Kofola Originál 330ml |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Kofola | Kofola Originál 330ml | 330 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Kofola | Kofola Originál 330ml | 330 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Kofola | Kofola Originál 330ml | 330 ml | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Bolt Food | Kofola | Kofola Originál 4 x 0,33l (1,32l) |  | 5 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
-| Wolt | Kofola | Kofola Originál 4 x 0,33l (1,32l) | 1,32 l | 4 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
-| Bolt Food | Kofola | Kofola Višeň 2L |  | 5 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
-| Wolt | Kofola | Kofola Višeň 2l | 2 l | 4 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Košík | Kofola | Kofola Višňová | 2,0 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Kofola | Kofola Original 4×0,33 l plech | 1,32 l | 6 | 6 (100 %) | 49,90 | 49,90 | 49,90 | 69,90 |
+| Košík | Kofola | Kofola Original Multipack 4x330ml plech | 1,32 l | 6 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Košík | Kofola | Kofola Original limonáda 4 x 2l | 8,0 l | 6 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
+| Košík | Kofola | Kofola Original, plech | 330,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Kofola | Kofola Originál 0,5l | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Kofola | Kofola Originál 0,5l | 500 ml | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Kofola | Kofola Originál 1,5l | 1,5 l | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Wolt | Kofola | Kofola Originál 2l | 2 l | 6 | 0 (0 %) | 34,90 | 39,90 | 35,73 | 34,90 |
+| Wolt | Kofola | Kofola Originál 2l | 2 l | 5 | 0 (0 %) | 29,90 | 43,50 | 32,62 | 43,50 |
+| Wolt | Kofola | Kofola Originál 2l | 2 l | 6 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
+| Bolt Food | Kofola | Kofola Originál 330ml |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Kofola | Kofola Originál 330ml | 330 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Kofola | Kofola Originál 330ml | 330 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Kofola | Kofola Originál 330ml | 330 ml | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Bolt Food | Kofola | Kofola Originál 4 x 0,33l (1,32l) |  | 6 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
+| Wolt | Kofola | Kofola Originál 4 x 0,33l (1,32l) | 1,32 l | 5 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
+| Bolt Food | Kofola | Kofola Višeň 2L |  | 6 | 0 (0 %) | 43,50 | 43,50 | 43,50 | 43,50 |
+| Wolt | Kofola | Kofola Višeň 2l | 2 l | 5 | 0 (0 %) | 29,90 | 43,50 | 32,62 | 43,50 |
+| Košík | Kofola | Kofola Višňová | 2,0 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
 | Wolt | Kofola | Kofola Višňová | 2 l | 3 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Rohlík | Kofola | Kofola original (4x2l) | 8 l | 5 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
+| Rohlík | Kofola | Kofola original (4x2l) | 8 l | 6 | 1 (17 %) | 129,90 | 159,90 | 154,90 | 159,90 |
 | Bolt Food | Korunní | Korunni Balanc Jp S Prichuti Ananas 0,75 L |  | 3 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
 | Bolt Food | Korunní | Korunni Impuls Jp S Prichuti Gran.Jab. 0,75 L |  | 3 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Korunní | Korunni Imunita Jp Prichuti Mal. A Yuzu 0,75 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Korunní | Korunni Imunita Jp Prichuti Mal. A Yuzu 0,75 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
 | Wolt | Korunní | Korunní Balanc příchuť ananas ochucená minerální voda jemně perlivá 0,75l | 750 ml | 3 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Košík | Korunní | Korunní Bílé Hrozny jemně perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Korunní | Korunní Citron | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Košík | Korunní | Korunní Citron jemně perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Košík | Korunní | Korunní Etera Maracuja & Zázvor 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Bolt Food | Korunní | Korunní Etera Marakuja & Zázvor 1,5L |  | 5 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
-| Košík | Korunní | Korunní Etera Pomelo & Okurka 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Korunní | Korunní Etera broskev a máta bez cukru | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Rohlík | Korunní | Korunní Etera maracuja a zázvor bez cukru | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Rohlík | Korunní | Korunní Etera pomelo a okurka | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Wolt | Korunní | Korunní Etera pomelo a okurka | 1,5 l | 5 | 4 (80 %) | 13,90 | 14,90 | 14,10 | 14,90 |
-| Wolt | Korunní | Korunní Etera s příchutí jablko, kiwi | 1,5 l | 5 | 0 (0 %) | 13,90 | 14,90 | 14,10 | 14,90 |
-| Košík | Korunní | Korunní Funkční balanc | 750,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Korunní | Korunní Funkční impuls | 750,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Korunní | Korunní Funkční imunita | 750,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Korunní | Korunní Bílé Hrozny jemně perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Korunní | Korunní Citron | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Košík | Korunní | Korunní Citron jemně perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Košík | Korunní | Korunní Etera Maracuja & Zázvor 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Bolt Food | Korunní | Korunní Etera Marakuja & Zázvor 1,5L |  | 6 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Košík | Korunní | Korunní Etera Pomelo & Okurka 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Korunní | Korunní Etera broskev a máta bez cukru | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Rohlík | Korunní | Korunní Etera maracuja a zázvor bez cukru | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Rohlík | Korunní | Korunní Etera pomelo a okurka | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Wolt | Korunní | Korunní Etera pomelo a okurka | 1,5 l | 6 | 4 (67 %) | 13,90 | 14,90 | 14,23 | 14,90 |
+| Wolt | Korunní | Korunní Etera s příchutí jablko, kiwi | 1,5 l | 6 | 0 (0 %) | 13,90 | 14,90 | 14,23 | 14,90 |
+| Košík | Korunní | Korunní Funkční balanc | 750,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Korunní | Korunní Funkční impuls | 750,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Korunní | Korunní Funkční imunita | 750,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
 | Wolt | Korunní | Korunní Impuls příchuť granátové jablko ochucená minerální voda jemně perlivá 0,75l | 750 ml | 3 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
 | Rohlík | Korunní | Korunní Imunita malina a yuzu | 0,75 l | 3 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Wolt | Korunní | Korunní Imunita příchuť malina a yuzu ochucená minerální voda jemně perlivá 0,75l | 750 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Bílé Hrozny 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Citron 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Citron 1,5l |  | 5 | 0 (0 %) | 30,90 | 31,90 | 31,10 | 31,90 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Limeta A Máta 0,75l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Limeta A Máta 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Mango 0,75l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Mango 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Mango 1,5l |  | 5 | 0 (0 %) | 30,90 | 31,90 | 31,10 | 31,90 |
-| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Pomeranč 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Košík | Korunní | Korunní Jemně perlivá přírodní minerální voda multipack, 6x1,5l | 9,0 l | 5 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí bílé hrozny 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí citron 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí limeta a máta 0,75l | 750 ml | 5 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí limeta a máta 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 0,75l | 750 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 0,75l | 750 ml | 5 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 1,5l | 1,5 l | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Korunní | Korunní Jemně perlivá s příchutí pomeranč 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Košík | Korunní | Korunní Limeta a Máta jemně perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Korunní | Korunní Limeta a máta | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Košík | Korunní | Korunní Malina perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Korunní | Korunní Mango | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Košík | Korunní | Korunní Mango jemně perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Korunní | Korunní Meruňka | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Rohlík | Korunní | Korunní Neperlivá (6x1,5l) | 9 l | 5 | 1 (20 %) | 89,90 | 104,90 | 101,90 | 104,90 |
-| Košík | Korunní | Korunní Neperlivá přírodní minerální voda multipack, 6x1,5l | 9,0 l | 5 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
-| Rohlík | Korunní | Korunní Pomeranč | 1,5 l | 5 | 1 (20 %) | 17,90 | 20,90 | 20,30 | 20,90 |
-| Košík | Korunní | Korunní Pomeranč jemně perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
-| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Jemně Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Neperlivá 1,5L |  | 5 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
-| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Neperlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Wolt | Korunní | Korunní Přírodní minerální voda jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 11,90 | 11,90 | 11,90 | 11,90 |
-| Wolt | Korunní | Korunní Přírodní minerální voda jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
-| Wolt | Korunní | Korunní Přírodní minerální voda jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Korunní | Korunní Přírodní minerální voda neperlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
-| Wolt | Korunní | Korunní Přírodní minerální voda neperlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Korunní | Korunní minerální voda citron | 1,5 l | 5 | 4 (80 %) | 13,90 | 14,90 | 14,10 | 14,90 |
-| Wolt | Korunní | Korunní minerální voda jemně perlivá | 1,5 l | 5 | 0 (0 %) | 12,90 | 12,90 | 12,90 | 12,90 |
-| Wolt | Korunní | Korunní minerální voda limeta | 750 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Korunní | Korunní minerální voda mango | 750 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Korunní | Korunní minerální voda mango | 1,5 l | 5 | 4 (80 %) | 13,90 | 14,90 | 14,10 | 14,90 |
-| Wolt | Korunní | Korunní minerální voda meruňka | 1,5 l | 5 | 0 (0 %) | 13,90 | 14,90 | 14,10 | 14,90 |
-| Wolt | Korunní | Korunní minerální voda s příchutí limeta a máta | 1,5 l | 5 | 4 (80 %) | 13,90 | 14,90 | 14,10 | 14,90 |
-| Košík | Ondrášovka | Ondrášovka Citron 6 x 1,5 l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Košík | Ondrášovka | Ondrášovka Grapefruit, 6 x 1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Ondrášovka | Ondrášovka Hruška | 1,5 l | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Košík | Ondrášovka | Ondrášovka Hruška 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Citron 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Jablko A Kiwano 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Limeta A Citron 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Malina 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Pomeranč 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí citron 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Ondrášovka | Ondrášovka Jemně perlivá s příchutí hruška 1,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí hruška 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí jablko a kiwano 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 1 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí limeta a citron 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí malina 1,5l | 1,5 l | 5 | 0 (0 %) | 11,90 | 11,90 | 11,90 | 11,90 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí malina 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí pomeranč 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí višeň 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Rohlík | Ondrášovka | Ondrášovka Lesní plody | 1,5 l | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Košík | Ondrášovka | Ondrášovka Lesní plody 6 x 1,5 l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Ondrášovka | Ondrášovka Malina | 1,5 l | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Košík | Ondrášovka | Ondrášovka Malina 6 x 1,5 l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Bolt Food | Ondrášovka | Ondrášovka Neperlivá S Příchutí Višeň A Žlutý Čaj 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Rohlík | Ondrášovka | Ondrášovka Pomeranč | 1,5 l | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Košík | Ondrášovka | Ondrášovka Pomeranč 6x1,5l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Ondrášovka | Ondrášovka Tonic | 1,5 l | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Košík | Ondrášovka | Ondrášovka Zahradní směs 6 x 1,5 l | 9,0 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Ondrášovka | Ondrášovka citron | 1,5 l | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Wolt | Ondrášovka | Ondrášovka minerální voda citron | 1,5 l | 5 | 4 (80 %) | 11,90 | 13,90 | 12,30 | 13,90 |
-| Wolt | Ondrášovka | Ondrášovka minerální voda lesní plody | 1,5 l | 5 | 4 (80 %) | 11,90 | 13,90 | 12,30 | 13,90 |
-| Rohlík | Rajec | Cirkulka Rajec kojenecká voda sklo | 1 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Bolt Food | Rajec | RAJEC 321 PRICH. BROSKVE A MEDU. JEM. PER. 0,75 L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Rajec | RAJEC 321 PRICH. MANGA A LIMETKY JEM. PER. 0,75 L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Rajec | RAJEC 321 RYBIZ A CITRONOVA TRAVA 0.75 L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Rajec | RAJEC BIO CERNY RYBIZ A SIPEK JS BEZ CUKRU 0,75 L |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Rajec | RAJEC BIO MALINA - LÍPA 1,5l |  | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Bolt Food | Rajec | RAJEC BIO MALINA LIPEK JEMNE SYC. BEZ CUKRU 1,5 L |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Bolt Food | Rajec | RAJEC BIO OSTRU. A RUZE JEM. SYC. BEZ CUKRU 0,75 L |  | 2 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Rajec | RAJEC BIO OSTRUZINA A RUZE BEZ CUKRU 1,5 L |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Bolt Food | Rajec | RAJEC BIO RYBIZ A SIP. JEM. SYC. BEZ CUKRU 1,5 L |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Rajec | RAJEC BIO RYBÍZ - ŠÍPEK 0,75l |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Rajec | RAJEC BIO RŮŽE - OSTRUŽINA 1,5l |  | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Rajec | RAJEC BIO RŮŽE - OSTRUŽINA 1,5l |  | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Bolt Food | Rajec | RAJEC KOJENECKY 0.33l |  | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Rajec | RAJEC NESYCENY 0,75l PET | 750 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Rajec | Rajec 321 s příchutí broskev, meduňka | 750 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Rajec | Rajec 321 s příchutí broskve a meduňky | 0,75 l | 5 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
-| Rohlík | Rajec | Rajec 321 s příchutí manga a limetky | 0,75 l | 5 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
-| Wolt | Rajec | Rajec 321 s příchutí mango, limeta | 750 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Rajec | Rajec 321 s příchutí červeného rybízu a citronové trávy | 0,75 l | 5 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
-| Košík | Rajec | Rajec BIO Malina & Lípa 6x1,5l  | 9,0 l | 5 | 0 (0 %) | 144,90 | 154,90 | 148,90 | 154,90 |
+| Wolt | Korunní | Korunní Imunita příchuť malina a yuzu ochucená minerální voda jemně perlivá 0,75l | 750 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Bílé Hrozny 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Citron 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Citron 1,5l |  | 6 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Limeta A Máta 0,75l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Limeta A Máta 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Mango 0,75l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Mango 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Mango 1,5l |  | 6 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
+| Bolt Food | Korunní | Korunní Jemně Perlivá S Příchutí Pomeranč 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Košík | Korunní | Korunní Jemně perlivá přírodní minerální voda multipack, 6x1,5l | 9,0 l | 6 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí bílé hrozny 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí citron 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí citron 1,5l | 1,5 l | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí limeta a máta 0,75l | 750 ml | 6 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí limeta a máta 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 0,75l | 750 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 0,75l | 750 ml | 6 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí mango 1,5l | 1,5 l | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Korunní | Korunní Jemně perlivá s příchutí pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Košík | Korunní | Korunní Limeta a Máta jemně perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Korunní | Korunní Limeta a máta | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Košík | Korunní | Korunní Malina perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Korunní | Korunní Mango | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Košík | Korunní | Korunní Mango jemně perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Korunní | Korunní Meruňka | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Rohlík | Korunní | Korunní Neperlivá (6x1,5l) | 9 l | 6 | 1 (17 %) | 89,90 | 104,90 | 102,40 | 104,90 |
+| Košík | Korunní | Korunní Neperlivá přírodní minerální voda multipack, 6x1,5l | 9,0 l | 6 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
+| Rohlík | Korunní | Korunní Pomeranč | 1,5 l | 6 | 1 (17 %) | 17,90 | 20,90 | 20,40 | 20,90 |
+| Košík | Korunní | Korunní Pomeranč jemně perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
+| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Jemně Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Neperlivá 1,5L |  | 6 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
+| Bolt Food | Korunní | Korunní Přírodní Minerální Voda Neperlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Korunní | Korunní Přírodní minerální voda jemně perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 11,90 | 11,90 | 11,90 | 11,90 |
+| Wolt | Korunní | Korunní Přírodní minerální voda jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
+| Wolt | Korunní | Korunní Přírodní minerální voda jemně perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Korunní | Korunní Přírodní minerální voda neperlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 13,50 | 13,50 | 13,50 | 13,50 |
+| Wolt | Korunní | Korunní Přírodní minerální voda neperlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Korunní | Korunní minerální voda citron | 1,5 l | 6 | 4 (67 %) | 13,90 | 14,90 | 14,23 | 14,90 |
+| Wolt | Korunní | Korunní minerální voda jemně perlivá | 1,5 l | 6 | 0 (0 %) | 12,90 | 12,90 | 12,90 | 12,90 |
+| Wolt | Korunní | Korunní minerální voda limeta | 750 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Korunní | Korunní minerální voda mango | 750 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Korunní | Korunní minerální voda mango | 1,5 l | 6 | 4 (67 %) | 13,90 | 14,90 | 14,23 | 14,90 |
+| Wolt | Korunní | Korunní minerální voda meruňka | 1,5 l | 6 | 0 (0 %) | 13,90 | 14,90 | 14,23 | 14,90 |
+| Wolt | Korunní | Korunní minerální voda s příchutí limeta a máta | 1,5 l | 6 | 4 (67 %) | 13,90 | 14,90 | 14,23 | 14,90 |
+| Košík | Ondrášovka | Ondrášovka Citron 6 x 1,5 l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Košík | Ondrášovka | Ondrášovka Grapefruit, 6 x 1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Ondrášovka | Ondrášovka Hruška | 1,5 l | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Košík | Ondrášovka | Ondrášovka Hruška 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Citron 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Jablko A Kiwano 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Limeta A Citron 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Malina 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Ondrášovka | Ondrášovka Jemně Perlivá S Příchutí Pomeranč 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Bolt Food | Ondrášovka | Ondrášovka Jemně perlivá s příchutí hruška 1,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí hruška 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí jablko a kiwano 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 2 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí limeta a citron 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí malina 1,5l | 1,5 l | 6 | 0 (0 %) | 11,90 | 11,90 | 11,90 | 11,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí malina 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Wolt | Ondrášovka | Ondrášovka Jemně perlivá s příchutí višeň 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 12,90 |
+| Rohlík | Ondrášovka | Ondrášovka Lesní plody | 1,5 l | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Košík | Ondrášovka | Ondrášovka Lesní plody 6 x 1,5 l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Ondrášovka | Ondrášovka Malina | 1,5 l | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Košík | Ondrášovka | Ondrášovka Malina 6 x 1,5 l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Bolt Food | Ondrášovka | Ondrášovka Neperlivá S Příchutí Višeň A Žlutý Čaj 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Rohlík | Ondrášovka | Ondrášovka Pomeranč | 1,5 l | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Košík | Ondrášovka | Ondrášovka Pomeranč 6x1,5l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Ondrášovka | Ondrášovka Tonic | 1,5 l | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Košík | Ondrášovka | Ondrášovka Zahradní směs 6 x 1,5 l | 9,0 l | 6 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
+| Rohlík | Ondrášovka | Ondrášovka citron | 1,5 l | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Wolt | Ondrášovka | Ondrášovka minerální voda citron | 1,5 l | 6 | 4 (67 %) | 11,90 | 13,90 | 12,57 | 13,90 |
+| Wolt | Ondrášovka | Ondrášovka minerální voda lesní plody | 1,5 l | 6 | 4 (67 %) | 11,90 | 13,90 | 12,57 | 13,90 |
+| Rohlík | Rajec | Cirkulka Rajec kojenecká voda sklo | 1 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Bolt Food | Rajec | RAJEC 321 PRICH. BROSKVE A MEDU. JEM. PER. 0,75 L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Rajec | RAJEC 321 PRICH. MANGA A LIMETKY JEM. PER. 0,75 L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Rajec | RAJEC 321 RYBIZ A CITRONOVA TRAVA 0.75 L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Rajec | RAJEC BIO CERNY RYBIZ A SIPEK JS BEZ CUKRU 0,75 L |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Rajec | RAJEC BIO MALINA - LÍPA 1,5l |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Bolt Food | Rajec | RAJEC BIO MALINA LIPEK JEMNE SYC. BEZ CUKRU 1,5 L |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Bolt Food | Rajec | RAJEC BIO OSTRU. A RUZE JEM. SYC. BEZ CUKRU 0,75 L |  | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Rajec | RAJEC BIO OSTRUZINA A RUZE BEZ CUKRU 1,5 L |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Bolt Food | Rajec | RAJEC BIO RYBIZ A SIP. JEM. SYC. BEZ CUKRU 1,5 L |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Rajec | RAJEC BIO RYBÍZ - ŠÍPEK 0,75l |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Rajec | RAJEC BIO RŮŽE - OSTRUŽINA 1,5l |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Rajec | RAJEC BIO RŮŽE - OSTRUŽINA 1,5l |  | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Bolt Food | Rajec | RAJEC KOJENECKY 0.33l |  | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Rajec | RAJEC NESYCENY 0,75l PET | 750 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Rajec | Rajec 321 s příchutí broskev, meduňka | 750 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Rajec | Rajec 321 s příchutí broskve a meduňky | 0,75 l | 6 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Rohlík | Rajec | Rajec 321 s příchutí manga a limetky | 0,75 l | 6 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Wolt | Rajec | Rajec 321 s příchutí mango, limeta | 750 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Rajec | Rajec 321 s příchutí červeného rybízu a citronové trávy | 0,75 l | 6 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Košík | Rajec | Rajec BIO Malina & Lípa 6x1,5l  | 9,0 l | 6 | 0 (0 %) | 144,90 | 154,90 | 149,90 | 154,90 |
 | Rohlík | Rajec | Rajec BIO Malina a lípa | 1,5 l | 4 | 4 (100 %) | 22,90 | 22,90 | 22,90 | 25,90 |
-| Košík | Rajec | Rajec BIO Rybíz & Šípek 6x1,5l | 9,0 l | 5 | 0 (0 %) | 144,90 | 154,90 | 148,90 | 154,90 |
+| Košík | Rajec | Rajec BIO Rybíz & Šípek 6x1,5l | 9,0 l | 6 | 0 (0 %) | 144,90 | 154,90 | 149,90 | 154,90 |
 | Rohlík | Rajec | Rajec BIO Rybíz a šípek | 1,5 l | 3 | 3 (100 %) | 22,90 | 22,90 | 22,90 | 25,90 |
-| Košík | Rajec | Rajec BIO Růže & Ostružina 6x1,5l  | 9,0 l | 5 | 0 (0 %) | 144,90 | 154,90 | 148,90 | 154,90 |
-| Košík | Rajec | Rajec BIO rybíz & šípek | 750,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Rajec | Rajec BIO růže & ostružina | 750,0 ml | 5 | 2 (40 %) | 15,90 | 22,90 | 20,10 | 22,90 |
-| Bolt Food | Rajec | Rajec Bio Malina - Lípa 1,5L |  | 5 | 0 (0 %) | 30,90 | 31,90 | 31,10 | 31,90 |
-| Bolt Food | Rajec | Rajec Bio Rybíz - Šípek 0,75L |  | 5 | 0 (0 %) | 27,90 | 29,90 | 28,30 | 29,90 |
-| Bolt Food | Rajec | Rajec Bio Růže - Ostružina 1,5L |  | 5 | 0 (0 %) | 30,90 | 31,90 | 31,10 | 31,90 |
-| Rohlík | Rajec | Rajec Bobulka Brusinka jemně sycená | 1,5 l | 5 | 4 (80 %) | 22,90 | 25,90 | 23,50 | 25,90 |
-| Rohlík | Rajec | Rajec Bylinka Bezový květ neperlivá voda | 1,5 l | 5 | 4 (80 %) | 22,90 | 25,90 | 23,50 | 25,90 |
-| Bolt Food | Rajec | Rajec Bylinka Bezový květ nesycený 1,5l |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Wolt | Rajec | Rajec Bylinka Bezový květ nesycený 1,5l | 1,5 l | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 0,75L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 0,75l |  | 5 | 0 (0 %) | 28,90 | 29,90 | 29,10 | 29,90 |
-| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 1,5L |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 1,5l |  | 5 | 0 (0 %) | 30,90 | 31,90 | 31,10 | 31,90 |
-| Rohlík | Rajec | Rajec Bylinka Mateřídouška neperlivá voda | 1,5 l | 5 | 4 (80 %) | 22,90 | 25,90 | 23,50 | 25,90 |
-| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 0,75l | 750 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 0,75l | 750 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 1,5l | 1,5 l | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 1,5l | 1,5 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Rajec | Rajec Bylinka Máta neperlivá voda | 1,5 l | 5 | 4 (80 %) | 22,90 | 25,90 | 23,50 | 25,90 |
-| Bolt Food | Rajec | Rajec Bylinka Pampeliška Nesycená 1,5L |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Rajec | Rajec Bylinka Pampeliška Nesycená 1,5l |  | 5 | 0 (0 %) | 30,90 | 31,90 | 31,10 | 31,90 |
-| Wolt | Rajec | Rajec Bylinka Pampeliška nesycená 1,5l | 1,5 l | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Wolt | Rajec | Rajec Bylinka Pampeliška nesycená 1,5l | 1,5 l | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Rajec | Rajec Bylinka Pampeliška voda neperlivá | 1,5 l | 5 | 4 (80 %) | 22,90 | 25,90 | 23,50 | 25,90 |
-| Rohlík | Rajec | Rajec Jemně perlivá voda (6×1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 119,90 |
-| Bolt Food | Rajec | Rajec Kojenecká Voda 0,33l |  | 5 | 0 (0 %) | 19,90 | 21,90 | 20,30 | 21,90 |
-| Bolt Food | Rajec | Rajec Kojenecká Voda Pramenitá Nesycená 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Rajec | Rajec Kojenecká Voda Pramenitá Nesycená 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Rohlík | Rajec | Rajec Kojenecká voda | 330 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Rohlík | Rajec | Rajec Kojenecká voda (6×1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 119,90 |
-| Košík | Rajec | Rajec Kojenecká voda pramenitá nesycená | 330,0 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 0,33l | 330 ml | 4 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 0,33l | 330 ml | 5 | 0 (0 %) | 15,50 | 15,50 | 15,50 | 15,50 |
-| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 1,5l | 1,5 l | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 1,5l | 1,5 l | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Rajec | Rajec Kyslík pramenitá voda jemně sycená | 750,0 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Rohlík | Rajec | Rajec Neperlivá voda (6×1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 119,90 |
-| Rohlík | Rajec | Rajec Neperlivá voda multipack (12×330 ml) | 3,96 l | 5 | 0 (0 %) | 184,90 | 184,90 | 184,90 | 184,90 |
-| Rohlík | Rajec | Rajec Neperlivá voda multipack (8×750 ml) | 6 l | 5 | 0 (0 %) | 174,90 | 174,90 | 174,90 | 174,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 0,75L |  | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 0,75l |  | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 1,5l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 0,75L |  | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 0,75l |  | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 1,5l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Košík | Rajec | Rajec Pramenitá voda Bezový květ nesycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Košík | Rajec | Rajec Pramenitá voda Brusinka jemně sycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Košík | Rajec | Rajec Pramenitá voda Mateřídouška nesycená 6 x 1,5l | 9,0 l | 5 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Košík | Rajec | Rajec Pramenitá voda Máta nesycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 144,90 | 154,90 | 148,90 | 154,90 |
-| Košík | Rajec | Rajec Pramenitá voda Pampeliška nesycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
-| Košík | Rajec | Rajec Pramenitá voda jemně sycená | 330,0 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 0,75l | 750 ml | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 0,75l | 750 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 1,5l | 1,5 l | 4 | 1 (25 %) | 15,90 | 19,90 | 18,90 | 19,90 |
-| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Rajec | Rajec Pramenitá voda jemně sycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Košík | Rajec | Rajec Pramenitá voda kojenecká 6x1,5l | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Košík | Rajec | Rajec Pramenitá voda nesycená | 750,0 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Košík | Rajec | Rajec Pramenitá voda nesycená | 330,0 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Rajec | Rajec Pramenitá voda nesycená 0,75l | 750 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Rajec | Rajec Pramenitá voda nesycená 0,75l | 750 ml | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Rajec | Rajec Pramenitá voda nesycená 1,5l | 1,5 l | 4 | 1 (25 %) | 15,90 | 19,90 | 18,90 | 19,90 |
-| Wolt | Rajec | Rajec Pramenitá voda nesycená 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Rajec | Rajec Pramenitá voda nesycená 6x1,5l | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Košík | Rajec | Rajec funkční broskev & meduňka | 750,0 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Košík | Rajec | Rajec funkční mango & limeta | 750,0 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Košík | Rajec | Rajec funkční rybiz & citronová tráva | 750,0 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Wolt | Rajec | Rajec kojenecká voda | 1,5 l | 5 | 3 (60 %) | 14,90 | 18,90 | 16,50 | 18,90 |
-| Wolt | Rajec | Rajec kojenecká voda | 330 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Rajec | Rajec minerální voda jemně perlivá | 750 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Rajec | Rajec minerální voda neperlivá | 1,5 l | 5 | 3 (60 %) | 14,90 | 17,90 | 16,10 | 17,90 |
-| Rohlík | Rajec | Rajec nesycený sklo | 0,75 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Wolt | Rajec | Rajec pramenitá voda mateřídouška | 1,5 l | 5 | 3 (60 %) | 19,90 | 24,90 | 21,90 | 24,90 |
-| Wolt | Rajec | Rajec pramenitá voda neperlivá | 750 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Semtex | SEMTEX CACTUS 0,5 l | 500 ml | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
-| Bolt Food | Semtex | SEMTEX EXTREM GUARANA & MATCHA 500 ml |  | 5 | 0 (0 %) | 34,90 | 36,90 | 35,30 | 34,90 |
-| Bolt Food | Semtex | Semtex Air 0,5l Plech |  | 5 | 0 (0 %) | 40,90 | 41,90 | 41,10 | 41,90 |
-| Bolt Food | Semtex | Semtex Air Energetick.Napoj Plech 500 Ml |  | 5 | 0 (0 %) | 34,90 | 36,90 | 35,30 | 34,90 |
-| Wolt | Semtex | Semtex Air Energy Drink 500ml | 500 ml | 5 | 0 (0 %) | 29,90 | 32,90 | 30,50 | 29,90 |
-| Košík | Semtex | Semtex Air No sugar | 500,0 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Košík | Semtex | Semtex Air  | 500,0 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Bolt Food | Semtex | Semtex Cactus 0,5l |  | 5 | 0 (0 %) | 40,90 | 41,90 | 41,10 | 41,90 |
-| Bolt Food | Semtex | Semtex Energy Cactus 500Ml |  | 5 | 0 (0 %) | 34,90 | 36,90 | 35,30 | 34,90 |
-| Wolt | Semtex | Semtex Energy Original | 500 ml | 5 | 4 (80 %) | 14,90 | 29,90 | 17,90 | 29,90 |
-| Bolt Food | Semtex | Semtex Energy Original 500Ml |  | 5 | 0 (0 %) | 34,90 | 36,90 | 35,30 | 34,90 |
-| Wolt | Semtex | Semtex Energy Original 500ml | 500 ml | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Košík | Rajec | Rajec BIO Růže & Ostružina 6x1,5l  | 9,0 l | 6 | 0 (0 %) | 144,90 | 154,90 | 149,90 | 154,90 |
+| Košík | Rajec | Rajec BIO rybíz & šípek | 750,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Rajec | Rajec BIO růže & ostružina | 750,0 ml | 6 | 3 (50 %) | 15,90 | 22,90 | 19,40 | 22,90 |
+| Bolt Food | Rajec | Rajec Bio Malina - Lípa 1,5L |  | 6 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
+| Bolt Food | Rajec | Rajec Bio Rybíz - Šípek 0,75L |  | 6 | 0 (0 %) | 27,90 | 29,90 | 28,57 | 29,90 |
+| Bolt Food | Rajec | Rajec Bio Růže - Ostružina 1,5L |  | 6 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
+| Rohlík | Rajec | Rajec Bobulka Brusinka jemně sycená | 1,5 l | 6 | 4 (67 %) | 22,90 | 25,90 | 23,90 | 25,90 |
+| Rohlík | Rajec | Rajec Bylinka Bezový květ neperlivá voda | 1,5 l | 6 | 4 (67 %) | 22,90 | 25,90 | 23,90 | 25,90 |
+| Bolt Food | Rajec | Rajec Bylinka Bezový květ nesycený 1,5l |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Rajec | Rajec Bylinka Bezový květ nesycený 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 0,75L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 0,75l |  | 6 | 0 (0 %) | 28,90 | 29,90 | 29,23 | 29,90 |
+| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 1,5L |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Rajec | Rajec Bylinka Mateřídouška Nesycená 1,5l |  | 6 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
+| Rohlík | Rajec | Rajec Bylinka Mateřídouška neperlivá voda | 1,5 l | 6 | 4 (67 %) | 22,90 | 25,90 | 23,90 | 25,90 |
+| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 0,75l | 750 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 0,75l | 750 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Rajec | Rajec Bylinka Mateřídouška nesycená 1,5l | 1,5 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Rajec | Rajec Bylinka Máta neperlivá voda | 1,5 l | 6 | 4 (67 %) | 22,90 | 25,90 | 23,90 | 25,90 |
+| Bolt Food | Rajec | Rajec Bylinka Pampeliška Nesycená 1,5L |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Rajec | Rajec Bylinka Pampeliška Nesycená 1,5l |  | 6 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
+| Wolt | Rajec | Rajec Bylinka Pampeliška nesycená 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Rajec | Rajec Bylinka Pampeliška nesycená 1,5l | 1,5 l | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Rajec | Rajec Bylinka Pampeliška voda neperlivá | 1,5 l | 6 | 4 (67 %) | 22,90 | 25,90 | 23,90 | 25,90 |
+| Rohlík | Rajec | Rajec Jemně perlivá voda (6×1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 99,90 | 91,57 | 119,90 |
+| Bolt Food | Rajec | Rajec Kojenecká Voda 0,33l |  | 6 | 0 (0 %) | 19,90 | 21,90 | 20,57 | 21,90 |
+| Bolt Food | Rajec | Rajec Kojenecká Voda Pramenitá Nesycená 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Rajec | Rajec Kojenecká Voda Pramenitá Nesycená 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Rohlík | Rajec | Rajec Kojenecká voda | 330 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Rohlík | Rajec | Rajec Kojenecká voda (6×1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 99,90 | 91,57 | 119,90 |
+| Košík | Rajec | Rajec Kojenecká voda pramenitá nesycená | 330,0 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 0,33l | 330 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 0,33l | 330 ml | 6 | 0 (0 %) | 15,50 | 15,50 | 15,50 | 15,50 |
+| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Rajec | Rajec Kojenecká voda pramenitá nesycená 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Rajec | Rajec Kyslík pramenitá voda jemně sycená | 750,0 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Rohlík | Rajec | Rajec Neperlivá voda (6×1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 99,90 | 91,57 | 119,90 |
+| Rohlík | Rajec | Rajec Neperlivá voda multipack (12×330 ml) | 3,96 l | 6 | 0 (0 %) | 184,90 | 184,90 | 184,90 | 184,90 |
+| Rohlík | Rajec | Rajec Neperlivá voda multipack (8×750 ml) | 6 l | 6 | 0 (0 %) | 174,90 | 174,90 | 174,90 | 174,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 0,75L |  | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 0,75l |  | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Jemně Sycená 1,5l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 0,75L |  | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 0,75l |  | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Rajec | Rajec Pramenitá Voda Nesycená 1,5l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Košík | Rajec | Rajec Pramenitá voda Bezový květ nesycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
+| Košík | Rajec | Rajec Pramenitá voda Brusinka jemně sycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
+| Košík | Rajec | Rajec Pramenitá voda Mateřídouška nesycená 6 x 1,5l | 9,0 l | 6 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
+| Košík | Rajec | Rajec Pramenitá voda Máta nesycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 144,90 | 154,90 | 149,90 | 154,90 |
+| Košík | Rajec | Rajec Pramenitá voda Pampeliška nesycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 144,90 | 144,90 | 144,90 | 144,90 |
+| Košík | Rajec | Rajec Pramenitá voda jemně sycená | 330,0 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 0,75l | 750 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 0,75l | 750 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 1,5l | 1,5 l | 5 | 1 (20 %) | 15,90 | 19,90 | 19,10 | 19,90 |
+| Wolt | Rajec | Rajec Pramenitá voda jemně sycená 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Rajec | Rajec Pramenitá voda jemně sycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Košík | Rajec | Rajec Pramenitá voda kojenecká 6x1,5l | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Košík | Rajec | Rajec Pramenitá voda nesycená | 750,0 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Rajec | Rajec Pramenitá voda nesycená | 330,0 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Rajec | Rajec Pramenitá voda nesycená 0,75l | 750 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Rajec | Rajec Pramenitá voda nesycená 0,75l | 750 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Rajec | Rajec Pramenitá voda nesycená 1,5l | 1,5 l | 5 | 1 (20 %) | 15,90 | 19,90 | 19,10 | 19,90 |
+| Wolt | Rajec | Rajec Pramenitá voda nesycená 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Rajec | Rajec Pramenitá voda nesycená 6x1,5l | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Košík | Rajec | Rajec funkční broskev & meduňka | 750,0 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Košík | Rajec | Rajec funkční mango & limeta | 750,0 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Košík | Rajec | Rajec funkční rybiz & citronová tráva | 750,0 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Wolt | Rajec | Rajec kojenecká voda | 1,5 l | 6 | 3 (50 %) | 14,90 | 18,90 | 16,90 | 18,90 |
+| Wolt | Rajec | Rajec kojenecká voda | 330 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Rajec | Rajec minerální voda jemně perlivá | 750 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Rajec | Rajec minerální voda neperlivá | 1,5 l | 6 | 3 (50 %) | 14,90 | 17,90 | 16,40 | 17,90 |
+| Rohlík | Rajec | Rajec nesycený sklo | 0,75 l | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Rajec | Rajec pramenitá voda mateřídouška | 1,5 l | 6 | 3 (50 %) | 19,90 | 24,90 | 22,40 | 24,90 |
+| Wolt | Rajec | Rajec pramenitá voda neperlivá | 750 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Semtex | SEMTEX CACTUS 0,5 l | 500 ml | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Bolt Food | Semtex | SEMTEX EXTREM GUARANA & MATCHA 500 ml |  | 6 | 0 (0 %) | 34,90 | 36,90 | 35,23 | 34,90 |
+| Bolt Food | Semtex | Semtex Air 0,5l Plech |  | 6 | 0 (0 %) | 40,90 | 41,90 | 41,23 | 41,90 |
+| Bolt Food | Semtex | Semtex Air Energetick.Napoj Plech 500 Ml |  | 6 | 0 (0 %) | 34,90 | 36,90 | 35,23 | 34,90 |
+| Wolt | Semtex | Semtex Air Energy Drink 500ml | 500 ml | 6 | 0 (0 %) | 29,90 | 32,90 | 30,40 | 29,90 |
+| Košík | Semtex | Semtex Air No sugar | 500,0 ml | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Košík | Semtex | Semtex Air  | 500,0 ml | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Bolt Food | Semtex | Semtex Cactus 0,5l |  | 6 | 0 (0 %) | 40,90 | 41,90 | 41,23 | 41,90 |
+| Bolt Food | Semtex | Semtex Energy Cactus 500Ml |  | 6 | 0 (0 %) | 34,90 | 36,90 | 35,23 | 34,90 |
+| Wolt | Semtex | Semtex Energy Original | 500 ml | 6 | 4 (67 %) | 14,90 | 29,90 | 19,90 | 29,90 |
+| Bolt Food | Semtex | Semtex Energy Original 500Ml |  | 6 | 0 (0 %) | 34,90 | 36,90 | 35,23 | 34,90 |
+| Wolt | Semtex | Semtex Energy Original 500ml | 500 ml | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
 | Košík | Semtex | Semtex Extrem Guarana & Matcha | 500,0 ml | 4 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Semtex | Semtex Extrem Guarana & Matcha Energy Drink 500ml | 500 ml | 5 | 0 (0 %) | 29,90 | 32,90 | 30,50 | 29,90 |
-| Wolt | Semtex | Semtex Extrem Guarana & Matcha Energy Drink 500ml | 500 ml | 4 | 0 (0 %) | 34,90 | 36,90 | 35,40 | 34,90 |
-| Košík | Semtex | Semtex Extrem Jalbko | 500,0 ml | 5 | 3 (60 %) | 18,90 | 34,90 | 25,30 | 34,90 |
-| Košík | Semtex | Semtex Extrem Mandarin | 500,0 ml | 5 | 3 (60 %) | 18,90 | 34,90 | 25,30 | 34,90 |
-| Bolt Food | Semtex | Semtex Extrem Mandarin 0,5L |  | 5 | 0 (0 %) | 40,90 | 41,90 | 41,10 | 41,90 |
-| Bolt Food | Semtex | Semtex Extrem Passion Fruit 0,5l Plech |  | 5 | 0 (0 %) | 40,90 | 41,90 | 41,10 | 41,90 |
-| Košík | Semtex | Semtex Extrem passion fruit | 500,0 ml | 5 | 3 (60 %) | 18,90 | 34,90 | 25,30 | 34,90 |
-| Košík | Semtex | Semtex Juicy | 500,0 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Wolt | Semtex | Semtex Extrem Guarana & Matcha Energy Drink 500ml | 500 ml | 6 | 0 (0 %) | 29,90 | 32,90 | 30,40 | 29,90 |
+| Wolt | Semtex | Semtex Extrem Guarana & Matcha Energy Drink 500ml | 500 ml | 5 | 0 (0 %) | 34,90 | 36,90 | 35,30 | 34,90 |
+| Košík | Semtex | Semtex Extrem Jalbko | 500,0 ml | 6 | 3 (50 %) | 18,90 | 34,90 | 26,90 | 34,90 |
+| Košík | Semtex | Semtex Extrem Mandarin | 500,0 ml | 6 | 3 (50 %) | 18,90 | 34,90 | 26,90 | 34,90 |
+| Bolt Food | Semtex | Semtex Extrem Mandarin 0,5L |  | 6 | 0 (0 %) | 40,90 | 41,90 | 41,23 | 41,90 |
+| Bolt Food | Semtex | Semtex Extrem Passion Fruit 0,5l Plech |  | 6 | 0 (0 %) | 40,90 | 41,90 | 41,23 | 41,90 |
+| Košík | Semtex | Semtex Extrem passion fruit | 500,0 ml | 6 | 3 (50 %) | 18,90 | 34,90 | 26,90 | 34,90 |
+| Košík | Semtex | Semtex Juicy | 500,0 ml | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
 | Bolt Food | Semtex | Semtex Original 0,5l |  | 2 | 0 (0 %) | 40,90 | 40,90 | 40,90 | 40,90 |
-| Košík | Semtex | Semtex Original energy drink | 500,0 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Rohlík | Semtex | Semtex Originál Explosive energy drink plech | 500 ml | 5 | 5 (100 %) | 14,90 | 14,90 | 14,90 | 35,90 |
-| Bolt Food | Top Topic | Top Topic 1,5l |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Košík | Top Topic | Top Topic Hrozen | 1,5 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Top Topic | Top Topic Hrozen | 1,5 l | 5 | 0 (0 %) | 23,90 | 29,90 | 28,70 | 29,90 |
-| Bolt Food | Top Topic | Top Topic Hrozen 1,5L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Top Topic | Top Topic Hrozen 1,5l | 1,5 l | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Košík | Top Topic | Top Topic Malina | 1,5 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Rohlík | Top Topic | Top Topic Malina | 1,5 l | 5 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
-| Košík | Top Topic | Top Topic Mango | 1,5 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Rohlík | Top Topic | Top Topic Mango drink | 1,5 l | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Bolt Food | UGO | UGO 100% GREP 0,25l |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Košík | UGO | UGO 100% šťáva Grep | 750,0 ml | 5 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
-| Košík | UGO | UGO 100% šťáva Mrkev/jablko | 250,0 ml | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | UGO | UGO 100% šťáva Mrkev/jablko | 750,0 ml | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Košík | UGO | UGO 100% šťáva Pomeranč | 750,0 ml | 5 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
-| Košík | UGO | UGO 100% šťáva Pomeranč | 250,0 ml | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | UGO | UGO 100% šťáva Rybíz/jablko | 250,0 ml | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | UGO | UGO 100% šťáva Červená řepa/jablko | 250,0 ml | 5 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | UGO | UGO 100% šťáva Červená řepa/jablko | 750,0 ml | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Bolt Food | UGO | UGO BANAN/JAHODA/JABLKO 0,25 l |  | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Košík | UGO | UGO Bylinková limonáda Levandule/jahoda/citrón | 500,0 ml | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Košík | UGO | UGO Bylinková limonáda Malina/bazalka | 500,0 ml | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Rohlík | UGO | UGO Bylinková limonáda borůvka a černý bez | 500 ml | 5 | 5 (100 %) | 39,90 | 44,90 | 43,90 | 49,90 |
-| Rohlík | UGO | UGO Bylinková limonáda okurka, citrón, máta | 500 ml | 5 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
-| Bolt Food | UGO | UGO COLD BREW TEA MERUN. LEVA. MEDUNKA 500 ml |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Košík | UGO | UGO Cold Brew Tea Meruňka, meduňka, levandule | 500,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Košík | UGO | UGO Cold Brew Tea  Jahoda, bucco, máta | 500,0 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Rohlík | UGO | UGO Cold Brew tea mango eukalyptus | 500 ml | 5 | 5 (100 %) | 39,90 | 44,90 | 43,90 | 49,90 |
-| Rohlík | UGO | UGO Funkční drink Imunita – jablko, pomeranč, citron, zázvor | 250 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
-| Rohlík | UGO | UGO Funkční smoothie Digestiv – jablko, banán, špenát, spirulina | 250 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
-| Rohlík | UGO | UGO Funkční smoothie Fokus – jablko, černý rybíz, jahoda | 250 ml | 5 | 5 (100 %) | 44,00 | 44,00 | 44,00 | 50,90 |
-| Rohlík | UGO | UGO Funkční smoothie Krása – jablko, banán, jahoda | 250 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
-| Košík | UGO | UGO Funkční smoothie exotická směs s vlákninou | 500,0 ml | 5 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
-| Košík | UGO | UGO Funkční smoothie lesní směs s vlákninou | 500,0 ml | 5 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
-| Košík | UGO | UGO Funkční smoothie zahradní směs s vlákninou | 500,0 ml | 5 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
+| Košík | Semtex | Semtex Original energy drink | 500,0 ml | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Rohlík | Semtex | Semtex Originál Explosive energy drink plech | 500 ml | 6 | 6 (100 %) | 14,90 | 14,90 | 14,90 | 35,90 |
+| Bolt Food | Top Topic | Top Topic 1,5l |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Košík | Top Topic | Top Topic Hrozen | 1,5 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Top Topic | Top Topic Hrozen | 1,5 l | 6 | 0 (0 %) | 23,90 | 29,90 | 28,90 | 29,90 |
+| Bolt Food | Top Topic | Top Topic Hrozen 1,5L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Top Topic | Top Topic Hrozen 1,5l | 1,5 l | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Košík | Top Topic | Top Topic Malina | 1,5 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Rohlík | Top Topic | Top Topic Malina | 1,5 l | 6 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Košík | Top Topic | Top Topic Mango | 1,5 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Rohlík | Top Topic | Top Topic Mango drink | 1,5 l | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Bolt Food | UGO | UGO 100% GREP 0,25l |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Košík | UGO | UGO 100% šťáva Grep | 750,0 ml | 6 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
+| Košík | UGO | UGO 100% šťáva Mrkev/jablko | 250,0 ml | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | UGO | UGO 100% šťáva Mrkev/jablko | 750,0 ml | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Košík | UGO | UGO 100% šťáva Pomeranč | 750,0 ml | 6 | 0 (0 %) | 159,90 | 159,90 | 159,90 | 159,90 |
+| Košík | UGO | UGO 100% šťáva Pomeranč | 250,0 ml | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | UGO | UGO 100% šťáva Rybíz/jablko | 250,0 ml | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | UGO | UGO 100% šťáva Červená řepa/jablko | 250,0 ml | 6 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
+| Košík | UGO | UGO 100% šťáva Červená řepa/jablko | 750,0 ml | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Bolt Food | UGO | UGO BANAN/JAHODA/JABLKO 0,25 l |  | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Košík | UGO | UGO Bylinková limonáda Levandule/jahoda/citrón | 500,0 ml | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Košík | UGO | UGO Bylinková limonáda Malina/bazalka | 500,0 ml | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Rohlík | UGO | UGO Bylinková limonáda borůvka a černý bez | 500 ml | 6 | 6 (100 %) | 39,90 | 44,90 | 43,23 | 49,90 |
+| Rohlík | UGO | UGO Bylinková limonáda okurka, citrón, máta | 500 ml | 6 | 0 (0 %) | 48,90 | 48,90 | 48,90 | 48,90 |
+| Bolt Food | UGO | UGO COLD BREW TEA MERUN. LEVA. MEDUNKA 500 ml |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Košík | UGO | UGO Cold Brew Tea Meruňka, meduňka, levandule | 500,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Košík | UGO | UGO Cold Brew Tea  Jahoda, bucco, máta | 500,0 ml | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Rohlík | UGO | UGO Cold Brew tea mango eukalyptus | 500 ml | 6 | 6 (100 %) | 39,90 | 44,90 | 43,23 | 49,90 |
+| Rohlík | UGO | UGO Funkční drink Imunita – jablko, pomeranč, citron, zázvor | 250 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
+| Rohlík | UGO | UGO Funkční smoothie Digestiv – jablko, banán, špenát, spirulina | 250 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
+| Rohlík | UGO | UGO Funkční smoothie Fokus – jablko, černý rybíz, jahoda | 250 ml | 6 | 6 (100 %) | 44,00 | 44,00 | 44,00 | 50,90 |
+| Rohlík | UGO | UGO Funkční smoothie Krása – jablko, banán, jahoda | 250 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
+| Košík | UGO | UGO Funkční smoothie exotická směs s vlákninou | 500,0 ml | 6 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
+| Košík | UGO | UGO Funkční smoothie lesní směs s vlákninou | 500,0 ml | 6 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
+| Košík | UGO | UGO Funkční smoothie zahradní směs s vlákninou | 500,0 ml | 6 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
 | Košík | UGO | UGO Kombucha Yerba maté Citrón, zázvor | 250,0 ml | 3 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Rohlík | UGO | UGO RAW 100% grep | 0,75 l | 5 | 5 (100 %) | 129,90 | 129,90 | 129,90 | 144,90 |
-| Rohlík | UGO | UGO RAW 100% pomeranč | 250 ml | 5 | 5 (100 %) | 42,90 | 42,90 | 42,90 | 48,90 |
-| Rohlík | UGO | UGO RAW 100% pomeranč | 0,75 l | 5 | 5 (100 %) | 119,90 | 119,90 | 119,90 | 134,90 |
-| Rohlík | UGO | UGO RAW Cold Brew Tea Jahoda, bucco a máta | 500 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 52,90 |
-| Rohlík | UGO | UGO RAW Cold Brew Tea Meruňka, meduňka a levandule | 500 ml | 5 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
-| Rohlík | UGO | UGO RAW Funkční smoothie lesní směs s vlákninou | 500 ml | 5 | 5 (100 %) | 69,90 | 69,90 | 69,90 | 79,90 |
-| Rohlík | UGO | UGO RAW Smoothie banán, jahoda a jablko | 250 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 49,90 |
-| Rohlík | UGO | UGO RAW Smoothie malina, jahoda, borůvka a jablko | 250 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 49,90 |
-| Rohlík | UGO | UGO RAW limonáda malina a bazalka | 500 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 61,90 |
-| Rohlík | UGO | UGO RAW mrkev a jablko | 0,75 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 124,90 |
-| Rohlík | UGO | UGO RAW pomeranč, mrkev, jablko a zázvor | 250 ml | 5 | 5 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
-| Rohlík | UGO | UGO RAW rybíz a jablko | 250 ml | 5 | 5 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
-| Rohlík | UGO | UGO RAW červená řepa a jablko | 0,75 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 124,90 |
-| Bolt Food | UGO | UGO SMOOTHIE EXOTICKA SMES 250 ml |  | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | UGO | Ugo Banán, jahoda, jablko 250ml | 250 ml | 4 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Bolt Food | UGO | Ugo Bylinková limonáda levandule jahoda citrón 500ml |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | UGO | Ugo Bylinková limonáda levandule jahoda citrón 500ml | 500 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | UGO | Ugo Cold Brew Tea Jahoda Bucco Mata 500 Ml |  | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | UGO | Ugo Cold Brew Tea jahoda, bucco a máta 500ml | 500 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | UGO | Ugo Fokus funkční smoothie 250ml | 250 ml | 3 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Bolt Food | UGO | Ugo Funkcni Drink Imunita 250 Ml |  | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Bolt Food | UGO | Ugo Funkcni Smoothie Fokus 250 Ml |  | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Bolt Food | UGO | Ugo Funkcni Smoothie Krasa 250 Ml |  | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Rohlík | UGO | UGO RAW 100% grep | 0,75 l | 6 | 6 (100 %) | 129,90 | 129,90 | 129,90 | 144,90 |
+| Rohlík | UGO | UGO RAW 100% pomeranč | 250 ml | 6 | 6 (100 %) | 42,90 | 42,90 | 42,90 | 48,90 |
+| Rohlík | UGO | UGO RAW 100% pomeranč | 0,75 l | 6 | 6 (100 %) | 119,90 | 119,90 | 119,90 | 134,90 |
+| Rohlík | UGO | UGO RAW Cold Brew Tea Jahoda, bucco a máta | 500 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 52,90 |
+| Rohlík | UGO | UGO RAW Cold Brew Tea Meruňka, meduňka a levandule | 500 ml | 6 | 0 (0 %) | 52,90 | 52,90 | 52,90 | 52,90 |
+| Rohlík | UGO | UGO RAW Funkční smoothie lesní směs s vlákninou | 500 ml | 6 | 6 (100 %) | 69,90 | 69,90 | 69,90 | 79,90 |
+| Rohlík | UGO | UGO RAW Smoothie banán, jahoda a jablko | 250 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 49,90 |
+| Rohlík | UGO | UGO RAW Smoothie malina, jahoda, borůvka a jablko | 250 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 49,90 |
+| Rohlík | UGO | UGO RAW limonáda malina a bazalka | 500 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 61,90 |
+| Rohlík | UGO | UGO RAW mrkev a jablko | 0,75 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 124,90 |
+| Rohlík | UGO | UGO RAW pomeranč, mrkev, jablko a zázvor | 250 ml | 6 | 6 (100 %) | 44,90 | 44,90 | 44,90 | 50,90 |
+| Rohlík | UGO | UGO RAW rybíz a jablko | 250 ml | 6 | 6 (100 %) | 39,90 | 39,90 | 39,90 | 46,90 |
+| Rohlík | UGO | UGO RAW červená řepa a jablko | 0,75 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 124,90 |
+| Bolt Food | UGO | UGO SMOOTHIE EXOTICKA SMES 250 ml |  | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | UGO | Ugo Banán, jahoda, jablko 250ml | 250 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Bolt Food | UGO | Ugo Bylinková limonáda levandule jahoda citrón 500ml |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | UGO | Ugo Bylinková limonáda levandule jahoda citrón 500ml | 500 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | UGO | Ugo Cold Brew Tea Jahoda Bucco Mata 500 Ml |  | 6 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | UGO | Ugo Cold Brew Tea jahoda, bucco a máta 500ml | 500 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | UGO | Ugo Fokus funkční smoothie 250ml | 250 ml | 4 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Bolt Food | UGO | Ugo Funkcni Drink Imunita 250 Ml |  | 6 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Bolt Food | UGO | Ugo Funkcni Smoothie Fokus 250 Ml |  | 6 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Bolt Food | UGO | Ugo Funkcni Smoothie Krasa 250 Ml |  | 6 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
 | Bolt Food | UGO | Ugo Funkční smoothie lesní směs 500ml |  | 5 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
 | Wolt | UGO | Ugo Funkční smoothie lesní směs 500ml | 500 ml | 4 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
-| Wolt | UGO | Ugo Grep 250ml | 250 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Wolt | UGO | Ugo Imunita funkční drink 250ml | 250 ml | 4 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Wolt | UGO | Ugo Krása funkční smoothie 250ml | 250 ml | 4 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Bolt Food | UGO | Ugo Malina, Jahoda, Borůvka, Jablko 250Ml |  | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | UGO | Ugo Malina, jahoda, borůvka, jablko 250ml | 250 ml | 4 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
-| Wolt | UGO | Ugo Pomeranč 250ml | 250 ml | 4 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
-| Bolt Food | UGO | Ugo Černý Rybíz A Jablko 250Ml |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Wolt | UGO | Ugo Černý rybíz a jablko 250ml | 250 ml | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Bolt Food | UGO | Ugo Řepa, Jablko 250Ml |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Wolt | UGO | Ugo Řepa, jablko 250ml | 250 ml | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Košík | Vinea | Vinea Bílá | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Wolt | Vinea | Vinea Bílá | 1,5 l | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
-| Bolt Food | Vinea | Vinea Bílá 0,33l Plech |  | 5 | 0 (0 %) | 24,90 | 29,90 | 25,90 | 29,90 |
-| Bolt Food | Vinea | Vinea Bílá 0,5l |  | 5 | 0 (0 %) | 29,50 | 31,90 | 29,98 | 31,90 |
-| Wolt | Vinea | Vinea Bílá 0,5l | 500 ml | 5 | 0 (0 %) | 27,50 | 27,50 | 27,50 | 27,50 |
-| Bolt Food | Vinea | Vinea Bílá 1,5L |  | 5 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
-| Wolt | Vinea | Vinea Bílá 1,5l | 1,5 l | 5 | 0 (0 %) | 36,90 | 38,90 | 37,30 | 36,90 |
-| Wolt | Vinea | Vinea Bílá 1,5l | 1,5 l | 4 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
-| Wolt | Vinea | Vinea Bílá 330ml | 330 ml | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Bolt Food | Vinea | Vinea Bílá 4 x 330 ml (1,32l) |  | 3 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
-| Wolt | Vinea | Vinea Bílá 4 x 330 ml (1,32l) | 1,32 l | 2 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
-| Košík | Vinea | Vinea Bílá Multipack 4x330ml plech | 1,32 l | 5 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Košík | Vinea | Vinea Bílá, plech | 330,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Vinea | Vinea Frizzante 1,5L |  | 5 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
-| Košík | Vinea | Vinea Nealko střik | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Wolt | Vinea | Vinea Nealko střik 1,5l | 1,5 l | 4 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
-| Wolt | Vinea | Vinea Nealko střik 330ml | 330 ml | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Košík | Vinea | Vinea Nealko střik, plech | 330,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Vinea | Vinea Červená | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Bolt Food | Vinea | Vinea Červená 1,5L |  | 5 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
-| Wolt | Vinea | Vinea Červená 1,5l | 1,5 l | 4 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
-| Rohlík | Šaratica | Šaratica | 500 ml | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Wolt | Aquila | AQUILA TEA.M  LEDOVÝ ČAJ BROSKVOVÝ 1,5l | 1,5 l | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
-| Bolt Food | Aquila | Aquila Aqualinea Pramenitá Voda Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Aquila | Aquila Aqualinea Pramenitá Voda Jemně Perlivá 0,75L |  | 5 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
-| Bolt Food | Aquila | Aquila Aqualinea Pramenitá Voda Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Aquila | Aquila Jemně perlivá voda kojenecká (6x1,5l) | 9 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Aquila | Aquila Méně cukru černý čaj s broskví | 1,5 l | 5 | 0 (0 %) | 35,90 | 36,90 | 36,70 | 36,90 |
-| Rohlík | Aquila | Aquila Neperlivá kojenecká voda | 0,75 l | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Aquila | Aquila Neperlivá voda sklo | 0,75 l | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Aquila | Aquila Pramenitá voda jemně perlivá 6x1,5l kojenecká | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Bolt Food | Aquila | Aquila První Voda Jemně Perlivá Kojenecká 1,5l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,5L |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,5l |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,75L |  | 5 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
-| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,75l |  | 5 | 0 (0 %) | 28,90 | 29,90 | 29,10 | 29,90 |
-| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 1,5l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Wolt | Aquila | Aquila První voda jemně perlivá kojenecká 0,5l | 500 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Aquila | Aquila První voda jemně perlivá kojenecká 0,75l | 750 ml | 4 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
-| Wolt | Aquila | Aquila První voda jemně perlivá kojenecká 1,5l | 1,5 l | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | UGO | Ugo Grep 250ml | 250 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Wolt | UGO | Ugo Imunita funkční drink 250ml | 250 ml | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Wolt | UGO | Ugo Krása funkční smoothie 250ml | 250 ml | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Bolt Food | UGO | Ugo Malina, Jahoda, Borůvka, Jablko 250Ml |  | 6 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | UGO | Ugo Malina, jahoda, borůvka, jablko 250ml | 250 ml | 5 | 0 (0 %) | 54,90 | 54,90 | 54,90 | 54,90 |
+| Wolt | UGO | Ugo Pomeranč 250ml | 250 ml | 5 | 0 (0 %) | 53,90 | 53,90 | 53,90 | 53,90 |
+| Bolt Food | UGO | Ugo Černý Rybíz A Jablko 250Ml |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Wolt | UGO | Ugo Černý rybíz a jablko 250ml | 250 ml | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Bolt Food | UGO | Ugo Řepa, Jablko 250Ml |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Wolt | UGO | Ugo Řepa, jablko 250ml | 250 ml | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Košík | Vinea | Vinea Bílá | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Wolt | Vinea | Vinea Bílá | 1,5 l | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Bolt Food | Vinea | Vinea Bílá 0,33l Plech |  | 6 | 0 (0 %) | 24,90 | 29,90 | 26,57 | 29,90 |
+| Bolt Food | Vinea | Vinea Bílá 0,5l |  | 6 | 0 (0 %) | 29,50 | 31,90 | 30,30 | 31,90 |
+| Wolt | Vinea | Vinea Bílá 0,5l | 500 ml | 6 | 0 (0 %) | 27,50 | 27,50 | 27,50 | 27,50 |
+| Bolt Food | Vinea | Vinea Bílá 1,5L |  | 6 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
+| Wolt | Vinea | Vinea Bílá 1,5l | 1,5 l | 6 | 0 (0 %) | 36,90 | 38,90 | 37,23 | 36,90 |
+| Wolt | Vinea | Vinea Bílá 1,5l | 1,5 l | 5 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
+| Wolt | Vinea | Vinea Bílá 330ml | 330 ml | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Bolt Food | Vinea | Vinea Bílá 4 x 330 ml (1,32l) |  | 4 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
+| Wolt | Vinea | Vinea Bílá 4 x 330 ml (1,32l) | 1,32 l | 3 | 0 (0 %) | 83,90 | 83,90 | 83,90 | 83,90 |
+| Košík | Vinea | Vinea Bílá Multipack 4x330ml plech | 1,32 l | 6 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Košík | Vinea | Vinea Bílá, plech | 330,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Vinea | Vinea Frizzante 1,5L |  | 6 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
+| Košík | Vinea | Vinea Nealko střik | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Wolt | Vinea | Vinea Nealko střik 1,5l | 1,5 l | 5 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
+| Wolt | Vinea | Vinea Nealko střik 330ml | 330 ml | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Košík | Vinea | Vinea Nealko střik, plech | 330,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Vinea | Vinea Červená | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Bolt Food | Vinea | Vinea Červená 1,5L |  | 6 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
+| Wolt | Vinea | Vinea Červená 1,5l | 1,5 l | 5 | 0 (0 %) | 42,50 | 42,50 | 42,50 | 42,50 |
+| Rohlík | Šaratica | Šaratica | 500 ml | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Wolt | Aquila | AQUILA TEA.M  LEDOVÝ ČAJ BROSKVOVÝ 1,5l | 1,5 l | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Bolt Food | Aquila | Aquila Aqualinea Pramenitá Voda Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Aquila | Aquila Aqualinea Pramenitá Voda Jemně Perlivá 0,75L |  | 6 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
+| Bolt Food | Aquila | Aquila Aqualinea Pramenitá Voda Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Aquila | Aquila Jemně perlivá voda kojenecká (6x1,5l) | 9 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Košík | Aquila | Aquila Méně cukru černý čaj s broskví | 1,5 l | 6 | 0 (0 %) | 35,90 | 36,90 | 36,73 | 36,90 |
+| Rohlík | Aquila | Aquila Neperlivá kojenecká voda | 0,75 l | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Aquila | Aquila Neperlivá voda sklo | 0,75 l | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Aquila | Aquila Pramenitá voda jemně perlivá 6x1,5l kojenecká | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Bolt Food | Aquila | Aquila První Voda Jemně Perlivá Kojenecká 1,5l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,5L |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,5l |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,75L |  | 6 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
+| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 0,75l |  | 6 | 0 (0 %) | 28,90 | 29,90 | 29,23 | 29,90 |
+| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Aquila | Aquila První Voda Neperlivá Kojenecká 1,5l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Wolt | Aquila | Aquila První voda jemně perlivá kojenecká 0,5l | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Aquila | Aquila První voda jemně perlivá kojenecká 0,75l | 750 ml | 5 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
 | Wolt | Aquila | Aquila První voda jemně perlivá kojenecká 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Aquila | Aquila První voda neperlivá kojenecká | 500,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Wolt | Aquila | Aquila První voda neperlivá kojenecká 0,5l | 500 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Aquila | Aquila První voda jemně perlivá kojenecká 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Aquila | Aquila První voda neperlivá kojenecká | 500,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
 | Wolt | Aquila | Aquila První voda neperlivá kojenecká 0,5l | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Aquila | Aquila První voda neperlivá kojenecká 0,75l | 750 ml | 4 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
-| Wolt | Aquila | Aquila První voda neperlivá kojenecká 0,75l | 750 ml | 5 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Wolt | Aquila | Aquila První voda neperlivá kojenecká 1,5l | 1,5 l | 5 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
-| Wolt | Aquila | Aquila První voda neperlivá kojenecká 1,5l | 1,5 l | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Aquila | Aquila První voda neperlivá kojenecká 0,5l | 500 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Aquila | Aquila První voda neperlivá kojenecká 0,75l | 750 ml | 5 | 0 (0 %) | 17,50 | 17,50 | 17,50 | 17,50 |
+| Wolt | Aquila | Aquila První voda neperlivá kojenecká 0,75l | 750 ml | 6 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Aquila | Aquila První voda neperlivá kojenecká 1,5l | 1,5 l | 6 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
 | Wolt | Aquila | Aquila První voda neperlivá kojenecká 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Aquila | Aquila První voda neperlivá kojenecká 6x0,75l | 4,5 l | 5 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
-| Košík | Aquila | Aquila První voda neperlivá kojenecká 6x1,5 l | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Rohlík | Aquila | Aquila Tea Ledový zelený čaj s citronem | 1,5 l | 5 | 4 (80 %) | 29,90 | 36,90 | 31,30 | 36,90 |
-| Rohlík | Aquila | Aquila Tea Ledový černý čaj s broskví | 1,5 l | 5 | 4 (80 %) | 29,90 | 36,90 | 31,30 | 36,90 |
-| Bolt Food | Aquila | Aquila Tea Zelený Čaj Se Šťávou Z Citronu 1,5l |  | 5 | 0 (0 %) | 39,90 | 41,90 | 40,30 | 41,90 |
-| Wolt | Aquila | Aquila Tea Zelený čaj se šťávou z citronu 1,5l | 1,5 l | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
-| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Broskve 1,5L |  | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Broskve 1,5l |  | 5 | 0 (0 %) | 39,90 | 41,90 | 40,30 | 41,90 |
-| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Citronu 1,5L |  | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Citronu 1,5l |  | 5 | 0 (0 %) | 39,90 | 41,90 | 40,30 | 41,90 |
-| Wolt | Aquila | Aquila Tea Černý čaj se šťávou z citronu 1,5l | 1,5 l | 5 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
-| Bolt Food | Aquila | Aquila Zelený Čaj S Citronem 0,33 L Plech |  | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Aquila | Aquila Zelený čaj s jahodou | 1,5 l | 5 | 4 (80 %) | 29,90 | 36,90 | 31,30 | 36,90 |
-| Wolt | Aquila | Aquila kojenecká voda neperlivá | 1,5 l | 5 | 0 (0 %) | 11,90 | 17,90 | 15,50 | 11,90 |
-| Wolt | Aquila | Aquila kojenecká voda neperlivá | 750 ml | 5 | 0 (0 %) | 12,90 | 12,90 | 12,90 | 12,90 |
-| Wolt | Aquila | Aquila ledový čaj zelený citron | 1,5 l | 5 | 0 (0 %) | 23,90 | 29,90 | 28,70 | 29,90 |
-| Wolt | Aquila | Aquila ledový čaj černý broskev | 1,5 l | 5 | 0 (0 %) | 23,90 | 29,90 | 28,70 | 29,90 |
-| Wolt | Aquila | Aquila ledový čaj černý citron | 1,5 l | 5 | 0 (0 %) | 23,90 | 29,90 | 28,70 | 29,90 |
-| Rohlík | Aquila | Aquila neperlivá kojenecká voda (6x1,5l) | 9 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Bolt Food | Aquila | Aquila Černý Čaj S Broskví 0,33l Plech |  | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Aquila | Aquila Černý čaj s citronem | 1,5 l | 5 | 4 (80 %) | 29,90 | 36,90 | 31,30 | 36,90 |
-| Bolt Food | Dobrá voda | DOBRA VODA YES NEPER.MINER.VODA PRICH.MEL. 0,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | DOBRA VODA YESS NEPERL. S PRICH. MALINA 0,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | DOBRA VODA YESS NEPERL. S PRICH. POMERANC 0,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | DOBRA VODA YESS NEPERLIVA MINER. VODA 0,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobra Voda Yes Neper.Miner.Voda Prich.Jab. 0,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobra Voda Yes Neper.Miner.Voda Prich.Jah. 0,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 0,5l |  | 5 | 0 (0 %) | 17,90 | 19,90 | 18,30 | 19,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 1,5l |  | 5 | 0 (0 %) | 18,90 | 19,90 | 19,10 | 19,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Citron 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Citron 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Lesní Jahoda 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Pomeranče 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 0,5L |  | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 0,5l |  | 5 | 0 (0 %) | 17,90 | 19,90 | 18,30 | 19,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 1,5L |  | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 1,5l |  | 5 | 0 (0 %) | 18,90 | 19,90 | 19,10 | 19,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 2L |  | 5 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Bílé Hrozny 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Bílé Hrozny 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 0,75L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 0,75l |  | 5 | 0 (0 %) | 21,90 | 23,90 | 22,30 | 23,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 0,75L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 0,75l |  | 5 | 0 (0 %) | 21,90 | 23,90 | 22,30 | 23,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Dobrá voda | Dobrá Voda Perlivá 1,5l |  | 5 | 0 (0 %) | 18,90 | 19,90 | 19,10 | 19,90 |
-| Wolt | Dobrá voda | Dobrá voda Jemně perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Dobrá voda | Dobrá voda Jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Aquila | Aquila První voda neperlivá kojenecká 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Aquila | Aquila První voda neperlivá kojenecká 6x0,75l | 4,5 l | 6 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
+| Košík | Aquila | Aquila První voda neperlivá kojenecká 6x1,5 l | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Rohlík | Aquila | Aquila Tea Ledový zelený čaj s citronem | 1,5 l | 6 | 4 (67 %) | 29,90 | 36,90 | 32,23 | 36,90 |
+| Rohlík | Aquila | Aquila Tea Ledový černý čaj s broskví | 1,5 l | 6 | 4 (67 %) | 29,90 | 36,90 | 32,23 | 36,90 |
+| Bolt Food | Aquila | Aquila Tea Zelený Čaj Se Šťávou Z Citronu 1,5l |  | 6 | 0 (0 %) | 39,90 | 41,90 | 40,57 | 41,90 |
+| Wolt | Aquila | Aquila Tea Zelený čaj se šťávou z citronu 1,5l | 1,5 l | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Broskve 1,5L |  | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Broskve 1,5l |  | 6 | 0 (0 %) | 39,90 | 41,90 | 40,57 | 41,90 |
+| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Citronu 1,5L |  | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Bolt Food | Aquila | Aquila Tea Černý Čaj Se Šťávou Z Citronu 1,5l |  | 6 | 0 (0 %) | 39,90 | 41,90 | 40,57 | 41,90 |
+| Wolt | Aquila | Aquila Tea Černý čaj se šťávou z citronu 1,5l | 1,5 l | 6 | 0 (0 %) | 36,90 | 36,90 | 36,90 | 36,90 |
+| Bolt Food | Aquila | Aquila Zelený Čaj S Citronem 0,33 L Plech |  | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Aquila | Aquila Zelený čaj s jahodou | 1,5 l | 6 | 4 (67 %) | 29,90 | 36,90 | 32,23 | 36,90 |
+| Wolt | Aquila | Aquila kojenecká voda neperlivá | 1,5 l | 6 | 0 (0 %) | 11,90 | 17,90 | 14,90 | 11,90 |
+| Wolt | Aquila | Aquila kojenecká voda neperlivá | 750 ml | 6 | 0 (0 %) | 12,90 | 12,90 | 12,90 | 12,90 |
+| Wolt | Aquila | Aquila ledový čaj zelený citron | 1,5 l | 6 | 0 (0 %) | 23,90 | 29,90 | 28,90 | 29,90 |
+| Wolt | Aquila | Aquila ledový čaj černý broskev | 1,5 l | 6 | 0 (0 %) | 23,90 | 29,90 | 28,90 | 29,90 |
+| Wolt | Aquila | Aquila ledový čaj černý citron | 1,5 l | 6 | 0 (0 %) | 23,90 | 29,90 | 28,90 | 29,90 |
+| Rohlík | Aquila | Aquila neperlivá kojenecká voda (6x1,5l) | 9 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Bolt Food | Aquila | Aquila Černý Čaj S Broskví 0,33l Plech |  | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Aquila | Aquila Černý čaj s citronem | 1,5 l | 6 | 4 (67 %) | 29,90 | 36,90 | 32,23 | 36,90 |
+| Bolt Food | Dobrá voda | DOBRA VODA YES NEPER.MINER.VODA PRICH.MEL. 0,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | DOBRA VODA YESS NEPERL. S PRICH. MALINA 0,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | DOBRA VODA YESS NEPERL. S PRICH. POMERANC 0,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | DOBRA VODA YESS NEPERLIVA MINER. VODA 0,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobra Voda Yes Neper.Miner.Voda Prich.Jab. 0,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobra Voda Yes Neper.Miner.Voda Prich.Jah. 0,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 0,5l |  | 6 | 0 (0 %) | 17,90 | 19,90 | 18,57 | 19,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá 1,5l |  | 6 | 0 (0 %) | 18,90 | 19,90 | 19,23 | 19,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Citron 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Citron 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Lesní Jahoda 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Jemně Perlivá S Příchutí Pomeranče 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 0,5L |  | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 0,5l |  | 6 | 0 (0 %) | 17,90 | 19,90 | 18,57 | 19,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 1,5L |  | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 1,5l |  | 6 | 0 (0 %) | 18,90 | 19,90 | 19,23 | 19,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá 2L |  | 6 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Bílé Hrozny 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Bílé Hrozny 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 0,75L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 0,75l |  | 6 | 0 (0 %) | 21,90 | 23,90 | 22,57 | 23,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Jahoda 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 0,75L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 0,75l |  | 6 | 0 (0 %) | 21,90 | 23,90 | 22,57 | 23,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Dobrá voda | Dobrá Voda Neperlivá S Příchutí Malina 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Dobrá voda | Dobrá Voda Perlivá 1,5l |  | 6 | 0 (0 %) | 18,90 | 19,90 | 19,23 | 19,90 |
+| Wolt | Dobrá voda | Dobrá voda Jemně perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
 | Wolt | Dobrá voda | Dobrá voda Jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Košík | Dobrá voda | Dobrá voda Jemně perlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
-| Košík | Dobrá voda | Dobrá voda Jemně perlivá 8 x 0.5 L  | 4,0 l | 5 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
-| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí citron 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí lesní jahoda 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí pomeranče 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá 0,5l | 500 ml | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá 0,5l | 500 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Dobrá voda | Dobrá voda Jemně perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Košík | Dobrá voda | Dobrá voda Jemně perlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
+| Košík | Dobrá voda | Dobrá voda Jemně perlivá 8 x 0.5 L  | 4,0 l | 6 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
+| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí citron 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí lesní jahoda 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Jemně perlivá s příchutí pomeranče 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá 0,5l | 500 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá 0,5l | 500 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
 | Wolt | Dobrá voda | Dobrá voda Neperlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá 2l | 2 l | 5 | 0 (0 %) | 11,90 | 11,90 | 11,90 | 11,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá 2l | 2 l | 4 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
-| Košík | Dobrá voda | Dobrá voda Neperlivá 6x1,5l | 9,0 l | 5 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
-| Košík | Dobrá voda | Dobrá voda Neperlivá 6x2l | 12,0 l | 5 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
-| Košík | Dobrá voda | Dobrá voda Neperlivá 8 x 0.5 L | 4,0 l | 5 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
-| Košík | Dobrá voda | Dobrá voda Neperlivá Bílé hrozny 6 x 1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 129,90 | 121,90 | 129,90 |
-| Košík | Dobrá voda | Dobrá voda Neperlivá Malina 6 x 1.5 L | 9,0 l | 5 | 0 (0 %) | 119,90 | 129,90 | 121,90 | 129,90 |
-| Košík | Dobrá voda | Dobrá voda Neperlivá Mandarinka 6 x 1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 129,90 | 121,90 | 129,90 |
-| Rohlík | Dobrá voda | Dobrá voda Neperlivá bílé hrozny 6×1,5 l | 9 l | 5 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
-| Rohlík | Dobrá voda | Dobrá voda Neperlivá jahoda 6×1,5 l | 9 l | 5 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
-| Rohlík | Dobrá voda | Dobrá voda Neperlivá malina 6×1,5 l | 9 l | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí bezinka 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí bílé hrozny 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí bílé hrozny 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí hruška 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 0,75l | 750 ml | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 0,75l | 750 ml | 1 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Košík | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 6 x 1.5 L | 9,0 l | 5 | 0 (0 %) | 119,90 | 129,90 | 121,90 | 129,90 |
-| Bolt Food | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda a malina 1,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda a malina 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 0,75l | 750 ml | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 0,75l | 750 ml | 1 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí mandarinka 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Rohlík | Dobrá voda | Dobrá voda Přírodní neperlivá (6×2 l) | 12 l | 5 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
-| Wolt | Dobrá voda | Dobrá voda YESs s příchutí jablko neperlivá 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda YESs s příchutí jahoda neperlivá 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda YESs s příchutí meloun neperlivá 0,5l | 500 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Dobrá voda | Dobrá voda YESs s příchutí meloun neperlivá 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Dobrá voda | Dobrá voda Yess jahoda | 500 ml | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Dobrá voda | Dobrá voda minerální bílé hrozny, neperlivá | 1,5 l | 5 | 0 (0 %) | 13,90 | 20,90 | 16,70 | 20,90 |
-| Wolt | Dobrá voda | Dobrá voda minerální jahoda, neperlivá | 1,5 l | 5 | 0 (0 %) | 13,90 | 20,90 | 16,70 | 20,90 |
-| Wolt | Dobrá voda | Dobrá voda minerální lesní jahoda,jem.perlivá | 1,5 l | 5 | 0 (0 %) | 13,90 | 20,90 | 16,70 | 20,90 |
-| Wolt | Dobrá voda | Dobrá voda minerální malina, neperlivá | 1,5 l | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Bolt Food | Hanácká kyselka | HANACKA KYSELKA PRIRODNI MINERA. VODA SYCE. 1,5 L |  | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Hanácká kyselka | HANACKA KYSELKA RELAXACE PRICH. B&L&M 0,7 L |  | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Hanácká kyselka | Hanácká Kyselka Funkční ochucená minerální voda pro paměť jemně perlivá 0,7l | 700 ml | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Košík | Hanácká kyselka | Hanácká Kyselka Minerální voda citron 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Hanácká kyselka | Hanácká Kyselka Minerální voda grep 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Košík | Hanácká kyselka | Hanácká Kyselka Minerální voda pomeranč 6x1,5l | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Wolt | Hanácká kyselka | Hanácká Kyselka Ochucená minerální voda s obsahem kolagenu jemně perlivá 0,7l | 700 ml | 4 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
-| Wolt | Hanácká kyselka | Hanácká Kyselka Přírodní jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá 2l | 2 l | 6 | 0 (0 %) | 11,90 | 11,90 | 11,90 | 11,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá 2l | 2 l | 5 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
+| Košík | Dobrá voda | Dobrá voda Neperlivá 6x1,5l | 9,0 l | 6 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
+| Košík | Dobrá voda | Dobrá voda Neperlivá 6x2l | 12,0 l | 6 | 0 (0 %) | 99,90 | 99,90 | 99,90 | 99,90 |
+| Košík | Dobrá voda | Dobrá voda Neperlivá 8 x 0.5 L | 4,0 l | 6 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
+| Košík | Dobrá voda | Dobrá voda Neperlivá Bílé hrozny 6 x 1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 129,90 | 123,23 | 129,90 |
+| Košík | Dobrá voda | Dobrá voda Neperlivá Malina 6 x 1.5 L | 9,0 l | 6 | 0 (0 %) | 119,90 | 129,90 | 123,23 | 129,90 |
+| Košík | Dobrá voda | Dobrá voda Neperlivá Mandarinka 6 x 1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 129,90 | 123,23 | 129,90 |
+| Rohlík | Dobrá voda | Dobrá voda Neperlivá bílé hrozny 6×1,5 l | 9 l | 6 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
+| Rohlík | Dobrá voda | Dobrá voda Neperlivá jahoda 6×1,5 l | 9 l | 6 | 0 (0 %) | 129,90 | 129,90 | 129,90 | 129,90 |
+| Rohlík | Dobrá voda | Dobrá voda Neperlivá malina 6×1,5 l | 9 l | 6 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí bezinka 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí bílé hrozny 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí bílé hrozny 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí hruška 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 0,75l | 750 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 0,75l | 750 ml | 2 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Košík | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda 6 x 1.5 L | 9,0 l | 6 | 0 (0 %) | 119,90 | 129,90 | 123,23 | 129,90 |
+| Bolt Food | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda a malina 1,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí jahoda a malina 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 0,75l | 750 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 0,75l | 750 ml | 2 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí malina 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Wolt | Dobrá voda | Dobrá voda Neperlivá s příchutí mandarinka 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Rohlík | Dobrá voda | Dobrá voda Přírodní neperlivá (6×2 l) | 12 l | 6 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
+| Wolt | Dobrá voda | Dobrá voda YESs s příchutí jablko neperlivá 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda YESs s příchutí jahoda neperlivá 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda YESs s příchutí meloun neperlivá 0,5l | 500 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Dobrá voda | Dobrá voda YESs s příchutí meloun neperlivá 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Dobrá voda | Dobrá voda Yess jahoda | 500 ml | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Dobrá voda | Dobrá voda minerální bílé hrozny, neperlivá | 1,5 l | 6 | 0 (0 %) | 13,90 | 20,90 | 17,40 | 20,90 |
+| Wolt | Dobrá voda | Dobrá voda minerální jahoda, neperlivá | 1,5 l | 6 | 0 (0 %) | 13,90 | 20,90 | 17,40 | 20,90 |
+| Wolt | Dobrá voda | Dobrá voda minerální lesní jahoda,jem.perlivá | 1,5 l | 6 | 0 (0 %) | 13,90 | 20,90 | 17,40 | 20,90 |
+| Wolt | Dobrá voda | Dobrá voda minerální malina, neperlivá | 1,5 l | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Bolt Food | Hanácká kyselka | HANACKA KYSELKA PRIRODNI MINERA. VODA SYCE. 1,5 L |  | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Hanácká kyselka | HANACKA KYSELKA RELAXACE PRICH. B&L&M 0,7 L |  | 6 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Hanácká kyselka | Hanácká Kyselka Funkční ochucená minerální voda pro paměť jemně perlivá 0,7l | 700 ml | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Košík | Hanácká kyselka | Hanácká Kyselka Minerální voda citron 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Košík | Hanácká kyselka | Hanácká Kyselka Minerální voda grep 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Košík | Hanácká kyselka | Hanácká Kyselka Minerální voda pomeranč 6x1,5l | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Wolt | Hanácká kyselka | Hanácká Kyselka Ochucená minerální voda s obsahem kolagenu jemně perlivá 0,7l | 700 ml | 5 | 0 (0 %) | 27,90 | 27,90 | 27,90 | 27,90 |
+| Wolt | Hanácká kyselka | Hanácká Kyselka Přírodní jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
 | Wolt | Hanácká kyselka | Hanácká Kyselka minerální Paměť, jemně perlivá | 700 ml | 4 | 4 (100 %) | 17,90 | 17,90 | 17,90 | 24,90 |
-| Wolt | Hanácká kyselka | Hanácká Kyselka minerální citron, jemně perlivá | 1,5 l | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Hanácká kyselka | Hanácká Kyselka relax | 700 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Hanácká kyselka | Hanácká Kyselka minerální citron, jemně perlivá | 1,5 l | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Hanácká kyselka | Hanácká Kyselka relax | 700 ml | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
 | Wolt | Magnesia | MAGNESIA PLUS BOOST MANDARINKA, LIMETKA, ZÁZVOR 0,7l PET | 700 ml | 3 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Wolt | Magnesia | MAGNESIA RED MALINA 0,33l PLECH |  | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Magnesia | MAGNESIA RED S PRICH. CERVENE. POM. SYC. 0,33 L |  | 5 | 0 (0 %) | 23,90 | 24,90 | 24,10 | 24,90 |
-| Bolt Food | Magnesia | MAGNESIA RED S PRICH. CERVENEHO POMERA. JP 1,5 L |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Magnesia | MAGNESIA RED S PRICHUTI MALINY SYCENA 0,33 L |  | 5 | 0 (0 %) | 23,90 | 24,90 | 24,10 | 24,90 |
-| Wolt | Magnesia | MAGNESIA RED ČERVENÝ POMERANČ 0,33l PLECH |  | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Magnesia | Magnesia + Boost Mineralni Voda J. Perliva 0,7 L |  | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | Magnesia | Magnesia Extra | 700 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Bolt Food | Magnesia | Magnesia Extra 0,7L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Magnesia | Magnesia Extra 0,7l |  | 5 | 0 (0 %) | 48,90 | 49,90 | 49,10 | 49,90 |
-| Wolt | Magnesia | Magnesia Extra 0,7l | 700 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Magnesia | Magnesia Extra 0,7l | 700 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Rohlík | Magnesia | Magnesia Extra minerální voda | 0,7 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Magnesia | Magnesia GO | 0,75 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Magnesia | Magnesia GO 6x750ml | 4,5 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Bolt Food | Magnesia | Magnesia Go Přírodní Minerální Voda Neperlivá 0,75l |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Wolt | Magnesia | Magnesia Go minerální voda neperlivá | 750 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Magnesia | Magnesia Go přírodní minerální voda neperlivá 0,75l | 750 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Magnesia | Magnesia Go přírodní minerální voda neperlivá 0,75l | 750 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 0,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 0,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Rohlík | Magnesia | Magnesia Jemně perlivá 12×0,5 l | 6 l | 5 | 0 (0 %) | 241,90 | 241,90 | 241,90 | 241,90 |
-| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Magnesia | MAGNESIA RED MALINA 0,33l PLECH |  | 5 | 0 (0 %) | 23,90 | 24,90 | 24,10 | 24,90 |
+| Bolt Food | Magnesia | MAGNESIA RED S PRICH. CERVENE. POM. SYC. 0,33 L |  | 6 | 0 (0 %) | 23,90 | 24,90 | 24,23 | 24,90 |
+| Bolt Food | Magnesia | MAGNESIA RED S PRICH. CERVENEHO POMERA. JP 1,5 L |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Magnesia | MAGNESIA RED S PRICHUTI MALINY SYCENA 0,33 L |  | 6 | 0 (0 %) | 23,90 | 24,90 | 24,23 | 24,90 |
+| Wolt | Magnesia | MAGNESIA RED ČERVENÝ POMERANČ 0,33l PLECH |  | 5 | 0 (0 %) | 23,90 | 24,90 | 24,10 | 24,90 |
+| Bolt Food | Magnesia | Magnesia + Boost Mineralni Voda J. Perliva 0,7 L |  | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Wolt | Magnesia | Magnesia Extra | 700 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Bolt Food | Magnesia | Magnesia Extra 0,7L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Magnesia | Magnesia Extra 0,7l |  | 6 | 0 (0 %) | 48,90 | 49,90 | 49,23 | 49,90 |
+| Wolt | Magnesia | Magnesia Extra 0,7l | 700 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Magnesia | Magnesia Extra 0,7l | 700 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Rohlík | Magnesia | Magnesia Extra minerální voda | 0,7 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Magnesia | Magnesia GO | 0,75 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Magnesia | Magnesia GO 6x750ml | 4,5 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Bolt Food | Magnesia | Magnesia Go Přírodní Minerální Voda Neperlivá 0,75l |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Wolt | Magnesia | Magnesia Go minerální voda neperlivá | 750 ml | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Magnesia | Magnesia Go přírodní minerální voda neperlivá 0,75l | 750 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Magnesia | Magnesia Go přírodní minerální voda neperlivá 0,75l | 750 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 0,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 0,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Magnesia | Magnesia Jemně Perlivá Přírodní Minerální Voda 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Rohlík | Magnesia | Magnesia Jemně perlivá 12×0,5 l | 6 l | 6 | 0 (0 %) | 241,90 | 241,90 | 241,90 | 241,90 |
+| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
 | Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 0,5l | 500 ml | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 19,90 | 16,15 | 14,90 |
-| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Rohlík | Magnesia | Magnesia Minerální voda jemně perlivá (6×1,5l) | 9 l | 5 | 0 (0 %) | 112,95 | 112,95 | 112,95 | 112,95 |
-| Rohlík | Magnesia | Magnesia Minerální voda neperlivá (6×1,5l) | 9 l | 5 | 0 (0 %) | 112,95 | 112,95 | 112,95 | 112,95 |
-| Rohlík | Magnesia | Magnesia Neperlivá 12×0,5 l | 6 l | 5 | 0 (0 %) | 299,90 | 299,90 | 299,90 | 299,90 |
-| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 0,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 0,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 0,5l | 500 ml | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 19,90 | 16,15 | 14,90 |
-| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Bolt Food | Magnesia | Magnesia Perlivá Přírodní Minerální Voda 0,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Magnesia | Magnesia Perlivá Přírodní Minerální Voda 1,5L |  | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Magnesia | Magnesia Perlivá Přírodní Minerální Voda 1,5l |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Wolt | Magnesia | Magnesia Perlivá přírodní minerální voda 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Magnesia | Magnesia Perlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 19,90 | 16,15 | 14,90 |
-| Wolt | Magnesia | Magnesia Perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
-| Bolt Food | Magnesia | Magnesia Plus Antistress Mango Meduňka 0,7l |  | 5 | 0 (0 %) | 43,90 | 44,90 | 44,10 | 44,90 |
-| Rohlík | Magnesia | Magnesia Plus Antistress mango a meduňka | 0,7 l | 5 | 5 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
-| Košík | Magnesia | Magnesia Plus Antistress mango, meduňka | 700,0 ml | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Magnesia | Magnesia Plus Boost Mandarinka, Limetka, Zázvor 0,7l Pet |  | 5 | 0 (0 %) | 43,90 | 44,90 | 44,10 | 44,90 |
-| Košík | Magnesia | Magnesia Plus Boost mandarinka, limetka, zázvor | 700,0 ml | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Rohlík | Magnesia | Magnesia Plus Boost mandarinka, limetka, zázvor | 0,7 l | 5 | 5 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
-| Bolt Food | Magnesia | Magnesia Plus Focus Meruňka Marakuja Ženšen 0,7l |  | 5 | 0 (0 %) | 43,90 | 44,90 | 44,10 | 44,90 |
-| Rohlík | Magnesia | Magnesia Plus Focus meruňka, marakuja a ženšen | 0,7 l | 5 | 5 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
-| Košík | Magnesia | Magnesia Plus Focus meruňka, marakuja, ženšen | 700,0 ml | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Magnesia | Magnesia Plus Revital Hroznové Víno, Aloe Vera 0,7l Pet |  | 5 | 0 (0 %) | 43,90 | 44,90 | 44,10 | 44,90 |
-| Košík | Magnesia | Magnesia Plus Revital hroznové víno, aloe vera | 700,0 ml | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Rohlík | Magnesia | Magnesia Plus Revital hroznové víno, aloe vera | 0,7 l | 5 | 5 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
-| Bolt Food | Magnesia | Magnesia Plus antistress mango meduňka 0,7l |  | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | Magnesia | Magnesia Plus antistress mango meduňka 0,7l | 700 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Magnesia | Magnesia Plus antistress mango meduňka 0,7l | 700 ml | 4 | 0 (0 %) | 24,90 | 39,90 | 36,15 | 39,90 |
-| Wolt | Magnesia | Magnesia Plus antistress mango meduňka 0,7l | 700 ml | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Wolt | Magnesia | Magnesia Plus boost mandarinka limetka zázvor 0,7 l | 700 ml | 5 | 0 (0 %) | 24,90 | 34,90 | 32,90 | 34,90 |
-| Wolt | Magnesia | Magnesia Plus boost mandarinka limetka zázvor 0,7 l | 700 ml | 4 | 0 (0 %) | 24,90 | 39,90 | 36,15 | 39,90 |
-| Bolt Food | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l |  | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l | 700 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l | 700 ml | 4 | 0 (0 %) | 24,90 | 39,90 | 36,15 | 39,90 |
-| Wolt | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l | 700 ml | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Wolt | Magnesia | Magnesia Plus revital hroznové víno aloe vera 0,7l | 700 ml | 4 | 0 (0 %) | 24,90 | 39,90 | 36,15 | 39,90 |
-| Košík | Magnesia | Magnesia Přírodní jemně perlivá | 500,0 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Magnesia | Magnesia Přírodní jemně perlivá multipack, 6x1,5l | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Košík | Magnesia | Magnesia Přírodní neperlivá multipack, 6x1,5l | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Košík | Magnesia | Magnesia Přírodní perlivá multipack, 6x1,5l | 9,0 l | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Košík | Magnesia | Magnesia RED Brusinka | 1,5 l | 5 | 2 (40 %) | 19,90 | 24,90 | 22,90 | 24,90 |
-| Košík | Magnesia | Magnesia RED Granátové jablko | 1,5 l | 5 | 2 (40 %) | 19,90 | 24,90 | 22,90 | 24,90 |
-| Košík | Magnesia | Magnesia RED jahoda | 1,5 l | 5 | 2 (40 %) | 19,90 | 24,90 | 22,90 | 24,90 |
-| Košík | Magnesia | Magnesia RED malina | 1,5 l | 5 | 2 (40 %) | 19,90 | 24,90 | 22,90 | 24,90 |
-| Rohlík | Magnesia | Magnesia Red Brusinka jemně perlivá | 1,5 l | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Magnesia | Magnesia Red Granátové jablko jemně perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Magnesia | Magnesia Red Jahoda Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Magnesia | Magnesia Red Jahoda Jemně Perlivá 1,5l |  | 5 | 0 (0 %) | 29,90 | 32,90 | 30,50 | 32,90 |
-| Rohlík | Magnesia | Magnesia Red Jahoda jemně perlivá | 1,5 l | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Magnesia | Magnesia Red Jahoda jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Wolt | Magnesia | Magnesia Red Jahoda jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Magnesia | Magnesia Red Malina 0,33L Plech |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Magnesia | Magnesia Red Malina 0,5l Pet |  | 5 | 0 (0 %) | 29,90 | 32,90 | 30,50 | 32,90 |
+| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 19,90 | 16,90 | 19,90 |
+| Wolt | Magnesia | Magnesia Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Rohlík | Magnesia | Magnesia Minerální voda jemně perlivá (6×1,5l) | 9 l | 6 | 0 (0 %) | 112,95 | 114,90 | 113,28 | 114,90 |
+| Rohlík | Magnesia | Magnesia Minerální voda neperlivá (6×1,5l) | 9 l | 6 | 0 (0 %) | 112,95 | 114,90 | 113,28 | 114,90 |
+| Rohlík | Magnesia | Magnesia Neperlivá 12×0,5 l | 6 l | 6 | 0 (0 %) | 299,90 | 299,90 | 299,90 | 299,90 |
+| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 0,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 0,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Magnesia | Magnesia Neperlivá Přírodní Minerální Voda 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 0,5l | 500 ml | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 19,90 | 16,90 | 19,90 |
+| Wolt | Magnesia | Magnesia Neperlivá přírodní minerální voda 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Bolt Food | Magnesia | Magnesia Perlivá Přírodní Minerální Voda 0,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Magnesia | Magnesia Perlivá Přírodní Minerální Voda 1,5L |  | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Magnesia | Magnesia Perlivá Přírodní Minerální Voda 1,5l |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Wolt | Magnesia | Magnesia Perlivá přírodní minerální voda 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Magnesia | Magnesia Perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 19,90 | 16,90 | 19,90 |
+| Wolt | Magnesia | Magnesia Perlivá přírodní minerální voda 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 21,90 | 21,90 | 21,90 |
+| Bolt Food | Magnesia | Magnesia Plus Antistress Mango Meduňka 0,7l |  | 6 | 0 (0 %) | 43,90 | 44,90 | 44,23 | 44,90 |
+| Rohlík | Magnesia | Magnesia Plus Antistress mango a meduňka | 0,7 l | 6 | 6 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
+| Košík | Magnesia | Magnesia Plus Antistress mango, meduňka | 700,0 ml | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Magnesia | Magnesia Plus Boost Mandarinka, Limetka, Zázvor 0,7l Pet |  | 6 | 0 (0 %) | 43,90 | 44,90 | 44,23 | 44,90 |
+| Košík | Magnesia | Magnesia Plus Boost mandarinka, limetka, zázvor | 700,0 ml | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Rohlík | Magnesia | Magnesia Plus Boost mandarinka, limetka, zázvor | 0,7 l | 6 | 6 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
+| Bolt Food | Magnesia | Magnesia Plus Focus Meruňka Marakuja Ženšen 0,7l |  | 6 | 0 (0 %) | 43,90 | 44,90 | 44,23 | 44,90 |
+| Rohlík | Magnesia | Magnesia Plus Focus meruňka, marakuja a ženšen | 0,7 l | 6 | 6 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
+| Košík | Magnesia | Magnesia Plus Focus meruňka, marakuja, ženšen | 700,0 ml | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Magnesia | Magnesia Plus Revital Hroznové Víno, Aloe Vera 0,7l Pet |  | 6 | 0 (0 %) | 43,90 | 44,90 | 44,23 | 44,90 |
+| Košík | Magnesia | Magnesia Plus Revital hroznové víno, aloe vera | 700,0 ml | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Rohlík | Magnesia | Magnesia Plus Revital hroznové víno, aloe vera | 0,7 l | 6 | 6 (100 %) | 27,90 | 27,90 | 27,90 | 35,90 |
+| Bolt Food | Magnesia | Magnesia Plus antistress mango meduňka 0,7l |  | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Wolt | Magnesia | Magnesia Plus antistress mango meduňka 0,7l | 700 ml | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Wolt | Magnesia | Magnesia Plus antistress mango meduňka 0,7l | 700 ml | 5 | 0 (0 %) | 24,90 | 39,90 | 36,90 | 39,90 |
+| Wolt | Magnesia | Magnesia Plus antistress mango meduňka 0,7l | 700 ml | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Wolt | Magnesia | Magnesia Plus boost mandarinka limetka zázvor 0,7 l | 700 ml | 6 | 0 (0 %) | 24,90 | 34,90 | 33,23 | 34,90 |
+| Wolt | Magnesia | Magnesia Plus boost mandarinka limetka zázvor 0,7 l | 700 ml | 5 | 0 (0 %) | 24,90 | 39,90 | 36,90 | 39,90 |
+| Bolt Food | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l |  | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Wolt | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l | 700 ml | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Wolt | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l | 700 ml | 5 | 0 (0 %) | 24,90 | 39,90 | 36,90 | 39,90 |
+| Wolt | Magnesia | Magnesia Plus focus meruňka marakuja ženšen 0,7l | 700 ml | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Wolt | Magnesia | Magnesia Plus revital hroznové víno aloe vera 0,7l | 700 ml | 5 | 0 (0 %) | 24,90 | 39,90 | 36,90 | 39,90 |
+| Košík | Magnesia | Magnesia Přírodní jemně perlivá | 500,0 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Magnesia | Magnesia Přírodní jemně perlivá multipack, 6x1,5l | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Košík | Magnesia | Magnesia Přírodní neperlivá multipack, 6x1,5l | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Košík | Magnesia | Magnesia Přírodní perlivá multipack, 6x1,5l | 9,0 l | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Košík | Magnesia | Magnesia RED Brusinka | 1,5 l | 6 | 3 (50 %) | 19,90 | 24,90 | 22,40 | 24,90 |
+| Košík | Magnesia | Magnesia RED Granátové jablko | 1,5 l | 6 | 3 (50 %) | 19,90 | 24,90 | 22,40 | 24,90 |
+| Košík | Magnesia | Magnesia RED jahoda | 1,5 l | 6 | 3 (50 %) | 19,90 | 24,90 | 22,40 | 24,90 |
+| Košík | Magnesia | Magnesia RED malina | 1,5 l | 6 | 3 (50 %) | 19,90 | 24,90 | 22,40 | 24,90 |
+| Rohlík | Magnesia | Magnesia Red Brusinka jemně perlivá | 1,5 l | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Magnesia | Magnesia Red Granátové jablko jemně perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Magnesia | Magnesia Red Jahoda Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Magnesia | Magnesia Red Jahoda Jemně Perlivá 1,5l |  | 6 | 0 (0 %) | 29,90 | 32,90 | 30,90 | 32,90 |
+| Rohlík | Magnesia | Magnesia Red Jahoda jemně perlivá | 1,5 l | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Magnesia | Magnesia Red Jahoda jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Magnesia | Magnesia Red Jahoda jemně perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Magnesia | Magnesia Red Malina 0,33L Plech |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Magnesia | Magnesia Red Malina 0,5l Pet |  | 6 | 0 (0 %) | 29,90 | 32,90 | 30,90 | 32,90 |
 | Rohlík | Magnesia | Magnesia Red Malina 4×0,33l plech | 1,32 l | 4 | 4 (100 %) | 79,90 | 79,90 | 79,90 | 89,90 |
-| Bolt Food | Magnesia | Magnesia Red Malina Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Magnesia | Magnesia Red Malina Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Magnesia | Magnesia Red Malina Jemně Perlivá 1,5l |  | 5 | 0 (0 %) | 29,90 | 32,90 | 30,50 | 32,90 |
-| Rohlík | Magnesia | Magnesia Red Malina jemně perlivá | 1,5 l | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 19,90 | 26,90 | 21,65 | 19,90 |
-| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Magnesia | Magnesia Red granátové Jablko Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Magnesia | Magnesia Red Červený Pomeranč 0,33L Plech |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Rohlík | Magnesia | Magnesia Red Červený pomeranč 4×0,33l plech | 1,32 l | 5 | 5 (100 %) | 79,90 | 79,90 | 79,90 | 89,90 |
-| Rohlík | Magnesia | Magnesia Red Červený pomeranč jemně perlivá | 1,5 l | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Magnesia | Magnesia go Přírodní Minerální Voda Neperlivá 0,75L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Magnesia | Magnesia minerální Plus Antistress, mango,meduňka | 700 ml | 5 | 0 (0 %) | 24,90 | 34,90 | 32,90 | 34,90 |
-| Wolt | Magnesia | Magnesia minerální Plus Focus, meruňka a marakuja | 700 ml | 5 | 0 (0 %) | 24,90 | 34,90 | 32,90 | 34,90 |
-| Wolt | Magnesia | Magnesia minerální Red brusinka, jemně perlivá | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 24,90 |
-| Wolt | Magnesia | Magnesia minerální Red jahoda, jemně perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Magnesia | Magnesia minerální Red malina, jemně perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Magnesia | Magnesia minerální Red červ.pomeranč, jemn.perl. | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 24,90 |
-| Wolt | Magnesia | Magnesia minerální voda jemně perlivá | 500 ml | 5 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
-| Wolt | Magnesia | Magnesia minerální voda jemně perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Magnesia | Magnesia minerální voda neperlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Magnesia | Magnesia minerální voda perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Rohlík | Magnesia | Magnesia minerální voda perlivá (6x1,5l) | 9 l | 5 | 0 (0 %) | 112,95 | 112,95 | 112,95 | 112,95 |
-| Bolt Food | Magnesia | Magnesia+ Revit. Mineralni Voda J. Perliva 0,7 L |  | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Wolt | Mattoni | MATTONI  G&TONIK 0,33l PLECH |  | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Wolt | Mattoni | MATTONI BÍLÉ HROZNY 1,5l | 1,5 l | 4 | 4 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Wolt | Mattoni | MATTONI DAIQUIRI JAHODA 0,33l PLECH |  | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Magnesia | Magnesia Red Malina Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Magnesia | Magnesia Red Malina Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Magnesia | Magnesia Red Malina Jemně Perlivá 1,5l |  | 6 | 0 (0 %) | 29,90 | 32,90 | 30,90 | 32,90 |
+| Rohlík | Magnesia | Magnesia Red Malina jemně perlivá | 1,5 l | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 26,90 | 21,30 | 19,90 |
+| Wolt | Magnesia | Magnesia Red Malina jemně perlivá 1,5l | 1,5 l | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Magnesia | Magnesia Red granátové Jablko Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Magnesia | Magnesia Red Červený Pomeranč 0,33L Plech |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Rohlík | Magnesia | Magnesia Red Červený pomeranč 4×0,33l plech | 1,32 l | 6 | 6 (100 %) | 79,90 | 79,90 | 79,90 | 89,90 |
+| Rohlík | Magnesia | Magnesia Red Červený pomeranč jemně perlivá | 1,5 l | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Magnesia | Magnesia go Přírodní Minerální Voda Neperlivá 0,75L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Magnesia | Magnesia minerální Plus Antistress, mango,meduňka | 700 ml | 6 | 0 (0 %) | 24,90 | 34,90 | 33,23 | 34,90 |
+| Wolt | Magnesia | Magnesia minerální Plus Focus, meruňka a marakuja | 700 ml | 6 | 0 (0 %) | 24,90 | 34,90 | 33,23 | 34,90 |
+| Wolt | Magnesia | Magnesia minerální Red brusinka, jemně perlivá | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 24,90 |
+| Wolt | Magnesia | Magnesia minerální Red jahoda, jemně perlivá | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Magnesia | Magnesia minerální Red malina, jemně perlivá | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Magnesia | Magnesia minerální Red červ.pomeranč, jemn.perl. | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 24,90 |
+| Wolt | Magnesia | Magnesia minerální voda jemně perlivá | 500 ml | 6 | 0 (0 %) | 15,90 | 15,90 | 15,90 | 15,90 |
+| Wolt | Magnesia | Magnesia minerální voda jemně perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Magnesia | Magnesia minerální voda neperlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Magnesia | Magnesia minerální voda perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Rohlík | Magnesia | Magnesia minerální voda perlivá (6x1,5l) | 9 l | 6 | 0 (0 %) | 112,95 | 114,90 | 113,28 | 114,90 |
+| Bolt Food | Magnesia | Magnesia+ Revit. Mineralni Voda J. Perliva 0,7 L |  | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Wolt | Mattoni | MATTONI  G&TONIK 0,33l PLECH |  | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Wolt | Mattoni | MATTONI BÍLÉ HROZNY 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
 | Wolt | Mattoni | MATTONI DAIQUIRI JAHODA 0,33l PLECH |  | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Wolt | Mattoni | MATTONI ESENCE JABLKA A MÁTY 0,75l PET | 750 ml | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Bolt Food | Mattoni | MATTONI ESENCE JEM.PER.S PRICH. MANGA 0,75 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | MATTONI IMUNO HRUŠKA&MARAKUJA&ZÁZVOR 0,7l PET |  | 4 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Mattoni | MATTONI IMUNO HRUŠKA&MARAKUJA&ZÁZVOR 0,7l PET |  | 1 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Bolt Food | Mattoni | MATTONI IMUNO S PRICH. HRU. MAR. ZAZVOR 0,7 L |  | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Mattoni | MATTONI MANGO ALPHONSO 0,5l PET |  | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | MATTONI MANGO ALPHONSO 1,5l PET |  | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Mattoni | MATTONI DAIQUIRI JAHODA 0,33l PLECH |  | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Wolt | Mattoni | MATTONI ESENCE JABLKA A MÁTY 0,75l PET | 750 ml | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Bolt Food | Mattoni | MATTONI ESENCE JEM.PER.S PRICH. MANGA 0,75 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | MATTONI IMUNO HRUŠKA&MARAKUJA&ZÁZVOR 0,7l PET |  | 5 | 0 (0 %) | 19,90 | 34,90 | 31,90 | 19,90 |
+| Wolt | Mattoni | MATTONI IMUNO HRUŠKA&MARAKUJA&ZÁZVOR 0,7l PET |  | 2 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Bolt Food | Mattoni | MATTONI IMUNO S PRICH. HRU. MAR. ZAZVOR 0,7 L |  | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Wolt | Mattoni | MATTONI MANGO ALPHONSO 0,5l PET |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | MATTONI MANGO ALPHONSO 1,5l PET |  | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
 | Wolt | Mattoni | MATTONI MANGO ALPHONSO 1,5l PET |  | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Bolt Food | Mattoni | MATTONI MINERAL. VODA S PRICHUTI MANGA ALP. 0,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | MATTONI NEALKO DAIQUIRI JAHODA 0,33 L |  | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Mattoni | MATTONI NEALKO G&T 0,33 L |  | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Mattoni | MATTONI NEALKO MOJITO 0,33 L |  | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Bolt Food | Mattoni | MATTONI S PRICH. MANGA ALPHONSO SYCENA 1,5 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni  G&Tonik 0,33L Plech |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Black S Příchutí Černých Plodů Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Košík | Mattoni | Mattoni Black s příchutí černých plodů | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni | Mattoni Black s příchutí černých plodů jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Bolt Food | Mattoni | Mattoni Broskev Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Broskev perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Bolt Food | Mattoni | Mattoni Bílé Hrozny 0,5l Pet |  | 5 | 0 (0 %) | 24,90 | 26,90 | 25,30 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Bílé Hrozny Perlivá 0,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Bílé Hrozny Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Bílé Hrozny Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Wolt | Mattoni | Mattoni Bílé hrozny perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Bílé hrozny perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Košík | Mattoni | Mattoni Cedrata | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Mattoni | Mattoni Cedrata 0,5l Pet |  | 5 | 0 (0 %) | 24,90 | 26,90 | 25,30 | 26,90 |
-| Košík | Mattoni | Mattoni Cedrata Jemně perlivá s příchutí citrusů 4x500ml, plech | 2,0 l | 5 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
-| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Jemně Perlivá 0,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Cedrata perlivá s příchutí citrusů 0,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Cedrata perlivá s příchutí citrusů 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Cedrata s příchutí citrusů jemně perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Rohlík | Mattoni | Mattoni Cedrata s příchutí citrusů perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni | Mattoni Cedrata s příchutí citrusů perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni Cedrata s příchutí citrusů perlivá 1,5l | 1,5 l | 4 | 4 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Bolt Food | Mattoni | Mattoni Citron 0,5l Pet |  | 5 | 0 (0 %) | 24,90 | 26,90 | 25,30 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Citron Perlivá 0,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Citron Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Citron Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Wolt | Mattoni | Mattoni Citron perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Citron perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni Citron perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Bolt Food | Mattoni | Mattoni Daiquiri Jahoda 0,33L Plech |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Wolt | Mattoni | Mattoni Esence Active s příchutí limeta, pomeranč | 700 ml | 5 | 4 (80 %) | 19,90 | 29,90 | 21,90 | 29,90 |
-| Wolt | Mattoni | Mattoni Esence Active s příchutí mango, marakuja | 700 ml | 5 | 4 (80 %) | 19,90 | 29,90 | 21,90 | 29,90 |
-| Bolt Food | Mattoni | Mattoni Esence Citronu Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Esence Citronu Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Esence Jablka A Máty 0,75l Pet |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Esence Je.Perl.S Prich. Jablk.Mata 0,75L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Esence Jemne Perliva S Prich.Cit.0,75 L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Rohlík | Mattoni | Mattoni Esence Mango | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Mattoni | Mattoni Esence Mango 0,75l Pet |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Esence Mango 1,5 L Pet |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Rohlík | Mattoni | Mattoni Esence Mango 6×0,75 l | 4,5 l | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Bolt Food | Mattoni | Mattoni Esence Pomeranče Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Esence Pomeranče Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Esence Yuzu A Okurky 1,5l Pet |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Wolt | Mattoni | Mattoni Esence citron jemně perlivá 0,75l | 750 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence citron jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence citron jemně perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Košík | Mattoni | Mattoni Esence citronu bez cukru | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni Esence citronu bez přidaného cukru a sladidel jemně perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni Esence citronu jemně perlivá (6x0,75l) | 4,5 l | 5 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
-| Košík | Mattoni | Mattoni Esence jablka a máty | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mattoni | Mattoni Esence jablka a máty | 750,0 ml | 5 | 0 (0 %) | 19,90 | 21,90 | 20,30 | 19,90 |
-| Rohlík | Mattoni | Mattoni Esence jablka a máty jemně perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni | Mattoni Esence jablko a máta jemně perlivá 0,75l | 750 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Esence jablko a máta jemně perlivá 1,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence jablko a máta jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence mango jemně perlivá 0,75l | 750 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence mango jemně perlivá 0,75l | 750 ml | 5 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
-| Wolt | Mattoni | Mattoni Esence mango jemně perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 21,90 |
-| Wolt | Mattoni | Mattoni Esence pomeranč jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence pomeranč jemně perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Košík | Mattoni | Mattoni Esence pomeranče bez cukru | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni Esence pomeranče bez přidaného cukru a sladidel jemně perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Mattoni | Mattoni Esence yuzu a okurka jemně perlivá 1,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence yuzu a okurka jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Esence yuzu a okurka jemně perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Košík | Mattoni | Mattoni Esence yuzu a okurky | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni Esence yuzu a okurky jemně perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni | Mattoni Grapefruit perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Hruška&Marakuja&Zázvor 0,7L Pet |  | 5 | 0 (0 %) | 44,90 | 45,90 | 45,10 | 45,90 |
-| Košík | Mattoni | Mattoni Imuno Jablko & Kiwi & Ananas | 700,0 ml | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Jablko Kiwi Ananas 0,7l Pet |  | 5 | 0 (0 %) | 44,90 | 45,90 | 45,10 | 45,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Jablko Kiwi Ananas Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Košík | Mattoni | Mattoni Imuno Jablko, kiwi a ananas 4x500ml, plech | 2,0 l | 5 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Jem.Per.S Prich. Mang. Pom. 0,7 L |  | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Jp S Prichu. Jablko Kiwi Anan. 0,7 L |  | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Mango Pomeranč 0,7l Pet |  | 5 | 0 (0 %) | 44,90 | 45,90 | 45,10 | 45,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Mango Pomeranč Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Mattoni | Mattoni Imuno Mango Pomeranč Jemně Perlivá 0,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Košík | Mattoni | Mattoni Imuno Mango a pomeranč 4x500ml, plech | 2,0 l | 5 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
-| Wolt | Mattoni | Mattoni Imuno hruška & maracuja & zázvor | 700 ml | 5 | 4 (80 %) | 19,90 | 29,90 | 21,90 | 29,90 |
-| Rohlík | Mattoni | Mattoni Imuno hruška, marakuja a zázvor | 0,7 l | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Rohlík | Mattoni | Mattoni Imuno jablko a kiwi a ananas | 0,7 l | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Wolt | Mattoni | Mattoni Imuno jablko kiwi ananas jemně perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Rohlík | Mattoni | Mattoni Imuno jablko, kiwi a ananas plech | 500 ml | 5 | 0 (0 %) | 22,90 | 23,90 | 23,10 | 23,90 |
-| Rohlík | Mattoni | Mattoni Imuno mango a pomeranč | 0,7 l | 5 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
-| Wolt | Mattoni | Mattoni Imuno mango pomeranč jemně perlivá 0,5l  | 500 ml | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Mattoni | Mattoni Imuno mango pomeranč jemně perlivá 0,5l  | 500 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Košík | Mattoni | Mattoni Imuno pomeranč & mango | 500,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Wolt | Mattoni | Mattoni Imuno s příchutí jablko kiwi ananas jemně perlivá 0,7l | 700 ml | 4 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Mattoni | Mattoni Imuno s příchutí jablko kiwi ananas jemně perlivá 0,7l | 700 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Mattoni | Mattoni Imuno s příchutí mango pomeranč jemně perlivá 0,7l | 700 ml | 4 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Wolt | Mattoni | Mattoni Imuno s příchutí mango pomeranč jemně perlivá 0,7l | 700 ml | 4 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
-| Bolt Food | Mattoni | Mattoni Jemně Perlivá 0,5l Pet |  | 5 | 0 (0 %) | 23,90 | 25,90 | 24,30 | 25,90 |
-| Bolt Food | Mattoni | Mattoni Jemně Perlivá Přírodní Minerální Voda 0,5L |  | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Bolt Food | Mattoni | Mattoni Jemně Perlivá Přírodní Minerální Voda 1,5L |  | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Bolt Food | Mattoni | Mattoni Jemně Perlivá Přírodní Minerální Voda 1,5l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Košík | Mattoni | Mattoni Jemně perlivá přírodní minerální voda | 500,0 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 0,5l | 500 ml | 4 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Wolt | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Wolt | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 5 (100 %) | 14,90 | 14,90 | 14,90 | 18,90 |
-| Košík | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 6x1,5l | 9,0 l | 5 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
-| Bolt Food | Mattoni | Mattoni Malina 1,5l Pet |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Malina Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Malina perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni Malina perlivá 1,5l | 1,5 l | 4 | 4 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Bolt Food | Mattoni | Mattoni Mango Alphonso 0,5L Pet |  | 5 | 0 (0 %) | 24,90 | 26,90 | 25,30 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Mango Alphonso 1,5L Pet |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Rohlík | Mattoni | Mattoni Minerální voda jemně perlivá sklo | 1 l | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Rohlík | Mattoni | Mattoni Minerální voda neperlivá sklo | 1 l | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Rohlík | Mattoni | Mattoni Minerální voda perlivá citron sklo | 1 l | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Rohlík | Mattoni | Mattoni Minerální voda perlivá pomeranč sklo | 1 l | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Rohlík | Mattoni | Mattoni Minerální voda perlivá sklo | 1 l | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Bolt Food | Mattoni | Mattoni Mojito 0,33L Plech |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Wolt | Mattoni | Mattoni Mojito nealko jemně perlivá 0,33l | 330 ml | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Wolt | Mattoni | Mattoni Mojito nealko jemně perlivá 0,33l | 330 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Košík | Mattoni | Mattoni Multi | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni Multi | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Mattoni | Mattoni Multi 0,5L Pet |  | 5 | 0 (0 %) | 24,90 | 26,90 | 25,30 | 26,90 |
-| Košík | Mattoni | Mattoni Multi Jemně perlivá s příchutí tropického ovoce 4x500ml, plech | 2,0 l | 5 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
-| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 0,5L |  | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
-| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 0,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Multi jemně perlivá s příchutí tropického ovoce 0,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Multi jemně perlivá s příchutí tropického ovoce 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Rohlík | Mattoni | Mattoni Multi plech | 500 ml | 5 | 0 (0 %) | 22,90 | 23,90 | 23,10 | 23,90 |
-| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Košík | Mattoni | Mattoni Neperlivá | 500,0 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Mattoni | Mattoni Neperlivá 0,75L |  | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Bolt Food | Mattoni | Mattoni Neperlivá 0,75l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Wolt | Mattoni | Mattoni Neperlivá 0,75l | 750 ml | 4 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Mattoni | Mattoni Neperlivá 0,75l | 750 ml | 3 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Bolt Food | Mattoni | Mattoni Neperlivá Přírodní Minerální Voda 1,5L |  | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Bolt Food | Mattoni | Mattoni Neperlivá Přírodní Minerální Voda 1,5l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Wolt | Mattoni | Mattoni Neperlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Wolt | Mattoni | Mattoni Neperlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 4 (100 %) | 14,90 | 14,90 | 14,90 | 18,90 |
-| Košík | Mattoni | Mattoni Neperlivá přírodní minerální voda 6x1,5l | 9,0 l | 5 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
-| Košík | Mattoni | Mattoni Neperlivá sklo | 1,0 l | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Bolt Food | Mattoni | Mattoni Perlivá 0,5L Pet |  | 5 | 0 (0 %) | 23,90 | 25,90 | 24,30 | 25,90 |
-| Bolt Food | Mattoni | Mattoni Perlivá Přírodní Minerální Voda 1,5L |  | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Bolt Food | Mattoni | Mattoni Perlivá Přírodní Minerální Voda 1,5l |  | 5 | 0 (0 %) | 22,90 | 24,90 | 23,30 | 24,90 |
-| Košík | Mattoni | Mattoni Perlivá minerální voda s příchutí broskve | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mattoni | Mattoni Perlivá minerální voda s příchutí grapefruitu | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mattoni | Mattoni Perlivá přírodní minerální voda | 500,0 ml | 5 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
-| Bolt Food | Mattoni | Mattoni Perlivá přírodní minerální voda 0,5l |  | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Wolt | Mattoni | Mattoni Perlivá přírodní minerální voda 0,5l | 500 ml | 4 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Bolt Food | Mattoni | MATTONI MINERAL. VODA S PRICHUTI MANGA ALP. 0,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | MATTONI NEALKO DAIQUIRI JAHODA 0,33 L |  | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Mattoni | MATTONI NEALKO G&T 0,33 L |  | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Mattoni | MATTONI NEALKO MOJITO 0,33 L |  | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Bolt Food | Mattoni | MATTONI S PRICH. MANGA ALPHONSO SYCENA 1,5 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni  G&Tonik 0,33L Plech |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Black S Příchutí Černých Plodů Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Košík | Mattoni | Mattoni Black s příchutí černých plodů | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Mattoni | Mattoni Black s příchutí černých plodů jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Broskev Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Broskev perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Bílé Hrozny 0,5l Pet |  | 6 | 0 (0 %) | 24,90 | 26,90 | 25,57 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Bílé Hrozny Perlivá 0,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Bílé Hrozny Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Bílé Hrozny Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Wolt | Mattoni | Mattoni Bílé hrozny perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Bílé hrozny perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Košík | Mattoni | Mattoni Cedrata | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Mattoni | Mattoni Cedrata 0,5l Pet |  | 6 | 0 (0 %) | 24,90 | 26,90 | 25,57 | 26,90 |
+| Košík | Mattoni | Mattoni Cedrata Jemně perlivá s příchutí citrusů 4x500ml, plech | 2,0 l | 6 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
+| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Jemně Perlivá 0,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Cedrata S Příchutí Citrusů Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Cedrata perlivá s příchutí citrusů 0,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Cedrata perlivá s příchutí citrusů 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Cedrata s příchutí citrusů jemně perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 24,90 | 25,90 | 25,10 | 25,90 |
+| Rohlík | Mattoni | Mattoni Cedrata s příchutí citrusů perlivá | 1,5 l | 6 | 1 (17 %) | 16,90 | 19,90 | 19,40 | 19,90 |
+| Wolt | Mattoni | Mattoni Cedrata s příchutí citrusů perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Wolt | Mattoni | Mattoni Cedrata s příchutí citrusů perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Bolt Food | Mattoni | Mattoni Citron 0,5l Pet |  | 6 | 0 (0 %) | 24,90 | 26,90 | 25,57 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Citron Perlivá 0,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Citron Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Citron Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Wolt | Mattoni | Mattoni Citron perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Citron perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Wolt | Mattoni | Mattoni Citron perlivá 1,5l | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Bolt Food | Mattoni | Mattoni Daiquiri Jahoda 0,33L Plech |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Wolt | Mattoni | Mattoni Esence Active s příchutí limeta, pomeranč | 700 ml | 6 | 4 (67 %) | 19,90 | 29,90 | 23,23 | 29,90 |
+| Wolt | Mattoni | Mattoni Esence Active s příchutí mango, marakuja | 700 ml | 6 | 4 (67 %) | 19,90 | 29,90 | 23,23 | 29,90 |
+| Bolt Food | Mattoni | Mattoni Esence Citronu Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Esence Citronu Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Esence Jablka A Máty 0,75l Pet |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Esence Je.Perl.S Prich. Jablk.Mata 0,75L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Esence Jemne Perliva S Prich.Cit.0,75 L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Rohlík | Mattoni | Mattoni Esence Mango | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Mattoni | Mattoni Esence Mango 0,75l Pet |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Esence Mango 1,5 L Pet |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Rohlík | Mattoni | Mattoni Esence Mango 6×0,75 l | 4,5 l | 6 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Bolt Food | Mattoni | Mattoni Esence Pomeranče Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Esence Pomeranče Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Esence Yuzu A Okurky 1,5l Pet |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Wolt | Mattoni | Mattoni Esence citron jemně perlivá 0,75l | 750 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Esence citron jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 20,18 | 14,90 |
+| Wolt | Mattoni | Mattoni Esence citron jemně perlivá 1,5l | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Košík | Mattoni | Mattoni Esence citronu bez cukru | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni | Mattoni Esence citronu bez přidaného cukru a sladidel jemně perlivá | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni | Mattoni Esence citronu jemně perlivá (6x0,75l) | 4,5 l | 6 | 0 (0 %) | 134,90 | 134,90 | 134,90 | 134,90 |
+| Košík | Mattoni | Mattoni Esence jablka a máty | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mattoni | Mattoni Esence jablka a máty | 750,0 ml | 6 | 0 (0 %) | 19,90 | 21,90 | 20,23 | 19,90 |
+| Rohlík | Mattoni | Mattoni Esence jablka a máty jemně perlivá | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Mattoni | Mattoni Esence jablko a máta jemně perlivá 0,75l | 750 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Esence jablko a máta jemně perlivá 1,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Esence jablko a máta jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 20,18 | 14,90 |
+| Wolt | Mattoni | Mattoni Esence mango jemně perlivá 0,75l | 750 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Esence mango jemně perlivá 0,75l | 750 ml | 6 | 0 (0 %) | 20,90 | 20,90 | 20,90 | 20,90 |
+| Wolt | Mattoni | Mattoni Esence mango jemně perlivá 1,5l | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 21,90 |
+| Wolt | Mattoni | Mattoni Esence pomeranč jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 20,18 | 14,90 |
+| Wolt | Mattoni | Mattoni Esence pomeranč jemně perlivá 1,5l | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Košík | Mattoni | Mattoni Esence pomeranče bez cukru | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni | Mattoni Esence pomeranče bez přidaného cukru a sladidel jemně perlivá | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Mattoni | Mattoni Esence yuzu a okurka jemně perlivá 1,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Esence yuzu a okurka jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 20,18 | 14,90 |
+| Wolt | Mattoni | Mattoni Esence yuzu a okurka jemně perlivá 1,5l | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Košík | Mattoni | Mattoni Esence yuzu a okurky | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni | Mattoni Esence yuzu a okurky jemně perlivá | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Mattoni | Mattoni Grapefruit perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Imuno Hruška&Marakuja&Zázvor 0,7L Pet |  | 6 | 0 (0 %) | 44,90 | 45,90 | 45,23 | 45,90 |
+| Košík | Mattoni | Mattoni Imuno Jablko & Kiwi & Ananas | 700,0 ml | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Bolt Food | Mattoni | Mattoni Imuno Jablko Kiwi Ananas 0,7l Pet |  | 6 | 0 (0 %) | 44,90 | 45,90 | 45,23 | 45,90 |
+| Bolt Food | Mattoni | Mattoni Imuno Jablko Kiwi Ananas Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Košík | Mattoni | Mattoni Imuno Jablko, kiwi a ananas 4x500ml, plech | 2,0 l | 6 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
+| Bolt Food | Mattoni | Mattoni Imuno Jem.Per.S Prich. Mang. Pom. 0,7 L |  | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Bolt Food | Mattoni | Mattoni Imuno Jp S Prichu. Jablko Kiwi Anan. 0,7 L |  | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Bolt Food | Mattoni | Mattoni Imuno Mango Pomeranč 0,7l Pet |  | 6 | 0 (0 %) | 44,90 | 45,90 | 45,23 | 45,90 |
+| Bolt Food | Mattoni | Mattoni Imuno Mango Pomeranč Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Mattoni | Mattoni Imuno Mango Pomeranč Jemně Perlivá 0,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Košík | Mattoni | Mattoni Imuno Mango a pomeranč 4x500ml, plech | 2,0 l | 6 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
+| Wolt | Mattoni | Mattoni Imuno hruška & maracuja & zázvor | 700 ml | 6 | 4 (67 %) | 19,90 | 29,90 | 23,23 | 29,90 |
+| Rohlík | Mattoni | Mattoni Imuno hruška, marakuja a zázvor | 0,7 l | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Rohlík | Mattoni | Mattoni Imuno jablko a kiwi a ananas | 0,7 l | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Wolt | Mattoni | Mattoni Imuno jablko kiwi ananas jemně perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 16,90 | 25,90 | 18,70 | 25,90 |
+| Rohlík | Mattoni | Mattoni Imuno jablko, kiwi a ananas plech | 500 ml | 6 | 0 (0 %) | 22,90 | 23,90 | 23,23 | 23,90 |
+| Rohlík | Mattoni | Mattoni Imuno mango a pomeranč | 0,7 l | 6 | 0 (0 %) | 31,90 | 31,90 | 31,90 | 31,90 |
+| Wolt | Mattoni | Mattoni Imuno mango pomeranč jemně perlivá 0,5l  | 500 ml | 5 | 0 (0 %) | 16,90 | 25,90 | 18,70 | 25,90 |
+| Wolt | Mattoni | Mattoni Imuno mango pomeranč jemně perlivá 0,5l  | 500 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Mattoni | Mattoni Imuno pomeranč & mango | 500,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Wolt | Mattoni | Mattoni Imuno s příchutí jablko kiwi ananas jemně perlivá 0,7l | 700 ml | 5 | 0 (0 %) | 19,90 | 34,90 | 31,90 | 19,90 |
+| Wolt | Mattoni | Mattoni Imuno s příchutí jablko kiwi ananas jemně perlivá 0,7l | 700 ml | 6 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Wolt | Mattoni | Mattoni Imuno s příchutí mango pomeranč jemně perlivá 0,7l | 700 ml | 5 | 0 (0 %) | 19,90 | 34,90 | 31,90 | 19,90 |
+| Wolt | Mattoni | Mattoni Imuno s příchutí mango pomeranč jemně perlivá 0,7l | 700 ml | 5 | 0 (0 %) | 34,90 | 34,90 | 34,90 | 34,90 |
+| Bolt Food | Mattoni | Mattoni Jemně Perlivá 0,5l Pet |  | 6 | 0 (0 %) | 23,90 | 25,90 | 24,57 | 25,90 |
+| Bolt Food | Mattoni | Mattoni Jemně Perlivá Přírodní Minerální Voda 0,5L |  | 6 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Bolt Food | Mattoni | Mattoni Jemně Perlivá Přírodní Minerální Voda 1,5L |  | 6 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Bolt Food | Mattoni | Mattoni Jemně Perlivá Přírodní Minerální Voda 1,5l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Košík | Mattoni | Mattoni Jemně perlivá přírodní minerální voda | 500,0 ml | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Wolt | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 0,5l | 500 ml | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Wolt | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Wolt | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 1,5l | 1,5 l | 6 | 6 (100 %) | 14,90 | 14,90 | 14,90 | 18,90 |
+| Košík | Mattoni | Mattoni Jemně perlivá přírodní minerální voda 6x1,5l | 9,0 l | 6 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
+| Bolt Food | Mattoni | Mattoni Malina 1,5l Pet |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Malina Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Malina perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Wolt | Mattoni | Mattoni Malina perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Bolt Food | Mattoni | Mattoni Mango Alphonso 0,5L Pet |  | 6 | 0 (0 %) | 24,90 | 26,90 | 25,57 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Mango Alphonso 1,5L Pet |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Rohlík | Mattoni | Mattoni Minerální voda jemně perlivá sklo | 1 l | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Rohlík | Mattoni | Mattoni Minerální voda neperlivá sklo | 1 l | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Rohlík | Mattoni | Mattoni Minerální voda perlivá citron sklo | 1 l | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Rohlík | Mattoni | Mattoni Minerální voda perlivá pomeranč sklo | 1 l | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Rohlík | Mattoni | Mattoni Minerální voda perlivá sklo | 1 l | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Bolt Food | Mattoni | Mattoni Mojito 0,33L Plech |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Wolt | Mattoni | Mattoni Mojito nealko jemně perlivá 0,33l | 330 ml | 5 | 1 (20 %) | 16,90 | 23,90 | 22,50 | 23,90 |
+| Wolt | Mattoni | Mattoni Mojito nealko jemně perlivá 0,33l | 330 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Mattoni | Mattoni Multi | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Rohlík | Mattoni | Mattoni Multi | 1,5 l | 6 | 1 (17 %) | 16,90 | 19,90 | 19,40 | 19,90 |
+| Bolt Food | Mattoni | Mattoni Multi 0,5L Pet |  | 6 | 0 (0 %) | 24,90 | 26,90 | 25,57 | 26,90 |
+| Košík | Mattoni | Mattoni Multi Jemně perlivá s příchutí tropického ovoce 4x500ml, plech | 2,0 l | 6 | 0 (0 %) | 89,90 | 89,90 | 89,90 | 89,90 |
+| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 0,5L |  | 6 | 0 (0 %) | 24,90 | 25,90 | 25,23 | 25,90 |
+| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 0,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Multi S Příchutí Tropického Ovoce Jemně Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Multi jemně perlivá s příchutí tropického ovoce 0,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Multi jemně perlivá s příchutí tropického ovoce 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Rohlík | Mattoni | Mattoni Multi plech | 500 ml | 6 | 0 (0 %) | 22,90 | 23,90 | 23,23 | 23,90 |
+| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 16,90 | 25,90 | 18,70 | 25,90 |
+| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 0,5l | 500 ml | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Wolt | Mattoni | Mattoni Multi s příchutí tropického ovoce jemně perlivá 1,5l | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Košík | Mattoni | Mattoni Neperlivá | 500,0 ml | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Mattoni | Mattoni Neperlivá 0,75L |  | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Bolt Food | Mattoni | Mattoni Neperlivá 0,75l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Wolt | Mattoni | Mattoni Neperlivá 0,75l | 750 ml | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Mattoni | Mattoni Neperlivá 0,75l | 750 ml | 4 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Bolt Food | Mattoni | Mattoni Neperlivá Přírodní Minerální Voda 1,5L |  | 6 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Bolt Food | Mattoni | Mattoni Neperlivá Přírodní Minerální Voda 1,5l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Wolt | Mattoni | Mattoni Neperlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Wolt | Mattoni | Mattoni Neperlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 5 (100 %) | 14,90 | 14,90 | 14,90 | 18,90 |
+| Košík | Mattoni | Mattoni Neperlivá přírodní minerální voda 6x1,5l | 9,0 l | 6 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
+| Košík | Mattoni | Mattoni Neperlivá sklo | 1,0 l | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Bolt Food | Mattoni | Mattoni Perlivá 0,5L Pet |  | 6 | 0 (0 %) | 23,90 | 25,90 | 24,57 | 25,90 |
+| Bolt Food | Mattoni | Mattoni Perlivá Přírodní Minerální Voda 1,5L |  | 6 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Bolt Food | Mattoni | Mattoni Perlivá Přírodní Minerální Voda 1,5l |  | 6 | 0 (0 %) | 22,90 | 24,90 | 23,57 | 24,90 |
+| Košík | Mattoni | Mattoni Perlivá minerální voda s příchutí broskve | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mattoni | Mattoni Perlivá minerální voda s příchutí grapefruitu | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mattoni | Mattoni Perlivá přírodní minerální voda | 500,0 ml | 6 | 0 (0 %) | 16,90 | 16,90 | 16,90 | 16,90 |
+| Bolt Food | Mattoni | Mattoni Perlivá přírodní minerální voda 0,5l |  | 6 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Wolt | Mattoni | Mattoni Perlivá přírodní minerální voda 0,5l | 500 ml | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
 | Wolt | Mattoni | Mattoni Perlivá přírodní minerální voda 0,5l | 500 ml | 3 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni | Mattoni Perlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
-| Wolt | Mattoni | Mattoni Perlivá přírodní minerální voda 1,5l | 1,5 l | 3 | 3 (100 %) | 14,90 | 14,90 | 14,90 | 18,90 |
-| Košík | Mattoni | Mattoni Perlivá přírodní minerální voda 6x1,5l | 9,0 l | 5 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
-| Košík | Mattoni | Mattoni Perlivá s příchutí bílých hroznů | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mattoni | Mattoni Perlivá s příchutí citronu | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mattoni | Mattoni Perlivá s příchutí maliny | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mattoni | Mattoni Perlivá s příchutí pomeranče | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mattoni | Mattoni Perlivá sklo | 1,0 l | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Bolt Food | Mattoni | Mattoni Pomeranč 0,5L Pet |  | 5 | 0 (0 %) | 24,90 | 26,90 | 25,30 | 26,90 |
-| Bolt Food | Mattoni | Mattoni Pomeranč Perlivá 0,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Pomeranč Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Mattoni | Mattoni Pomeranč Perlivá 1,5l |  | 5 | 0 (0 %) | 25,90 | 26,90 | 26,10 | 26,90 |
-| Wolt | Mattoni | Mattoni Pomeranč perlivá 0,5l | 500 ml | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni Pomeranč perlivá 1,5l | 1,5 l | 4 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni Pomeranč perlivá 1,5l | 1,5 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
-| Košík | Mattoni | Mattoni Sport neperlivá 6x750ml | 4,5 l | 5 | 1 (20 %) | 89,90 | 119,90 | 113,90 | 119,90 |
-| Bolt Food | Mattoni | Mattoni grapefruit Perlivá 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Mattoni | Mattoni minerální Esence citron, perlivá | 1,5 l | 5 | 3 (60 %) | 14,90 | 19,90 | 16,90 | 19,90 |
-| Wolt | Mattoni | Mattoni minerální Esence mango, perlivá | 1,5 l | 5 | 3 (60 %) | 14,90 | 19,90 | 16,90 | 19,90 |
-| Wolt | Mattoni | Mattoni minerální Esence pomeranč, perlivá | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mattoni | Mattoni minerální Imuno jablko, kiwi a ananas | 700 ml | 5 | 4 (80 %) | 19,90 | 29,90 | 21,90 | 29,90 |
-| Wolt | Mattoni | Mattoni minerální Imuno mango a pomeranč | 700 ml | 5 | 4 (80 %) | 19,90 | 29,90 | 21,90 | 29,90 |
-| Wolt | Mattoni | Mattoni minerální voda Black, jemně perlivá | 1,5 l | 5 | 5 (100 %) | 14,90 | 14,90 | 14,90 | 19,90 |
-| Wolt | Mattoni | Mattoni minerální voda broskev, perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni minerální voda bílé hrozny, perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni minerální voda cedrata, jemně perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni minerální voda citron, perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni minerální voda jemně perlivá | 1,5 l | 5 | 0 (0 %) | 12,90 | 16,90 | 13,70 | 16,90 |
-| Rohlík | Mattoni | Mattoni minerální voda jemně perlivá (6x1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 103,15 |
-| Wolt | Mattoni | Mattoni minerální voda multifruit, jemně perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Wolt | Mattoni | Mattoni minerální voda neperlivá | 1,5 l | 5 | 0 (0 %) | 12,90 | 16,90 | 13,70 | 16,90 |
-| Rohlík | Mattoni | Mattoni minerální voda neperlivá (6x1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 103,15 |
-| Wolt | Mattoni | Mattoni minerální voda perlivá | 1,5 l | 5 | 0 (0 %) | 12,90 | 16,90 | 13,70 | 16,90 |
-| Rohlík | Mattoni | Mattoni minerální voda perlivá (6x1,5l) | 9 l | 5 | 5 (100 %) | 89,90 | 89,90 | 89,90 | 103,15 |
-| Wolt | Mattoni | Mattoni minerální voda pomeranč, perlivá | 1,5 l | 5 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
-| Rohlík | Mattoni | Mattoni s příchutí broskve | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni s příchutí bílé hrozny 6×1,5 l | 9 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Mattoni | Mattoni s příchutí citronu 6×1,5 l | 9 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Rohlík | Mattoni | Mattoni s příchutí grapefruitu | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni s příchutí malina | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni s příchutí mango Alphonso | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Rohlík | Mattoni | Mattoni s příchutí pomeranče 6×1,5 l | 9 l | 5 | 0 (0 %) | 124,90 | 124,90 | 124,90 | 124,90 |
-| Bolt Food | Poděbradka | PODEBRADKA PROM. PRIROZENE SYCENA 700 ml |  | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Wolt | Poděbradka | PODĚBRADKA POMERANČ 1,5 l | 1,5 l | 5 | 5 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
-| Bolt Food | Poděbradka | Poctivá Malinovka Od Poděbradka 0,5L |  | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Wolt | Poděbradka | Poctivá malinovka od Poděbradka 0,5l | 500 ml | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Košík | Poděbradka | Poděbradka Citrus mix jemně perlivá voda 6x1,5L | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citron 0,5L |  | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citron 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citron 1,5l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citrus Mix 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Pomeranč 0,5L |  | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Pomeranč 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Pomeranč 1,5l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 0,5l | 500 ml | 4 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 1,5l | 1,5 l | 4 | 0 (0 %) | 12,90 | 21,50 | 19,35 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 1,5l | 1,5 l | 4 | 4 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
-| Košík | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 6 x 1,5 L | 9,0 l | 5 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
-| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citrus mix 1,5l | 1,5 l | 4 | 0 (0 %) | 12,90 | 21,50 | 19,35 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 4 | 0 (0 %) | 12,90 | 21,50 | 19,35 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí pomeranč 0,5l | 500 ml | 4 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
-| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí pomeranč 1,5l | 1,5 l | 4 | 0 (0 %) | 12,90 | 21,50 | 19,35 | 21,50 |
-| Košík | Poděbradka | Poděbradka Jemně perlivá s příchutí pomeranč 6 x 1,5 L | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Košík | Poděbradka | Poděbradka Poctivá Malinovka | 1,5 l | 5 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Poděbradka | Poděbradka Poctivá Malinovka | 1,5 l | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Košík | Poděbradka | Poděbradka ProLinie Granátové jablko 6 x 1,5 L | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 1,5l | 1,5 l | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 1,5l | 1,5 l | 5 | 5 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
-| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 6 x 1,5 L | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá limetka 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá limetka 6 x 1,5 L | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá pomeranč 6 x 1,5 L | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá s příchutí maliny | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Košík | Poděbradka | Poděbradka ProLinie lesní plody | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Wolt | Poděbradka | Poděbradka ProMineral Přírodní minerální voda přirozeně sycená 700ml | 700 ml | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Citron 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Citron 1,5l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Limetka 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Malina 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Pomeranč 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Pomeranč 1,5l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá S Příchutí Lesní Plody 1,5l |  | 5 | 0 (0 %) | 21,90 | 24,90 | 22,50 | 24,90 |
-| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá lesní plody bez cukru 6×1,5 l | 9 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
-| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá limetka bez cukru 6×1,5 l | 9 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá malina 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá malina bez cukru 6×1,5 l | 9 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá pomeranč 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá pomeranč 1,5l | 1,5 l | 5 | 5 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
-| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá pomeranč bez cukru 6×1,5 l | 9 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí brusinka 1,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí brusinka 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 12,90 | 12,90 | 12,90 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí brusinka 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí granátové jablko 1,5l |  | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí granátové jablko 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 4 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
-| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 5 | 5 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
-| Košík | Poděbradka | Poděbradka Prolinie brusinka 6x1,5L | 9,0 l | 5 | 3 (60 %) | 64,90 | 119,90 | 86,90 | 119,90 |
-| Rohlík | Poděbradka | Poděbradka Prolinie brusinka 6×1,5 l | 9 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
-| Wolt | Poděbradka | Poděbradka Prolinie citron, jemně perlivá | 1,5 l | 5 | 4 (80 %) | 10,90 | 13,90 | 11,50 | 13,90 |
-| Wolt | Poděbradka | Poděbradka Prolinie limetka, jemně perlivá | 1,5 l | 5 | 4 (80 %) | 10,90 | 13,90 | 11,50 | 13,90 |
-| Rohlík | Poděbradka | Poděbradka Prolinie minerální voda citronová bez cukru 6×1,5 l | 9 l | 5 | 5 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
-| Bolt Food | Schweppes | SCHWEPPES WILD BERRY 1,5 L |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Košík | Schweppes | Schweppes Bitter Lemon | 1,5 l | 5 | 1 (20 %) | 31,90 | 43,90 | 41,50 | 43,90 |
-| Bolt Food | Schweppes | Schweppes Bitter Lemon 0,5L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Schweppes | Schweppes Bitter Lemon 0,5l | 500 ml | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Schweppes | Schweppes Bitter Lemon 1,5L |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Wolt | Schweppes | Schweppes Bitter Lemon 1,5l | 1,5 l | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Wolt | Mattoni | Mattoni Perlivá přírodní minerální voda 1,5l | 1,5 l | 5 | 0 (0 %) | 18,50 | 18,50 | 18,50 | 18,50 |
+| Wolt | Mattoni | Mattoni Perlivá přírodní minerální voda 1,5l | 1,5 l | 4 | 4 (100 %) | 14,90 | 14,90 | 14,90 | 18,90 |
+| Košík | Mattoni | Mattoni Perlivá přírodní minerální voda 6x1,5l | 9,0 l | 6 | 0 (0 %) | 104,90 | 104,90 | 104,90 | 104,90 |
+| Košík | Mattoni | Mattoni Perlivá s příchutí bílých hroznů | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mattoni | Mattoni Perlivá s příchutí citronu | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mattoni | Mattoni Perlivá s příchutí maliny | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mattoni | Mattoni Perlivá s příchutí pomeranče | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mattoni | Mattoni Perlivá sklo | 1,0 l | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Bolt Food | Mattoni | Mattoni Pomeranč 0,5L Pet |  | 6 | 0 (0 %) | 24,90 | 26,90 | 25,57 | 26,90 |
+| Bolt Food | Mattoni | Mattoni Pomeranč Perlivá 0,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Pomeranč Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Mattoni | Mattoni Pomeranč Perlivá 1,5l |  | 6 | 0 (0 %) | 25,90 | 26,90 | 26,23 | 26,90 |
+| Wolt | Mattoni | Mattoni Pomeranč perlivá 0,5l | 500 ml | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni Pomeranč perlivá 1,5l | 1,5 l | 5 | 0 (0 %) | 14,90 | 21,50 | 16,22 | 21,50 |
+| Wolt | Mattoni | Mattoni Pomeranč perlivá 1,5l | 1,5 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 22,90 |
+| Košík | Mattoni | Mattoni Sport neperlivá 6x750ml | 4,5 l | 6 | 1 (17 %) | 89,90 | 119,90 | 114,90 | 119,90 |
+| Bolt Food | Mattoni | Mattoni grapefruit Perlivá 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Mattoni | Mattoni minerální Esence citron, perlivá | 1,5 l | 6 | 3 (50 %) | 14,90 | 19,90 | 17,40 | 19,90 |
+| Wolt | Mattoni | Mattoni minerální Esence mango, perlivá | 1,5 l | 6 | 3 (50 %) | 14,90 | 19,90 | 17,40 | 19,90 |
+| Wolt | Mattoni | Mattoni minerální Esence pomeranč, perlivá | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Mattoni | Mattoni minerální Imuno jablko, kiwi a ananas | 700 ml | 6 | 4 (67 %) | 19,90 | 29,90 | 23,23 | 29,90 |
+| Wolt | Mattoni | Mattoni minerální Imuno mango a pomeranč | 700 ml | 6 | 4 (67 %) | 19,90 | 29,90 | 23,23 | 29,90 |
+| Wolt | Mattoni | Mattoni minerální voda Black, jemně perlivá | 1,5 l | 6 | 6 (100 %) | 14,90 | 14,90 | 14,90 | 19,90 |
+| Wolt | Mattoni | Mattoni minerální voda broskev, perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Mattoni | Mattoni minerální voda bílé hrozny, perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Mattoni | Mattoni minerální voda cedrata, jemně perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Mattoni | Mattoni minerální voda citron, perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Mattoni | Mattoni minerální voda jemně perlivá | 1,5 l | 6 | 0 (0 %) | 12,90 | 16,90 | 14,23 | 16,90 |
+| Rohlík | Mattoni | Mattoni minerální voda jemně perlivá (6x1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 92,90 | 90,40 | 103,15 |
+| Wolt | Mattoni | Mattoni minerální voda multifruit, jemně perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Wolt | Mattoni | Mattoni minerální voda neperlivá | 1,5 l | 6 | 0 (0 %) | 12,90 | 16,90 | 14,23 | 16,90 |
+| Rohlík | Mattoni | Mattoni minerální voda neperlivá (6x1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 92,90 | 90,40 | 103,15 |
+| Wolt | Mattoni | Mattoni minerální voda perlivá | 1,5 l | 6 | 0 (0 %) | 12,90 | 16,90 | 14,23 | 16,90 |
+| Rohlík | Mattoni | Mattoni minerální voda perlivá (6x1,5l) | 9 l | 6 | 6 (100 %) | 89,90 | 92,90 | 90,40 | 103,15 |
+| Wolt | Mattoni | Mattoni minerální voda pomeranč, perlivá | 1,5 l | 6 | 0 (0 %) | 14,90 | 14,90 | 14,90 | 14,90 |
+| Rohlík | Mattoni | Mattoni s příchutí broskve | 1,5 l | 6 | 1 (17 %) | 16,90 | 19,90 | 19,40 | 19,90 |
+| Rohlík | Mattoni | Mattoni s příchutí bílé hrozny 6×1,5 l | 9 l | 6 | 1 (17 %) | 99,90 | 124,90 | 120,73 | 119,90 |
+| Rohlík | Mattoni | Mattoni s příchutí citronu 6×1,5 l | 9 l | 6 | 1 (17 %) | 99,90 | 124,90 | 120,73 | 119,90 |
+| Rohlík | Mattoni | Mattoni s příchutí grapefruitu | 1,5 l | 6 | 1 (17 %) | 16,90 | 19,90 | 19,40 | 19,90 |
+| Rohlík | Mattoni | Mattoni s příchutí malina | 1,5 l | 6 | 1 (17 %) | 16,90 | 19,90 | 19,40 | 19,90 |
+| Rohlík | Mattoni | Mattoni s příchutí mango Alphonso | 1,5 l | 6 | 1 (17 %) | 16,90 | 19,90 | 19,40 | 19,90 |
+| Rohlík | Mattoni | Mattoni s příchutí pomeranče 6×1,5 l | 9 l | 6 | 1 (17 %) | 99,90 | 124,90 | 120,73 | 119,90 |
+| Bolt Food | Poděbradka | PODEBRADKA PROM. PRIROZENE SYCENA 700 ml |  | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Poděbradka | PODĚBRADKA POMERANČ 1,5 l | 1,5 l | 6 | 6 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
+| Bolt Food | Poděbradka | Poctivá Malinovka Od Poděbradka 0,5L |  | 6 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Wolt | Poděbradka | Poctivá malinovka od Poděbradka 0,5l | 500 ml | 5 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Poděbradka | Poděbradka Citrus mix jemně perlivá voda 6x1,5L | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citron 0,5L |  | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citron 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citron 1,5l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Citrus Mix 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Pomeranč 0,5L |  | 6 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Pomeranč 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Jemně Perlivá S Příchutí Pomeranč 1,5l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 0,5l | 500 ml | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 1,5l | 1,5 l | 5 | 5 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
+| Košík | Poděbradka | Poděbradka Jemně perlivá s příchutí citron 6 x 1,5 L | 9,0 l | 6 | 0 (0 %) | 119,90 | 119,90 | 119,90 | 119,90 |
+| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí citrus mix 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí pomeranč 0,5l | 500 ml | 5 | 0 (0 %) | 18,90 | 18,90 | 18,90 | 18,90 |
+| Wolt | Poděbradka | Poděbradka Jemně perlivá s příchutí pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 12,90 | 21,50 | 19,78 | 21,50 |
+| Košík | Poděbradka | Poděbradka Jemně perlivá s příchutí pomeranč 6 x 1,5 L | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Košík | Poděbradka | Poděbradka Poctivá Malinovka | 1,5 l | 6 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
+| Rohlík | Poděbradka | Poděbradka Poctivá Malinovka | 1,5 l | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Košík | Poděbradka | Poděbradka ProLinie Granátové jablko 6 x 1,5 L | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 1,5l | 1,5 l | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 1,5l | 1,5 l | 6 | 6 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
+| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá citron 6 x 1,5 L | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Wolt | Poděbradka | Poděbradka ProLinie Jemně perlivá limetka 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá limetka 6 x 1,5 L | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá pomeranč 6 x 1,5 L | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Košík | Poděbradka | Poděbradka ProLinie Jemně perlivá s příchutí maliny | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Košík | Poděbradka | Poděbradka ProLinie lesní plody | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Wolt | Poděbradka | Poděbradka ProMineral Přírodní minerální voda přirozeně sycená 700ml | 700 ml | 5 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Citron 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Citron 1,5l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Limetka 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Malina 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Pomeranč 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá Pomeranč 1,5l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá S Příchutí Lesní Plody 1,5L |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně Perlivá S Příchutí Lesní Plody 1,5l |  | 6 | 0 (0 %) | 21,90 | 24,90 | 22,90 | 24,90 |
+| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá lesní plody bez cukru 6×1,5 l | 9 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
+| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá limetka bez cukru 6×1,5 l | 9 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá malina 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá malina bez cukru 6×1,5 l | 9 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá pomeranč 1,5l | 1,5 l | 6 | 6 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
+| Rohlík | Poděbradka | Poděbradka Prolinie Jemně perlivá pomeranč bez cukru 6×1,5 l | 9 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí brusinka 1,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí brusinka 1,5l | 1,5 l | 6 | 0 (0 %) | 12,90 | 12,90 | 12,90 | 12,90 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí brusinka 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Bolt Food | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí granátové jablko 1,5l |  | 6 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí granátové jablko 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 5 | 0 (0 %) | 21,50 | 21,50 | 21,50 | 21,50 |
+| Wolt | Poděbradka | Poděbradka Prolinie Jemně perlivá s příchutí lesní plody 1,5l | 1,5 l | 6 | 6 (100 %) | 15,90 | 15,90 | 15,90 | 19,90 |
+| Košík | Poděbradka | Poděbradka Prolinie brusinka 6x1,5L | 9,0 l | 6 | 3 (50 %) | 64,90 | 119,90 | 92,40 | 119,90 |
+| Rohlík | Poděbradka | Poděbradka Prolinie brusinka 6×1,5 l | 9 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
+| Wolt | Poděbradka | Poděbradka Prolinie citron, jemně perlivá | 1,5 l | 6 | 4 (67 %) | 10,90 | 13,90 | 11,90 | 13,90 |
+| Wolt | Poděbradka | Poděbradka Prolinie limetka, jemně perlivá | 1,5 l | 6 | 4 (67 %) | 10,90 | 13,90 | 11,90 | 13,90 |
+| Rohlík | Poděbradka | Poděbradka Prolinie minerální voda citronová bez cukru 6×1,5 l | 9 l | 6 | 6 (100 %) | 99,90 | 99,90 | 99,90 | 134,90 |
+| Bolt Food | Schweppes | SCHWEPPES WILD BERRY 1,5 L |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Košík | Schweppes | Schweppes Bitter Lemon | 1,5 l | 6 | 1 (17 %) | 31,90 | 43,90 | 41,90 | 43,90 |
+| Bolt Food | Schweppes | Schweppes Bitter Lemon 0,5L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Schweppes | Schweppes Bitter Lemon 0,5l | 500 ml | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Schweppes | Schweppes Bitter Lemon 1,5L |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Wolt | Schweppes | Schweppes Bitter Lemon 1,5l | 1,5 l | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
 | Bolt Food | Schweppes | Schweppes Citrus Mix 1,5L |  | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Bolt Food | Schweppes | Schweppes Citrus Mix 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
+| Bolt Food | Schweppes | Schweppes Citrus Mix 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
 | Wolt | Schweppes | Schweppes Citrus Mix 1,5l | 1,5 l | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Wolt | Schweppes | Schweppes Ginger Ale 1,5l | 1,5 l | 3 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Bolt Food | Schweppes | Schweppes Indian Tonic 0,5L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Schweppes | Schweppes Indian Tonic 0,5l | 500 ml | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Schweppes | Schweppes Indian Tonic 1,5L |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Bolt Food | Schweppes | Schweppes Indian Tonic 1,5l |  | 5 | 0 (0 %) | 59,90 | 61,90 | 60,30 | 61,90 |
-| Wolt | Schweppes | Schweppes Indian Tonic 1,5l | 1,5 l | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Wolt | Schweppes | Schweppes Indian Tonic 1,5l | 1,5 l | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Rohlík | Schweppes | Schweppes Indian tonic | 1,5 l | 5 | 1 (20 %) | 36,90 | 44,90 | 43,30 | 43,90 |
-| Rohlík | Schweppes | Schweppes Indian tonic plech | 330 ml | 5 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
-| Košík | Schweppes | Schweppes Pink Tonic | 1,5 l | 5 | 1 (20 %) | 31,90 | 43,90 | 41,50 | 43,90 |
-| Bolt Food | Schweppes | Schweppes Pink Tonic 0,5L |  | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Wolt | Schweppes | Schweppes Pink Tonic 0,5l | 500 ml | 4 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
-| Bolt Food | Schweppes | Schweppes Pink Tonic 1,5L |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Wolt | Schweppes | Schweppes Ginger Ale 1,5l | 1,5 l | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Bolt Food | Schweppes | Schweppes Indian Tonic 0,5L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Schweppes | Schweppes Indian Tonic 0,5l | 500 ml | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Schweppes | Schweppes Indian Tonic 1,5L |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Bolt Food | Schweppes | Schweppes Indian Tonic 1,5l |  | 6 | 0 (0 %) | 59,90 | 61,90 | 60,57 | 61,90 |
+| Wolt | Schweppes | Schweppes Indian Tonic 1,5l | 1,5 l | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Wolt | Schweppes | Schweppes Indian Tonic 1,5l | 1,5 l | 6 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Rohlík | Schweppes | Schweppes Indian tonic | 1,5 l | 6 | 1 (17 %) | 36,90 | 44,90 | 43,57 | 44,90 |
+| Rohlík | Schweppes | Schweppes Indian tonic plech | 330 ml | 6 | 0 (0 %) | 30,90 | 30,90 | 30,90 | 30,90 |
+| Košík | Schweppes | Schweppes Pink Tonic | 1,5 l | 6 | 1 (17 %) | 31,90 | 43,90 | 41,90 | 43,90 |
+| Bolt Food | Schweppes | Schweppes Pink Tonic 0,5L |  | 6 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Wolt | Schweppes | Schweppes Pink Tonic 0,5l | 500 ml | 5 | 0 (0 %) | 32,50 | 32,50 | 32,50 | 32,50 |
+| Bolt Food | Schweppes | Schweppes Pink Tonic 1,5L |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
 | Bolt Food | Schweppes | Schweppes Pink Tonic 1,5l |  | 3 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Wolt | Schweppes | Schweppes Pink Tonic 1,5l | 1,5 l | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Wolt | Schweppes | Schweppes Pink Tonic 1,5l | 1,5 l | 5 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
-| Košík | Schweppes | Schweppes Tonic | 1,5 l | 5 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Wolt | Schweppes | Schweppes Tonic | 1,5 l | 5 | 4 (80 %) | 19,90 | 39,90 | 23,90 | 39,90 |
-| Košík | Schweppes | Schweppes Tonic, plech | 330,0 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Košík | Schweppes | Schweppes Wild Berry tonic | 1,5 l | 5 | 1 (20 %) | 32,90 | 43,90 | 41,70 | 43,90 |
-| Bolt Food | Schweppes | Schweppes ginger Ale 1,5L |  | 4 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Bolt Food | 7UP | 7 UP ZERO CUKRU 1,5 L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Košík | 7UP | 7 Up Zero Sugar | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Košík | 7UP | 7 Up Zero Sugar | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Wolt | 7UP | 7UP Zero Sugar 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 38,90 | 36,50 | 26,90 |
-| Wolt | 7UP | 7UP Zero Sugar 1,5l | 1,5 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | 7UP | 7UP Zero Sugar 1,5l | 1,5 l | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Wolt | 7UP | 7UP Zero Sugar 2,25l | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Rohlík | 7UP | 7UP Zero sugar | 1,5 l | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 38,90 |
-| Rohlík | 7UP | 7UP Zero sugar | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Rohlík | 7UP | 7UP Zero sugar plech | 330 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | 7UP | 7Up Zero Sugar 0,33l |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Bolt Food | 7UP | 7Up Zero Sugar 0,5l |  | 5 | 0 (0 %) | 35,90 | 37,90 | 37,50 | 35,90 |
+| Wolt | Schweppes | Schweppes Pink Tonic 1,5l | 1,5 l | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Wolt | Schweppes | Schweppes Pink Tonic 1,5l | 1,5 l | 6 | 0 (0 %) | 55,90 | 55,90 | 55,90 | 55,90 |
+| Košík | Schweppes | Schweppes Tonic | 1,5 l | 6 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Wolt | Schweppes | Schweppes Tonic | 1,5 l | 6 | 4 (67 %) | 19,90 | 39,90 | 26,57 | 39,90 |
+| Košík | Schweppes | Schweppes Tonic, plech | 330,0 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Košík | Schweppes | Schweppes Wild Berry tonic | 1,5 l | 6 | 1 (17 %) | 32,90 | 43,90 | 42,07 | 43,90 |
+| Bolt Food | Schweppes | Schweppes ginger Ale 1,5L |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Bolt Food | 7UP | 7 UP ZERO CUKRU 1,5 L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Košík | 7UP | 7 Up Zero Sugar | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Košík | 7UP | 7 Up Zero Sugar | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Wolt | 7UP | 7UP Zero Sugar 1,5l | 1,5 l | 6 | 0 (0 %) | 26,90 | 38,90 | 34,90 | 26,90 |
+| Wolt | 7UP | 7UP Zero Sugar 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 35,90 | 34,10 | 26,90 |
+| Wolt | 7UP | 7UP Zero Sugar 1,5l | 1,5 l | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Wolt | 7UP | 7UP Zero Sugar 2,25l | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Rohlík | 7UP | 7UP Zero sugar | 1,5 l | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 38,90 |
+| Rohlík | 7UP | 7UP Zero sugar | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Rohlík | 7UP | 7UP Zero sugar plech | 330 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | 7UP | 7Up Zero Sugar 0,33l |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Bolt Food | 7UP | 7Up Zero Sugar 0,5l |  | 6 | 0 (0 %) | 35,90 | 37,90 | 37,23 | 35,90 |
 | Bolt Food | 7UP | 7Up Zero Sugar 1,5l |  | 4 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Rohlík | Gatorade | Gatorade Cool Blue | 500 ml | 5 | 5 (100 %) | 29,90 | 29,90 | 29,90 | 35,90 |
-| Bolt Food | Gatorade | Gatorade Cool Blue Nealkoholický Nápoj S Příchutí Malin 500Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Gatorade | Gatorade Cool Blue | 500 ml | 6 | 6 (100 %) | 29,90 | 29,90 | 29,90 | 35,90 |
+| Bolt Food | Gatorade | Gatorade Cool Blue Nealkoholický Nápoj S Příchutí Malin 500Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
 | Bolt Food | Gatorade | Gatorade Cool Blue Nealkoholický Nápoj S Příchutí Malin 500ml |  | 5 | 0 (0 %) | 44,50 | 49,90 | 45,58 | 49,90 |
-| Wolt | Gatorade | Gatorade Cool Blue nealkoholický nápoj s příchutí malin 500ml | 500 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Rohlík | Gatorade | Gatorade Orange | 500 ml | 5 | 5 (100 %) | 29,90 | 29,90 | 29,90 | 35,90 |
-| Bolt Food | Gatorade | Gatorade Orange Nealkoholický Nápoj S Příchutí Pomeranče 500Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Gatorade | Gatorade Orange Nealkoholický Nápoj S Příchutí Pomeranče 500ml |  | 5 | 0 (0 %) | 44,50 | 49,90 | 45,58 | 49,90 |
-| Wolt | Gatorade | Gatorade Orange nealkoholický nápoj s příchutí pomeranče 500ml | 500 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Lipton Ice Tea | Lipton Ice Tea Green Ledový Čaj Zelený 500ml |  | 5 | 0 (0 %) | 39,90 | 41,90 | 40,30 | 41,90 |
-| Wolt | Lipton Ice Tea | Lipton Ice Tea Green ledový čaj zelený 500ml | 500 ml | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Košík | Lipton Ice Tea | Lipton Ice Tea Ledový čaj černý Lemon | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Lipton Ice Tea | Lipton Ice Tea Ledový čaj černý Peach | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Lipton Ice Tea | Lipton Ice Tea green Ledový Čaj Zelený 500Ml |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Bolt Food | Lipton Ice Tea | Lipton Zero Ice Tea Black Ledový Čaj S Příchutí Broskve 1,5L |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Bolt Food | Lipton Ice Tea | Lipton Zero Ice Tea Black Ledový Čaj S Příchutí Broskve 1,5l |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Košík | Lipton Ice Tea | Lipton Zero Ice Tea Ledový čaj zelený Lemon | 1,5 l | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Lipton Ice Tea | Lipton Zero Ice Tea green Ledový Čaj S Příchutí Citronu 1,5L |  | 5 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
-| Rohlík | Mirinda | Mirinda | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Wolt | Mirinda | Mirinda 2,5l | 2,5 l | 5 | 0 (0 %) | 29,90 | 39,90 | 31,90 | 29,90 |
-| Košík | Mirinda | Mirinda Jahoda a Liči | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Košík | Mirinda | Mirinda Mango Tangerine | 1,5 l | 5 | 1 (20 %) | 25,90 | 38,90 | 36,30 | 38,90 |
-| Rohlík | Mirinda | Mirinda Mango Tangerine | 1,5 l | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 38,90 |
-| Wolt | Mirinda | Mirinda Mango Tangerine 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Mirinda | Mirinda Mango Tangerine 0,5l Pet |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Bolt Food | Mirinda | Mirinda Mango Tangerine 1,5l Pet |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Košík | Mirinda | Mirinda Mango a Mandarinka | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Košík | Mirinda | Mirinda Pomeranč | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Košík | Mirinda | Mirinda Pomeranč | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Rohlík | Mirinda | Mirinda Pomeranč | 1,5 l | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 38,90 |
-| Bolt Food | Mirinda | Mirinda Pomeranč 0,5l |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Mirinda | Mirinda Pomeranč 0,5l |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Wolt | Mirinda | Mirinda Pomeranč 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Mirinda | Mirinda Pomeranč 0,5l | 500 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Bolt Food | Mirinda | Mirinda Pomeranč 1,5L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Mirinda | Mirinda Pomeranč 1,5l |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Wolt | Mirinda | Mirinda Pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 21,90 | 29,90 | 28,30 | 29,90 |
-| Wolt | Mirinda | Mirinda Pomeranč 1,5l | 1,5 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Mirinda | Mirinda Pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Bolt Food | Mirinda | Mirinda Pomeranč 1l |  | 5 | 0 (0 %) | 37,90 | 39,90 | 38,30 | 39,90 |
-| Wolt | Mirinda | Mirinda Pomeranč 1l | 1 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 33,90 |
-| Bolt Food | Mirinda | Mirinda Pomeranč 330Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Mirinda | Mirinda Pomeranč 330ml |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Wolt | Mirinda | Mirinda Pomeranč 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Mirinda | Mirinda S Prich. Jahody A Lici 0,5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Mirinda | Mirinda S Prich. Manga A Mandarinky 0,5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Mirinda | Mirinda Strawberry Lychee 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Mirinda | Mirinda Strawberry Lychee 0,5l Pet |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Bolt Food | Mirinda | Mirinda Strawberry Lychee 1,5l Pet |  | 5 | 0 (0 %) | 44,90 | 46,90 | 45,30 | 46,90 |
-| Wolt | Mirinda | Mirinda jahoda a liči | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Wolt | Mirinda | Mirinda mango a mandarinka | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Wolt | Mirinda | Mirinda pomeranč | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Wolt | Mirinda | Mirinda pomeranč | 500 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Mirinda | Mirinda pomeranč | 1,5 l | 5 | 0 (0 %) | 26,90 | 38,90 | 36,50 | 26,90 |
-| Bolt Food | Mountain Dew | MOUNTAIN DEW PLECH 330 ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Mountain Dew | Mountain Dew | 1,5 l | 5 | 0 (0 %) | 26,90 | 38,90 | 36,50 | 26,90 |
-| Wolt | Mountain Dew | Mountain Dew | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Wolt | Mountain Dew | Mountain Dew | 500 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Košík | Mountain Dew | Mountain Dew  | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Bolt Food | Mountain Dew | Mountain Dew 1,5L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Mountain Dew | Mountain Dew 1,5l |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Wolt | Mountain Dew | Mountain Dew 1,5l | 1,5 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Mountain Dew | Mountain Dew 1,5l | 1,5 l | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Wolt | Mountain Dew | Mountain Dew 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Mountain Dew | Mountain Dew 500Ml |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Mountain Dew | Mountain Dew 500ml |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Wolt | Mountain Dew | Mountain Dew 500ml | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Rohlík | Mountain Dew | Mountain Dew Limonáda s příchutí citrusového ovoce | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Košík | Mountain Dew | Mountain Dew plech | 330,0 ml | 5 | 1 (20 %) | 14,90 | 22,90 | 21,30 | 22,90 |
-| Bolt Food | Pepsi | PEPSI COLA 4 x 330 ml |  | 5 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
-| Bolt Food | Pepsi | PEPSI LIGHT 1L P ET |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Pepsi | PEPSI MAX 4 x 330 ml |  | 5 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
-| Wolt | Pepsi | PEPSI RASPBERRY 0,33l PLECH |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Pepsi | PEPSI RASPBERRY PET 0,5l |  | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Pepsi | PEPSI S MALINO. PRICH. 0,5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Pepsi | PEPSI S MALINOVOU PRICHUTI 1,5 L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Pepsi | PEPSI S MALINOVOU PRICHUTI 330 ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Pepsi | PEPSI TWIST PRICH. CITRON 1,5 L |  | 2 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Pepsi | PEPSI TWIST S PRICHUTI CITRONU 0,5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Rohlík | Pepsi | Pepsi | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Košík | Pepsi | Pepsi  | 1,5 l | 5 | 1 (20 %) | 28,90 | 38,90 | 36,90 | 38,90 |
-| Rohlík | Pepsi | Pepsi (6×1,5l) | 9 l | 5 | 5 (100 %) | 199,90 | 199,90 | 199,90 | 234,90 |
-| Košík | Pepsi | Pepsi Cherry Zero Sugar | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Košík | Pepsi | Pepsi Cherry Zero Sugar | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Košík | Pepsi | Pepsi Cherry Zero Sugar | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 0,33l Plech |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 0,5l Pet |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 1,5 L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 1,5l Pet |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Rohlík | Pepsi | Pepsi Cherry zero sugar | 330 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Pepsi | Pepsi Cherry zero sugar | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Košík | Pepsi | Pepsi Cola | 1,0 l | 5 | 4 (80 %) | 24,90 | 32,90 | 26,50 | 32,90 |
-| Košík | Pepsi | Pepsi Cola | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Wolt | Pepsi | Pepsi Cola | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Wolt | Pepsi | Pepsi Cola | 500 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Pepsi | Pepsi Cola | 330 ml | 5 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
-| Wolt | Pepsi | Pepsi Cola | 1,5 l | 5 | 0 (0 %) | 26,90 | 38,90 | 36,50 | 26,90 |
-| Bolt Food | Pepsi | Pepsi Cola 0,5l |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Pepsi | Pepsi Cola 0,5l |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Wolt | Pepsi | Pepsi Cola 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Pepsi | Pepsi Cola 0,5l | 500 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Bolt Food | Pepsi | Pepsi Cola 1,5L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Wolt | Gatorade | Gatorade Cool Blue nealkoholický nápoj s příchutí malin 500ml | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Gatorade | Gatorade Orange | 500 ml | 6 | 6 (100 %) | 29,90 | 29,90 | 29,90 | 35,90 |
+| Bolt Food | Gatorade | Gatorade Orange Nealkoholický Nápoj S Příchutí Pomeranče 500Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Gatorade | Gatorade Orange Nealkoholický Nápoj S Příchutí Pomeranče 500ml |  | 6 | 0 (0 %) | 44,50 | 49,90 | 46,30 | 49,90 |
+| Wolt | Gatorade | Gatorade Orange nealkoholický nápoj s příchutí pomeranče 500ml | 500 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Lipton Ice Tea | Lipton Ice Tea Green Ledový Čaj Zelený 500ml |  | 6 | 0 (0 %) | 39,90 | 41,90 | 40,57 | 41,90 |
+| Wolt | Lipton Ice Tea | Lipton Ice Tea Green ledový čaj zelený 500ml | 500 ml | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Košík | Lipton Ice Tea | Lipton Ice Tea Ledový čaj černý Lemon | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Lipton Ice Tea | Lipton Ice Tea Ledový čaj černý Peach | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Lipton Ice Tea | Lipton Ice Tea green Ledový Čaj Zelený 500Ml |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Bolt Food | Lipton Ice Tea | Lipton Zero Ice Tea Black Ledový Čaj S Příchutí Broskve 1,5L |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Bolt Food | Lipton Ice Tea | Lipton Zero Ice Tea Black Ledový Čaj S Příchutí Broskve 1,5l |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Košík | Lipton Ice Tea | Lipton Zero Ice Tea Ledový čaj zelený Lemon | 1,5 l | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Lipton Ice Tea | Lipton Zero Ice Tea green Ledový Čaj S Příchutí Citronu 1,5L |  | 6 | 0 (0 %) | 45,50 | 45,50 | 45,50 | 45,50 |
+| Rohlík | Mirinda | Mirinda | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Wolt | Mirinda | Mirinda 2,5l | 2,5 l | 6 | 0 (0 %) | 29,90 | 39,90 | 31,57 | 29,90 |
+| Košík | Mirinda | Mirinda Jahoda a Liči | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Košík | Mirinda | Mirinda Mango Tangerine | 1,5 l | 6 | 1 (17 %) | 25,90 | 38,90 | 36,73 | 38,90 |
+| Rohlík | Mirinda | Mirinda Mango Tangerine | 1,5 l | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 38,90 |
+| Wolt | Mirinda | Mirinda Mango Tangerine 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Mirinda | Mirinda Mango Tangerine 0,5l Pet |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Bolt Food | Mirinda | Mirinda Mango Tangerine 1,5l Pet |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Košík | Mirinda | Mirinda Mango a Mandarinka | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Košík | Mirinda | Mirinda Pomeranč | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Košík | Mirinda | Mirinda Pomeranč | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Rohlík | Mirinda | Mirinda Pomeranč | 1,5 l | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 38,90 |
+| Bolt Food | Mirinda | Mirinda Pomeranč 0,5l |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Mirinda | Mirinda Pomeranč 0,5l |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Wolt | Mirinda | Mirinda Pomeranč 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Mirinda | Mirinda Pomeranč 0,5l | 500 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Bolt Food | Mirinda | Mirinda Pomeranč 1,5L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Mirinda | Mirinda Pomeranč 1,5l |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Wolt | Mirinda | Mirinda Pomeranč 1,5l | 1,5 l | 6 | 0 (0 %) | 21,90 | 29,90 | 28,57 | 29,90 |
+| Wolt | Mirinda | Mirinda Pomeranč 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 35,90 | 34,10 | 26,90 |
+| Wolt | Mirinda | Mirinda Pomeranč 1,5l | 1,5 l | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Bolt Food | Mirinda | Mirinda Pomeranč 1l |  | 6 | 0 (0 %) | 37,90 | 39,90 | 38,57 | 39,90 |
+| Wolt | Mirinda | Mirinda Pomeranč 1l | 1 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 33,90 |
+| Bolt Food | Mirinda | Mirinda Pomeranč 330Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Mirinda | Mirinda Pomeranč 330ml |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Wolt | Mirinda | Mirinda Pomeranč 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Mirinda | Mirinda S Prich. Jahody A Lici 0,5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Mirinda | Mirinda S Prich. Manga A Mandarinky 0,5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Mirinda | Mirinda Strawberry Lychee 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Mirinda | Mirinda Strawberry Lychee 0,5l Pet |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Bolt Food | Mirinda | Mirinda Strawberry Lychee 1,5l Pet |  | 6 | 0 (0 %) | 44,90 | 46,90 | 45,57 | 46,90 |
+| Wolt | Mirinda | Mirinda jahoda a liči | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Wolt | Mirinda | Mirinda mango a mandarinka | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Wolt | Mirinda | Mirinda pomeranč | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Wolt | Mirinda | Mirinda pomeranč | 500 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Mirinda | Mirinda pomeranč | 1,5 l | 6 | 0 (0 %) | 26,90 | 38,90 | 34,90 | 26,90 |
+| Bolt Food | Mountain Dew | MOUNTAIN DEW PLECH 330 ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Mountain Dew | Mountain Dew | 1,5 l | 6 | 0 (0 %) | 26,90 | 38,90 | 34,90 | 26,90 |
+| Wolt | Mountain Dew | Mountain Dew | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Wolt | Mountain Dew | Mountain Dew | 500 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Košík | Mountain Dew | Mountain Dew  | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Bolt Food | Mountain Dew | Mountain Dew 1,5L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Mountain Dew | Mountain Dew 1,5l |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Wolt | Mountain Dew | Mountain Dew 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 35,90 | 34,10 | 26,90 |
+| Wolt | Mountain Dew | Mountain Dew 1,5l | 1,5 l | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Wolt | Mountain Dew | Mountain Dew 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Mountain Dew | Mountain Dew 500Ml |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Mountain Dew | Mountain Dew 500ml |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Wolt | Mountain Dew | Mountain Dew 500ml | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Rohlík | Mountain Dew | Mountain Dew Limonáda s příchutí citrusového ovoce | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Košík | Mountain Dew | Mountain Dew plech | 330,0 ml | 6 | 1 (17 %) | 14,90 | 22,90 | 21,57 | 22,90 |
+| Bolt Food | Pepsi | PEPSI COLA 4 x 330 ml |  | 6 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
+| Bolt Food | Pepsi | PEPSI LIGHT 1L P ET |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Pepsi | PEPSI MAX 4 x 330 ml |  | 6 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
+| Wolt | Pepsi | PEPSI RASPBERRY 0,33l PLECH |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Pepsi | PEPSI RASPBERRY PET 0,5l |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Pepsi | PEPSI S MALINO. PRICH. 0,5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Pepsi | PEPSI S MALINOVOU PRICHUTI 1,5 L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Pepsi | PEPSI S MALINOVOU PRICHUTI 330 ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Pepsi | PEPSI TWIST PRICH. CITRON 1,5 L |  | 3 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Pepsi | PEPSI TWIST S PRICHUTI CITRONU 0,5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Rohlík | Pepsi | Pepsi | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Košík | Pepsi | Pepsi  | 1,5 l | 6 | 1 (17 %) | 28,90 | 38,90 | 37,23 | 38,90 |
+| Rohlík | Pepsi | Pepsi (6×1,5l) | 9 l | 6 | 6 (100 %) | 199,90 | 199,90 | 199,90 | 234,90 |
+| Košík | Pepsi | Pepsi Cherry Zero Sugar | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Košík | Pepsi | Pepsi Cherry Zero Sugar | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Košík | Pepsi | Pepsi Cherry Zero Sugar | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 0,33l Plech |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 0,5l Pet |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 1,5 L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Pepsi | Pepsi Cherry Zero Sugar 1,5l Pet |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Rohlík | Pepsi | Pepsi Cherry zero sugar | 330 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Pepsi | Pepsi Cherry zero sugar | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Košík | Pepsi | Pepsi Cola | 1,0 l | 6 | 4 (67 %) | 24,90 | 32,90 | 27,57 | 32,90 |
+| Košík | Pepsi | Pepsi Cola | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Wolt | Pepsi | Pepsi Cola | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Wolt | Pepsi | Pepsi Cola | 500 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Pepsi | Pepsi Cola | 330 ml | 6 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
+| Wolt | Pepsi | Pepsi Cola | 1,5 l | 6 | 0 (0 %) | 26,90 | 38,90 | 34,90 | 26,90 |
+| Bolt Food | Pepsi | Pepsi Cola 0,5l |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Pepsi | Pepsi Cola 0,5l |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Wolt | Pepsi | Pepsi Cola 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Pepsi | Pepsi Cola 0,5l | 500 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Bolt Food | Pepsi | Pepsi Cola 1,5L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
 | Bolt Food | Pepsi | Pepsi Cola 1,5l |  | 4 | 0 (0 %) | 45,90 | 45,90 | 45,90 | 45,90 |
-| Wolt | Pepsi | Pepsi Cola 1,5l | 1,5 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Pepsi | Pepsi Cola 1,5l | 1,5 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Pepsi | Pepsi Cola 1,5l | 1,5 l | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Bolt Food | Pepsi | Pepsi Cola 1L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Pepsi | Pepsi Cola 1l |  | 5 | 0 (0 %) | 37,90 | 39,90 | 38,30 | 39,90 |
-| Wolt | Pepsi | Pepsi Cola 1l | 1 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Pepsi | Pepsi Cola 2,5l | 2,5 l | 5 | 0 (0 %) | 29,90 | 39,90 | 31,90 | 29,90 |
-| Bolt Food | Pepsi | Pepsi Cola 330ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Pepsi | Pepsi Cola 330ml |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Wolt | Pepsi | Pepsi Cola 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Pepsi | Pepsi Cola 1,5l | 1,5 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Pepsi | Pepsi Cola 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 35,90 | 34,10 | 26,90 |
+| Wolt | Pepsi | Pepsi Cola 1,5l | 1,5 l | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Bolt Food | Pepsi | Pepsi Cola 1L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Pepsi | Pepsi Cola 1l |  | 6 | 0 (0 %) | 37,90 | 39,90 | 38,57 | 39,90 |
+| Wolt | Pepsi | Pepsi Cola 1l | 1 l | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Wolt | Pepsi | Pepsi Cola 2,5l | 2,5 l | 6 | 0 (0 %) | 29,90 | 39,90 | 31,57 | 29,90 |
+| Bolt Food | Pepsi | Pepsi Cola 330ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Pepsi | Pepsi Cola 330ml |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Wolt | Pepsi | Pepsi Cola 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
 | Wolt | Pepsi | Pepsi Cola 330ml | 330 ml | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Wolt | Pepsi | Pepsi Cola 4 x 330ml | 1,32 l | 4 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
-| Bolt Food | Pepsi | Pepsi Cola 500ml |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Pepsi | Pepsi Cola 4 x 330ml | 1,32 l | 5 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
+| Bolt Food | Pepsi | Pepsi Cola 500ml |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
 | Rohlík | Pepsi | Pepsi Cola Twist Lemon plech | 330 ml | 3 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Pepsi | Pepsi Cola plech, multipack 4x330ml | 1,32 l | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Košík | Pepsi | Pepsi Cream Soda Zero | 250,0 ml | 5 | 0 (0 %) | 19,90 | 22,90 | 20,50 | 19,90 |
-| Košík | Pepsi | Pepsi Cream Strawberry Zero | 250,0 ml | 5 | 0 (0 %) | 19,90 | 22,90 | 20,50 | 19,90 |
-| Wolt | Pepsi | Pepsi Lemon Twist 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Košík | Pepsi | Pepsi Lemon Zero Sugar | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Košík | Pepsi | Pepsi Lemon Zero Sugar | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Pepsi | Pepsi Lemon Zero Sugar | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 0,33 L |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 0,33l Plech |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 0,5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 1,5l Pet |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Rohlík | Pepsi | Pepsi Lemon zero sugar | 330 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Pepsi | Pepsi Lemon zero sugar | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Bolt Food | Pepsi | Pepsi Max 0,5l |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Pepsi | Pepsi Max 1,5L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Pepsi | Pepsi Max 330Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Pepsi | Pepsi Raspberry | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Rohlík | Pepsi | Pepsi Raspberry | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Bolt Food | Pepsi | Pepsi Raspberry 0,33L Plech |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Bolt Food | Pepsi | Pepsi Raspberry Pet 0,5L |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Bolt Food | Pepsi | Pepsi S Prichuti Citronu Zero Cukru 1,5 L |  | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Bolt Food | Pepsi | Pepsi S Prichuti Tresni Zero Cukru 0,5 L |  | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Bolt Food | Pepsi | Pepsi S Prichuti Tresni Zero Cukru 330 Ml |  | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Pepsi | Pepsi Sleek | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Košík | Pepsi | Pepsi Twist Lemon | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Košík | Pepsi | Pepsi Twist Lemon | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Rohlík | Pepsi | Pepsi Twist Lemon | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Bolt Food | Pepsi | Pepsi Twist Lemon Pet 0,5L |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Košík | Pepsi | Pepsi Zero Sugar | 1,5 l | 5 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
-| Košík | Pepsi | Pepsi Zero Sugar | 1,0 l | 5 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Košík | Pepsi | Pepsi Zero Sugar | 2,25 l | 5 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
-| Rohlík | Pepsi | Pepsi Zero Sugar | 2,25 l | 5 | 4 (80 %) | 36,90 | 47,90 | 39,10 | 47,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar | 1,5 l | 5 | 0 (0 %) | 26,90 | 38,90 | 36,50 | 26,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar | 330 ml | 5 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar | 500 ml | 5 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Rohlík | Pepsi | Pepsi Zero Sugar (6×1,5l) | 9 l | 5 | 5 (100 %) | 199,90 | 199,90 | 199,90 | 234,90 |
-| Bolt Food | Pepsi | Pepsi Zero Sugar 0,5l |  | 5 | 0 (0 %) | 34,90 | 35,90 | 35,10 | 35,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Pepsi | Pepsi Zero Sugar 0,5l | 500 ml | 3 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Bolt Food | Pepsi | Pepsi Zero Sugar 1,5l |  | 5 | 0 (0 %) | 45,90 | 46,90 | 46,10 | 46,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 1,5l | 1,5 l | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 1,5l | 1,5 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 1,5l | 1,5 l | 5 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
-| Bolt Food | Pepsi | Pepsi Zero Sugar 1l |  | 5 | 0 (0 %) | 37,90 | 39,90 | 38,30 | 39,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 1l | 1 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 1l | 1 l | 5 | 5 (100 %) | 19,90 | 19,90 | 19,90 | 33,90 |
-| Bolt Food | Pepsi | Pepsi Zero Sugar 330ml |  | 5 | 0 (0 %) | 26,90 | 29,90 | 27,50 | 29,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar 4 x 330ml | 1,32 l | 4 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar Cherry 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Pepsi | Pepsi Zero Sugar Cherry 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 38,90 | 36,50 | 26,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar Cherry 1,5l | 1,5 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar Cherry 2,25l | 2,25 l | 5 | 4 (80 %) | 24,90 | 47,20 | 29,36 | 47,20 |
-| Wolt | Pepsi | Pepsi Zero Sugar Cherry 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar Lemon 0,5l | 500 ml | 4 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
-| Wolt | Pepsi | Pepsi Zero Sugar Lemon 1,5l | 1,5 l | 4 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
-| Wolt | Pepsi | Pepsi Zero Sugar Lemon 330ml | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Pepsi | Pepsi Zero Sugar Sleek | 330,0 ml | 5 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
-| Rohlík | Pepsi | Pepsi Zero Sugar plech multipack (4×330ml) | 1,32 l | 5 | 0 (0 %) | 70,90 | 70,90 | 70,90 | 70,90 |
-| Rohlík | Pepsi | Pepsi plech multipack (4×330 ml) | 1,32 l | 5 | 0 (0 %) | 70,90 | 70,90 | 70,90 | 70,90 |
-| Košík | Pepsi | Pepsi zero sugar plech, multipack 4x330ml | 1,32 l | 5 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Wolt | Red Bull | RED BULL GREEN S PŘÍCHUTÍ CURUBA A BEZOVÝ KVĚT 0,25 l | 250 ml | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Wolt | Red Bull | RED BULL PINK SUGARFREE S PŘÍCHUTÍ LESNÍHO OVOCE 0,25 l | 250 ml | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Wolt | Red Bull | RED BULL SEA BLUE EDITION 250 ml | 250 ml | 3 | 3 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Wolt | Red Bull | RED BULL ZERO  0,25 l | 250 ml | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Bolt Food | Red Bull | RED BULL ZERO 355 ml |  | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Bolt Food | Red Bull | RED BULL ZERO 4 x 250 ml |  | 4 | 0 (0 %) | 179,90 | 179,90 | 179,90 | 179,90 |
-| Bolt Food | Red Bull | Red Bull 473ml |  | 5 | 0 (0 %) | 79,90 | 84,90 | 80,90 | 84,90 |
-| Wolt | Red Bull | Red Bull Blue | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Bolt Food | Red Bull | Red Bull Blue Edition 0,355l |  | 5 | 0 (0 %) | 69,90 | 74,90 | 70,90 | 74,90 |
-| Bolt Food | Red Bull | Red Bull Blue Edition 250Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Red Bull | Red Bull Blue Edition 250ml |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Košík | Red Bull | Red Bull Blue Edition – Blueberry | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Red Bull | Red Bull Blue edition 250ml | 250 ml | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Košík | Red Bull | Red Bull Energetický nápoj | 355,0 ml | 5 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 2 Pack 0,25 L |  | 5 | 0 (0 %) | 79,90 | 81,90 | 80,30 | 81,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 2 X 250Ml |  | 5 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 250Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 250ml |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 355Ml |  | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 355ml |  | 5 | 0 (0 %) | 69,90 | 74,90 | 70,90 | 74,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 4 X 250Ml |  | 5 | 0 (0 %) | 179,90 | 179,90 | 179,90 | 179,90 |
-| Bolt Food | Red Bull | Red Bull Energy Drink 473Ml |  | 5 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
-| Rohlík | Red Bull | Red Bull Energy Drink Borůvka plech | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Rohlík | Red Bull | Red Bull Energy Drink plech | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Wolt | Red Bull | Red Bull Energy drink | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Wolt | Red Bull | Red Bull Energy drink | 355 ml | 5 | 0 (0 %) | 39,90 | 59,90 | 47,90 | 59,90 |
-| Wolt | Red Bull | Red Bull Energy drink | 1 l | 5 | 0 (0 %) | 164,00 | 164,00 | 164,00 | 164,00 |
-| Wolt | Red Bull | Red Bull Energy drink 2 x 250ml | 500 ml | 5 | 0 (0 %) | 74,90 | 74,90 | 74,90 | 74,90 |
-| Wolt | Red Bull | Red Bull Energy drink 250ml | 250 ml | 5 | 0 (0 %) | 42,90 | 42,90 | 42,90 | 42,90 |
-| Wolt | Red Bull | Red Bull Energy drink 250ml | 250 ml | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Wolt | Red Bull | Red Bull Energy drink 355ml | 355 ml | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Košík | Red Bull | Red Bull Energy drink 4x250ml | 4,0 ks | 5 | 0 (0 %) | 169,90 | 174,90 | 173,90 | 174,90 |
-| Rohlík | Red Bull | Red Bull Energy drink Pack 4x250ml plech | 1 l 4ks | 5 | 0 (0 %) | 174,90 | 179,90 | 176,90 | 179,90 |
-| Rohlík | Red Bull | Red Bull Energy drink bez cukru plech | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Bolt Food | Red Bull | Red Bull Gre.Ed. Ene. Nap. Prich. Cur. A Bk 250 Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Red Bull | Red Bull Green S Příchutí Curuba A Bezový Květ 0,25l |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Rohlík | Red Bull | Red Bull Green curuba a bezový květ | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Wolt | Red Bull | Red Bull Green curuba a bezový květ | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Košík | Red Bull | Red Bull Green s příchutí Curuba a bezový květ | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Red Bull | Red Bull Ice S Příchutí Vanilky A Ledové Borůvky 0,25L |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Rohlík | Red Bull | Red Bull Ice s příchutí vanilky a ledové borůvky | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Wolt | Red Bull | Red Bull Ice vanilka a ledová borůvka | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Bolt Food | Red Bull | Red Bull Peach S Příchutí Bílé Broskve 0,25L |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Rohlík | Red Bull | Red Bull Peach s příchutí bílé broskve | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Wolt | Red Bull | Red Bull Peach s příchutí bílé broskve | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Bolt Food | Red Bull | Red Bull Pi. Ed. Prich. Les. Ovo. Bez Cukru 250 Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Red Bull | Red Bull Pink Sugarfree S Příchutí Lesního Ovoce 0,25l |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Rohlík | Red Bull | Red Bull Pink Sugarfree lesní ovoce | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Wolt | Red Bull | Red Bull Pink Sugarfree lesní ovoce | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Košík | Red Bull | Red Bull Pink Sugarfree s příchutí lesního ovoce | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Red Bull | Red Bull Pistachio & Berries | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Red Bull | Red Bull Sea Blue | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Košík | Red Bull | Red Bull Sea Blue Edition | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Red Bull | Red Bull Sea Blue Edition 250ml |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Košík | Red Bull | Red Bull Sudachi Lime | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Košík | Red Bull | Red Bull Sugar Free | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Bolt Food | Red Bull | Red Bull Sugar Free 250Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Red Bull | Red Bull Sugar Free 250ml |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Wolt | Red Bull | Red Bull Sugar free 250ml | 250 ml | 5 | 0 (0 %) | 39,90 | 42,90 | 42,30 | 42,90 |
-| Wolt | Red Bull | Red Bull Sugar free 250ml | 250 ml | 1 | 1 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Bolt Food | Red Bull | Red Bull Sum.Ed. Energe. Napoj S Prich. Bb 250 Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Red Bull | Red Bull Summer Edition s příchutí sudachi a limetky |  | 5 | 0 (0 %) | 42,90 | 42,90 | 42,90 | 42,90 |
+| Košík | Pepsi | Pepsi Cola plech, multipack 4x330ml | 1,32 l | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Košík | Pepsi | Pepsi Cream Soda Zero | 250,0 ml | 6 | 0 (0 %) | 19,90 | 22,90 | 20,40 | 19,90 |
+| Košík | Pepsi | Pepsi Cream Strawberry Zero | 250,0 ml | 6 | 0 (0 %) | 19,90 | 22,90 | 20,40 | 19,90 |
+| Wolt | Pepsi | Pepsi Lemon Twist 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Košík | Pepsi | Pepsi Lemon Zero Sugar | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Košík | Pepsi | Pepsi Lemon Zero Sugar | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Pepsi | Pepsi Lemon Zero Sugar | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 0,33 L |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 0,33l Plech |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 0,5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Pepsi | Pepsi Lemon Zero Sugar 1,5l Pet |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Rohlík | Pepsi | Pepsi Lemon zero sugar | 330 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Pepsi | Pepsi Lemon zero sugar | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Bolt Food | Pepsi | Pepsi Max 0,5l |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Pepsi | Pepsi Max 1,5L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Pepsi | Pepsi Max 330Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Pepsi | Pepsi Raspberry | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Rohlík | Pepsi | Pepsi Raspberry | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Bolt Food | Pepsi | Pepsi Raspberry 0,33L Plech |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Bolt Food | Pepsi | Pepsi Raspberry Pet 0,5L |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Bolt Food | Pepsi | Pepsi S Prichuti Citronu Zero Cukru 1,5 L |  | 6 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Bolt Food | Pepsi | Pepsi S Prichuti Tresni Zero Cukru 0,5 L |  | 6 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Bolt Food | Pepsi | Pepsi S Prichuti Tresni Zero Cukru 330 Ml |  | 6 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Pepsi | Pepsi Sleek | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Košík | Pepsi | Pepsi Twist Lemon | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Košík | Pepsi | Pepsi Twist Lemon | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Rohlík | Pepsi | Pepsi Twist Lemon | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Bolt Food | Pepsi | Pepsi Twist Lemon Pet 0,5L |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Košík | Pepsi | Pepsi Zero Sugar | 1,5 l | 6 | 0 (0 %) | 38,90 | 38,90 | 38,90 | 38,90 |
+| Košík | Pepsi | Pepsi Zero Sugar | 1,0 l | 6 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
+| Košík | Pepsi | Pepsi Zero Sugar | 2,25 l | 6 | 0 (0 %) | 47,90 | 47,90 | 47,90 | 47,90 |
+| Rohlík | Pepsi | Pepsi Zero Sugar | 2,25 l | 6 | 4 (67 %) | 36,90 | 47,90 | 40,57 | 47,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar | 1,5 l | 6 | 0 (0 %) | 26,90 | 38,90 | 34,90 | 26,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar | 330 ml | 6 | 0 (0 %) | 17,90 | 17,90 | 17,90 | 17,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar | 500 ml | 6 | 0 (0 %) | 19,90 | 19,90 | 19,90 | 19,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Rohlík | Pepsi | Pepsi Zero Sugar (6×1,5l) | 9 l | 6 | 6 (100 %) | 199,90 | 199,90 | 199,90 | 234,90 |
+| Bolt Food | Pepsi | Pepsi Zero Sugar 0,5l |  | 6 | 0 (0 %) | 34,90 | 35,90 | 35,23 | 35,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Pepsi | Pepsi Zero Sugar 0,5l | 500 ml | 4 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Bolt Food | Pepsi | Pepsi Zero Sugar 1,5l |  | 6 | 0 (0 %) | 45,90 | 46,90 | 46,23 | 46,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 1,5l | 1,5 l | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 35,90 | 34,10 | 26,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 1,5l | 1,5 l | 6 | 0 (0 %) | 41,90 | 41,90 | 41,90 | 41,90 |
+| Bolt Food | Pepsi | Pepsi Zero Sugar 1l |  | 6 | 0 (0 %) | 37,90 | 39,90 | 38,57 | 39,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 1l | 1 l | 5 | 0 (0 %) | 35,90 | 35,90 | 35,90 | 35,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 1l | 1 l | 6 | 6 (100 %) | 19,90 | 19,90 | 19,90 | 33,90 |
+| Bolt Food | Pepsi | Pepsi Zero Sugar 330ml |  | 6 | 0 (0 %) | 26,90 | 29,90 | 27,90 | 29,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar 4 x 330ml | 1,32 l | 5 | 0 (0 %) | 77,90 | 77,90 | 77,90 | 77,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar Cherry 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Pepsi | Pepsi Zero Sugar Cherry 1,5l | 1,5 l | 6 | 0 (0 %) | 26,90 | 38,90 | 34,90 | 26,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar Cherry 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 35,90 | 34,10 | 26,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar Cherry 2,25l | 2,25 l | 6 | 4 (67 %) | 24,90 | 47,20 | 32,33 | 47,20 |
+| Wolt | Pepsi | Pepsi Zero Sugar Cherry 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar Lemon 0,5l | 500 ml | 5 | 0 (0 %) | 31,50 | 31,50 | 31,50 | 31,50 |
+| Wolt | Pepsi | Pepsi Zero Sugar Lemon 1,5l | 1,5 l | 5 | 0 (0 %) | 26,90 | 35,90 | 34,10 | 26,90 |
+| Wolt | Pepsi | Pepsi Zero Sugar Lemon 330ml | 330 ml | 5 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Pepsi | Pepsi Zero Sugar Sleek | 330,0 ml | 6 | 0 (0 %) | 22,90 | 22,90 | 22,90 | 22,90 |
+| Rohlík | Pepsi | Pepsi Zero Sugar plech multipack (4×330ml) | 1,32 l | 6 | 0 (0 %) | 70,90 | 70,90 | 70,90 | 70,90 |
+| Rohlík | Pepsi | Pepsi plech multipack (4×330 ml) | 1,32 l | 6 | 0 (0 %) | 70,90 | 70,90 | 70,90 | 70,90 |
+| Košík | Pepsi | Pepsi zero sugar plech, multipack 4x330ml | 1,32 l | 6 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Wolt | Red Bull | RED BULL GREEN S PŘÍCHUTÍ CURUBA A BEZOVÝ KVĚT 0,25 l | 250 ml | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Wolt | Red Bull | RED BULL PINK SUGARFREE S PŘÍCHUTÍ LESNÍHO OVOCE 0,25 l | 250 ml | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Wolt | Red Bull | RED BULL SEA BLUE EDITION 250 ml | 250 ml | 4 | 4 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Wolt | Red Bull | RED BULL ZERO  0,25 l | 250 ml | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Bolt Food | Red Bull | RED BULL ZERO 355 ml |  | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Bolt Food | Red Bull | RED BULL ZERO 4 x 250 ml |  | 5 | 0 (0 %) | 179,90 | 179,90 | 179,90 | 179,90 |
+| Bolt Food | Red Bull | Red Bull 473ml |  | 6 | 0 (0 %) | 79,90 | 84,90 | 81,57 | 84,90 |
+| Wolt | Red Bull | Red Bull Blue | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Bolt Food | Red Bull | Red Bull Blue Edition 0,355l |  | 6 | 0 (0 %) | 69,90 | 74,90 | 71,57 | 74,90 |
+| Bolt Food | Red Bull | Red Bull Blue Edition 250Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Red Bull | Red Bull Blue Edition 250ml |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Košík | Red Bull | Red Bull Blue Edition – Blueberry | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Blue edition 250ml | 250 ml | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Košík | Red Bull | Red Bull Energetický nápoj | 355,0 ml | 6 | 0 (0 %) | 59,90 | 59,90 | 59,90 | 59,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 2 Pack 0,25 L |  | 6 | 0 (0 %) | 79,90 | 81,90 | 80,57 | 81,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 2 X 250Ml |  | 6 | 0 (0 %) | 114,90 | 114,90 | 114,90 | 114,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 250Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 250ml |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 355Ml |  | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 355ml |  | 6 | 0 (0 %) | 69,90 | 74,90 | 71,57 | 74,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 4 X 250Ml |  | 6 | 0 (0 %) | 179,90 | 179,90 | 179,90 | 179,90 |
+| Bolt Food | Red Bull | Red Bull Energy Drink 473Ml |  | 6 | 0 (0 %) | 79,90 | 79,90 | 79,90 | 79,90 |
+| Rohlík | Red Bull | Red Bull Energy Drink Borůvka plech | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Rohlík | Red Bull | Red Bull Energy Drink plech | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Energy drink | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Wolt | Red Bull | Red Bull Energy drink | 355 ml | 6 | 0 (0 %) | 39,90 | 59,90 | 49,90 | 59,90 |
+| Wolt | Red Bull | Red Bull Energy drink | 1 l | 6 | 0 (0 %) | 164,00 | 164,00 | 164,00 | 164,00 |
+| Wolt | Red Bull | Red Bull Energy drink 2 x 250ml | 500 ml | 6 | 0 (0 %) | 74,90 | 74,90 | 74,90 | 74,90 |
+| Wolt | Red Bull | Red Bull Energy drink 250ml | 250 ml | 6 | 0 (0 %) | 42,90 | 42,90 | 42,90 | 42,90 |
+| Wolt | Red Bull | Red Bull Energy drink 250ml | 250 ml | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Wolt | Red Bull | Red Bull Energy drink 355ml | 355 ml | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Košík | Red Bull | Red Bull Energy drink 4x250ml | 4,0 ks | 6 | 0 (0 %) | 169,90 | 174,90 | 174,07 | 174,90 |
+| Rohlík | Red Bull | Red Bull Energy drink Pack 4x250ml plech | 1 l 4ks | 6 | 0 (0 %) | 174,90 | 179,90 | 177,40 | 179,90 |
+| Rohlík | Red Bull | Red Bull Energy drink bez cukru plech | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Bolt Food | Red Bull | Red Bull Gre.Ed. Ene. Nap. Prich. Cur. A Bk 250 Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Red Bull | Red Bull Green S Příchutí Curuba A Bezový Květ 0,25l |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Rohlík | Red Bull | Red Bull Green curuba a bezový květ | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Green curuba a bezový květ | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Košík | Red Bull | Red Bull Green s příchutí Curuba a bezový květ | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Red Bull | Red Bull Ice S Příchutí Vanilky A Ledové Borůvky 0,25L |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Rohlík | Red Bull | Red Bull Ice s příchutí vanilky a ledové borůvky | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Ice vanilka a ledová borůvka | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Bolt Food | Red Bull | Red Bull Peach S Příchutí Bílé Broskve 0,25L |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Rohlík | Red Bull | Red Bull Peach s příchutí bílé broskve | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Peach s příchutí bílé broskve | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Bolt Food | Red Bull | Red Bull Pi. Ed. Prich. Les. Ovo. Bez Cukru 250 Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Red Bull | Red Bull Pink Sugarfree S Příchutí Lesního Ovoce 0,25l |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Rohlík | Red Bull | Red Bull Pink Sugarfree lesní ovoce | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Pink Sugarfree lesní ovoce | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Košík | Red Bull | Red Bull Pink Sugarfree s příchutí lesního ovoce | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Red Bull | Red Bull Pistachio & Berries | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Sea Blue | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Košík | Red Bull | Red Bull Sea Blue Edition | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Red Bull | Red Bull Sea Blue Edition 250ml |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Košík | Red Bull | Red Bull Sudachi Lime | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Košík | Red Bull | Red Bull Sugar Free | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Bolt Food | Red Bull | Red Bull Sugar Free 250Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Red Bull | Red Bull Sugar Free 250ml |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Wolt | Red Bull | Red Bull Sugar free 250ml | 250 ml | 6 | 0 (0 %) | 39,90 | 42,90 | 42,40 | 42,90 |
+| Wolt | Red Bull | Red Bull Sugar free 250ml | 250 ml | 2 | 2 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Bolt Food | Red Bull | Red Bull Sum.Ed. Energe. Napoj S Prich. Bb 250 Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Red Bull | Red Bull Summer Edition s příchutí sudachi a limetky |  | 6 | 0 (0 %) | 42,90 | 42,90 | 42,90 | 42,90 |
 | Wolt | Red Bull | Red Bull Summer příchuť sudachi a limetka | 250 ml | 3 | 0 (0 %) | 32,90 | 32,90 | 32,90 | 32,90 |
-| Rohlík | Red Bull | Red Bull Summer s příchutí sudachi a limetky | 250 ml | 5 | 5 (100 %) | 32,90 | 39,90 | 38,50 | 44,90 |
-| Bolt Food | Red Bull | Red Bull The Bl. Edition S Prich. Boruvky 355 Ml |  | 5 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
-| Bolt Food | Red Bull | Red Bull The Ice Edition Vanilla & Iced Berry 250ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Red Bull | Red Bull The Ice Edition Vanilla & Iced Berry 250ml | 250 ml | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Wolt | Red Bull | Red Bull The Peach Edition White Peach 250ml | 250 ml | 4 | 4 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
-| Bolt Food | Red Bull | Red Bull The Sea Blue Edition Juneberry 250 Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Wolt | Red Bull | Red Bull Winter příchuť pistácie a lesní ovoce | 250 ml | 1 | 1 (100 %) | 32,90 | 32,90 | 32,90 | 42,90 |
-| Rohlík | Red Bull | Red Bull Winter s příchutí pistácií a lesního ovoce | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Košík | Red Bull | Red Bull Zero | 250,0 ml | 5 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
-| Wolt | Red Bull | Red Bull Zero | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Bolt Food | Red Bull | Red Bull Zero 0,355L |  | 5 | 0 (0 %) | 69,90 | 74,90 | 70,90 | 74,90 |
-| Bolt Food | Red Bull | Red Bull Zero 250Ml |  | 5 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
-| Bolt Food | Red Bull | Red Bull Zero 250ml |  | 5 | 0 (0 %) | 54,90 | 56,90 | 55,30 | 56,90 |
-| Wolt | Red Bull | Red Bull Zero 250ml | 250 ml | 5 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
-| Rohlík | Red Bull | Red Bull Zero Pack 4×250 ml | 1 l 4ks | 5 | 0 (0 %) | 174,90 | 179,90 | 176,90 | 179,90 |
-| Rohlík | Red Bull | Red Bull Zero plech | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Wolt | Red Bull | Red Bull energy drink bez cukru | 250 ml | 5 | 0 (0 %) | 32,90 | 37,90 | 35,90 | 32,90 |
-| Rohlík | Red Bull | Red Bull s příchutí třešně a sakury | 250 ml | 5 | 1 (20 %) | 32,90 | 44,90 | 42,50 | 44,90 |
-| Bolt Food | Targa | TARGA FLORIO MARAKU. MANDARI. LIMONADA 330 ml |  | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Targa | Targa Florio Tonica Originale Sycený Nealkoholický Nápoj 330ml |  | 3 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
-| Bolt Food | Targa | Targa Florio Tonica Rosa 1,33l |  | 3 | 0 (0 %) | 49,90 | 51,90 | 50,57 | 51,90 |
-| Bolt Food | Targa | Targa Florio Tonica Rosa Sycený Nealkoholický Nápoj 330ml |  | 2 | 0 (0 %) | 30,90 | 31,90 | 31,40 | 31,90 |
+| Rohlík | Red Bull | Red Bull Summer s příchutí sudachi a limetky | 250 ml | 6 | 5 (83 %) | 32,90 | 44,90 | 39,57 | 44,90 |
+| Bolt Food | Red Bull | Red Bull The Bl. Edition S Prich. Boruvky 355 Ml |  | 6 | 0 (0 %) | 64,90 | 64,90 | 64,90 | 64,90 |
+| Bolt Food | Red Bull | Red Bull The Ice Edition Vanilla & Iced Berry 250ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Red Bull | Red Bull The Ice Edition Vanilla & Iced Berry 250ml | 250 ml | 6 | 6 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Wolt | Red Bull | Red Bull The Peach Edition White Peach 250ml | 250 ml | 5 | 5 (100 %) | 34,90 | 34,90 | 34,90 | 45,90 |
+| Bolt Food | Red Bull | Red Bull The Sea Blue Edition Juneberry 250 Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Wolt | Red Bull | Red Bull Winter příchuť pistácie a lesní ovoce | 250 ml | 2 | 2 (100 %) | 32,90 | 32,90 | 32,90 | 42,90 |
+| Rohlík | Red Bull | Red Bull Winter s příchutí pistácií a lesního ovoce | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Košík | Red Bull | Red Bull Zero | 250,0 ml | 6 | 0 (0 %) | 44,90 | 44,90 | 44,90 | 44,90 |
+| Wolt | Red Bull | Red Bull Zero | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Bolt Food | Red Bull | Red Bull Zero 0,355L |  | 6 | 0 (0 %) | 69,90 | 74,90 | 71,57 | 74,90 |
+| Bolt Food | Red Bull | Red Bull Zero 250Ml |  | 6 | 0 (0 %) | 46,90 | 46,90 | 46,90 | 46,90 |
+| Bolt Food | Red Bull | Red Bull Zero 250ml |  | 6 | 0 (0 %) | 54,90 | 56,90 | 55,57 | 56,90 |
+| Wolt | Red Bull | Red Bull Zero 250ml | 250 ml | 6 | 0 (0 %) | 29,90 | 29,90 | 29,90 | 29,90 |
+| Rohlík | Red Bull | Red Bull Zero Pack 4×250 ml | 1 l 4ks | 6 | 0 (0 %) | 174,90 | 179,90 | 177,40 | 179,90 |
+| Rohlík | Red Bull | Red Bull Zero plech | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Wolt | Red Bull | Red Bull energy drink bez cukru | 250 ml | 6 | 0 (0 %) | 32,90 | 37,90 | 35,40 | 32,90 |
+| Rohlík | Red Bull | Red Bull s příchutí třešně a sakury | 250 ml | 6 | 1 (17 %) | 32,90 | 44,90 | 42,90 | 44,90 |
+| Bolt Food | Targa | TARGA FLORIO MARAKU. MANDARI. LIMONADA 330 ml |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Targa | Targa Florio Tonica Originale Sycený Nealkoholický Nápoj 330ml |  | 4 | 0 (0 %) | 30,90 | 31,90 | 31,40 | 31,90 |
+| Bolt Food | Targa | Targa Florio Tonica Rosa 1,33l |  | 4 | 0 (0 %) | 49,90 | 51,90 | 50,90 | 51,90 |
+| Bolt Food | Targa | Targa Florio Tonica Rosa Sycený Nealkoholický Nápoj 330ml |  | 3 | 0 (0 %) | 30,90 | 31,90 | 31,57 | 31,90 |
 | Bolt Food | Targa | Targa Maracuja E Mandarino 1,33L |  | 2 | 0 (0 %) | 49,90 | 49,90 | 49,90 | 49,90 |
-| Košík | Targa | Targa Maracuja e Mandarino | 1,33 l | 3 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Košík | Targa | Targa Maracuja e Mandarino plech | 330,0 ml | 3 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Wolt | Targa | Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 1,33l | 1,33 l | 2 | 2 (100 %) | 26,90 | 26,90 | 26,90 | 39,90 |
-| Wolt | Targa | Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 1,33l | 1,33 l | 1 | 1 (100 %) | 34,90 | 34,90 | 34,90 | 44,90 |
-| Wolt | Targa | Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 330ml | 330 ml | 2 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Targa | Targa Tonica Originale | 330,0 ml | 3 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Košík | Targa | Targa Tonica Originale | 1,33 l | 3 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Košík | Targa | Targa Tonica Rosa | 1,33 l | 3 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Košík | Targa | Targa Tonica Rosa  | 330,0 ml | 3 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Bolt Food | Targa | Targa Tonica Rosa sycený nealkoholický nápoj 330ml |  | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Targa | Targa Tonica Rosa sycený nealkoholický nápoj 330ml | 330 ml | 2 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Rohlík | Targa | Targa Tonica originale | 1,33 l | 3 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Targa | Targa Tonica originale | 330 ml | 3 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Targa | Targa Tonica rosa | 1,33 l | 3 | 0 (0 %) | 39,90 | 39,90 | 39,90 | 39,90 |
-| Rohlík | Targa | Targa Tonica rosa plech | 330 ml | 3 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Wolt | Targa Aranciata | TARGA FLORIO POMERANČ 0,33l | 330 ml | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Wolt | Targa Aranciata | Targa Arancia | 330 ml | 3 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Košík | Targa Aranciata | Targa Aranciata | 330,0 ml | 3 | 3 (100 %) | 19,90 | 19,90 | 19,90 | 25,90 |
-| Košík | Targa Aranciata | Targa Aranciata | 1,33 l | 3 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Rohlík | Targa Aranciata | Targa Aranciata  (4×330 ml) | 1,32 l | 3 | 0 (0 %) | 78,90 | 78,90 | 78,90 | 78,90 |
-| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 1,33l | 1,33 l | 3 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
-| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 330ml | 330 ml | 3 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
-| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 330ml | 330 ml | 2 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Targa Aranciata | Targa Aranciata, multipack 4x330ml | 1,32 l | 3 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
-| Bolt Food | Targa Aranciata | Targa Florio Arancia 1,33l |  | 3 | 0 (0 %) | 49,90 | 51,90 | 50,57 | 51,90 |
-| Bolt Food | Targa Aranciata | Targa Florio Arancia Sycená Pomerančová Limonáda 330Ml |  | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Bolt Food | Targa Aranciata | Targa Florio Arancia Sycená Pomerančová Limonáda 330ml |  | 3 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
-| Bolt Food | Targa Aranciata | Targa Florio Arancia sycená pomerančová limonáda 4 x 330ml (1,32l) |  | 3 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
-| Wolt | Targa Aranciata | Targa Florio Arancia sycená pomerančová limonáda 4 x 330ml (1,32l) | 1,32 l | 2 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
-| Rohlík | Targa Aranciata | Targa pomeranč | 1,33 l | 3 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Wolt | Targa Limonata | TARGA FLORIO  CITRUS 0,33l | 330 ml | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Targa Limonata | Targa Citron | 1,33 l | 3 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Bolt Food | Targa Limonata | Targa Florio  Citrus 0,33l |  | 3 | 0 (0 %) | 30,90 | 31,90 | 31,23 | 31,90 |
-| Bolt Food | Targa Limonata | Targa Florio Limone Sycená Citronová Limonáda 330Ml |  | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Košík | Targa Limonata | Targa Limonata | 330,0 ml | 3 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
-| Rohlík | Targa Limonata | Targa Limonata | 1,33 l | 3 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
-| Bolt Food | Targa Limonata | Targa Limonata 1,33L |  | 3 | 0 (0 %) | 49,90 | 51,90 | 50,57 | 51,90 |
-| Wolt | Targa Limonata | Targa Limonata sycená citronová limonáda 330ml | 330 ml | 2 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
-| Rohlík | Targa Limonata | Targa citrón | 330 ml | 3 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Targa | Targa Maracuja e Mandarino | 1,33 l | 4 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Košík | Targa | Targa Maracuja e Mandarino plech | 330,0 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Targa | Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 1,33l | 1,33 l | 3 | 3 (100 %) | 26,90 | 26,90 | 26,90 | 39,90 |
+| Wolt | Targa | Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 1,33l | 1,33 l | 2 | 2 (100 %) | 34,90 | 34,90 | 34,90 | 44,90 |
+| Wolt | Targa | Targa Maracuja e Mandarino sycená marakujovo-mandarinková limonáda 330ml | 330 ml | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa | Targa Tonica Originale | 330,0 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Košík | Targa | Targa Tonica Originale | 1,33 l | 4 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Košík | Targa | Targa Tonica Rosa | 1,33 l | 4 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Košík | Targa | Targa Tonica Rosa  | 330,0 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Bolt Food | Targa | Targa Tonica Rosa sycený nealkoholický nápoj 330ml |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Targa | Targa Tonica Rosa sycený nealkoholický nápoj 330ml | 330 ml | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Targa | Targa Tonica originale | 1,33 l | 4 | 1 (25 %) | 36,90 | 39,90 | 39,15 | 41,90 |
+| Rohlík | Targa | Targa Tonica originale | 330 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Targa | Targa Tonica rosa | 1,33 l | 4 | 1 (25 %) | 36,90 | 39,90 | 39,15 | 41,90 |
+| Rohlík | Targa | Targa Tonica rosa plech | 330 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Wolt | Targa Aranciata | TARGA FLORIO POMERANČ 0,33l | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Wolt | Targa Aranciata | Targa Arancia | 330 ml | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Košík | Targa Aranciata | Targa Aranciata | 330,0 ml | 4 | 4 (100 %) | 19,90 | 19,90 | 19,90 | 25,90 |
+| Košík | Targa Aranciata | Targa Aranciata | 1,33 l | 4 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Rohlík | Targa Aranciata | Targa Aranciata  (4×330 ml) | 1,32 l | 4 | 0 (0 %) | 78,90 | 78,90 | 78,90 | 78,90 |
+| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 1,33l | 1,33 l | 4 | 0 (0 %) | 26,90 | 26,90 | 26,90 | 26,90 |
+| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 330ml | 330 ml | 4 | 0 (0 %) | 23,90 | 23,90 | 23,90 | 23,90 |
+| Wolt | Targa Aranciata | Targa Aranciata sycená pomerančová limonáda 330ml | 330 ml | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa Aranciata | Targa Aranciata, multipack 4x330ml | 1,32 l | 4 | 0 (0 %) | 69,90 | 69,90 | 69,90 | 69,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia 1,33l |  | 4 | 0 (0 %) | 49,90 | 51,90 | 50,90 | 51,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia Sycená Pomerančová Limonáda 330Ml |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia Sycená Pomerančová Limonáda 330ml |  | 4 | 0 (0 %) | 30,90 | 31,90 | 31,40 | 31,90 |
+| Bolt Food | Targa Aranciata | Targa Florio Arancia sycená pomerančová limonáda 4 x 330ml (1,32l) |  | 4 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
+| Wolt | Targa Aranciata | Targa Florio Arancia sycená pomerančová limonáda 4 x 330ml (1,32l) | 1,32 l | 3 | 0 (0 %) | 94,90 | 94,90 | 94,90 | 94,90 |
+| Rohlík | Targa Aranciata | Targa pomeranč | 1,33 l | 4 | 1 (25 %) | 36,90 | 43,90 | 42,15 | 43,90 |
+| Wolt | Targa Limonata | TARGA FLORIO  CITRUS 0,33l | 330 ml | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa Limonata | Targa Citron | 1,33 l | 4 | 0 (0 %) | 43,90 | 43,90 | 43,90 | 43,90 |
+| Bolt Food | Targa Limonata | Targa Florio  Citrus 0,33l |  | 4 | 0 (0 %) | 30,90 | 31,90 | 31,40 | 31,90 |
+| Bolt Food | Targa Limonata | Targa Florio Limone Sycená Citronová Limonáda 330Ml |  | 4 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Košík | Targa Limonata | Targa Limonata | 330,0 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |
+| Rohlík | Targa Limonata | Targa Limonata | 1,33 l | 4 | 1 (25 %) | 36,90 | 43,90 | 42,15 | 43,90 |
+| Bolt Food | Targa Limonata | Targa Limonata 1,33L |  | 4 | 0 (0 %) | 49,90 | 51,90 | 50,90 | 51,90 |
+| Wolt | Targa Limonata | Targa Limonata sycená citronová limonáda 330ml | 330 ml | 3 | 0 (0 %) | 24,90 | 24,90 | 24,90 | 24,90 |
+| Rohlík | Targa Limonata | Targa citrón | 330 ml | 4 | 0 (0 %) | 25,90 | 25,90 | 25,90 | 25,90 |

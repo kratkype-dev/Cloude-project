@@ -114,7 +114,11 @@ def save_coverage(rows, coverage_dir=COVERAGE_DIR):
 
 
 def load_coverage(coverage_dir=COVERAGE_DIR):
-    return [r for path in sorted(Path(coverage_dir).glob("*.csv")) for r in _read(path)]
+    rows = [r for path in sorted(Path(coverage_dir).glob("*.csv")) for r in _read(path)]
+    for r in rows:  # older runs stored "ok" for a store with nothing to check
+        if r.get("checked") in ("0", 0):
+            r["status"] = "failed"
+    return rows
 
 
 def save_search(rows, search_dir=SEARCH_DIR):
