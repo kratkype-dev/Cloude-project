@@ -153,7 +153,7 @@ def dashboard_data(rows, banners=(), coverage=(), search=()):
         "shops": SHOP_NAMES,
         "products": products,
         "banners": [{k: b.get(k, "") for k in ("date", "platform", "placement", "position", "title",
-                                               "owner", "brand", "link", "image")} for b in banners],
+                                               "owner", "brand", "link", "image", "source")} for b in banners],
         "coverage": [{k: c.get(k, "") for k in ("date", "platform", "store", "scope", "status", "checked",
                                                  "failed", "products", "note", "area", "login")} for c in coverage],
         "search": _search_latest_runs(search),

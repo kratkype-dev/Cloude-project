@@ -683,7 +683,7 @@ function bannerChanges() {
   // Wolt's front page rotates restaurant banners by time of day; only brand banners are a real change there.
   const relevant = b => b.platform !== "wolt" || b.owner;
   return [...last.filter(b => relevant(b) && prevPlat.has(b.platform) && !pk.has(k(b))).map(b => ({...b, type: "new"})),
-          ...prev.filter(b => relevant(b) && lastPlat.has(b.platform) && !lk.has(k(b))).map(b => ({...b, type: "gone"}))];
+          ...prev.filter(b => relevant(b) && b.source !== "manual" && lastPlat.has(b.platform) && !lk.has(k(b))).map(b => ({...b, type: "gone"}))];
 }
 
 /* ---------- Brand view: our key brands against their competitors, per customer ---------- */
@@ -778,7 +778,7 @@ function changesSection(duels, ch, bch) {
     h: x.winner === "rival" ? `${x.rival} je nově levnější než ${x.home}` : `${x.home} je znovu levnější než ${x.rival}`,
     t: `${x.band} · ${storeOf(x.h.p)}: ${duelLine(x)} · index ${Math.round(x.index)}`, open: (x.winner === "rival" ? x.r : x.h).p.id});
   for (const b of bch) per[b.platform]?.push({rank: b.owner ? 1 : 5, conf: "confirmed", kind: b.type === "new" ? "banner" : "info", chip: b.type === "new" ? "Nový banner" : "Banner skončil",
-    h: `${b.title || b.brand}${b.example ? " (příklad)" : ""}`, t: `${b.placement}${b.brand ? " · " + b.brand : ""}`, go: ["kampane", {}], owner: b.owner});
+    h: `${b.title || b.brand}${b.example ? " (příklad)" : ""}`, t: `${b.placement}${b.brand ? " · " + b.brand : ""}${b.source === "manual" ? " · zachyceno ručně" : ""}`, go: ["kampane", {}], owner: b.owner});
   for (const x of sch) per[x.shop]?.push({rank: x.type === "gain" ? 4 : 1, conf: x.conf, kind: x.type === "gain" ? "flip-good" : "info", owner: x.owner || HOME,
     chip: {drop: "Propad ve vyhledávání", gain: "Lepší pozice ve vyhledávání", top: "Vyhledávání"}[x.type], h: x.h, t: x.t, go: ["kampane", {}]});
   for (const c of ch || []) {
@@ -859,6 +859,7 @@ function coverageSection() {
         <li>Měří se ${D.dates.length > 1 ? `${D.dates.length}× od ${dCz(D.dates[0])}` : "zatím jednou"}. Výpadek skladu a vyřazení se potvrzuje dvěma měřeními po sobě, při týdenním měření to trvá 2 týdny. Dny mezi měřeními se nedopočítávají.</li>
         <li>foodora: chráněno proti automatickému sběru, neměří se.</li>
         <li>Bolt Food: bannery jen pro přihlášené a pořadí ve vyhledávání API nevrací, obojí neměříme.</li>
+        <li>Wolt: úvodní stránka se měří anonymně z 5 adres v Praze. Sponzorované bannery Wolt Ads pro přihlášené (např. Red Bull 27. 10.) automaticky nevidíme, doplňují se ručně ze screenshotů.</li>
         <li>Košík ve vyhledávání sponzorované výsledky neoznačuje, takže se ukazují jako neplacené.</li>
       </ul></div>
   </section>`;
@@ -1168,6 +1169,17 @@ function searchSection() {
   </section>`;
 }
 
+/* Campaigns captured by hand from a logged-in session (Wolt Ads, Bolt, foodora): the last 60 days. */
+function manualSection() {
+  const last = new Date(REAL.dates[REAL.last] || Date.now()), xs = REAL.banners.filter(b => b.source === "manual" && (last - new Date(b.date)) / 864e5 <= 60)
+    .sort((a, b) => b.date.localeCompare(a.date));
+  if (!xs.length) return "";
+  return `<div class="glass panel" style="margin-top:14px"><h2>Ručně zachycené kampaně</h2>
+    <p class="sub">Bannery, které vidí přihlášený zákazník a anonymní měření je nezachytí (sponzorované bannery Wolt Ads, Bolt Food, foodora). Zapisují se ze screenshotů, posledních 60 dní.</p>
+    <div class="table-wrap"><table><tbody>${xs.map(b => `<tr><td class="num" style="width:70px">${dCz(b.date)}</td><td><b>${esc(REAL.shops[b.platform] || b.platform)}</b><div class="meta">${esc(b.placement)}</div></td>
+      <td><div class="name">${esc(b.title)}</div><div class="meta">${b.owner ? ownerTag(b.owner) : ""} ${esc(b.brand)}</div></td></tr>`).join("")}</tbody></table></div></div>`;
+}
+
 /* ---------- Kampaně ---------- */
 function todaysBanners() { const D = data(); const last = REAL.dates[REAL.last]; return D.banners.filter(b => b.date === last); }
 function viewKampane() {
@@ -1191,16 +1203,17 @@ function viewKampane() {
       <div class="bars">${promoByOwner.sort((a, b) => b.n - a.n).map(x => `<div class="hbar"><span>${ownerTag(x.o)}</span><div class="track"><div class="fill" style="width:${x.n / maxN * 100}%;background:${ownerColor(x.o)}"></div></div><span class="num"><b>${x.n}</b></span></div>`).join("")}</div></div>
     <div class="glass panel"><h2>Kde měří reklamu</h2><p class="sub">Co nástroj u každé platformy zachytí.</p>
       <div class="table-wrap"><table><tbody>
-      <tr><td><b>Wolt</b></td><td>Hlavní karusel a sekce úvodní stránky Prahy, sponzorované produkty v obchodech</td></tr>
+      <tr><td><b>Wolt</b></td><td>Hlavní karusel úvodní stránky z 5 pražských adres (anonymně), sponzorované produkty v obchodech. <b>Sponzorované bannery Wolt Ads pro přihlášené automaticky nevidíme</b>, ty doplňujeme ručně ze screenshotů.</td></tr>
       <tr><td><b>Košík</b></td><td>Bannery v kategorii Nápoje a jejích podkategoriích, včetně kampaňového týdne</td></tr>
       <tr><td><b>Rohlík</b></td><td>Sponzorované produkty v kategoriích nápojů</td></tr>
       <tr><td><b>Bolt</b></td><td>Bannery jen pro přihlášené, zatím neměříme</td></tr></tbody></table></div></div>
   </section>
+  ${manualSection()}
   ${searchSection()}
   <h2 class="sec">Bannery a placená umístění</h2>
   <p class="lead">${nOurs} s našimi klíčovými značkami <span class="muted">(Coca-Cola, Zero, Zero Zero, Fanta, Sprite)</span> · ${nRival} s jejich konkurencí <span class="muted">(Pepsi, Kofola, Mirinda, 7UP, Targa)</span></p>
   ${Object.keys(groups).length ? Object.entries(groups).map(([pl, xs]) => `<div class="glass panel" style="margin-top:14px"><h2>${plat[pl] || pl}</h2><p class="sub">${xs.length} umístění${xs.some(b => b.key.rank < 2) ? ` · zvýrazněné jsou nahoře` : ""}</p>
-    <div class="grid camp">${xs.map(b => `<div class="card glass ${b.key.cls}">${b.key.chip}<span class="where">${esc(b.placement)}${b.position ? " · pozice " + esc(b.position) : ""}</span><span class="what">${esc(b.title || "(bez názvu)")}</span>${b.owner ? ownerTag(b.owner) + ` <span class="meta">${esc(b.brand)}</span>` : `<span class="meta">Mimo sledované značky</span>`}${/^https?:/.test(b.link) ? `<a href="${esc(b.link)}" target="_blank" rel="noopener" class="meta">Otevřít odkaz ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")
+    <div class="grid camp">${xs.map(b => `<div class="card glass ${b.key.cls}">${b.key.chip}${b.source === "manual" ? `<span class="chip warn">zachyceno ručně, přihlášený uživatel</span>` : ""}<span class="where">${esc(b.placement)}${b.position ? " · pozice " + esc(b.position) : ""}</span><span class="what">${esc(b.title || "(bez názvu)")}</span>${b.owner ? ownerTag(b.owner) + ` <span class="meta">${esc(b.brand)}</span>` : `<span class="meta">Mimo sledované značky</span>`}${/^https?:/.test(b.link) ? `<a href="${esc(b.link)}" target="_blank" rel="noopener" class="meta">Otevřít odkaz ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")
   : `<div class="glass panel" style="margin-top:14px"><div class="empty"><h3>Žádné bannery</h3><p>V posledním měření nebyla zachycena žádná reklama.</p></div></div>`}`;
 }
 

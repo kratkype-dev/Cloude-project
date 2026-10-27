@@ -77,7 +77,9 @@ def load(history_dir=HISTORY_DIR):
 
 
 BANNER_DIR = DATA_DIR / "banners"
-BANNER_COLUMNS = ["date", "platform", "placement", "position", "title", "owner", "brand", "link", "image"]
+BANNER_COLUMNS = ["date", "platform", "placement", "position", "title", "owner", "brand", "link", "image", "source"]
+# Campaigns seen by a logged-in user (screenshots), which the anonymous scrape cannot see. Edited by hand.
+MANUAL_BANNERS = "manual.csv"
 
 
 def save_banners(rows, banner_dir=BANNER_DIR):
@@ -91,7 +93,7 @@ def save_banners(rows, banner_dir=BANNER_DIR):
         replaced = {(r["date"], r["platform"]) for r in new}
         old = [r for r in _read(path) if (r["date"], r["platform"]) not in replaced]
         with path.open("w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=BANNER_COLUMNS)
+            w = csv.DictWriter(f, fieldnames=BANNER_COLUMNS, extrasaction="ignore")
             w.writeheader()
             w.writerows(old + new)
 

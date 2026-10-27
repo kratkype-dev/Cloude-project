@@ -22,6 +22,14 @@ log = logging.getLogger(__name__)
 
 BASE = "https://consumer-api.wolt.com"
 LAT, LON = 50.0755, 14.4378  # Praha – náměstí Míru
+# Front-page banners are checked from several addresses: the carousel is local.
+BANNER_LOCATIONS = {
+    "Vinohrady": (LAT, LON),
+    "Karlín": (50.0925, 14.4510),
+    "Staré Město": (50.0870, 14.4210),
+    "Dejvice": (50.1030, 14.3910),
+    "Chodov": (50.0335, 14.4920),
+}
 
 # venue slug -> display name. One store per chain, central Prague.
 VENUES = {
@@ -118,22 +126,40 @@ class Wolt:
         return rows
 
     def banners(self, date):
-        """Hero carousel and curated sections on the Wolt front page (Prague)."""
-        data = self.http.get_json("/v1/pages/front", {"lat": LAT, "lon": LON})
-        rows = []
-        for pos, section in enumerate(data.get("sections", [])):
-            template = section.get("template") or ""
-            if not template.startswith("banner") or section.get("name") in ("category-list", "socialmedia"):
+        """Hero carousel and curated banner sections on the Wolt front page, seen from several Prague addresses.
+
+        The carousel differs by address and time of day, so one address misses banners. Sponsored (Wolt Ads)
+        banners for logged-in users are not in the anonymous page at all: those come from manual captures.
+        """
+        seen = {}
+        for area, (lat, lon) in BANNER_LOCATIONS.items():
+            try:
+                data = self.http.get_json("/v1/pages/front", {"lat": lat, "lon": lon})
+            except Exception as e:
+                log.warning("Wolt front page %s failed: %s", area, e)
                 continue
-            for i, item in enumerate(section.get("items") or []):
-                link = item.get("link") or {}
-                hit = classify_full(item.get("title"))
-                rows.append({
-                    "date": date, "platform": "wolt", "placement": f"Úvodní stránka – {section.get('name')}",
-                    "position": i + 1, "title": item.get("title") or "",
-                    "owner": hit[0] if hit else "", "brand": hit[1] if hit else "",
-                    "link": link.get("target") or "", "image": (item.get("image") or {}).get("url", ""),
-                })
+            for section in data.get("sections", []):
+                template = section.get("template") or ""
+                if not template.startswith("banner") or section.get("name") in ("category-list", "socialmedia"):
+                    continue
+                for i, item in enumerate(section.get("items") or []):
+                    title = item.get("title") or ""
+                    key = (template, title)
+                    if key in seen:
+                        seen[key]["areas"].append(area)
+                        continue
+                    link = item.get("link") or {}
+                    # The brand is often only in the description ("Red Bull s příchutí ..."), not in the title.
+                    hit = classify_full(f"{title} {item.get('description') or ''}")
+                    seen[key] = {"date": date, "platform": "wolt", "section": section.get("name"), "areas": [area],
+                                 "position": i + 1, "title": title,
+                                 "owner": hit[0] if hit else "", "brand": hit[1] if hit else "",
+                                 "link": link.get("target") or "", "image": (item.get("image") or {}).get("url", "")}
+        rows = []
+        for r in seen.values():
+            areas = r.pop("areas")
+            r["placement"] = f"Úvodní stránka – {r.pop('section')} ({', '.join(areas)})"
+            rows.append(r)
         return rows
 
 
