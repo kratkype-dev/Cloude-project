@@ -33,3 +33,18 @@ date,scraped_at,platform,store,scope,status,checked,failed,products,note,area,lo
 2026-11-09,2026-11-09T06:19:07+00:00,wolt,Žabka Římská,vyhledavani,ok,6,0,,,"Praha 2, náměstí Míru",anonymní,API e-shopu
 2026-11-09,2026-11-09T06:19:07+00:00,bolt,Tesco Národní,ceny,ok,45,0,353,vyhledáno 45 značek,"Praha 2, náměstí Míru",anonymní,API e-shopu
 2026-11-09,2026-11-09T06:19:07+00:00,bolt,Žabka Legerova,ceny,ok,45,0,256,vyhledáno 45 značek,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,rohlik,,ceny,failed,1,1,,HTTPError: HTTP Error 429: Too Many Requests,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,kosik,,bannery,ok,1,0,,,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,kosik,,ceny,ok,60,0,351,1681 nápojů v 60 kategoriích,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,kosik,,vyhledavani,ok,6,0,,Košík sponzorované výsledky ve vyhledávání neoznačuje,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,,bannery,ok,1,0,,,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,Tesco Národní,ceny,ok,10,0,289,731 nápojů v 10 kategoriích,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,Albert Vinohradská,ceny,ok,5,0,172,452 nápojů v 5 kategoriích,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,PENNY Vyšehrad,ceny,ok,5,0,41,104 nápojů v 5 kategoriích,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,Žabka Římská,ceny,ok,5,0,165,237 nápojů v 5 kategoriích,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,Tesco Národní,vyhledavani,ok,6,0,,,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,Albert Vinohradská,vyhledavani,ok,6,0,,,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,PENNY Vyšehrad,vyhledavani,ok,6,0,,,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,wolt,Žabka Římská,vyhledavani,ok,6,0,,,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,bolt,Tesco Národní,ceny,ok,45,0,308,vyhledáno 45 značek,"Praha 2, náměstí Míru",anonymní,API e-shopu
+2026-11-16,2026-11-16T06:36:55+00:00,bolt,Žabka Legerova,ceny,ok,45,0,263,vyhledáno 45 značek,"Praha 2, náměstí Míru",anonymní,API e-shopu
